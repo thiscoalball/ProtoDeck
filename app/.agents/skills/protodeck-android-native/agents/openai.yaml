@@ -1,0 +1,4 @@
+interface:
+  display_name: "ProtoDeck Android Native"
+  short_description: "Maintain Kotlin, JNI, permissions and foreground task bridges"
+  default_prompt: "Use $protodeck-android-native to implement or debug Android platform channels, permissions, services, Wi-Fi, Bluetooth, or libiperf."

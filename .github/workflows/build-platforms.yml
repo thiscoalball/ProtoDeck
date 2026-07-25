@@ -1,0 +1,252 @@
+name: Build platform artifacts
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_android:
+        description: Build Android APK
+        required: true
+        type: boolean
+        default: true
+      build_linux:
+        description: Build Linux x64 bundle
+        required: true
+        type: boolean
+        default: true
+      build_windows:
+        description: Build Windows x64 bundle
+        required: true
+        type: boolean
+        default: true
+      version:
+        description: Optional manual version (MAJOR.MINOR.PATCH); defaults to pubspec.yaml
+        required: false
+        type: string
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: platform-build-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  FLUTTER_VERSION: 3.44.8
+  APP_DIR: app
+
+jobs:
+  metadata:
+    name: Resolve build version
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      build_number: ${{ steps.version.outputs.build_number }}
+      source: ${{ steps.version.outputs.source }}
+      flutter_mode: ${{ steps.version.outputs.flutter_mode }}
+      build_label: ${{ steps.version.outputs.build_label }}
+      artifact_label: ${{ steps.version.outputs.artifact_label }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve version from Git tag
+        id: version
+        env:
+          MANUAL_VERSION: ${{ inputs.version || '' }}
+        run: >-
+          bash .github/scripts/resolve-build-version.sh
+          "$GITHUB_EVENT_NAME" "$GITHUB_REF_TYPE" "$GITHUB_REF_NAME"
+          "$GITHUB_RUN_NUMBER" "$APP_DIR/pubspec.yaml" "$MANUAL_VERSION"
+
+  verify:
+    needs: metadata
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - working-directory: ${{ env.APP_DIR }}
+        run: flutter pub get
+      - working-directory: ${{ env.APP_DIR }}
+        run: flutter analyze --no-pub
+      - working-directory: ${{ env.APP_DIR }}
+        run: flutter test --no-pub
+
+  android:
+    name: Android (Release · ${{ needs.metadata.outputs.build_label }})
+    needs: [metadata, verify]
+    if: >-
+      github.event_name == 'push' ||
+      (github.event_name == 'workflow_dispatch' && inputs.build_android)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - working-directory: ${{ env.APP_DIR }}
+        run: flutter pub get
+      - working-directory: ${{ env.APP_DIR }}
+        env:
+          APP_VERSION: ${{ needs.metadata.outputs.version }}
+          BUILD_NUMBER: ${{ needs.metadata.outputs.build_number }}
+          BUILD_CHANNEL: ${{ needs.metadata.outputs.build_label }}
+          GIT_SHA: ${{ github.sha }}
+        run: >-
+          flutter build apk --release --no-pub
+          --build-name "$APP_VERSION" --build-number "$BUILD_NUMBER"
+          --dart-define "BUILD_CHANNEL=$BUILD_CHANNEL"
+          --dart-define "GIT_SHA=$GIT_SHA"
+      - name: Name artifact and write checksum
+        working-directory: ${{ env.APP_DIR }}
+        env:
+          ARTIFACT_LABEL: ${{ needs.metadata.outputs.artifact_label }}
+        run: |
+          artifact="ProtoDeck-${ARTIFACT_LABEL}-android.apk"
+          cp build/app/outputs/flutter-apk/app-release.apk "build/$artifact"
+          sha256sum "build/$artifact" > "build/$artifact.sha256"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ProtoDeck-${{ needs.metadata.outputs.artifact_label }}-android
+          path: |
+            ${{ env.APP_DIR }}/build/ProtoDeck-${{ needs.metadata.outputs.artifact_label }}-android.apk
+            ${{ env.APP_DIR }}/build/ProtoDeck-${{ needs.metadata.outputs.artifact_label }}-android.apk.sha256
+          if-no-files-found: error
+          retention-days: 14
+
+  linux:
+    name: Linux (Release · ${{ needs.metadata.outputs.build_label }})
+    needs: [metadata, verify]
+    if: >-
+      github.event_name == 'push' ||
+      (github.event_name == 'workflow_dispatch' && inputs.build_linux)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Linux desktop build dependencies
+        run: >-
+          sudo apt-get update && sudo apt-get install -y
+          clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
+          libsecret-1-dev libsmbclient-dev libbluetooth-dev bluez
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - working-directory: ${{ env.APP_DIR }}
+        run: flutter config --enable-linux-desktop
+      - working-directory: ${{ env.APP_DIR }}
+        run: flutter pub get
+      - working-directory: ${{ env.APP_DIR }}
+        env:
+          APP_VERSION: ${{ needs.metadata.outputs.version }}
+          BUILD_NUMBER: ${{ needs.metadata.outputs.build_number }}
+          BUILD_CHANNEL: ${{ needs.metadata.outputs.build_label }}
+          GIT_SHA: ${{ github.sha }}
+        run: >-
+          flutter build linux --release --no-pub
+          --build-name "$APP_VERSION" --build-number "$BUILD_NUMBER"
+          --dart-define "BUILD_CHANNEL=$BUILD_CHANNEL"
+          --dart-define "GIT_SHA=$GIT_SHA"
+      - name: Build bundled iPerf 3.21 for Linux
+        working-directory: ${{ env.APP_DIR }}
+        run: ./tool/build_bundled_iperf_linux.sh build/linux/x64/release/bundle
+      - name: Package relocatable Linux bundle
+        working-directory: ${{ env.APP_DIR }}
+        env:
+          ARTIFACT_LABEL: ${{ needs.metadata.outputs.artifact_label }}
+        run: |
+          artifact="ProtoDeck-${ARTIFACT_LABEL}-linux-x64.tar.gz"
+          tar -C build/linux/x64/release -czf "build/$artifact" bundle
+          sha256sum "build/$artifact" > "build/$artifact.sha256"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ProtoDeck-${{ needs.metadata.outputs.artifact_label }}-linux-x64
+          path: |
+            ${{ env.APP_DIR }}/build/ProtoDeck-${{ needs.metadata.outputs.artifact_label }}-linux-x64.tar.gz
+            ${{ env.APP_DIR }}/build/ProtoDeck-${{ needs.metadata.outputs.artifact_label }}-linux-x64.tar.gz.sha256
+          if-no-files-found: error
+          retention-days: 14
+
+  windows:
+    name: Windows (Release · ${{ needs.metadata.outputs.build_label }})
+    needs: [metadata, verify]
+    if: >-
+      github.event_name == 'push' ||
+      (github.event_name == 'workflow_dispatch' && inputs.build_windows)
+    # Flutter's current Windows plugins target the stable VS 2022 toolchain.
+    # Avoid the VS 18 preview image, which removes legacy /await support.
+    runs-on: windows-2022
+    timeout-minutes: 75
+    steps:
+      - name: Preserve Unix line endings for embedded build scripts
+        run: git config --global core.autocrlf input
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - working-directory: ${{ env.APP_DIR }}
+        run: flutter config --enable-windows-desktop
+      - working-directory: ${{ env.APP_DIR }}
+        run: flutter pub get
+      - working-directory: ${{ env.APP_DIR }}
+        shell: pwsh
+        env:
+          APP_VERSION: ${{ needs.metadata.outputs.version }}
+          BUILD_NUMBER: ${{ needs.metadata.outputs.build_number }}
+          BUILD_CHANNEL: ${{ needs.metadata.outputs.build_label }}
+          GIT_SHA: ${{ github.sha }}
+        run: |
+          flutter build windows --release --no-pub `
+            --build-name "$env:APP_VERSION" --build-number "$env:BUILD_NUMBER" `
+            --dart-define "BUILD_CHANNEL=$env:BUILD_CHANNEL" `
+            --dart-define "GIT_SHA=$env:GIT_SHA"
+      - name: Build bundled iPerf 3.21 for Windows
+        shell: pwsh
+        working-directory: ${{ env.APP_DIR }}
+        run: |
+          ./tool/build_bundled_iperf_windows.ps1 `
+            -OutputDirectory build/windows/x64/runner/Release
+      - name: Package Windows application directory
+        shell: pwsh
+        working-directory: ${{ env.APP_DIR }}
+        env:
+          ARTIFACT_LABEL: ${{ needs.metadata.outputs.artifact_label }}
+        run: |
+          $artifact = "ProtoDeck-$env:ARTIFACT_LABEL-windows-x64.zip"
+          Compress-Archive `
+            -Path build/windows/x64/runner/Release/* `
+            -DestinationPath "build/$artifact" `
+            -Force
+      - name: Write Windows bundle checksum
+        shell: pwsh
+        working-directory: ${{ env.APP_DIR }}
+        env:
+          ARTIFACT_LABEL: ${{ needs.metadata.outputs.artifact_label }}
+        run: |
+          $artifact = "ProtoDeck-$env:ARTIFACT_LABEL-windows-x64.zip"
+          $hash = (Get-FileHash "build/$artifact" -Algorithm SHA256).Hash.ToLowerInvariant()
+          "$hash  $artifact" | Set-Content -Encoding ascii "build/$artifact.sha256"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ProtoDeck-${{ needs.metadata.outputs.artifact_label }}-windows-x64
+          path: |
+            ${{ env.APP_DIR }}/build/ProtoDeck-${{ needs.metadata.outputs.artifact_label }}-windows-x64.zip
+            ${{ env.APP_DIR }}/build/ProtoDeck-${{ needs.metadata.outputs.artifact_label }}-windows-x64.zip.sha256
+          if-no-files-found: error
+          retention-days: 14

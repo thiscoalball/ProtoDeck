@@ -1,0 +1,4 @@
+interface:
+  display_name: "ProtoDeck Network Diagnostics"
+  short_description: "Implement reliable Wi-Fi, cellular, Ping, iPerf and route tools"
+  default_prompt: "Use $protodeck-network-diagnostics to diagnose or implement a network measurement feature with truthful states and cancellation."

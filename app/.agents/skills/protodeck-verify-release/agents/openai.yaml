@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify ProtoDeck Release"
+  short_description: "Run risk-based tests, builds and release-readiness checks"
+  default_prompt: "Use $protodeck-verify-release to validate a ProtoDeck change or prepare an Android build for distribution."
