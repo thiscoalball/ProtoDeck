@@ -1,0 +1,262 @@
+nettools_mobile/ios/Runner.xcodeproj/project.pbxproj
+  s_c2324aad607bbb::t_8771b1a605902a 1-644
+nettools_mobile/ios/RunnerTests/RunnerTests.swift
+  s_c2324aad607bbb::t_22103a4a41b7cf 1-12
+nettools_mobile/ios/Flutter/Debug.xcconfig
+  s_c2324aad607bbb::t_7e7005c3139be3 1
+nettools_mobile/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  s_c2324aad607bbb::t_76a9221e7b12b5 1-8
+nettools_mobile/lib/ui/tool_launcher.dart
+  s_c2324aad607bbb::t_9bac6b3b19039f 1-55
+nettools_mobile/lib/models/network_context.dart
+  s_c2324aad607bbb::t_d59b5d6a923f91 6,17-18,32,57-58,60-200,203,216,239
+  s_c2324aad607bbb::t_17da1c39977f0c 3-5
+  s_c2324aad607bbb::t_f1a84170f5d2cc 7-9,14-16
+  s_c2324aad607bbb::t_7b0bcdeace15c4 19-21,29-31
+  s_c2324aad607bbb::t_d8741fa22c3adb 33-35,54-56
+  s_c2324aad607bbb::t_a5d489e0cd6417 59
+  s_c2324aad607bbb::t_60ad826097a680 201-202
+  s_c2324aad607bbb::t_3a94ffda16735b 204-206,213-215
+  s_c2324aad607bbb::t_a00ad9bbf675e6 217-219,236-238
+nettools_mobile/pubspec.lock
+  s_c2324aad607bbb::t_f79b7cb9f81fb0 1-1162
+nettools_mobile/ios/Runner/AppDelegate.swift
+  s_c2324aad607bbb::t_aebf71dbcbca29 1-16
+nettools_mobile/lib/services/udp_ping_service.dart
+  s_c2324aad607bbb::t_72716b4f8ce144 1-103
+nettools_mobile/lib/services/port_scan_service.dart
+  s_c2324aad607bbb::t_fefbfb741a8ca9 1-107
+nettools_mobile/lib/data/app_database.g.dart
+  s_c2324aad607bbb::t_37f4d90488891e 1-4194
+nettools_mobile/ios/Runner/Base.lproj/LaunchScreen.storyboard
+  s_c2324aad607bbb::t_95d086367bccc5 1-37
+nettools_mobile/android/app/src/main/res/values/styles.xml
+  s_c2324aad607bbb::t_0aa7b159774b57 1-18
+nettools_mobile/lib/services/public_ip_service.dart
+  s_c2324aad607bbb::t_114b045cee9e05 1-27
+nettools_mobile/ios/.gitignore
+  s_c2324aad607bbb::t_df90e354614746 1-34
+nettools_mobile/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  s_c2324aad607bbb::t_c081564995f6bc 1-8
+nettools_mobile/lib/ui/widgets/tool_tile.dart
+  s_c2324aad607bbb::t_d6c103f867c6ce 1-63
+nettools_mobile/lib/ui/pages/dashboard_page.dart
+  s_c2324aad607bbb::t_05ed39f31b46b5 111,152-159,162,165,169-234,244-260,263-314,319-326
+  s_c2324aad607bbb::t_a45e14a5613160 89
+  s_c2324aad607bbb::t_5e18fe23a6e06c 26,28,84,86,103,125,145,148-149,317-318,527,538,542,559-560,564-645,647-658,660-663,665-701
+  s_c2324aad607bbb::t_845d29ddd61d3c 1-3,31-73,77-83,115-117,121,123-124,134,141,143-144,160-161,163-164,166-168,315-316,328-330,332,336,338-341,343-344,348-349,361-362,364-366,368-374,376,378-392,395-436,438-482,484-517
+  s_c2324aad607bbb::t_552558469b0b6c 363,367,377,393-394,531-534,555
+  s_c2324aad607bbb::t_a5ac2122035e79 554
+  s_c2324aad607bbb::t_adde2751637645 74-76,664
+  s_c2324aad607bbb::t_86f556df126479 19-24,93-102,105,147,331,333-335,337,342,345-347,556
+  s_c2324aad607bbb::t_80fdcc7585fecc 235-243,261-262,350-360,375,437,483,646,659
+  s_c2324aad607bbb::t_a1fea8f650b164 4-6,16-18
+  s_c2324aad607bbb::t_d50fbd18f07ddf 25
+  s_c2324aad607bbb::t_919ef0dd8d5efe 27
+  s_c2324aad607bbb::t_b81e5b755451cb 29-30
+  s_c2324aad607bbb::t_f9b2d0f19c66d1 85
+  s_c2324aad607bbb::t_b6447463f00cf6 87-88
+  s_c2324aad607bbb::t_f27ff7478f2c63 90-92
+  s_c2324aad607bbb::t_db90cfe16bb7c5 104
+  s_c2324aad607bbb::t_1bef8bbae485b0 106-110
+  s_c2324aad607bbb::t_67ca07bf62ccd2 112-114
+  s_c2324aad607bbb::t_11cc35b6f62762 118-120
+  s_c2324aad607bbb::t_5e120049163989 122
+  s_c2324aad607bbb::t_ded6adced4f76a 126-128,131-133
+  s_c2324aad607bbb::t_239ce014c97cbd 135-140
+  s_c2324aad607bbb::t_57601311edab2d 142
+  s_c2324aad607bbb::t_2f3f8ce853fdd3 146
+  s_c2324aad607bbb::t_186ed7ad08d978 150-151
+  s_c2324aad607bbb::t_69966a30d679be 327
+  s_c2324aad607bbb::t_d15937afc41e5a 518-520,524-526
+  s_c2324aad607bbb::t_e19d8621a2dac7 528-530
+  s_c2324aad607bbb::t_1b47a53dc6f6e5 535-537
+  s_c2324aad607bbb::t_fe560a47b832ef 539-541
+  s_c2324aad607bbb::t_f9b727671bb47c 543-545,551-553
+  s_c2324aad607bbb::t_3ba01e93effafa 557-558
+  s_c2324aad607bbb::t_d136f654b27968 561-563
+nettools_mobile/ios/Flutter/Release.xcconfig
+  s_c2324aad607bbb::t_96a0ed2bab8123 1
+nettools_mobile/lib/ui/pages/remote/remote_home_page.dart
+  s_c2324aad607bbb::t_757b60f064220f 79-81
+  s_c2324aad607bbb::t_d499d735af08e4 16-78,83-114
+  s_c2324aad607bbb::t_05c1ecac7ed249 1-15,82,115
+nettools_mobile/lib/ui/pages/tools_page.dart
+  s_c2324aad607bbb::t_a2a4ff3824f2ec 1-49,61-69,85-95,118
+  s_c2324aad607bbb::t_d499d735af08e4 50-60,70-74,80-84,96-117
+  s_c2324aad607bbb::t_757b60f064220f 75-79
+nettools_mobile/lib/ui/pages/tools/geo_ip_page.dart
+  s_c2324aad607bbb::t_1ff7b78d24eb9c 1-163
+nettools_mobile/lib/core/oui/oui_repository.dart
+  s_c2324aad607bbb::t_ea486a62380e6f 1-209
+nettools_mobile/lib/ui/pages/tools/dns_lookup_page.dart
+  s_c2324aad607bbb::t_bf6a491bc6aef2 1-128
+nettools_mobile/lib/state/app_state.dart
+  s_c2324aad607bbb::t_394f382a244fbf 1-146
+nettools_mobile/lib/ui/pages/tools/http_diagnostic_page.dart
+  s_c2324aad607bbb::t_57c2eed9dab17c 1-115
+nettools_mobile/android/app/src/debug/AndroidManifest.xml
+  s_c2324aad607bbb::t_909de7239e9634 1-7
+nettools_mobile/test/network_context_test.dart
+  s_c2324aad607bbb::t_ccfa0fed707708 23
+  s_c2324aad607bbb::t_f195daae113fe4 1-22,24-51
+nettools_mobile/lib/services/http_diagnostic_service.dart
+  s_c2324aad607bbb::t_683545e60c45ae 1-66
+nettools_mobile/android/.gitignore
+  s_c2324aad607bbb::t_e2d41f14cd6687 1-14
+nettools_mobile/lib/services/lan_scan_service.dart
+  s_c2324aad607bbb::t_ac4031801db1e3 1-148
+nettools_mobile/lib/ui/app_shell.dart
+  s_c2324aad607bbb::t_86f556df126479 22
+  s_c2324aad607bbb::t_510239b4f065a6 1-21,25-50
+  s_c2324aad607bbb::t_ff54270fced96a 23-24
+nettools_mobile/lib/ui/pages/tools/wifi_analyzer_page.dart
+  s_c2324aad607bbb::t_b00a313e85e537 1-1185
+nettools_mobile/test/widget_test.dart
+  s_c2324aad607bbb::t_f195daae113fe4 22
+  s_c2324aad607bbb::t_a45e14a5613160 24-26
+  s_c2324aad607bbb::t_2449050f06f671 19-21
+  s_c2324aad607bbb::t_c08408500341ed 23
+  s_c2324aad607bbb::t_5741b1e3f7024b 27-28
+nettools_mobile/android/app/src/main/res/drawable-v21/launch_background.xml
+  s_c2324aad607bbb::t_d9fbdc7b5bd0b3 1-12
+nettools_mobile/lib/ui/pages/tools/common_ports_page.dart
+  s_c2324aad607bbb::t_dcb7d8e72300ac 1-104
+nettools_mobile/lib/ui/pages/tools/port_scan_page.dart
+  s_c2324aad607bbb::t_461da56f5a212a 1-247
+nettools_mobile/lib/ui/pages/settings_page.dart
+  s_c2324aad607bbb::t_d499d735af08e4 36-38,155
+  s_c2324aad607bbb::t_757b60f064220f 40-58,62-101,103-123,125-127,130
+  s_c2324aad607bbb::t_2f22fcd6b49edb 1-35,59-61,102,124,128-129,131-133,142-143,152-153,156-234
+  s_c2324aad607bbb::t_a45e14a5613160 39,134-141,144-151,154
+nettools_mobile/ios/Runner.xcworkspace/contents.xcworkspacedata
+  s_c2324aad607bbb::t_d6653ece5c396c 1-7
+nettools_mobile/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json
+  s_c2324aad607bbb::t_f2f389ae7a9987 1-23
+nettools_mobile/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md
+  s_c2324aad607bbb::t_a18a1fe22ec0af 1-5
+nettools_mobile/.metadata
+  s_c2324aad607bbb::t_3373dfb0198039 1-33
+nettools_mobile/test/ip_tools_service_test.dart
+  s_c2324aad607bbb::t_609a9cb1f10e88 1-46
+nettools_mobile/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+  s_c2324aad607bbb::t_f97a11d33aeb18 1-119
+nettools_mobile/.gitignore
+  s_c2324aad607bbb::t_d33f1fa4fdf9b6 1-45
+nettools_mobile/lib/services/ip_tools_service.dart
+  s_c2324aad607bbb::t_2b3353193ade06 1-425
+nettools_mobile/lib/services/dns_service.dart
+  s_c2324aad607bbb::t_bc83249a2c4252 1-32
+nettools_mobile/lib/app.dart
+  s_c2324aad607bbb::t_d499d735af08e4 107-113
+  s_c2324aad607bbb::t_86f556df126479 32-52,67,100,105,115,133,141
+  s_c2324aad607bbb::t_09919aec8b9e92 29-31
+  s_c2324aad607bbb::t_24d2041063be70 53-55,64-66
+  s_c2324aad607bbb::t_598f73ad7365dc 68-70,97-99
+  s_c2324aad607bbb::t_c4107379205791 101-104
+  s_c2324aad607bbb::t_73499324155e26 106
+  s_c2324aad607bbb::t_2ae0c0b6f79270 114
+  s_c2324aad607bbb::t_145e38b4a002a8 116-118,130-132
+  s_c2324aad607bbb::t_b3a5303a1f9ba9 134-136,138-140
+  s_c2324aad607bbb::t_b9047e32638e8a 142-144
+nettools_mobile/lib/ui/pages/tools/tcp_ping_page.dart
+  s_c2324aad607bbb::t_fe3fb46d45bc03 1-194
+nettools_mobile/lib/ui/pages/tools/ping_page.dart
+  s_c2324aad607bbb::t_3ee407270cc102 1-593
+nettools_mobile/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+  s_c2324aad607bbb::t_e588942de539a3 1-8
+nettools_mobile/android/app/src/profile/AndroidManifest.xml
+  s_c2324aad607bbb::t_b4147f4f6afa9c 1-7
+nettools_mobile/lib/state/providers.dart
+  s_c2324aad607bbb::t_adc17435cf7137 1-20
+nettools_mobile/lib/ui/pages/tools/iperf_page.dart
+  s_c2324aad607bbb::t_839328ea6fbfc8 1-193
+nettools_mobile/android/gradle/wrapper/gradle-wrapper.properties
+  s_c2324aad607bbb::t_a0453288af6142 1-5
+nettools_mobile/android/build.gradle.kts
+  s_c2324aad607bbb::t_a75f916c57bed7 1-24
+nettools_mobile/ios/Runner/Runner-Bridging-Header.h
+  s_c2324aad607bbb::t_2dd5491c9a2294 1
+nettools_mobile/android/settings.gradle.kts
+  s_c2324aad607bbb::t_9cc28d6c90050b 1-26
+nettools_mobile/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+  s_c2324aad607bbb::t_b464fc2d6d6dd5 1-7
+nettools_mobile/lib/ui/pages/tools/network_info_page.dart
+  s_c2324aad607bbb::t_adde2751637645 79-83
+  s_c2324aad607bbb::t_576c997b1d1470 3-53,58-78,84-141,145-162,166-175,180-205,208-249,251-337,340-345
+  s_c2324aad607bbb::t_ff54270fced96a 54-57,142-144,163-165,176-179,206-207,250,338-339
+  s_c2324aad607bbb::t_34c19adddfbe9f 1-2
+  s_c2324aad607bbb::t_82d21ffdde83c6 346
+nettools_mobile/ios/Runner/SceneDelegate.swift
+  s_c2324aad607bbb::t_c43d1ec1beb114 1-6
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/MainActivity.kt
+  s_c2324aad607bbb::t_d59b5d6a923f91 10-18,21-213,215-243,245-272,276-302,317,339-340,356,363,375,391,393,395,402,410,419,428,433
+  s_c2324aad607bbb::t_52a681dacc1e31 244
+  s_c2324aad607bbb::t_63d96f30ca8472 19-20,214,273,275
+  s_c2324aad607bbb::t_bf9dac46de5808 274
+  s_c2324aad607bbb::t_aee4222eb3fbdc 7-9
+  s_c2324aad607bbb::t_f2af6ab1ae7dff 303-305,314-316
+  s_c2324aad607bbb::t_a49fd2b5ec1758 318-320,336-338
+  s_c2324aad607bbb::t_3e85d9aab2c05b 341-343,353-355
+  s_c2324aad607bbb::t_0c5681674ce969 357-362
+  s_c2324aad607bbb::t_a369010e419b2a 364-366,372-374
+  s_c2324aad607bbb::t_d2a8213e34ae97 376-378,388-390
+  s_c2324aad607bbb::t_d105dc497cf175 392
+  s_c2324aad607bbb::t_f8048ecb77ad42 394
+  s_c2324aad607bbb::t_df27a20fc8dcbf 396-401
+  s_c2324aad607bbb::t_ea2bbda0c853b9 403-405,407-409
+  s_c2324aad607bbb::t_5a1d84768f1e15 411-413,416-418
+  s_c2324aad607bbb::t_92acb0c8720fc7 420-422,425-427
+  s_c2324aad607bbb::t_2c018399be5bf7 429-432
+  s_c2324aad607bbb::t_a3c6ebea06ca2e 434-436
+nettools_mobile/ios/Flutter/AppFrameworkInfo.plist
+  s_c2324aad607bbb::t_85d5662ab296f1 1-24
+nettools_mobile/lib/ui/pages/tools/traceroute_page.dart
+  s_c2324aad607bbb::t_86f556df126479 22
+  s_c2324aad607bbb::t_019bd19507b278 19-21
+  s_c2324aad607bbb::t_5268cc6b1e1c68 23-25
+android-env.sh
+  s_c2324aad607bbb::t_3fa36dc6947410 1-15
+nettools_mobile/android/app/src/main/res/drawable/launch_background.xml
+  s_c2324aad607bbb::t_0f106017e17ace 1-12
+nettools_mobile/lib/services/network_defaults_service.dart
+  s_c2324aad607bbb::t_d1354af598c43d 1-50
+nettools_mobile/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+  s_c2324aad607bbb::t_8cafb059f7e567 1-122
+nettools_mobile/lib/ui/pages/tools/developer_tool_page.dart
+  s_c2324aad607bbb::t_e33279db5a085c 1-254
+nettools_mobile/lib/ui/pages/tools/oui_lookup_page.dart
+  s_c2324aad607bbb::t_35a9bafd95c2d1 1-121
+nettools_mobile/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+  s_c2324aad607bbb::t_8800cd33f0643a 1-8
+nettools_mobile/test/iperf_command_service_test.dart
+  s_c2324aad607bbb::t_06a0541262fce3 1-39
+nettools_mobile/test/oui_asset_test.dart
+  s_c2324aad607bbb::t_e247c679ea9e82 1-28
+nettools_mobile/ios/Runner/Base.lproj/Main.storyboard
+  s_c2324aad607bbb::t_000ecb0c930b4e 1-26
+nettools_mobile/lib/services/developer_tools_service.dart
+  s_c2324aad607bbb::t_352b67f68f4f47 1-300
+nettools_mobile/android/gradle.properties
+  s_c2324aad607bbb::t_6b87534866e1c1 1-6
+nettools_mobile/lib/ui/pages/remote/embedded_ssh_file_panel.dart
+  s_c2324aad607bbb::t_18a6355663314b 1-447
+nettools_mobile/android/app/src/main/res/values-night/styles.xml
+  s_c2324aad607bbb::t_44962174c4b84a 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "cfd732b93751a071989b86779caf12354c5f99f1",
+  "prompts": {},
+  "sessions": {
+    "s_c2324aad607bbb": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f930a-e04d-7e60-8b76-4433f257adb5",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null
+    }
+  }
+}
