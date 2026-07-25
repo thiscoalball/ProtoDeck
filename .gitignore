@@ -1,0 +1,29 @@
+.tooling/
+.tooling-data/
+# Added by code-review-graph
+.code-review-graph/
+
+# Local AI/editor integration. Contributors may configure these tools locally.
+.mcp.json
+opencode.jsonc
+.vscode/mcp.json
+.qoder/mcp.json
+.gemini/hooks/
+
+# Local environment and credentials.
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+key.properties
+local.properties
+
+# Generated release files and host metadata.
+*.log
+*.sha256
+SHA256SUMS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ProtoDeck UI UX"
+  short_description: "Apply the modern mobile visual system and interaction rules"
+  default_prompt: "Use $protodeck-ui-ux to redesign a ProtoDeck page with clear hierarchy, touch affordance, responsive layout, and truthful status styling."

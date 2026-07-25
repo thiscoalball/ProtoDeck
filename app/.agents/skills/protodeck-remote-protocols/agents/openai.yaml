@@ -1,0 +1,4 @@
+interface:
+  display_name: "ProtoDeck Remote Protocols"
+  short_description: "Build SSH, file, socket, API, MQTT and Bluetooth sessions safely"
+  default_prompt: "Use $protodeck-remote-protocols to change a stateful remote, API, socket, MQTT, SSE, WebSocket, or Bluetooth workflow."

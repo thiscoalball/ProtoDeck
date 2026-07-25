@@ -1,0 +1,4 @@
+interface:
+  display_name: "ProtoDeck Project"
+  short_description: "Guardrails and architecture map for safe repository changes"
+  default_prompt: "Use $protodeck-project to inspect the ProtoDeck app and make a scoped, architecture-safe change."

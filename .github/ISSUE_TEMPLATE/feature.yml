@@ -1,0 +1,45 @@
+name: Feature request
+description: Propose a new tool or usability improvement
+title: "[Feature]: "
+labels: [enhancement, needs-triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the user workflow and why current behavior is insufficient.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed experience
+      description: Describe inputs, outputs, error states, cancellation and persistence expectations.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Primary platform
+      options:
+        - Cross-platform
+        - Android
+        - Windows
+        - Linux
+        - iOS
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Permissions, privacy or protocol considerations
+      description: Note sensitive permissions, listeners, credentials or interoperability requirements.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and the platform support document.
+          required: true
+        - label: I have not copied proprietary UI, text or assets from another product.
+          required: true

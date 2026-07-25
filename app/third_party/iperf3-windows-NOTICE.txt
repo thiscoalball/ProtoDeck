@@ -1,0 +1,26 @@
+iPerf 3.21 for Windows distribution notice
+==========================================
+
+ProtoDeck invokes iPerf as a separate process. The Windows application bundle
+contains the unmodified recommended 64-bit iPerf 3.21 runtime published at:
+
+https://github.com/ar51an/iperf3-win-builds/releases/tag/3.21
+
+The downloaded archive is pinned by SHA-256 in
+tool/build_bundled_iperf_windows.ps1. It contains iperf3.exe and the Cygwin
+3.6.7 runtime (cygwin1.dll).
+
+iPerf is distributed under its BSD-style license. A copy is included as
+iperf3-LICENSE.txt.
+
+The Cygwin runtime is free software covered by the GNU Lesser General Public
+License version 3 or later with the Cygwin linking exception. The exact
+corresponding Cygwin 3.6.7-1 source package, including its complete license
+texts and build recipe, is included in:
+
+source/cygwin-3.6.7-1-src.tar.xz
+
+Cygwin licensing information: https://cygwin.com/licensing.html
+Cygwin source mirror: https://ftp.fau.de/cygwin/src/release/cygwin/
+
+ProtoDeck does not modify iperf3.exe or cygwin1.dll.
