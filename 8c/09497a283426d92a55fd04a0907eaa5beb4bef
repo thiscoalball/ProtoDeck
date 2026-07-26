@@ -1,0 +1,89 @@
+nettools_mobile/lib/services/native_network_service.dart
+  s_c2324aad607bbb::t_06a01a8faf5cf4 28-55,163-285
+nettools_mobile/lib/services/network_event_service.dart
+  s_c2324aad607bbb::t_43ad119ab20ed7 1-165
+nettools_mobile/lib/services/ntp_service.dart
+  s_c2324aad607bbb::t_4690ea0acd22b3 1-204
+nettools_mobile/lib/services/ssh_tunnel_service.dart
+  s_c2324aad607bbb::t_66fa30fbe91769 1-302
+nettools_mobile/lib/services/syslog_receiver_service.dart
+  s_c2324aad607bbb::t_6faa1be934e4d6 1-331
+nettools_mobile/lib/services/wifi_roaming_service.dart
+  s_c2324aad607bbb::t_61fab9623a924c 1-166
+nettools_mobile/lib/ui/pages/remote/remote_home_page.dart
+  s_c2324aad607bbb::t_9de357a3ab0020 9,222-230,233,235-238
+nettools_mobile/lib/ui/pages/tools/api_editor_widgets.dart
+  s_c2324aad607bbb::t_047904fe00d0f8 7-8,265,267-290,294-304,306-316,318-320
+nettools_mobile/lib/ui/pages/tools/bluetooth_debug_page.dart
+  s_c2324aad607bbb::t_ce9611e8305987 9,12,877,879-882,888,896-900,905-908,913-960
+nettools_mobile/lib/ui/pages/tools/http_diagnostic_page.dart
+  s_c2324aad607bbb::t_6ef4f9c6113643 3,6,28,112-146,177,188,196
+nettools_mobile/lib/ui/pages/tools/network_event_monitor_page.dart
+  s_c2324aad607bbb::t_e3b99ea81c8f7e 1-326
+nettools_mobile/lib/ui/pages/tools/ntp_query_page.dart
+  s_c2324aad607bbb::t_4093c1fad90f11 1-340
+nettools_mobile/lib/ui/pages/tools/packet_capture_page.dart
+  s_c2324aad607bbb::t_fbab42066bc601 1-490
+nettools_mobile/lib/ui/pages/tools/realtime_traffic_page.dart
+  s_c2324aad607bbb::t_10483ba9b95055 1-866
+nettools_mobile/lib/ui/pages/tools/snmp_browser_page.dart
+  s_c2324aad607bbb::t_bfe77d9c83f9ec 1-428
+nettools_mobile/lib/ui/pages/tools/socket_debug_page.dart
+  s_c2324aad607bbb::t_9402d01e72e3d3 6,9,291-315,317-324,326-327,329-339,341,346-386
+nettools_mobile/lib/ui/pages/tools/syslog_receiver_page.dart
+  s_c2324aad607bbb::t_190f0a56d17b80 1-421
+nettools_mobile/lib/ui/pages/tools/wifi_roaming_page.dart
+  s_c2324aad607bbb::t_99372a3ce95f1e 1-373
+nettools_mobile/lib/ui/widgets/structured_data_viewer.dart
+  s_c2324aad607bbb::t_5ae369026198a0 1-471
+nettools_mobile/pubspec.lock
+  s_c2324aad607bbb::t_0222875cebd47a 764
+nettools_mobile/android/app/src/main/AndroidManifest.xml
+  s_c2324aad607bbb::t_f3b9efede5032c 19
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/MainActivity.kt
+  s_c2324aad607bbb::t_69727a34d407e7 16-17,34,46,50-53,62-74,744
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/NetworkEventMonitor.kt
+  s_c2324aad607bbb::t_5552b52cc6c2e8 1-112
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/TrafficSnapshotProvider.kt
+  s_c2324aad607bbb::t_4e9b65265480ea 1-189
+nettools_mobile/lib/models/structured_payload.dart
+  s_c2324aad607bbb::t_fd1f4a75e31751 1-40
+nettools_mobile/lib/services/api_rule_engine.dart
+  s_c2324aad607bbb::t_2726db08d1774f 1-278
+nettools_mobile/lib/services/pcap_analysis_service.dart
+  s_c2324aad607bbb::t_9bca7e2c2f593f 1-487
+nettools_mobile/lib/services/snmp_service.dart
+  s_c2324aad607bbb::t_e76700432fef2f 1-936
+nettools_mobile/lib/ui/pages/remote/ssh_tunnel_page.dart
+  s_c2324aad607bbb::t_3104957c8f46ff 1-423
+nettools_mobile/lib/ui/pages/tools/api_realtime_workbench.dart
+  s_c2324aad607bbb::t_d44c5f422e4fb5 7,846
+nettools_mobile/lib/ui/pages/tools/api_rest_workbench.dart
+  s_c2324aad607bbb::t_289608839c7081 10-11,13,55-62,572,581,590-592,594-595,601-617,645,659-765,955,964-1127,1366-1383
+nettools_mobile/lib/ui/pages/tools/developer_tool_page.dart
+  s_c2324aad607bbb::t_bcdd58ad431f39 6-8,252-266
+nettools_mobile/lib/ui/tool_catalog.dart
+  s_c2324aad607bbb::t_5e9e3da7d834cf 44-50,58-64,86-92,142-155,198-211
+nettools_mobile/lib/ui/tool_launcher.dart
+  s_c2324aad607bbb::t_74424c12701caf 20,22,26,31,33,36,39,47,49,55,62-63,70-71
+nettools_mobile/pubspec.yaml
+  s_c2324aad607bbb::t_187ba59503323c 56
+nettools_mobile/test/observability_tools_test.dart
+  s_c2324aad607bbb::t_98032cad447f54 1-177
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "8c09497a283426d92a55fd04a0907eaa5beb4bef",
+  "prompts": {},
+  "sessions": {
+    "s_c2324aad607bbb": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f930a-e04d-7e60-8b76-4433f257adb5",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "thiscoalball <805755827@qq.com>"
+    }
+  }
+}
