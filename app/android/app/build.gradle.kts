@@ -57,7 +57,7 @@ android {
 }
 
 dependencies {
-    implementation("com.hierynomus:smbj:0.13.0")
+    implementation("com.hierynomus:smbj:0.14.0")
 }
 
 kotlin {
