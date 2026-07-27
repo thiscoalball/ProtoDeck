@@ -1,0 +1,1818 @@
+nettools_mobile/android/app/src/main/cpp/iperf/config/config.guess
+  s_c2324aad607bbb::t_8a3bef80eb7fc1 1-1818
+nettools_mobile/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+  s_c2324aad607bbb::t_aa11eeeb607639 1-8
+nettools_mobile/lib/ui/pages/tools/iperf_page.dart
+  s_c2324aad607bbb::t_8f0191cbbe4626 3,87,104,122-127,132-134
+  s_c2324aad607bbb::t_acc1e65a3bae97 1-2,4-6,9-19,21-31,57-66,68,70-71,88-101,103,105-112,114-120,135-141,306-311,313-320,322-334,336-348,631,633-642,644-647,649-658,660-668,670-717,719-724,726-743,745-787,789,791-792
+  s_c2324aad607bbb::t_a5e562dc46da38 20,32-56,67,69,312,321,349-630,632,643,648,659,669,718,725,744,788,790
+  s_c2324aad607bbb::t_10b6027ae55ba1 102
+  s_c2324aad607bbb::t_ec3e1cde049617 121,131
+  s_c2324aad607bbb::t_689911a343210f 7-8,72-86,113,128-129,142-305
+  s_c2324aad607bbb::t_833711ff75fea8 335
+  s_c2324aad607bbb::t_32a6a3d109ca81 130
+nettools_mobile/.agents/skills/protodeck-remote-protocols/SKILL.md
+  s_c2324aad607bbb::t_ace9a211f87f02 1-57
+nettools_mobile/lib/ui/pages/remote/remote_home_page.dart
+  s_c2324aad607bbb::t_4bec0570f7b3b6 400-404,433-437,469-472
+  s_c2324aad607bbb::t_92a07a7a42475a 1-4,6-9,11-12,14-18,189-199,202-214,216-227,231-233,235,238-240,242,245-248,250-256,299-300,302-320,322-323,354-364,375-377,379-383,385-389,417,439,488
+  s_c2324aad607bbb::t_d69134dc37d773 76-83,228
+  s_c2324aad607bbb::t_6609ee09ff37ad 5,29,50-51,128-129,230,237,244,301,337-338,340,342-343,345-347,349-351,353,378,384
+  s_c2324aad607bbb::t_0aa097425f8d98 52-75,84-89,95-113,115-127,200-201,215,234,241,249,438
+  s_c2324aad607bbb::t_689911a343210f 114,236,243,257-298,339,344,348,352,365-374
+  s_c2324aad607bbb::t_27bd042b0a7765 13,19-28,30-49,90-94,130-188,390-399,405-416,418-432,440-468,473-487
+  s_c2324aad607bbb::t_9de357a3ab0020 10,229,321,324-336,341
+nettools_mobile/lib/services/public_ip_service.dart
+  s_c2324aad607bbb::t_37e4b3e1e94447 1-27
+nettools_mobile/test/network_context_test.dart
+  s_c2324aad607bbb::t_16e7d5ee5cdf5e 1-81
+nettools_mobile/ios/Runner/Base.lproj/Main.storyboard
+  s_c2324aad607bbb::t_a5633ca87581f3 1-26
+nettools_mobile/lib/ui/pages/tools/developer_tool_page.dart
+  s_c2324aad607bbb::t_cebb38b6ba6d4e 287-289
+  s_c2324aad607bbb::t_623c339c34875a 465-466
+  s_c2324aad607bbb::t_64cc07bf44bac3 91-93,95
+  s_c2324aad607bbb::t_5837e8f71a9285 210-212
+  s_c2324aad607bbb::t_2afb790f6bdac2 579
+  s_c2324aad607bbb::t_26aeda95e6dc6c 446-448,450-453,501-504
+  s_c2324aad607bbb::t_ee455ef6735832 461-463
+  s_c2324aad607bbb::t_883b33f784b4ed 227
+  s_c2324aad607bbb::t_628b664e7f4026 20,922
+  s_c2324aad607bbb::t_689911a343210f 5-6,100-103,175-181,213-216,402,420,425,433,449,464,861,868,888,908
+  s_c2324aad607bbb::t_56bdbe383ee1bc 267-268,384
+  s_c2324aad607bbb::t_949de8241836c8 474
+  s_c2324aad607bbb::t_d26ddae06259c7 455-458
+  s_c2324aad607bbb::t_8257500dedc639 97
+  s_c2324aad607bbb::t_c576f5a3d70ae9 476
+  s_c2324aad607bbb::t_db97c4db087bbc 505,542-544
+  s_c2324aad607bbb::t_986de888b5d53b 403-404,408,410
+  s_c2324aad607bbb::t_35345261d01582 514-515,523,617-624,627-641,643-645,647-655,658-675,787-800,802-834,836-841
+  s_c2324aad607bbb::t_d9a5e7011e0e86 863-865
+  s_c2324aad607bbb::t_80b1ea19169f6f 12-17
+  s_c2324aad607bbb::t_bcdd58ad431f39 9-11,467,477-490
+  s_c2324aad607bbb::t_ac861ae4ba2bb3 314,376,506-513,656-657,835
+  s_c2324aad607bbb::t_10b6027ae55ba1 184,208,228,279-285,298
+  s_c2324aad607bbb::t_d69134dc37d773 190-205,224-226,233-237,262,291,293
+  s_c2324aad607bbb::t_b37c9499029b41 1-3,18,30-32,64,79,87-88,90,96,98,182,185,206,209,217,220,229-230,263,269-270,286,294,344,385,411-419,421-424,426-432,434-445,454,459-460,468,473,475,491-494,496-497,500,545-546,548-578,580-616,625-626,642,646,688,801,842-860,862,866-867,869-887,889-903,905-907,909-921
+  s_c2324aad607bbb::t_73251ff0604f2e 65-67,76-77
+  s_c2324aad607bbb::t_fef9e34f0652c8 264-266
+  s_c2324aad607bbb::t_3cd0a92f031ecb 186-189
+  s_c2324aad607bbb::t_f29838d2e01fd6 271-273
+  s_c2324aad607bbb::t_e8bdb48fa9968f 373-375,381-383
+  s_c2324aad607bbb::t_60bf62886c0856 498-499
+  s_c2324aad607bbb::t_e650ccf3750513 295-297
+  s_c2324aad607bbb::t_8534e438200d4d 36-38,61-63
+  s_c2324aad607bbb::t_fd808db833f5d5 89
+  s_c2324aad607bbb::t_c271beadab3e99 207
+  s_c2324aad607bbb::t_ff17e2b13096b9 495
+  s_c2324aad607bbb::t_215afbc001c786 24-25,39-60,68-72,74-75,377,380,389-398,405-407,516-522,524-541
+  s_c2324aad607bbb::t_bf2d37c5f29a20 218-219
+  s_c2324aad607bbb::t_2a0bab2f1888c9 221-223
+  s_c2324aad607bbb::t_97c0e28e5cee88 7-8
+  s_c2324aad607bbb::t_e39d2fbc375392 4
+  s_c2324aad607bbb::t_c63a4e76caeb0b 99
+  s_c2324aad607bbb::t_f0cf7ada4696e3 904
+  s_c2324aad607bbb::t_0a5d10f95eb312 83,238-261,346-372,547,676-687,689-786
+  s_c2324aad607bbb::t_b91f12c109f903 386-388,399-401
+  s_c2324aad607bbb::t_5ac4b7d786766a 469-472
+  s_c2324aad607bbb::t_90c742a5f03730 19
+  s_c2324aad607bbb::t_3d508d2aca07c3 26,33-35,73,78,94,104-174,274-278,290,292,299-313,315-343,345,378-379,409
+  s_c2324aad607bbb::t_45129b100f949b 183
+  s_c2324aad607bbb::t_29fe4791266cda 231-232
+  s_c2324aad607bbb::t_5cec7bdf8f4b54 21-23,27-29
+  s_c2324aad607bbb::t_fe5f72cd0925c4 80-82,84-86
+nettools_mobile/android/app/src/main/cpp/iperf/examples/mis.c
+  s_c2324aad607bbb::t_c3ee17e425ace9 1-57
+nettools_mobile/android/app/src/main/cpp/iperf/contrib/Dockerfile
+  s_c2324aad607bbb::t_24cdd67186335c 1-15
+nettools_mobile/lib/ui/pages/tools/traceroute_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 81-105,140-143,173
+  s_c2324aad607bbb::t_689911a343210f 2-60,72,116-134,149-168
+  s_c2324aad607bbb::t_627a8d049f60a0 1,61-66,68-71,73-80,106-115,135-139,144-148,169-172,174-245
+  s_c2324aad607bbb::t_10b6027ae55ba1 67
+nettools_mobile/lib/services/native_network_service.dart
+  s_c2324aad607bbb::t_935c3c5a2e0450 446
+  s_c2324aad607bbb::t_98ed4789cb1534 473-475,481-483
+  s_c2324aad607bbb::t_01e90c6971b788 235-236
+  s_c2324aad607bbb::t_d908e41ff247ed 468-471
+  s_c2324aad607bbb::t_98fe802d72df55 77-78,398-399,407-413,422-424,432-439,476-480,488-498
+  s_c2324aad607bbb::t_ac73232d1afa33 6,12-13,18-19,32-33,42-43,51,55,60,98-106,127-133,158-164,168,186-187,193-194,209-210,215-216,221-222,225,232,237,244
+  s_c2324aad607bbb::t_607c6a55d204f1 14-15
+  s_c2324aad607bbb::t_06a01a8faf5cf4 37,39,48-50,54,58-59,61-73,247,249-259,264-274,279-290,295-304,307-310,313-320,329-394,403,417-418,428,443,445,447-448,455,460,467,472,484,502,506-507
+  s_c2324aad607bbb::t_6534d023c9ff02 248
+  s_c2324aad607bbb::t_778560f7018d25 260-263,275-278,291-294,305-306,311-312,321-328
+  s_c2324aad607bbb::t_97ebadd5133b5b 395-397,400-402
+  s_c2324aad607bbb::t_723d6925087ab8 404-406,414-416
+  s_c2324aad607bbb::t_836a2d6c1f077a 444
+  s_c2324aad607bbb::t_cfa040822b20ff 429-431,440-442
+  s_c2324aad607bbb::t_902740313bdadc 2,7-11,16-17,21-31,34-35,40-41,44-47,52-53,56-57,82-97,107-126,134-138,145-157,165-167,169-185,188-192,195-208,211-214,217-220,223,226-230,233-234,238-243,245-246
+  s_c2324aad607bbb::t_f7911fd8474cc8 224
+  s_c2324aad607bbb::t_40fafee7f8c37e 485-487,499-501
+  s_c2324aad607bbb::t_69a4092b502165 36
+  s_c2324aad607bbb::t_731bcfeedbf0f8 449-454
+  s_c2324aad607bbb::t_2431ea3f54b7c8 1
+  s_c2324aad607bbb::t_36328b37c6c833 461-466
+  s_c2324aad607bbb::t_6581e304cc6908 503-505
+  s_c2324aad607bbb::t_8afa0ae6accb39 231
+  s_c2324aad607bbb::t_b66507b2368485 3-5
+  s_c2324aad607bbb::t_ba703f17d36e53 456-459
+  s_c2324aad607bbb::t_9717e8da42c6eb 74-76,79-81
+  s_c2324aad607bbb::t_a7a911b4d167df 20,139-144
+  s_c2324aad607bbb::t_8836180cf530e8 38
+  s_c2324aad607bbb::t_662e4cedff6e21 419-421,425-427
+nettools_mobile/android/app/src/main/cpp/iperf/src/portable_endian.h
+  s_c2324aad607bbb::t_7192c821c7a122 1-166
+nettools_mobile/.agents/skills/protodeck-project/agents/openai.yaml
+  s_7639e9eb5f1ce1::t_b70255d279ebf3 1-4
+nettools_mobile/lib/services/udp_ping_service.dart
+  s_c2324aad607bbb::t_93b8f30f0c7405 1-29,31-103
+  s_c2324aad607bbb::t_037a25a78ec4f1 30
+nettools_mobile/ios/Flutter/Debug.xcconfig
+  s_c2324aad607bbb::t_c1fa5b2450e475 1
+nettools_mobile/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+  s_c2324aad607bbb::t_109a4e2aa12689 1-7
+nettools_mobile/android/app/src/main/cpp/iperf/Makefile.in
+  s_c2324aad607bbb::t_d98d2a2c3a0c17 1-843
+nettools_mobile/android/app/src/main/cpp/iperf/src/tcp_info.c
+  s_c2324aad607bbb::t_b1fc34a1d439f0 1-267
+nettools_mobile/lib/ui/pages/settings_page.dart
+  s_c2324aad607bbb::t_94c388db7be5d0 181-184
+  s_c2324aad607bbb::t_9419f70e1b55ac 6-39,44-45,47-67,69-94,97,128,130,132-134,138,140-144,175,195-198,200,208
+  s_c2324aad607bbb::t_689911a343210f 41,46,68,104-124,135-136,146-160,194,218-227
+  s_c2324aad607bbb::t_28c0b6ac067c16 1-5,40,42-43,98-103,125-127,131,137,161-164,166-174,176-180,185-191,201-203,209-217,229-236
+  s_c2324aad607bbb::t_0aa097425f8d98 95-96,192,204
+  s_c2324aad607bbb::t_037a25a78ec4f1 145
+  s_c2324aad607bbb::t_d69134dc37d773 129,139,165,193,199,205-207,228
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/NetworkTaskService.kt
+  s_c2324aad607bbb::t_053d01d9248d85 1-32,40-61
+  s_c2324aad607bbb::t_bf96ac26433211 33-35
+  s_c2324aad607bbb::t_037a25a78ec4f1 36
+  s_c2324aad607bbb::t_9ece69b7cf7897 37-39
+nettools_mobile/lib/l10n/app_language.dart
+  s_c2324aad607bbb::t_9bb0f3ba00cc3a 1-25
+.vscode/mcp.json
+  s_c2324aad607bbb::t_13a525cb61775e 1-14
+nettools_mobile/lib/ui/widgets/page_header.dart
+  s_c2324aad607bbb::t_3a3f5e91e0702e 3-37
+  s_c2324aad607bbb::t_0d70f8705d277f 1-2
+  s_c2324aad607bbb::t_e4ef9c5b9946b7 38-40
+  s_c2324aad607bbb::t_410446a4eb90be 41-52
+nettools_mobile/android/app/src/main/res/drawable/launch_background.xml
+  s_c2324aad607bbb::t_d88be5898ee2be 1-12
+nettools_mobile/lib/ui/pages/tools/telnet_terminal_page.dart
+  s_c2324aad607bbb::t_f0cf7ada4696e3 65
+  s_c2324aad607bbb::t_d69134dc37d773 57-59,89
+  s_c2324aad607bbb::t_afbc65991d17e9 1-3,6-56,60-64,66-74,76-80,90-93,138-182
+  s_c2324aad607bbb::t_689911a343210f 4-5,75,94-137
+  s_c2324aad607bbb::t_10b6027ae55ba1 81-88
+nettools_mobile/lib/ui/pages/remote/sftp_browser_page.dart
+  s_c2324aad607bbb::t_689911a343210f 6-7,70,111,147-186,390-451
+  s_c2324aad607bbb::t_f0cf7ada4696e3 131
+  s_c2324aad607bbb::t_4de5fc9d3e16e9 1-5,8,11-69,71-78,106-110,112-114,119-130,132-136,138-146,187-198,238-252,254-297,299-301,303-349,354-389,452-462
+  s_c2324aad607bbb::t_10b6027ae55ba1 79-105,137
+  s_c2324aad607bbb::t_ce2c5732cc530d 9
+  s_c2324aad607bbb::t_3003af10458bac 10,350-353
+  s_c2324aad607bbb::t_d69134dc37d773 115-118,199-237,253,298,302
+nettools_mobile/android/app/src/main/cpp/iperf/config/install-sh
+  s_c2324aad607bbb::t_a9f405eb0f93e8 1-541
+nettools_mobile/lib/services/ip_tools_service.dart
+  s_c2324aad607bbb::t_f847249d36b57a 1-425
+nettools_mobile/lib/ui/pages/tools/wildcard_mask_page.dart
+  s_c2324aad607bbb::t_689911a343210f 2-49,84-152,190-244
+  s_c2324aad607bbb::t_f0cf7ada4696e3 159
+  s_c2324aad607bbb::t_d69134dc37d773 51-53
+  s_c2324aad607bbb::t_8939bf110d7592 50,54,155
+  s_c2324aad607bbb::t_9af932ba55f017 1,55-83,153-154,156-158,160-189,245-246
+nettools_mobile/windows/CMakeLists.txt
+  s_c2324aad607bbb::t_931743ce21104f 35-39
+  s_c2324aad607bbb::t_236bc449ced744 1-34,40-113
+nettools_mobile/android/app/src/main/cpp/iperf/docs/Makefile
+  s_c2324aad607bbb::t_41dcd92e0712d0 1-177
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_util.h
+  s_c2324aad607bbb::t_fa45245abd7416 1-70
+nettools_mobile/android/app/src/main/cpp/iperf/configure
+  s_c2324aad607bbb::t_7e995dad930c30 1-20356
+nettools_mobile/lib/ui/pages/remote/embedded_sftp_panel.dart
+  s_c2324aad607bbb::t_8377131d8de617 1-7,10-12,14-73,75-85,87-92,97-102,219-296,298-303,305-324,329-335,337-359,363-367,369-373,504-521
+  s_c2324aad607bbb::t_4817b3644db090 13,325-328
+  s_c2324aad607bbb::t_10b6027ae55ba1 86
+  s_c2324aad607bbb::t_d69134dc37d773 297,304,336,360-362,368
+  s_c2324aad607bbb::t_f0cf7ada4696e3 74,93-96
+  s_c2324aad607bbb::t_689911a343210f 8-9,103-218,374-503
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_auth.c
+  s_c2324aad607bbb::t_8cf38b95b78047 1-472
+nettools_mobile/lib/l10n/README.md
+  s_c2324aad607bbb::t_0825bcbf4b48ca 1-19
+nettools_mobile/lib/ui/pages/tools/qr_generator_page.dart
+  s_c2324aad607bbb::t_0ce65d86a15102 246-248
+  s_c2324aad607bbb::t_69a2d1064beed5 1-2
+  s_c2324aad607bbb::t_d69134dc37d773 163-165,212,249-252
+  s_c2324aad607bbb::t_258bf42ff4721f 59-61,71-73
+  s_c2324aad607bbb::t_daf048a194a4ce 427-429
+  s_c2324aad607bbb::t_10b6027ae55ba1 58,131-142,240-245,268-301
+  s_c2324aad607bbb::t_814f1da8316b5c 206-211
+  s_c2324aad607bbb::t_5fe9f65236918d 123-125,128-130
+  s_c2324aad607bbb::t_a6aa881c643cfd 389-412
+  s_c2324aad607bbb::t_69a3740f61dbcb 262-267
+  s_c2324aad607bbb::t_689911a343210f 3-52,74-122,170-205,261,421-426
+  s_c2324aad607bbb::t_7535fb64a7f00b 213-215,237-239
+  s_c2324aad607bbb::t_9f346e7e151091 414-415,418-420
+  s_c2324aad607bbb::t_189c07aa18f64f 53-57
+  s_c2324aad607bbb::t_d39292b70f94af 166-169
+  s_c2324aad607bbb::t_784dc0c00e143f 253-255,258-260
+  s_c2324aad607bbb::t_037a25a78ec4f1 413
+  s_c2324aad607bbb::t_f7dd2db5e0e370 62-70,126-127,146-159,216-236,256-257,305-385,416-417,430-476
+  s_c2324aad607bbb::t_7ecc4f301ef04e 143-145,160-162
+  s_c2324aad607bbb::t_a6c4ef647da58d 302-304,386-388
+nettools_mobile/android/app/src/main/cpp/iperf/config/config.sub
+  s_c2324aad607bbb::t_212a1436dba404 1-2364
+nettools_mobile/android/app/src/main/res/values/styles.xml
+  s_c2324aad607bbb::t_feb021178e1d36 1-18
+nettools_mobile/test/terminal_ansi_colorizer_test.dart
+  s_c2324aad607bbb::t_3891f46c39f2a7 19,21-30
+  s_c2324aad607bbb::t_72881662659ac9 1-7,9-18,33-35,38-40,42-43,62-66
+  s_c2324aad607bbb::t_547a93269284fc 8,20,31-32,36-37,41,44-50,56-61
+  s_c2324aad607bbb::t_d6bd25c2f9d28d 51-55
+nettools_mobile/android/app/src/main/cpp/iperf/src/t_auth.c
+  s_c2324aad607bbb::t_773595ffcf4cf9 1-155
+GEMINI.md
+  s_c2324aad607bbb::t_b5f2b12af1c519 1-38
+nettools_mobile/test/api_workbench_widget_test.dart
+  s_c2324aad607bbb::t_5373d672da0bcf 48-50
+  s_c2324aad607bbb::t_b143539fa2d58f 1-47,55-59
+  s_c2324aad607bbb::t_6152b09c9fc9ed 51
+  s_c2324aad607bbb::t_6c0bc10fdf30d6 52-54
+nettools_mobile/test/ip_tools_service_test.dart
+  s_c2324aad607bbb::t_ca8016259ae132 1-46
+nettools_mobile/android/app/src/main/cpp/iperf/src/net.h
+  s_c2324aad607bbb::t_a982a2905bc357 1-52
+nettools_mobile/ios/Runner.xcodeproj/project.pbxproj
+  s_c2324aad607bbb::t_13eafb8861e08e 1-644
+nettools_mobile/lib/services/telnet_service.dart
+  s_c2324aad607bbb::t_a9475d725db5e8 1-183
+nettools_mobile/lib/ui/pages/tools/ip_ownership_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 110,123-126
+  s_c2324aad607bbb::t_689911a343210f 3-30,42,58-79
+  s_c2324aad607bbb::t_10b6027ae55ba1 37,49
+  s_c2324aad607bbb::t_6e07eed32d03e3 1-2,31-36,38-41,43-48,50-57,80-109,111-122,127-156
+nettools_mobile/lib/services/local_test_server_service.dart
+  s_c2324aad607bbb::t_9cd0cb4184d9c2 1-537
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_locale.c
+  s_c2324aad607bbb::t_d1762b840fe364 1-577
+nettools_mobile/android/app/src/main/cpp/iperf/docs/faq.rst
+  s_c2324aad607bbb::t_deac2698c59cc3 1-274
+nettools_mobile/lib/services/windows_network_service.dart
+  s_c2324aad607bbb::t_01834a59a720e7 273,275-277,307
+  s_c2324aad607bbb::t_778560f7018d25 763-766
+  s_c2324aad607bbb::t_7d26948e67765e 783-797
+  s_c2324aad607bbb::t_a7a911b4d167df 66-71,225-230,377-383,400-404,445,448,451,454,491,591-592,663-667,675-679
+  s_c2324aad607bbb::t_20dfb1cf7e9aea 274
+  s_c2324aad607bbb::t_78bec93ac53e59 19-21,28-61
+  s_c2324aad607bbb::t_0d1ac437a2b739 1-18,22-27,62-65,72-224,231-272,278-306,308-376,384-399,405-444,446-447,449-450,452-453,455-490,492-590,593-662,668-674,680-693,695-711,743-755,759-762,767-782,798-814
+  s_c2324aad607bbb::t_d4d6d11a84b79a 694,714-742,757-758
+  s_c2324aad607bbb::t_395159612a5d04 712-713,756
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_auth.h
+  s_c2324aad607bbb::t_d00de8581580e9 1-41
+nettools_mobile/lib/ui/widgets/offline_geo_map.dart
+  s_c2324aad607bbb::t_e2feefd47ae3d8 188-190,224-226
+  s_c2324aad607bbb::t_3a3f5e91e0702e 7-8,227
+  s_c2324aad607bbb::t_a0fce65fbd8193 228-230
+  s_c2324aad607bbb::t_a048963d045ff0 1-3,12-181,191-223,231-525
+  s_c2324aad607bbb::t_9039dc10fd3e90 4-6
+  s_c2324aad607bbb::t_cfd7245fbb6202 9-11,182-184
+  s_c2324aad607bbb::t_2afb790f6bdac2 185-187
+nettools_mobile/linux/CMakeLists.txt
+  s_c2324aad607bbb::t_65bb2e448a05fb 77-81,83-87
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1-76,88-136,148-150
+  s_c2324aad607bbb::t_f9eeb39b4a6a97 82
+  s_c2324aad607bbb::t_7e4278f3ad0cde 137-147
+nettools_mobile/android/app/src/main/cpp/iperf/.github/workflows/build.yml
+  s_c2324aad607bbb::t_8c5eba781b3722 1-83
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_server_api.c
+  s_c2324aad607bbb::t_0dcefdc40a0113 1-1008
+nettools_mobile/.agents/skills/protodeck-android-native/references/channel-contract.md
+  s_c2324aad607bbb::t_1de9e55589db3d 1-56
+nettools_mobile/tool/build_bundled_iperf_windows.ps1
+  s_c2324aad607bbb::t_f8e327e216e036 1-88
+nettools_mobile/lib/ui/pages/tools_page.dart
+  s_c2324aad607bbb::t_0aa097425f8d98 36-41,44-47
+  s_c2324aad607bbb::t_689911a343210f 73,114
+  s_c2324aad607bbb::t_189900c390888f 108-113
+  s_c2324aad607bbb::t_f6c07f8c2f1baf 1,3,28-29,48-49,56-58,102-107,115,117-119,121,123-127,129-146
+  s_c2324aad607bbb::t_6eee7dc9ba09e4 4-27,50-55
+  s_c2324aad607bbb::t_25f28cbe3c3e60 128
+  s_c2324aad607bbb::t_e8344bdebe8624 2,30-35,59-64,101,116,120,122
+  s_c2324aad607bbb::t_d9a5e7011e0e86 42-43,65-72,74-100
+nettools_mobile/pubspec.yaml
+  s_c2324aad607bbb::t_931743ce21104f 92-110
+  s_c2324aad607bbb::t_9bb0f3ba00cc3a 32-34,68
+  s_c2324aad607bbb::t_187ba59503323c 58
+  s_c2324aad607bbb::t_036d3d7c6c2789 111-113
+  s_c2324aad607bbb::t_189900c390888f 53
+  s_c2324aad607bbb::t_bfa7acd1116334 35-37,50-52
+  s_c2324aad607bbb::t_11b627e0ccb2d3 2
+  s_c2324aad607bbb::t_9d3799d286c615 69-71,89-91
+  s_c2324aad607bbb::t_1f7cc68cac12fa 1
+  s_c2324aad607bbb::t_b3254f02bd7532 59-61,65-67
+  s_c2324aad607bbb::t_78b1a09e3c7102 54-57
+  s_c2324aad607bbb::t_fac1b76390fd1a 6-28,38-49,62-64,72-88,114-128
+  s_c2324aad607bbb::t_f5fb01dceef057 3-5,29-31
+.github/workflows/build-platforms.yml
+  s_c2324aad607bbb::t_931743ce21104f 116-118
+  s_c2324aad607bbb::t_792527ba15d7d7 120-121
+  s_c2324aad607bbb::t_bdfde74554da5e 147
+  s_c2324aad607bbb::t_4513bb31f37466 1-4,21-49,53-70,72-76,80-98,102-103,105-106,109-112,119,122-133,140-145,148-149,152
+  s_c2324aad607bbb::t_a26f974d057260 99-101,134
+  s_c2324aad607bbb::t_f8e327e216e036 135-139
+  s_c2324aad607bbb::t_6af7f8c8cd261a 71,104,107-108,146,150-151
+  s_c2324aad607bbb::t_2924af9c02b276 5-20,50-52,77-79,113-115
+nettools_mobile/android/app/src/main/cpp/iperf/contrib/iperf3.gp
+  s_c2324aad607bbb::t_bd5f80b041e1c4 1-36
+nettools_mobile/android/settings.gradle.kts
+  s_c2324aad607bbb::t_38bb625fc3a67d 1-26
+nettools_mobile/lib/l10n/strings/tool_page_additional_en.dart
+  s_c2324aad607bbb::t_7a357c4a3cb68d 243-258
+  s_c2324aad607bbb::t_88e58c5dfb5b50 1-77
+  s_c2324aad607bbb::t_317bb5a87fd6c7 117,202
+  s_c2324aad607bbb::t_fd32ddc3269469 78-116,118-136
+  s_c2324aad607bbb::t_11f2876f3c545a 137-185
+  s_c2324aad607bbb::t_505426bfcda0d9 186-201,203-235,259
+  s_c2324aad607bbb::t_261b9f434c38cf 236-242
+nettools_mobile/.agents/skills/protodeck-verify-release/scripts/verify.sh
+  s_c2324aad607bbb::t_1c524ac26bd248 1-45
+nettools_mobile/lib/ui/pages/tools/tls_inspection_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 41-43
+  s_c2324aad607bbb::t_4552d837f02a0e 1,32-40,44-52,54-61,134-139,141-172
+  s_c2324aad607bbb::t_f0cf7ada4696e3 140
+  s_c2324aad607bbb::t_689911a343210f 2-31,62-133
+  s_c2324aad607bbb::t_10b6027ae55ba1 53
+nettools_mobile/lib/services/network_intelligence_service.dart
+  s_c2324aad607bbb::t_565fd094c215c1 1-228
+nettools_mobile/lib/services/snmp_service.dart
+  s_c2324aad607bbb::t_e76700432fef2f 1-936
+nettools_mobile/lib/ui/pages/tools/api_realtime_workbench.dart
+  s_c2324aad607bbb::t_b72c0c66b4aac2 1040-1042,1082-1084
+  s_c2324aad607bbb::t_03ece9b55baffb 686-689
+  s_c2324aad607bbb::t_94d4b9a9bcd646 854-856,859-861
+  s_c2324aad607bbb::t_89ef4e5b24cfc2 11-13,138-140
+  s_c2324aad607bbb::t_ad085253c733a3 707-708
+  s_c2324aad607bbb::t_7101d8d1a4749a 733-734,847-849
+  s_c2324aad607bbb::t_6915fa600f7579 1086-1091
+  s_c2324aad607bbb::t_03a769463b1e99 468-471
+  s_c2324aad607bbb::t_b9ec87c2bc5aea 493
+  s_c2324aad607bbb::t_b7036ba09b45fd 390-391
+  s_c2324aad607bbb::t_86484201b16891 364
+  s_c2324aad607bbb::t_0fcbead8697cd1 307
+  s_c2324aad607bbb::t_2afb790f6bdac2 490-492,1085
+  s_c2324aad607bbb::t_56bdbe383ee1bc 699-701
+  s_c2324aad607bbb::t_86b23dfcf51f9c 587-590
+  s_c2324aad607bbb::t_7d897b01e153ca 368-370,377-379
+  s_c2324aad607bbb::t_6dab50258d08ee 636-638
+  s_c2324aad607bbb::t_1943f60905a971 1268-1269,1442,1540,1542,1603-1604
+  s_c2324aad607bbb::t_e69c85f7566e2e 666-668,673-675
+  s_c2324aad607bbb::t_d55ffd4b8e5377 177-179,196-198
+  s_c2324aad607bbb::t_994e57eea2ad0c 573-574
+  s_c2324aad607bbb::t_b414147cea3c00 194
+  s_c2324aad607bbb::t_4fe5bffabc0a2b 10,29,50-52,54-57,80-84,112-113,141-166
+  s_c2324aad607bbb::t_6961c7e02ee7ad 366
+  s_c2324aad607bbb::t_2d3813cc7f879d 309-313
+  s_c2324aad607bbb::t_e54f608b175044 875-877,881-883
+  s_c2324aad607bbb::t_5e25727635bbb6 497-499,503-505
+  s_c2324aad607bbb::t_bcf98332329a93 711
+  s_c2324aad607bbb::t_a61e81e5c1ff4c 1168-1170,1647-1649
+  s_c2324aad607bbb::t_689911a343210f 7-8,167-176,353-363,392-409,466-467,506-572,635,654,676-685,862-873,1092,1115-1132,1134-1166
+  s_c2324aad607bbb::t_10b6027ae55ba1 275-304,449-450,599,1098
+  s_c2324aad607bbb::t_d598ac4da469df 659-662
+  s_c2324aad607bbb::t_e6c4411dcb519d 473-475,482-484
+  s_c2324aad607bbb::t_17e4c315481060 592
+  s_c2324aad607bbb::t_f4822f33a57820 305
+  s_c2324aad607bbb::t_37df1913f39c3c 1093-1097
+  s_c2324aad607bbb::t_71232f11c6a320 338
+  s_c2324aad607bbb::t_f9d0b06a960840 1653-1655
+  s_c2324aad607bbb::t_ecbda45dc42d3d 423-425,427-429
+  s_c2324aad607bbb::t_e51f45ec076d34 4-6
+  s_c2324aad607bbb::t_70258d41b1e236 486-489
+  s_c2324aad607bbb::t_777056ed2745ef 1-3,14-28,30-38,40-42,44-49,53,58-79,85-111,114-137,180-193,195,248-271,318,343-349,371-376,418,426,435-445,476-481,500-502,603-631,669-672,694-695,833-846,857-858,878-880,888-1012,1014-1016,1021-1030,1032-1035,1043-1081,1171-1187,1576,1636-1646,1656-1668
+  s_c2324aad607bbb::t_039305c6e23581 1100-1105
+  s_c2324aad607bbb::t_79dfe3c6d163b9 410-413
+  s_c2324aad607bbb::t_e3855389d8ea3d 595-598
+  s_c2324aad607bbb::t_296935a20db382 1110-1114
+  s_c2324aad607bbb::t_3beeba6ca5f407 702-705
+  s_c2324aad607bbb::t_47f041d9a550ec 384-388
+  s_c2324aad607bbb::t_d69134dc37d773 199-244,306,308,314,322-335,337,339,365,367,380-383,389,414,430-431,451-465,472,485,494-496,575-578,586,591,593-594,639,646-653,655-658,663,665,690,709-710,728,850-853,874,884,1099,1106-1109,1167,1650-1652
+  s_c2324aad607bbb::t_26138185aa142e 415-417,419-421
+  s_c2324aad607bbb::t_d6f987cd91fe75 600-602,632-634
+  s_c2324aad607bbb::t_037a25a78ec4f1 39,43,1133
+  s_c2324aad607bbb::t_fac537e093b160 432-434,446-448
+  s_c2324aad607bbb::t_dc2ce4b0a6c61c 664
+  s_c2324aad607bbb::t_41f5d887b37956 1541
+  s_c2324aad607bbb::t_feca2ffa423750 885-887,1036-1038
+  s_c2324aad607bbb::t_6e8f87e8c900a4 245-247,272-274
+  s_c2324aad607bbb::t_32f74fa6fcdf0e 640-645
+  s_c2324aad607bbb::t_f0cf7ada4696e3 422,585,706
+  s_c2324aad607bbb::t_25093338eed310 1013,1017-1020,1031,1188-1267,1270-1441,1443-1539,1543-1575,1577-1602,1605-1635
+  s_c2324aad607bbb::t_990ff108391c3f 340-342,350-352
+  s_c2324aad607bbb::t_6adec5656c677a 315-317,319-321
+  s_c2324aad607bbb::t_0c44ba601df130 712-727,729-732,735-832
+  s_c2324aad607bbb::t_d44c5f422e4fb5 9,1039
+  s_c2324aad607bbb::t_e09c1d85f55c46 579-584
+  s_c2324aad607bbb::t_1d2fdff0e4a1b7 691-693,696-698
+  s_c2324aad607bbb::t_5be709173b94a1 336
+nettools_mobile/lib/services/ntp_service.dart
+  s_c2324aad607bbb::t_4690ea0acd22b3 1-204
+nettools_mobile/lib/services/iperf_command_service.dart
+  s_c2324aad607bbb::t_5b303382c2f439 1-196
+nettools_mobile/lib/ui/pages/remote/transfer_center_page.dart
+  s_c2324aad607bbb::t_689911a343210f 3-16,36-93
+  s_c2324aad607bbb::t_a429749da67b2e 1-2,17-18,20-35,94-102
+  s_c2324aad607bbb::t_f0cf7ada4696e3 19
+nettools_mobile/lib/ui/pages/remote/ssh_terminal_page.dart
+  s_c2324aad607bbb::t_88b607fe2c66e6 646-650
+  s_c2324aad607bbb::t_10b6027ae55ba1 155-162,212,231
+  s_c2324aad607bbb::t_7ea288e55dbd91 232-234
+  s_c2324aad607bbb::t_d543cfe2efd97a 112
+  s_c2324aad607bbb::t_dc485f69f19d34 316-318,321-323
+  s_c2324aad607bbb::t_ad190caa1e9d39 213-215
+  s_c2324aad607bbb::t_3f2f0fe0123892 536-538,556-558
+  s_c2324aad607bbb::t_f434cd2e793251 436
+  s_c2324aad607bbb::t_ee6e051890a653 595-600
+  s_c2324aad607bbb::t_8c19d611c0d491 250
+  s_c2324aad607bbb::t_5c0c7531e83ccc 281-285
+  s_c2324aad607bbb::t_02014ab92d0d50 463-465,476-478
+  s_c2324aad607bbb::t_5be115f488d38d 333-335
+  s_c2324aad607bbb::t_d69134dc37d773 125-127,163,171-183,185,187,200,205,216,222-224,235,251,266,269-271,419-421,491,506,732,737
+  s_c2324aad607bbb::t_6a00bc49048955 10-14
+  s_c2324aad607bbb::t_96c48a60b01408 337-338
+  s_c2324aad607bbb::t_55b667bb58039d 114-117
+  s_c2324aad607bbb::t_81ae907eb8bc5e 201-204
+  s_c2324aad607bbb::t_9467c2e17d4cff 16,47-111,113,280,286,306,324,332,336,339-340,357-359,361-378,423,434-435,437-462,508,527,530-535,559,561,563,565,568,571,574-575,580,593-594,601-603,607-608,610,612-613,618-619,623,626,628-629,641,645,651,655-659,742
+  s_c2324aad607bbb::t_f3ce09f83f35fa 343,587
+  s_c2324aad607bbb::t_434d8481e4e775 588-592
+  s_c2324aad607bbb::t_ec296d7671e760 611
+  s_c2324aad607bbb::t_6150611e1a44b3 627
+  s_c2324aad607bbb::t_80c367f89eb0a3 572-573
+  s_c2324aad607bbb::t_ca2fe011cccc73 564
+  s_c2324aad607bbb::t_30fe47fa123b95 609
+  s_c2324aad607bbb::t_6a1479bd888e39 581-586
+  s_c2324aad607bbb::t_96b98a9dedee04 206-211
+  s_c2324aad607bbb::t_210c734923e122 743-745
+  s_c2324aad607bbb::t_1fcb5c9b43e41b 509-511,524-526
+  s_c2324aad607bbb::t_7683d69cd17699 5-7
+  s_c2324aad607bbb::t_752a391b9e7dfa 305,418,422
+  s_c2324aad607bbb::t_cdc0c0dff6e9c5 17-19,43-45
+  s_c2324aad607bbb::t_4bec0570f7b3b6 27,33,118-124
+  s_c2324aad607bbb::t_3c4d01a7844b6f 424-426,431-433
+  s_c2324aad607bbb::t_0fc86ff2f74826 325-327,329-331
+  s_c2324aad607bbb::t_d19aea6a12c3c5 307-309
+  s_c2324aad607bbb::t_10453802d99e6a 341-342
+  s_c2324aad607bbb::t_087db81b700d71 186
+  s_c2324aad607bbb::t_2ee30137dc3397 164-166,168-170
+  s_c2324aad607bbb::t_f406f82a866324 267-268
+  s_c2324aad607bbb::t_1e68bce0831576 225-230
+  s_c2324aad607bbb::t_5cd1b20eb358db 236-241
+  s_c2324aad607bbb::t_a7a911b4d167df 249
+  s_c2324aad607bbb::t_91b498bf92687d 252-254
+  s_c2324aad607bbb::t_19ada9fd720899 569-570
+  s_c2324aad607bbb::t_e2f899fb88743b 630-632,638-640
+  s_c2324aad607bbb::t_149dfba9315558 138-142
+  s_c2324aad607bbb::t_52218a20d0407b 528-529
+  s_c2324aad607bbb::t_b1fe1d1d0e72c8 660-662,679-681
+  s_c2324aad607bbb::t_28a9b4f17052e4 620-622
+  s_c2324aad607bbb::t_2bd4ef5267dae7 272-274,277-279
+  s_c2324aad607bbb::t_30c28c6eea14c0 1-4,20-26,28-32,34-42,147-151,167,275-276,290-301,319-320,328,427-430,466-475,495-501,512-523,539-555,633-637,663-678
+  s_c2324aad607bbb::t_9b6ea75529fa54 144-146,152-154
+  s_c2324aad607bbb::t_b64dfc120acbcc 287-289,302-304
+  s_c2324aad607bbb::t_29465829d38aff 135-136
+  s_c2324aad607bbb::t_ca20cc7233d1f3 492-494,502-504
+  s_c2324aad607bbb::t_8da5e9933a66b9 614-617
+  s_c2324aad607bbb::t_24b8b2cb04a806 355-356
+  s_c2324aad607bbb::t_4e7ad32d1be4b9 576-579
+  s_c2324aad607bbb::t_a7fe5594d06c61 562
+  s_c2324aad607bbb::t_689911a343210f 8-9,137,194-199,242-248,255-261,479-490,682-731
+  s_c2324aad607bbb::t_f0cf7ada4696e3 143
+  s_c2324aad607bbb::t_1820c0d8526948 604-606
+  s_c2324aad607bbb::t_d69afdbcedc344 134,310-315,379-417,505,738
+  s_c2324aad607bbb::t_e974b0c7239de5 344-349
+  s_c2324aad607bbb::t_8d9a716a75c675 652-654
+  s_c2324aad607bbb::t_f783251a485290 739-741
+  s_c2324aad607bbb::t_e0ce7b15d5112b 217-221
+  s_c2324aad607bbb::t_72881662659ac9 15,46,350-354
+  s_c2324aad607bbb::t_c03b825cb1206b 566-567
+  s_c2324aad607bbb::t_13fb164a250658 184
+  s_c2324aad607bbb::t_523635324bd8e4 560
+  s_c2324aad607bbb::t_cbfed71e8f3717 360
+  s_c2324aad607bbb::t_013cc43226f1da 507
+  s_c2324aad607bbb::t_9d3b05fe2abb86 262-265
+  s_c2324aad607bbb::t_5bede8d8feb3b9 128-133
+  s_c2324aad607bbb::t_9131ebe5c146a6 188-193
+  s_c2324aad607bbb::t_ac00b2ba2b907c 642-644
+  s_c2324aad607bbb::t_b2737fc52b9293 733-736
+  s_c2324aad607bbb::t_fc7f74762c7e31 624-625
+nettools_mobile/lib/state/providers.dart
+  s_c2324aad607bbb::t_08d4cdb7e179f1 1-20
+nettools_mobile/android/app/src/main/cpp/iperf/config/depcomp
+  s_c2324aad607bbb::t_ec81dd7a224654 1-792
+nettools_mobile/lib/ui/pages/tools/port_scan_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 129,143-146
+  s_c2324aad607bbb::t_689911a343210f 5-51,74-107,147-187
+  s_c2324aad607bbb::t_10b6027ae55ba1 58-66
+  s_c2324aad607bbb::t_3932fbd9f83041 1-4,52-57,67-73,108-128,130-142,188-251
+nettools_mobile/windows/runner/main.cpp
+  s_c2324aad607bbb::t_236bc449ced744 1-28,31-43
+  s_c2324aad607bbb::t_606e9c9259da7a 29
+  s_c2324aad607bbb::t_037a25a78ec4f1 30
+nettools_mobile/lib/l10n/strings/tool_page_remote_en.dart
+  s_c2324aad607bbb::t_82497274adb0f3 1,14-34,36-37,39-56,58-84
+  s_c2324aad607bbb::t_41f5d887b37956 11-13
+  s_c2324aad607bbb::t_d69134dc37d773 35,38,57
+  s_c2324aad607bbb::t_1d20b45015a269 2-10
+nettools_mobile/windows/runner/Runner.rc
+  s_c2324aad607bbb::t_037a25a78ec4f1 92-93,96,98
+  s_c2324aad607bbb::t_236bc449ced744 1-91,94-95,97,99-121
+nettools_mobile/android/app/src/main/cpp/iperf/src/main.c
+  s_c2324aad607bbb::t_f24a1a9f0f5ab9 1-214
+.claude/skills/review-changes/SKILL.md
+  s_c2324aad607bbb::t_d42812ac275f4d 1-29
+nettools_mobile/android/app/src/main/cpp/iperf/config/ax_check_openssl.m4
+  s_c2324aad607bbb::t_c3cc41cfb7ef15 1-124
+.github/code-review-graph.instruction.md
+  s_c2324aad607bbb::t_49c6dc61da6782 1-46
+nettools_mobile/lib/data/app_database.g.dart
+  s_c2324aad607bbb::t_76df1dfe39b601 1-4194
+nettools_mobile/lib/services/network_defaults_service.dart
+  s_c2324aad607bbb::t_ad1c740d1abfbb 1-50
+nettools_mobile/lib/services/bluetooth_debug_service.dart
+  s_c2324aad607bbb::t_66133cf982477e 7-9,13-14,27
+  s_c2324aad607bbb::t_4d28393a5a8236 1-2,10-12,15-18,21,24-25,28-29
+  s_c2324aad607bbb::t_a7a911b4d167df 22-23
+  s_c2324aad607bbb::t_a53534212c6e49 3-6,19,26,30-103
+  s_c2324aad607bbb::t_bab4ca4ee4e849 20
+nettools_mobile/windows/runner/flutter_window.h
+  s_c2324aad607bbb::t_236bc449ced744 1-33
+nettools_mobile/lib/app.dart
+  s_c2324aad607bbb::t_ac861ae4ba2bb3 29-30
+  s_c2324aad607bbb::t_c05b42096c3083 157-361
+  s_c2324aad607bbb::t_0f18186f6f15c6 1-2,105-150,152-153
+  s_c2324aad607bbb::t_6234454e866ff3 98-99,365-366,392-393
+  s_c2324aad607bbb::t_d1d773b9ebfe30 4-27,43,51,59,68-82,84-93
+  s_c2324aad607bbb::t_5f8cc4e36b16e1 28,31-42,44-50,52-58,60-67,83
+  s_c2324aad607bbb::t_ff89a8211943ed 154-156,362-364
+  s_c2324aad607bbb::t_b5c891ada01360 3
+  s_c2324aad607bbb::t_d9a5e7011e0e86 103-104
+  s_c2324aad607bbb::t_f71c03ad1161bf 151,367-391
+  s_c2324aad607bbb::t_0acd127102498e 94-97
+  s_c2324aad607bbb::t_d786457f316a2c 100-102
+  s_c2324aad607bbb::t_c7ed9fc991e0d8 394
+nettools_mobile/lib/services/network_doctor_service.dart
+  s_c2324aad607bbb::t_2e4843d58587ad 297-299
+  s_c2324aad607bbb::t_306d0b15fbaf28 347-349
+  s_c2324aad607bbb::t_f19d87b9fe88e8 300-346
+  s_c2324aad607bbb::t_13583830d11696 1-296,350-358
+nettools_mobile/.agents/skills/protodeck-project/SKILL.md
+  s_7639e9eb5f1ce1::t_2cac656e6b8540 1-47
+nettools_mobile/windows/flutter/generated_plugins.cmake
+  s_c2324aad607bbb::t_7b39fc9d7d356e 1-26
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_udp.h
+  s_c2324aad607bbb::t_0dee3520e23e47 1-64
+nettools_mobile/android/app/src/main/cpp/iperf/src/flowlabel.h
+  s_c2324aad607bbb::t_c0083a8c922d2d 1-78
+CLAUDE.md
+  s_c2324aad607bbb::t_f0852c006d5392 1-38
+nettools_mobile/tool/build_bundled_iperf_linux.sh
+  s_c2324aad607bbb::t_ae34f5b869e347 1-33
+nettools_mobile/android/app/src/main/cpp/iperf/src/t_timer.c
+  s_c2324aad607bbb::t_5268cd3cb14985 1-81
+nettools_mobile/android/.gitignore
+  s_c2324aad607bbb::t_de0f4481759e96 1-14
+nettools_mobile/lib/ui/tool_launcher.dart
+  s_c2324aad607bbb::t_948652f5729e4b 1-16,75-110
+  s_c2324aad607bbb::t_87b712fab73055 17-19
+  s_c2324aad607bbb::t_0d2b2adf94f3fd 72-74
+  s_c2324aad607bbb::t_74424c12701caf 20-71
+nettools_mobile/android/app/src/main/cpp/iperf/docs/2017-04-27.txt
+  s_c2324aad607bbb::t_d80337dbbed018 1-95
+nettools_mobile/lib/services/download_destination_service.dart
+  s_c2324aad607bbb::t_037a25a78ec4f1 40
+  s_c2324aad607bbb::t_4817b3644db090 1-39,41-61
+nettools_mobile/android/build.gradle.kts
+  s_c2324aad607bbb::t_aac3a50049e0c9 1-24
+nettools_mobile/android/app/src/main/cpp/iperf/docs/invoking.rst
+  s_c2324aad607bbb::t_ed5c1dc729819c 1-562
+nettools_mobile/android/app/src/main/cpp/iperf/src/private.pem
+  s_c2324aad607bbb::t_93a04ba20c492f 1-27
+nettools_mobile/linux/flutter/CMakeLists.txt
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1-88
+nettools_mobile/android/app/src/main/cpp/iperf/.gitlab-ci.yml
+  s_c2324aad607bbb::t_f1600d060ddc30 1-43
+.gemini/settings.json
+  s_c2324aad607bbb::t_4f3ee3e127ec9d 1-30
+nettools_mobile/lib/services/wildcard_mask_service.dart
+  s_c2324aad607bbb::t_950b10321c555f 1-92
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_time.h
+  s_c2324aad607bbb::t_b694ed9c24b15b 1-70
+nettools_mobile/lib/services/syslog_receiver_service.dart
+  s_c2324aad607bbb::t_6faa1be934e4d6 1-331
+nettools_mobile/windows/runner/utils.cpp
+  s_c2324aad607bbb::t_236bc449ced744 1-69
+nettools_mobile/lib/ui/widgets/transfer_progress_card.dart
+  s_c2324aad607bbb::t_3f95d88ea175e5 59-61
+  s_c2324aad607bbb::t_3a3f5e91e0702e 3-58
+  s_c2324aad607bbb::t_6b643bc0df6997 1-2
+  s_c2324aad607bbb::t_242d26a6502b33 62-74
+nettools_mobile/ios/RunnerTests/RunnerTests.swift
+  s_c2324aad607bbb::t_4159083115d319 1-12
+nettools_mobile/windows/runner/resource.h
+  s_c2324aad607bbb::t_236bc449ced744 1-16
+nettools_mobile/android/app/src/main/cpp/iperf/iperf3.spec.in
+  s_c2324aad607bbb::t_4e2b5d2a899c6d 1-59
+nettools_mobile/lib/ui/widgets/tool_tile.dart
+  s_c2324aad607bbb::t_6eee7dc9ba09e4 3-61,70,83
+  s_c2324aad607bbb::t_54ab579cfb463b 84-85
+  s_c2324aad607bbb::t_347e7df858b3ea 64-69
+  s_c2324aad607bbb::t_adea580349c556 79
+  s_c2324aad607bbb::t_2118ae94e95896 1-2
+  s_c2324aad607bbb::t_65d24b00859a59 62
+  s_c2324aad607bbb::t_0f18186f6f15c6 63,74-75
+  s_c2324aad607bbb::t_f44cae5d71c823 76-78,80-82
+  s_c2324aad607bbb::t_e5009d27887828 71-73
+nettools_mobile/lib/services/wake_on_lan_service.dart
+  s_c2324aad607bbb::t_f432bb992f2deb 1-43
+nettools_mobile/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  s_c2324aad607bbb::t_7704e3417fe5e1 1-8
+nettools_mobile/android/app/src/main/cpp/iperf/aclocal.m4
+  s_c2324aad607bbb::t_4328156343a809 1-10534
+nettools_mobile/android/app/src/main/cpp/iperf/src/dscp.c
+  s_c2324aad607bbb::t_555f594334efd6 1-162
+nettools_mobile/ios/Runner/AppDelegate.swift
+  s_c2324aad607bbb::t_eba4d2adefafe3 1-16
+nettools_mobile/android/gradle.properties
+  s_c2324aad607bbb::t_b0e816f7641de2 1-6
+.kiro/steering/code-review-graph.md
+  s_c2324aad607bbb::t_38f13a83213def 1-38
+.gemini/skills/debug-issue/SKILL.md
+  s_c2324aad607bbb::t_edff45730c01a4 1-27
+nettools_mobile/ios/Runner/Runner-Bridging-Header.h
+  s_c2324aad607bbb::t_018c7154eb5606 1
+nettools_mobile/lib/ui/pages/remote/smb_browser_page.dart
+  s_c2324aad607bbb::t_51644987d989a7 579-580
+  s_c2324aad607bbb::t_342d5aa0f6b134 4-6
+  s_c2324aad607bbb::t_c425916d6cf70c 108-110
+  s_c2324aad607bbb::t_5a91db7c584083 228-232
+  s_c2324aad607bbb::t_10b6027ae55ba1 129-165,184
+  s_c2324aad607bbb::t_689911a343210f 7-8,107,194,199,208,242-298,484-578
+  s_c2324aad607bbb::t_005304c6119ffc 188
+  s_c2324aad607bbb::t_83da3b666bc4b8 582-584
+  s_c2324aad607bbb::t_7cdba537c86410 14-16,97-99
+  s_c2324aad607bbb::t_3003af10458bac 13,453-457
+  s_c2324aad607bbb::t_4bec0570f7b3b6 22-27,31,100-106
+  s_c2324aad607bbb::t_ae61d3138ea437 190-193
+  s_c2324aad607bbb::t_658ddb60011681 458-460,481-483
+  s_c2324aad607bbb::t_56bdbe383ee1bc 185-187
+  s_c2324aad607bbb::t_25801cf7298300 206-207
+  s_c2324aad607bbb::t_6eb1bad853ecb2 166-171
+  s_c2324aad607bbb::t_f0cf7ada4696e3 117,227
+  s_c2324aad607bbb::t_7bbaaf0a6faf4a 179-183
+  s_c2324aad607bbb::t_d69134dc37d773 120,172-174,233-236,299-325
+  s_c2324aad607bbb::t_88709726bc9020 118-119
+  s_c2324aad607bbb::t_f1b3af3760ec10 326-328,450-452
+  s_c2324aad607bbb::t_cd5cc092457a66 1-3,17-21,28-30,32-96,124-125,218-223,329-449,461-480,585-597
+  s_c2324aad607bbb::t_5baf82d8e99464 9-12
+  s_c2324aad607bbb::t_aeb43e08d32558 111,178,189,195,197,200,209-214,581
+  s_c2324aad607bbb::t_38f9a40b219e24 112-116
+  s_c2324aad607bbb::t_2d67aea75ecc18 175-177
+  s_c2324aad607bbb::t_2b11b99a8bbfdf 121-123,126-128
+  s_c2324aad607bbb::t_c56d286d1cb867 215-217,224-226
+  s_c2324aad607bbb::t_2afb790f6bdac2 205
+  s_c2324aad607bbb::t_36305d3fb64901 196
+  s_c2324aad607bbb::t_b00f33b8ad517f 198
+  s_c2324aad607bbb::t_0c7db1cbf1c9be 237-241
+  s_c2324aad607bbb::t_f15ba35ff83c27 201-204
+nettools_mobile/lib/services/api_rule_engine.dart
+  s_c2324aad607bbb::t_2726db08d1774f 1-278
+nettools_mobile/lib/ui/pages/tools/lan_scan_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 58-60,110-117,121
+  s_c2324aad607bbb::t_689911a343210f 5-51,69-109,185
+  s_c2324aad607bbb::t_138f0d516a9d7c 1-4,52-57,61-68,118-120,122-184,186-188
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_sctp.c
+  s_c2324aad607bbb::t_191dd7a9adae40 1-770
+nettools_mobile/android/app/src/main/cpp/iperf/src/Makefile.am
+  s_c2324aad607bbb::t_e8f5abe60d93e1 1-107
+.claude/skills/explore-codebase/SKILL.md
+  s_c2324aad607bbb::t_bc611c9004be2c 1-28
+nettools_mobile/lib/ui/pages/tools/network_doctor_page.dart
+  s_c2324aad607bbb::t_905d8539e6999f 1-4,115-143
+  s_c2324aad607bbb::t_689911a343210f 5-114
+nettools_mobile/lib/ui/pages/tools/local_discovery_page.dart
+  s_c2324aad607bbb::t_c175a5100dd751 1,66-76,93,95-98,100-111,113-121,128-156
+  s_c2324aad607bbb::t_d69134dc37d773 77-91,94,122-126
+  s_c2324aad607bbb::t_f0cf7ada4696e3 99
+  s_c2324aad607bbb::t_689911a343210f 2-65,92,112,127
+nettools_mobile/android/app/src/main/cpp/mobile_config/iperf_config.h
+  s_c2324aad607bbb::t_931743ce21104f 1-41
+nettools_mobile/android/app/src/main/cpp/iperf/src/queue.h
+  s_c2324aad607bbb::t_d5812eef11c368 1-527
+nettools_mobile/lib/l10n/strings/tool_page_network_en.dart
+  s_c2324aad607bbb::t_e541f34d40f7df 98
+  s_c2324aad607bbb::t_050bd6e522b3bd 69-97,99-112
+  s_c2324aad607bbb::t_35e8abc9177fcb 1-68,113
+nettools_mobile/lib/ui/pages/tools/mac_format_page.dart
+  s_c2324aad607bbb::t_10b6027ae55ba1 44-46
+  s_c2324aad607bbb::t_ff827cf4c9b195 1,36-43,47-53,103-112,114-141,143-144
+  s_c2324aad607bbb::t_689911a343210f 2-35,54-102,142
+  s_c2324aad607bbb::t_f0cf7ada4696e3 113
+nettools_mobile/android/app/src/main/cpp/iperf/config/ltmain.sh
+  s_c2324aad607bbb::t_08ded9f737f176 1-11524
+nettools_mobile/lib/ui/pages/tools/subnet_page.dart
+  s_c2324aad607bbb::t_38c15f3bdcc164 1,113,115-142,154
+  s_c2324aad607bbb::t_689911a343210f 2-89
+  s_c2324aad607bbb::t_c498d3b5efee09 90-112,114,143-153
+nettools_mobile/lib/ui/pages/tools/snmp_browser_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 112-114,231-234,251-253,275-277,289-291
+  s_c2324aad607bbb::t_bfe77d9c83f9ec 1-4,7-62,64-75,77-80,82-85,87-102,104-111,115-119,121-129,131-139,141-148,150-175,177-187,189-196,199-220,222-227,229-230,235-250,254-257,259-274,278-288,292-295,297-312,314-318,320-340,342-440
+  s_c2324aad607bbb::t_10b6027ae55ba1 103,176,188,221,228
+  s_c2324aad607bbb::t_689911a343210f 5-6,63,76,81,86,120,130,140,149,197-198,258,296,313,319,341
+.gemini/skills/explore-codebase/SKILL.md
+  s_c2324aad607bbb::t_09c9d447c8b010 1-28
+.qoder/settings.json
+  s_c2324aad607bbb::t_f31ac74ef0085b 1-28
+nettools_mobile/android/app/src/main/cpp/iperf/docs/index.rst
+  s_c2324aad607bbb::t_f95c322d4b4c40 1-70
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/NetworkEventMonitor.kt
+  s_c2324aad607bbb::t_5552b52cc6c2e8 1-112
+nettools_mobile/lib/services/lan_scan_service.dart
+  s_c2324aad607bbb::t_17f4fd91fa67e3 1-148
+android-env.sh
+  s_c2324aad607bbb::t_bcb76d79af9276 1-15
+.gemini/hooks/crg-session-start.sh
+  s_c2324aad607bbb::t_3f3fb1c8fde6e9 1-15
+nettools_mobile/android/app/src/main/cpp/iperf/contrib/iperf3_to_gnuplot.py
+  s_c2324aad607bbb::t_bf3ee4955fdc0a 1-124
+nettools_mobile/linux/flutter/generated_plugin_registrant.h
+  s_c2324aad607bbb::t_7ef6447cec8892 1-15
+AGENTS.md
+  s_c2324aad607bbb::t_b6f2583a90f078 60-98
+  s_c2324aad607bbb::t_ad3d75eb708000 57-59
+  s_c2324aad607bbb::t_b6133db0fbcd83 1-56
+nettools_mobile/android/app/src/main/cpp/iperf/src/t_api.c
+  s_c2324aad607bbb::t_e329e92cfe1cfa 1-90
+nettools_mobile/.agents/skills/protodeck-verify-release/SKILL.md
+  s_c2324aad607bbb::t_da7bb818eb01c1 1-42
+nettools_mobile/lib/services/api_workspace_store.dart
+  s_c2324aad607bbb::t_1943f60905a971 51-52,61,69,90
+  s_c2324aad607bbb::t_78849b1a1565b8 63
+  s_c2324aad607bbb::t_1d192badf69c0a 1-50,53-60,62,64-68,70-89,91-114
+nettools_mobile/ios/Runner.xcworkspace/contents.xcworkspacedata
+  s_c2324aad607bbb::t_3582ed93fe9ddd 1-7
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_api.c
+  s_c2324aad607bbb::t_9cd3141ed49141 1-5650
+nettools_mobile/lib/services/pcap_analysis_service.dart
+  s_c2324aad607bbb::t_9bca7e2c2f593f 1-487
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_time.c
+  s_c2324aad607bbb::t_b73bdfd79ba351 1-174
+nettools_mobile/lib/services/terminal_ansi_colorizer.dart
+  s_c2324aad607bbb::t_3891f46c39f2a7 52-67,97-102
+  s_c2324aad607bbb::t_915977bd07ad91 106-109
+  s_c2324aad607bbb::t_72881662659ac9 1-8,10-11,13,48-51,68-96,105,110-112,114-121
+  s_c2324aad607bbb::t_547a93269284fc 9,12,14-47,113
+  s_c2324aad607bbb::t_c581926ae9a5df 103-104
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_udp.c
+  s_c2324aad607bbb::t_0aa0b1af1d223a 1-787
+nettools_mobile/test/desktop_network_service_test.dart
+  s_c2324aad607bbb::t_bcb93cb1b86f0e 1-108
+nettools_mobile/lib/models/structured_payload.dart
+  s_c2324aad607bbb::t_fd1f4a75e31751 1-3,8-17,42-52,54-55,58,64-65,72-73,239
+  s_c2324aad607bbb::t_c576f5a3d70ae9 4-7,18-41,53,56-57,59-63,66-71,74-80,82,86-115,117-231,235-238
+  s_c2324aad607bbb::t_6f837da2d50d29 83-85
+  s_c2324aad607bbb::t_7aa1bc17df58cd 81,116,232-234
+nettools_mobile/lib/services/linux_network_service.dart
+  s_c2324aad607bbb::t_bab4ca4ee4e849 20-25,90-103,225-226,283-288,453-458,467-474,484-491,499-512,514-516,547,570,663-667,682-683,698-699,757-758,763-767
+  s_c2324aad607bbb::t_20dfb1cf7e9aea 330
+  s_c2324aad607bbb::t_a66c3cd89e603b 1-19,26-83,85-89,104-224,227-282,289-328,334-361,363-452,459-466,475-483,492-498,513,517-546,548-569,571-662,668-681,684-697,700-756,759-762,768-796,807-808,814-834
+  s_c2324aad607bbb::t_01834a59a720e7 329,331-333,362
+  s_c2324aad607bbb::t_1ef70f2f8f1c81 84
+  s_c2324aad607bbb::t_7d26948e67765e 797-798,806,809-813
+  s_c2324aad607bbb::t_afc72354075b1c 799-805
+.gemini/skills/refactor-safely/SKILL.md
+  s_c2324aad607bbb::t_342920199cf42a 1-28
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_sctp.h
+  s_c2324aad607bbb::t_6111a1900b6ab5 1-74
+nettools_mobile/lib/services/transfer_job_tracker.dart
+  s_c2324aad607bbb::t_74af46bde1f567 1-89
+nettools_mobile/android/app/src/main/cpp/mobile_config/version.h
+  s_c2324aad607bbb::t_931743ce21104f 1-6
+.claude/skills/refactor-safely/SKILL.md
+  s_c2324aad607bbb::t_a455d01c84b03f 1-28
+nettools_mobile/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  s_c2324aad607bbb::t_32d1793645d791 1-8
+nettools_mobile/test/ping_page_widget_test.dart
+  s_c2324aad607bbb::t_9966e061b570ec 1-43
+nettools_mobile/windows/runner/win32_window.cpp
+  s_c2324aad607bbb::t_236bc449ced744 1-288
+nettools_mobile/lib/ui/pages/tools/ping_page.dart
+  s_c2324aad607bbb::t_5c8f1b25a6ef79 1-5,164-198,205-212,214-223,238-241,243-254,256-267,330-337,369-378,380,383-391,411-432,940-1015
+  s_c2324aad607bbb::t_689911a343210f 6-155,199-204,268-329,433-939
+  s_c2324aad607bbb::t_d69134dc37d773 156-163,213,242,255,338-368,381-382,392-410
+  s_c2324aad607bbb::t_10b6027ae55ba1 224-237,379
+nettools_mobile/test/new_debug_tools_test.dart
+  s_7639e9eb5f1ce1::t_5d5c4cceb6ddb8 1-215,252-253
+  s_c2324aad607bbb::t_f5644c73f38697 216-251
+nettools_mobile/lib/ui/app_shell.dart
+  s_c2324aad607bbb::t_5f8cc4e36b16e1 8,10,16-20,101,108
+  s_c2324aad607bbb::t_d9a5e7011e0e86 59-92
+  s_c2324aad607bbb::t_76260b8bb012d5 4,6,21-41
+  s_c2324aad607bbb::t_a77f840861effb 1-3,7,9,11-14,42-46,106-107,109-122,124-138
+  s_c2324aad607bbb::t_e8344bdebe8624 5,15,47-58
+  s_c2324aad607bbb::t_606e9c9259da7a 93-100,102-105,123
+nettools_mobile/android/app/src/main/cpp/iperf/config/missing
+  s_c2324aad607bbb::t_c24c1c38c5cbcd 1-236
+nettools_mobile/android/app/src/main/cpp/iperf/src/units.h
+  s_c2324aad607bbb::t_790e828d79c4f9 1-34
+nettools_mobile/lib/state/app_state.dart
+  s_c2324aad607bbb::t_d1d773b9ebfe30 5-24,71-74
+  s_c2324aad607bbb::t_0aa097425f8d98 34
+  s_c2324aad607bbb::t_4478f4b3954858 40,55-56,62-63,68-69,75-77,95,101
+  s_c2324aad607bbb::t_46b9067adb78a6 1-4,25-33,35-39,41-54,57-61,64-67,70,78-94,96-100,102
+nettools_mobile/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+  s_c2324aad607bbb::t_63cc8979cfcb2b 1-8
+nettools_mobile/lib/l10n/strings/navigation_strings.dart
+  s_c2324aad607bbb::t_9bb0f3ba00cc3a 1-27
+nettools_mobile/.agents/skills/protodeck-verify-release/agents/openai.yaml
+  s_c2324aad607bbb::t_62766fde167b50 1-4
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf3.1
+  s_c2324aad607bbb::t_699b730890ca26 1-606
+nettools_mobile/.agents/skills/protodeck-verify-release/references/test-matrix.md
+  s_c2324aad607bbb::t_ed311aba891d00 1-27
+nettools_mobile/android/app/src/main/cpp/iperf/.github/ISSUE_TEMPLATE.md
+  s_c2324aad607bbb::t_a5c963cd4a2982 1-48
+nettools_mobile/linux/runner/CMakeLists.txt
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1-26
+nettools_mobile/android/app/src/main/cpp/iperf/contrib/iperf3.service
+  s_c2324aad607bbb::t_1ce08afb10a32f 1-26
+nettools_mobile/.gitignore
+  s_c2324aad607bbb::t_eb0ca6119c7c23 1-45
+nettools_mobile/linux/runner/my_application.h
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1-21
+nettools_mobile/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json
+  s_c2324aad607bbb::t_6c0c24a4c4cd7c 1-23
+nettools_mobile/.agents/skills/protodeck-ui-ux/agents/openai.yaml
+  s_76582a1fbd9fed::t_40612a8d668ef0 1-4
+nettools_mobile/lib/ui/pages/tools/api_editor_widgets.dart
+  s_c2324aad607bbb::t_689911a343210f 3-4,150-226,241,275,280
+  s_c2324aad607bbb::t_d69134dc37d773 82,95,110,134,228-230,238,291-294,303-306
+  s_c2324aad607bbb::t_eaeabb7300db35 1-2,5-8,11-81,83-92,96-107,111-123,127-132,136,138-149,227,231-235,237,239-240,242-245,249,251-268,331-334
+  s_c2324aad607bbb::t_047904fe00d0f8 9-10,93-94,108-109,124-126,135,137,236,246-248,250,269-274,276-279,281-290,295-302,307-330
+  s_c2324aad607bbb::t_f0cf7ada4696e3 133
+nettools_mobile/.agents/skills/protodeck-network-diagnostics/SKILL.md
+  s_c2324aad607bbb::t_0978576d5278e3 1-55
+nettools_mobile/test/iperf_command_service_test.dart
+  s_c2324aad607bbb::t_fcdbe85d5bff1f 1-61
+opencode.jsonc
+  s_c2324aad607bbb::t_f3dee054007384 1-15
+.qoder/mcp.json
+  s_c2324aad607bbb::t_d2f06075db13e8 1-14
+nettools_mobile/android/app/src/main/cpp/iperf/docs/_esnet/README.rst
+  s_c2324aad607bbb::t_dfb9989b00be5b 1-107
+nettools_mobile/ios/Flutter/AppFrameworkInfo.plist
+  s_c2324aad607bbb::t_ef0f62ccd7a4e2 1-24
+nettools_mobile/lib/ui/pages/tools/ip_tools_page.dart
+  s_c2324aad607bbb::t_aa438d7916cb88 1,30-34,36-45,50-66,68-72,76-81,96-111,113-115,117-168
+  s_c2324aad607bbb::t_689911a343210f 2-29,82-95
+  s_c2324aad607bbb::t_d69134dc37d773 46-49,73-75,112,116
+  s_c2324aad607bbb::t_10b6027ae55ba1 35,67
+nettools_mobile/lib/ui/pages/tools/wifi_roaming_page.dart
+  s_c2324aad607bbb::t_99372a3ce95f1e 1-4,7-37,39-70,72-78,80-121,123-127,129-139,141-150,152-159,163-174,176-179,181-182,184-190,192-251,253-280,282-368,370-373,375-377
+  s_c2324aad607bbb::t_689911a343210f 5-6,38,71,79,122,128,140,151,175,180,183,191,252,281,369,374
+  s_c2324aad607bbb::t_d69134dc37d773 160-162
+nettools_mobile/lib/services/ssh_tunnel_service.dart
+  s_c2324aad607bbb::t_66fa30fbe91769 1-302
+nettools_mobile/lib/services/wifi_roaming_service.dart
+  s_c2324aad607bbb::t_61fab9623a924c 1-166
+nettools_mobile/android/app/src/main/cpp/CMakeLists.txt
+  s_c2324aad607bbb::t_931743ce21104f 6-33
+  s_c2324aad607bbb::t_51ff3e5b3817d7 34-36
+  s_c2324aad607bbb::t_001718524c55ba 1-2
+  s_c2324aad607bbb::t_01870fab9ce353 3-5
+nettools_mobile/test/observability_tools_test.dart
+  s_c2324aad607bbb::t_98032cad447f54 1-127,131-132,204-251
+  s_c2324aad607bbb::t_41f5d887b37956 128-130
+  s_c2324aad607bbb::t_c498d3b5efee09 133-203
+nettools_mobile/android/app/src/main/cpp/iperf/src/public.pem
+  s_c2324aad607bbb::t_22a391129f799a 1-9
+nettools_mobile/lib/ui/widgets/navigation/desktop_navigation_sidebar.dart
+  s_c2324aad607bbb::t_e8344bdebe8624 1-16,18-27,31-52,55-74,76-92,96-104,106-115,117-167,174-182,187-214,224-225
+  s_c2324aad607bbb::t_3a3f5e91e0702e 75
+  s_c2324aad607bbb::t_d9a5e7011e0e86 17,28-30,93-95,105,170-173,183-186
+  s_c2324aad607bbb::t_1c05bc2f9834ce 54,116,168-169,215-223
+  s_c2324aad607bbb::t_ac861ae4ba2bb3 53
+nettools_mobile/lib/ui/pages/tools/syslog_receiver_page.dart
+  s_c2324aad607bbb::t_190f0a56d17b80 1-4,7-70,72-103,105-110,112-127,129-133,137-154,156-173,175-186,188-195,197-207,209-227,229-252,254-266,270-288,290-295,297-320,322-325,327-375,377-380,382-427
+  s_c2324aad607bbb::t_689911a343210f 5-6,71,104,111,174,187,196,208,253,289,296,321,326,376,381
+  s_c2324aad607bbb::t_10b6027ae55ba1 128,155,228
+  s_c2324aad607bbb::t_d69134dc37d773 134-136,267-269
+.codebuddy/skills/debug-issue/SKILL.md
+  s_c2324aad607bbb::t_b27a41b0f5d47b 1-27
+nettools_mobile/android/app/src/main/cpp/iperf/configure.ac
+  s_c2324aad607bbb::t_93846a7ce4383b 1-460
+nettools_mobile/lib/ui/pages/tools/packet_capture_page.dart
+  s_c2324aad607bbb::t_2afb790f6bdac2 199
+  s_c2324aad607bbb::t_fbab42066bc601 1-6,9-32,34-46,48-58,60-71,74-105,107-114,116-127,129-138,140-152,154-163,165-168,170-173,175-185,187-198,200-240,242-297,299-305,307-315,317-337,339-342,344-354,356-372,374-377,379-406,408-412,414-453,455-457,459-492
+  s_c2324aad607bbb::t_10b6027ae55ba1 115
+  s_c2324aad607bbb::t_689911a343210f 7-8,33,47,59,72-73,106,128,139,153,164,169,174,186,241,298,306,316,338,343,355,373,378,407,413,454,458
+nettools_mobile/windows/runner/flutter_window.cpp
+  s_c2324aad607bbb::t_606e9c9259da7a 65-70
+  s_c2324aad607bbb::t_236bc449ced744 1-64,71-77
+nettools_mobile/lib/l10n/strings/tool_strings_developer_en.dart
+  s_c2324aad607bbb::t_0aa097425f8d98 7-10,19-22,25-28,31-34,36-51
+  s_c2324aad607bbb::t_babbd0af28def2 1
+  s_c2324aad607bbb::t_6ba4fd2a84c445 2-6,11-18,23-24,29-30,35,52
+nettools_mobile/android/app/src/main/AndroidManifest.xml
+  s_c2324aad607bbb::t_778560f7018d25 11-12,22-25
+  s_c2324aad607bbb::t_6894f794c8d64c 18-20
+  s_c2324aad607bbb::t_8218ea6bcbd50b 26,28
+  s_c2324aad607bbb::t_037a25a78ec4f1 27
+  s_c2324aad607bbb::t_6ec8ae74f27d07 1-10,13-17,29-85
+  s_c2324aad607bbb::t_f3b9efede5032c 21
+nettools_mobile/android/app/src/main/cpp/iperf/LICENSE
+  s_c2324aad607bbb::t_f2995545e36b76 1-244
+nettools_mobile/.agents/skills/protodeck-ui-ux/SKILL.md
+  s_c2324aad607bbb::t_ce6973855fe1eb 1-68
+.codebuddy/skills/review-changes/SKILL.md
+  s_c2324aad607bbb::t_bbd0377e6dd14b 1-29
+nettools_mobile/android/app/src/main/cpp/iperf/src/timer.c
+  s_c2324aad607bbb::t_03737ac1d79893 1-245
+nettools_mobile/lib/l10n/strings/tool_strings_network_en.dart
+  s_c2324aad607bbb::t_0aa097425f8d98 4-23,25-28,35-38,40-47,49-64,67-70,72-107
+  s_c2324aad607bbb::t_babbd0af28def2 1
+  s_c2324aad607bbb::t_6ba4fd2a84c445 2-3,24,29-34,39,48,65-66,71,108
+nettools_mobile/lib/ui/pages/tools/common_ports_page.dart
+  s_c2324aad607bbb::t_d3364795eef2f2 1
+  s_c2324aad607bbb::t_1d63e37257b12d 92-94
+  s_c2324aad607bbb::t_daa230cd327180 60-65
+  s_c2324aad607bbb::t_319ef78125324f 70-75,95-106
+  s_c2324aad607bbb::t_9128d32ee889c1 66
+  s_c2324aad607bbb::t_689911a343210f 2-59,79-91
+  s_c2324aad607bbb::t_75ce43de2309f1 67-69,76-78
+.gemini/skills/review-changes/SKILL.md
+  s_c2324aad607bbb::t_514529635906a2 1-29
+nettools_mobile/.agents/skills/protodeck-network-diagnostics/agents/openai.yaml
+  s_c2324aad607bbb::t_e5df21a5057801 1-4
+nettools_mobile/test/wake_on_lan_service_test.dart
+  s_c2324aad607bbb::t_a781e1ebd81437 1-44
+nettools_mobile/windows/runner/runner.exe.manifest
+  s_c2324aad607bbb::t_236bc449ced744 1-14
+nettools_mobile/lib/services/qr_code_service.dart
+  s_c2324aad607bbb::t_35129e79116fab 1-186
+nettools_mobile/android/app/src/main/cpp/iperf/examples/Makefile.in
+  s_c2324aad607bbb::t_172ff87ff70da9 1-664
+nettools_mobile/android/app/src/debug/AndroidManifest.xml
+  s_c2324aad607bbb::t_8dc605d9202286 1-7
+QODER.md
+  s_c2324aad607bbb::t_aa93730e443ad4 1-38
+nettools_mobile/android/app/src/main/cpp/iperf/.github/PULL_REQUEST_TEMPLATE.md
+  s_c2324aad607bbb::t_82a6412ddd5f34 1-26
+nettools_mobile/android/app/src/main/cpp/iperf/docs/_esnet/templates/navbar.html
+  s_c2324aad607bbb::t_b7e85c276ab968 1-49
+nettools_mobile/windows/flutter/CMakeLists.txt
+  s_c2324aad607bbb::t_236bc449ced744 1-109
+nettools_mobile/android/app/src/main/cpp/iperf/src/units.c
+  s_c2324aad607bbb::t_4bf28a6fcf8346 1-378
+nettools_mobile/android/app/src/main/cpp/iperf/config/ax_pthread.m4
+  s_c2324aad607bbb::t_9320e0d6ee1b0d 1-522
+nettools_mobile/lib/l10n/strings/tool_page_developer_en.dart
+  s_c2324aad607bbb::t_7666b393a38e98 80-81
+  s_c2324aad607bbb::t_82497274adb0f3 1-35,82
+  s_c2324aad607bbb::t_1d20b45015a269 36-58
+  s_c2324aad607bbb::t_c17d68bf3ee200 59
+  s_c2324aad607bbb::t_41f5d887b37956 60-79
+nettools_mobile/lib/ui/pages/tools/api_rest_workbench.dart
+  s_c2324aad607bbb::t_f0cf7ada4696e3 122-126,474,755,785
+  s_c2324aad607bbb::t_29e772808f6353 898-900,911-913
+  s_c2324aad607bbb::t_c90619423de55a 84-86,98-100
+  s_c2324aad607bbb::t_57fc6bfa560984 710
+  s_c2324aad607bbb::t_80853e8aaa701d 940-942,948-950
+  s_c2324aad607bbb::t_56c52013c3df9e 111
+  s_c2324aad607bbb::t_1ba9a35bbdc156 201-203,205-207
+  s_c2324aad607bbb::t_52670f55bcbc53 272-273
+  s_c2324aad607bbb::t_0155f3cd41b8ce 671-676
+  s_c2324aad607bbb::t_77ce677168ee15 2-4,75,89-97,182-190,192-193,204,250-253,284-286,294,302,333-334,381,390,440,442-448,465-470,482,513-515,686,702-703,824,835-843,857-859,868-870,879-883,901-910,924-928,943-947,965-967,986-1001,1197-1198
+  s_c2324aad607bbb::t_6811be7495d6c4 247-249,254-256
+  s_c2324aad607bbb::t_8179394f865420 713
+  s_c2324aad607bbb::t_3785caace57c7b 1204-1209
+  s_c2324aad607bbb::t_fae0d50e5018c0 175-176
+  s_c2324aad607bbb::t_4f8e26d7bd5f31 359-364
+  s_c2324aad607bbb::t_da6e9b084b7ebb 976-980
+  s_c2324aad607bbb::t_78849b1a1565b8 1,15,29,48-51,79-82,87-88,546-550
+  s_c2324aad607bbb::t_92440863403ea4 72-74,76-78
+  s_c2324aad607bbb::t_a37e2466a2100a 281-283,287-289
+  s_c2324aad607bbb::t_68f35fcc8cc966 102
+  s_c2324aad607bbb::t_ba8398c81d8bc9 179-181,194-196
+  s_c2324aad607bbb::t_50aad0b8310fbf 223-226
+  s_c2324aad607bbb::t_d77d73a4344be5 261-262
+  s_c2324aad607bbb::t_cb1aea4fbb9adf 266-267
+  s_c2324aad607bbb::t_10b6027ae55ba1 348,365-373,519,631,1071,1078,1136,1151,1216,1299
+  s_c2324aad607bbb::t_8f73d3ef3dafbe 277-279
+  s_c2324aad607bbb::t_2afb790f6bdac2 682,707-709
+  s_c2324aad607bbb::t_689adb5a9a3b1e 849-852
+  s_c2324aad607bbb::t_b28b18420d6054 10-12
+  s_c2324aad607bbb::t_11fa4e101b937e 462-464,471-473
+  s_c2324aad607bbb::t_5812d3edfaf2cf 915-919
+  s_c2324aad607bbb::t_c2c59cf1e585e1 934-938
+  s_c2324aad607bbb::t_ac1f87ae04f276 1214-1215
+  s_c2324aad607bbb::t_11ec9713de10a0 5-7
+  s_c2324aad607bbb::t_e09ef55d4073c9 895-896
+  s_c2324aad607bbb::t_ebe4daa04d91c5 437-439,449-451
+  s_c2324aad607bbb::t_2fe692aff61161 624
+  s_c2324aad607bbb::t_05822dfd935600 1006-1009
+  s_c2324aad607bbb::t_869aed2bbd1b52 510-512,516-518
+  s_c2324aad607bbb::t_abd90e9734994b 854-856,860-862
+  s_c2324aad607bbb::t_324fb479adb540 962-964,968-970
+  s_c2324aad607bbb::t_689911a343210f 8-9,112,148-174,221,263-265,274-276,339,344-345,401-421,430,492-508,525-545,551-617,720,724,747,750,776-777,801,806,812,830-831,1046,1061,1087,1091,1121,1141,1160,1164,1213,1221-1262,1264-1265,1282,1284-1286,1288,1292-1296,1304-1312,1341-1344,1347,1408-1409,1416,1598-1651
+  s_c2324aad607bbb::t_a0d681bcba929b 1301-1303
+  s_c2324aad607bbb::t_7f794bf15d4a50 821-823,825-827
+  s_c2324aad607bbb::t_289608839c7081 13-14,16-28,30-45,47,52-71,83,101,103,110,117-118,140-144,177-178,208-209,216-217,222,227,231-232,235-237,239,245-246,260,271,280,290,298,329,346,349,358,374-377,385-386,394-397,431,435-436,461,477-478,486,509,520,618,622-623,625,632-670,677-678,690-691,696-698,711-712,714-719,721-723,725-746,748-749,751-754,756-775,778-784,786-800,802-805,807-811,813-820,828,847-848,853,863-864,874-875,887,894,897,914,920,932-933,939,951-952,959-961,971-972,975,981-982,1005,1010-1045,1047-1053,1057-1060,1062-1070,1072-1077,1079-1086,1088-1090,1092-1120,1122-1128,1132-1135,1137-1140,1142-1150,1152-1159,1161-1163,1165-1186,1193,1202-1203,1210-1211,1217,1300,1652-1653,1659-1677
+  s_c2324aad607bbb::t_fd8c734c25457c 145-147
+  s_c2324aad607bbb::t_037a25a78ec4f1 46,953,1263
+  s_c2324aad607bbb::t_dde4b51a342c58 679-681
+  s_c2324aad607bbb::t_df7d1c27bb5586 1187-1192
+  s_c2324aad607bbb::t_afb3ba2862af92 521-524
+  s_c2324aad607bbb::t_d4047862e1181b 829
+  s_c2324aad607bbb::t_2de4c34ff95dc3 475-476
+  s_c2324aad607bbb::t_81c8f5c76f4c8a 888-893
+  s_c2324aad607bbb::t_2c8aab2a91b556 1654-1658
+  s_c2324aad607bbb::t_db81e37fae7942 683-685,687-689
+  s_c2324aad607bbb::t_058074d06e5277 692-695
+  s_c2324aad607bbb::t_36fc099016f124 228-230
+  s_c2324aad607bbb::t_3aa27ef1a301e4 238
+  s_c2324aad607bbb::t_33b37e999dec86 387-389,391-393
+  s_c2324aad607bbb::t_187cb4c5dc177e 210-215
+  s_c2324aad607bbb::t_6bf0df821e6d09 299-301,303-305
+  s_c2324aad607bbb::t_8ab732192b4b70 983-985,1002-1004
+  s_c2324aad607bbb::t_57355233f2fb61 104-109
+  s_c2324aad607bbb::t_b165568182d329 1297-1298
+  s_c2324aad607bbb::t_c7e46bd942a170 347
+  s_c2324aad607bbb::t_1943f60905a971 1336,1441-1452
+  s_c2324aad607bbb::t_a4e5610abb36c9 832-834,844-846
+  s_c2324aad607bbb::t_7faddf522da39e 1266-1281,1283,1287,1289-1291,1313-1335,1337-1340,1345-1346,1348-1407,1410-1415,1417-1440,1453-1597
+  s_c2324aad607bbb::t_0ceac2b3a3d9fb 487-491
+  s_c2324aad607bbb::t_4a771d1e9c2de7 330-332,335,337-338
+  s_c2324aad607bbb::t_4347957e32302d 378-380,382-384
+  s_c2324aad607bbb::t_861de8073d86e9 291-293,295-297
+  s_c2324aad607bbb::t_a0dbb86559c8c5 323-328
+  s_c2324aad607bbb::t_f4f4c6711b3110 456-460
+  s_c2324aad607bbb::t_49412875939959 619-621
+  s_c2324aad607bbb::t_0363b42884b9a7 233-234
+  s_c2324aad607bbb::t_a6a6bbe511d181 973-974
+  s_c2324aad607bbb::t_6bda3305d18ec1 1212
+  s_c2324aad607bbb::t_5645d47a6257aa 626-630
+  s_c2324aad607bbb::t_66508869e6edf8 954-958
+  s_c2324aad607bbb::t_38414e3d804c8a 218-220
+  s_c2324aad607bbb::t_18bc19e652d17c 865-867,871-873
+  s_c2324aad607bbb::t_fd3cba932659f6 1218-1220
+  s_c2324aad607bbb::t_52688941904d52 113-116
+  s_c2324aad607bbb::t_074c945bc5d317 240-244
+  s_c2324aad607bbb::t_b69e7fe8725a4e 479-481,483-485
+  s_c2324aad607bbb::t_99516726e23069 127-129
+  s_c2324aad607bbb::t_b221f1508f0f50 876-878,884-886
+  s_c2324aad607bbb::t_10d2ee1feebe39 921-923,929-931
+  s_c2324aad607bbb::t_a21471f4f1ee40 119-121
+  s_c2324aad607bbb::t_a32f1db026dca1 432-434
+  s_c2324aad607bbb::t_46f0fb31f858f9 1194-1196,1199-1201
+  s_c2324aad607bbb::t_d69134dc37d773 130-139,197-200,257-259,268-270,306-322,340-343,355-357,422-429,452-455,1054-1056,1129-1131
+  s_c2324aad607bbb::t_5b4cbe79a832d1 350-354
+  s_c2324aad607bbb::t_a1bbb33813a52a 699-701,704-706
+  s_c2324aad607bbb::t_b414147cea3c00 191,336,441
+  s_c2324aad607bbb::t_f7fd31926adfbe 398-400
+nettools_mobile/lib/ui/pages/tools/socket_debug_page.dart
+  s_c2324aad607bbb::t_5712edcb40c011 1-3,6-7,12-25,27-82,84-87,90-96,105-109,111-113,115-116,124-128,130-134,137-141,143,146-153,157,159-168,170,172,174-180,184,186-190,204,210-216,221-229,235-239,245-248,250,278-279,285,297-305,405-420,422-453,455-463,465-466
+  s_c2324aad607bbb::t_037a25a78ec4f1 26
+  s_c2324aad607bbb::t_d69134dc37d773 97-104,114,154-156,169,230-232,281-284,334-337
+  s_c2324aad607bbb::t_9402d01e72e3d3 8-11,89,110,123,129,135-136,144-145,158,171,173,182-183,185,205-209,219-220,233-234,241-244,249,276-277,280,296,306-329,331-333,338,340-378,380-404,421,454
+  s_c2324aad607bbb::t_689911a343210f 4-5,83,117-122,191-203,251-275,286-295,330,339,379,464
+  s_c2324aad607bbb::t_10b6027ae55ba1 142,181,240
+  s_c2324aad607bbb::t_f0cf7ada4696e3 88,218
+  s_c2324aad607bbb::t_56bdbe383ee1bc 217
+nettools_mobile/lib/ui/pages/tools/ntp_query_page.dart
+  s_c2324aad607bbb::t_10b6027ae55ba1 43,119
+  s_c2324aad607bbb::t_d69134dc37d773 78-80,83-86,98-100,103-106,122-125
+  s_c2324aad607bbb::t_4093c1fad90f11 1-3,6-33,35-42,44-57,59-67,69-77,81-82,87-97,101-102,107-118,120-121,126-139,141-145,147-157,159-190,192-195,197-232,234-286,288-293,296-297,299-344,346-349,351-353
+  s_c2324aad607bbb::t_689911a343210f 4-5,34,58,68,140,146,158,191,196,233,287,294-295,298,345,350
+nettools_mobile/android/app/src/main/cpp/iperf/examples/mic.c
+  s_c2324aad607bbb::t_dc5a3878c78826 1-62
+nettools_mobile/lib/l10n/strings/tool_copy.dart
+  s_c2324aad607bbb::t_babbd0af28def2 1-5
+nettools_mobile/.agents/skills/protodeck-android-native/SKILL.md
+  s_c2324aad607bbb::t_7c85b6687547d5 1-55
+.gemini/hooks/crg-update.sh
+  s_c2324aad607bbb::t_a97fda1f379b7c 1-10
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf.h
+  s_c2324aad607bbb::t_cbf3448e6beb84 1-500
+nettools_mobile/android/app/src/main/cpp/iperf/src/version.h.in
+  s_c2324aad607bbb::t_1dff849dff5bb7 1-27
+nettools_mobile/linux/runner/main.cc
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1-6
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_api.h
+  s_c2324aad607bbb::t_0b67c964659bcb 1-530
+.windsurfrules
+  s_c2324aad607bbb::t_5d9a78e1c14d80 1-38
+nettools_mobile/lib/ui/pages/tools/network_info_page.dart
+  s_c2324aad607bbb::t_2722089c4a6039 1-2,25
+  s_c2324aad607bbb::t_3f32c4f35b75ef 3,6-24,26-31,33-36,38-39,41-60,62-67,69-75,81,83-84,86,88-91,93,95-97,100-101,103,105,107,171-174,177-187,189-190,284-288,292-299,301-305,433-438,440-442,444-448
+  s_c2324aad607bbb::t_f0cf7ada4696e3 37,439
+  s_c2324aad607bbb::t_d69134dc37d773 40,98,175,188,278-281
+  s_c2324aad607bbb::t_e0b6982d6f4a9e 61,68,76-80,82,85,87,92,94,99,102,104,106,108,176,191-217,219-226,228-232,234-244,246-260,265-277,282,289-291,443
+  s_c2324aad607bbb::t_689911a343210f 4-5,32,109-170,218,227,233,245,306-432
+  s_c2324aad607bbb::t_d9a5e7011e0e86 261-264,300
+  s_c2324aad607bbb::t_9f9859d3361804 283
+nettools_mobile/ios/Flutter/Release.xcconfig
+  s_c2324aad607bbb::t_d26166da309377 1
+nettools_mobile/.agents/skills/protodeck-project/references/locked-decisions.md
+  s_c2324aad607bbb::t_6a5ecbccbc593b 1-29
+nettools_mobile/lib/services/mac_format_service.dart
+  s_7639e9eb5f1ce1::t_5978cb4d841c50 1-36
+nettools_mobile/.agents/skills/protodeck-project/references/architecture.md
+  s_c2324aad607bbb::t_47c7173018e704 1-56
+nettools_mobile/windows/runner/win32_window.h
+  s_c2324aad607bbb::t_236bc449ced744 1-102
+nettools_mobile/windows/flutter/generated_plugin_registrant.cc
+  s_c2324aad607bbb::t_7b39fc9d7d356e 1-17
+nettools_mobile/test/stun_service_test.dart
+  s_c2324aad607bbb::t_c051fe1dd75572 1-49
+nettools_mobile/android/app/src/main/cpp/iperf/.gitignore
+  s_c2324aad607bbb::t_9449b5640f3138 1-33
+nettools_mobile/assets/fonts/DroidSansFallbackFull-LICENSE.txt
+  s_c2324aad607bbb::t_abfeecd3cbf1a7 1-202
+nettools_mobile/android/app/src/main/cpp/iperf/docs/building.rst
+  s_c2324aad607bbb::t_eeac9551baf74c 1-26
+nettools_mobile/test/local_test_server_service_test.dart
+  s_7639e9eb5f1ce1::t_4039eba3529fdc 1-102
+nettools_mobile/android/app/src/main/cpp/iperf/config/compile
+  s_c2324aad607bbb::t_9e52ee9739fd3d 1-364
+nettools_mobile/android/app/src/main/cpp/iperf/.github/CONTRIBUTING.md
+  s_c2324aad607bbb::t_0d95024df33a48 1-73
+nettools_mobile/android/app/src/main/cpp/iperf/src/t_uuid.c
+  s_c2324aad607bbb::t_476ce61c1fe0e1 1-46
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/TrafficSnapshotProvider.kt
+  s_c2324aad607bbb::t_4e9b65265480ea 1-8,12-13,15,17-18,22-56,76-78,82-209,224-226
+  s_c2324aad607bbb::t_778560f7018d25 9-11,14,57-64,74-75,79,210-223
+  s_c2324aad607bbb::t_b7ee18d6ee95cf 68-70
+  s_c2324aad607bbb::t_ecea1d4523a47c 16,19-21,65-67,71-73,80-81
+.claude/settings.json
+  s_c2324aad607bbb::t_747d753698c4c0 1-28
+nettools_mobile/lib/ui/pages/remote/ssh_tunnel_page.dart
+  s_c2324aad607bbb::t_3104957c8f46ff 1-4,7-65,67-86,88-90,92-104,106-109,111-114,116-131,133-157,159-172,174-184,186-199,201-213,215-226,228-238,240-254,256-373,375-380,382-384,386-409,411-414,416-425
+  s_c2324aad607bbb::t_10b6027ae55ba1 158,173,185
+  s_c2324aad607bbb::t_689911a343210f 5-6,66,87,91,105,110,115,132,200,214,227,239,255,374,381,385,410,415
+nettools_mobile/lib/ui/pages/remote/embedded_ssh_file_panel.dart
+  s_c2324aad607bbb::t_f0cf7ada4696e3 112,131-134
+  s_c2324aad607bbb::t_4817b3644db090 14,375-378
+  s_c2324aad607bbb::t_d69134dc37d773 121,125,137-144,194-196,293,347,350,386,389,417-419,426
+  s_c2324aad607bbb::t_10b6027ae55ba1 124
+  s_c2324aad607bbb::t_73dfb2d5d07582 1-8,11-13,15-97,99-111,113-120,122-123,126-130,135-136,145-173,188-193,197-208,251-292,294-346,348-349,351-374,379-385,387-388,390-416,420-425,427-432,577-595
+  s_c2324aad607bbb::t_689911a343210f 9-10,98,174-187,209-250,433-576
+nettools_mobile/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md
+  s_c2324aad607bbb::t_6a692b355a8b61 1-5
+nettools_mobile/.agents/skills/protodeck-ui-ux/references/design-system.md
+  s_c2324aad607bbb::t_f4b05ca1ce032d 1-89
+nettools_mobile/android/app/src/main/cpp/iperf/src/net.c
+  s_c2324aad607bbb::t_a2ae5ecd176feb 1-888
+nettools_mobile/lib/ui/pages/tools/stun_page.dart
+  s_c2324aad607bbb::t_d46899ae2dcc01 1-2,31-39,43-51,53-60,83-86,88,98-102,104-134
+  s_c2324aad607bbb::t_d69134dc37d773 40-42,87,89-94,96-97
+  s_c2324aad607bbb::t_689911a343210f 3-30,61-82,95,103
+  s_c2324aad607bbb::t_10b6027ae55ba1 52
+nettools_mobile/test/widget_test.dart
+  s_c2324aad607bbb::t_e25c1008dc4e6a 23-24,33-35
+  s_c2324aad607bbb::t_037a25a78ec4f1 25
+  s_c2324aad607bbb::t_d1449d1f92cf54 36-41
+  s_c2324aad607bbb::t_18d62bd8499ab9 6-16,22,42-48
+  s_c2324aad607bbb::t_938a511aceca64 49-50
+  s_c2324aad607bbb::t_09ec11b1d0ee93 1-2,26-32
+  s_c2324aad607bbb::t_455a25ca55ff41 3-5
+  s_c2324aad607bbb::t_284d067f08ead5 17-21
+.codebuddy/skills/explore-codebase/SKILL.md
+  s_c2324aad607bbb::t_647aad408a9879 1-28
+nettools_mobile/android/app/src/main/cpp/iperf/docs/_esnet/static/esnet.css
+  s_c2324aad607bbb::t_65b476547cb43a 1-84
+nettools_mobile/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+  s_c2324aad607bbb::t_4e9f511f206313 1-122
+nettools_mobile/android/app/src/main/cpp/iperf/src/cjson.c
+  s_c2324aad607bbb::t_cc2f02eea672da 1-3130
+nettools_mobile/android/app/src/main/cpp/iperf/INSTALL
+  s_c2324aad607bbb::t_90adeaf33fd243 1-236
+nettools_mobile/tool/build_linux_release_local.sh
+  s_c2324aad607bbb::t_ae34f5b869e347 29
+  s_c2324aad607bbb::t_6af7f8c8cd261a 30,32
+  s_c2324aad607bbb::t_11b627e0ccb2d3 1-28,31
+nettools_mobile/android/app/src/main/cpp/iperf/src/timer.h
+  s_c2324aad607bbb::t_4d37c862359142 1-100
+nettools_mobile/.agents/skills/protodeck-remote-protocols/agents/openai.yaml
+  s_c2324aad607bbb::t_cb2830257f90a0 1-4
+nettools_mobile/lib/l10n/strings/settings_strings.dart
+  s_c2324aad607bbb::t_94c388db7be5d0 103-105,108-110
+  s_c2324aad607bbb::t_9bb0f3ba00cc3a 1-2,4-32,34-62,64-81,84,87-90,93-102,112-138
+  s_c2324aad607bbb::t_0aa097425f8d98 82-83,85-86,91-92,106-107
+  s_c2324aad607bbb::t_babbd0af28def2 3,33,63,111
+nettools_mobile/lib/ui/tool_catalog.dart
+  s_c2324aad607bbb::t_9d6b015437cfcf 182
+  s_c2324aad607bbb::t_57ed28b1db4fef 178-180
+  s_c2324aad607bbb::t_5a304d872d6192 38-40
+  s_c2324aad607bbb::t_016dd387d11ebc 27-29
+  s_c2324aad607bbb::t_7eb02d02e845c7 262-266
+  s_c2324aad607bbb::t_277c03d054fc13 339-343
+  s_c2324aad607bbb::t_2d35d9ef93f82c 192-193
+  s_c2324aad607bbb::t_991b8f2767569c 381-385
+  s_c2324aad607bbb::t_daf7a52fc71465 297-301
+  s_c2324aad607bbb::t_47375f24609600 161
+  s_c2324aad607bbb::t_4ac2ea03866748 220-222
+  s_c2324aad607bbb::t_f2bed972612408 185-187
+  s_c2324aad607bbb::t_b9d083b09c69d9 241-245
+  s_c2324aad607bbb::t_b6b16fe37ee33e 430-434
+  s_c2324aad607bbb::t_e404cc92fc94ee 437-441
+  s_c2324aad607bbb::t_397e8b73d8d0d7 213-215
+  s_c2324aad607bbb::t_29245b4fd842e9 311-315
+  s_c2324aad607bbb::t_fa261c22d361f9 217
+  s_c2324aad607bbb::t_82f518b2b3c30d 283-287
+  s_c2324aad607bbb::t_7217d90142a324 325-329
+  s_c2324aad607bbb::t_215f927a96dc0e 360-364
+  s_c2324aad607bbb::t_313764dd64d815 31-33
+  s_c2324aad607bbb::t_cc028c6b9ad52a 304-308
+  s_c2324aad607bbb::t_ad50d315d1070e 332-336
+  s_c2324aad607bbb::t_d2d2e9d0fe7aeb 157-159
+  s_c2324aad607bbb::t_a4083a2347e7cb 227-231
+  s_c2324aad607bbb::t_9fb400f9cc548e 189
+  s_c2324aad607bbb::t_79a40e179d30c6 1-26
+  s_c2324aad607bbb::t_6b5a999cbba628 196
+  s_c2324aad607bbb::t_d8b7b9f0e295c2 168
+  s_c2324aad607bbb::t_ca2366a7d4dfe7 367-371
+  s_c2324aad607bbb::t_fb14d1df9aad88 388-392
+  s_c2324aad607bbb::t_9e9722fb3cab31 374-378
+  s_c2324aad607bbb::t_8f250f0be11067 402-406
+  s_c2324aad607bbb::t_188261a0cabf7d 409-413
+  s_c2324aad607bbb::t_6b3235f399bd32 423-427
+  s_c2324aad607bbb::t_d00cd7fbf6f29c 234-238
+  s_c2324aad607bbb::t_f0f8b7357227e3 255-259
+  s_c2324aad607bbb::t_890e94deefadbc 290-294
+  s_c2324aad607bbb::t_22eeb128d39c16 42
+  s_c2324aad607bbb::t_88d34b5a4a6162 276-280
+  s_c2324aad607bbb::t_5e9e3da7d834cf 30,34,36-37,41,43-156,160,162-163,167,169-170,176-177,181,183-184,188,190-191,195,197-212,216,218-219,223,225-226,232-233,239-240,246-247,253-254,260-261,267-268,274-275,281-282,288-289,295-296,302-303,309-310,316-317,323-324,330-331,337-338,344-345,351-352,358-359,365-366,372-373,379-380,386-387,393-394,400-401,407-408,414-415,421-422,428-429,435-436,442
+  s_c2324aad607bbb::t_f50fec65686264 248-252
+  s_c2324aad607bbb::t_4797d3376d137c 318-322
+  s_c2324aad607bbb::t_d02cb2e242148b 443
+  s_c2324aad607bbb::t_7332ea6ad107fb 353-357
+  s_c2324aad607bbb::t_a5ea5541968f4c 171-175
+  s_c2324aad607bbb::t_7c1a14bcdfd1b5 194
+  s_c2324aad607bbb::t_189dc6ed078458 269-273
+  s_c2324aad607bbb::t_addd395918e295 224
+  s_c2324aad607bbb::t_c3be8a1866f45f 346-350
+  s_c2324aad607bbb::t_1bfe63d1164e09 395-399
+  s_c2324aad607bbb::t_6286bca7dd1a88 416-420
+  s_c2324aad607bbb::t_6f3fbe445d41cc 164-166
+  s_c2324aad607bbb::t_354b46de991cef 35
+nettools_mobile/lib/ui/pages/tools/wifi_analyzer_page.dart
+  s_c2324aad607bbb::t_b9553845c550e2 913-915,1095-1097
+  s_c2324aad607bbb::t_93b5743310f232 177-178
+  s_c2324aad607bbb::t_0cba7cbdca3f91 157-161,501
+  s_c2324aad607bbb::t_dd76b7de6506b0 11-64,86-130,150-151,192-221,383-390,398-400,408-411,432-436,485-496,505-512,628-639,916-1094,1105-1329
+  s_c2324aad607bbb::t_61802edc1daffa 908-911
+  s_c2324aad607bbb::t_22cd3a865d35c5 140-143
+  s_c2324aad607bbb::t_9068a8c9c21ece 8-10,65-67
+  s_c2324aad607bbb::t_9ab38dd3f44081 380-382,391-393
+  s_c2324aad607bbb::t_6897e90e55344c 1099-1100
+  s_c2324aad607bbb::t_3cb7ca2f8c9e8f 162
+  s_c2324aad607bbb::t_689911a343210f 6-7,134,155,169-176,228-363,415-424,440-474,516-617,648-895,907
+  s_c2324aad607bbb::t_d69134dc37d773 163-166,179-184,188,226,371,377-379,425-428,481,624,643-646,899-900,903,912,1098,1101
+  s_c2324aad607bbb::t_dcda0271660b33 1102-1104
+  s_c2324aad607bbb::t_1fadf69d1fbbe4 372-376
+  s_c2324aad607bbb::t_6f3f99370dc529 395-397,401-403
+  s_c2324aad607bbb::t_4ee62af4e76c39 896-897
+  s_c2324aad607bbb::t_cd7f2fd9f27146 482-484,497-499
+  s_c2324aad607bbb::t_3783a04b8092fb 904-906
+  s_c2324aad607bbb::t_b24eaa1b6642f8 2,68-82,156
+  s_c2324aad607bbb::t_a58f2e93178427 83-85,131-133
+  s_c2324aad607bbb::t_e409090d9fc40c 147-149,152-154
+  s_c2324aad607bbb::t_4322d82b4ab8cd 364-369
+  s_c2324aad607bbb::t_ab2fc301abc211 189-191,222-224
+  s_c2324aad607bbb::t_9128d32ee889c1 394
+  s_c2324aad607bbb::t_49a276888aad67 500
+  s_c2324aad607bbb::t_8adbdb8f8f325a 1
+  s_c2324aad607bbb::t_933a270fba9d91 405-407,412-414
+  s_c2324aad607bbb::t_050bd6e522b3bd 144-146
+  s_c2324aad607bbb::t_5801491113d8f4 3-5
+  s_c2324aad607bbb::t_c0b5ad4bdf2c30 429-431,437-439
+  s_c2324aad607bbb::t_a9c9e57927fbef 475-480
+  s_c2324aad607bbb::t_e42335119cd860 647
+  s_c2324aad607bbb::t_359472d695d93b 135-138
+  s_c2324aad607bbb::t_a8857f1400f5ca 227
+  s_c2324aad607bbb::t_f0cf7ada4696e3 139
+  s_c2324aad607bbb::t_c3ad87844a6bd4 625-627,640-642
+  s_c2324aad607bbb::t_3792e8681dd078 502-504,513-515
+  s_c2324aad607bbb::t_7e3eeff892aa53 167-168
+  s_c2324aad607bbb::t_203b2d8e8a82f9 185-187
+  s_c2324aad607bbb::t_79b99db6f92d55 618-623
+  s_c2324aad607bbb::t_c20344caa946c6 225,370,404,898,901
+  s_c2324aad607bbb::t_b629444dd435bf 902
+nettools_mobile/android/app/src/main/cpp/iperf/src/t_units.c
+  s_c2324aad607bbb::t_62b7ebdc5171eb 1-108
+nettools_mobile/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+  s_c2324aad607bbb::t_6ae89918adca05 1-119
+nettools_mobile/lib/ui/widgets/ssh/ssh_terminal_surface.dart
+  s_c2324aad607bbb::t_d9a5e7011e0e86 70-72,124-126
+  s_c2324aad607bbb::t_609c68ced88f5d 1-5,8-69,73-123,127-132,134-197
+  s_c2324aad607bbb::t_3a3f5e91e0702e 6-7,133
+nettools_mobile/lib/ui/pages/tools/dns_lookup_page.dart
+  s_c2324aad607bbb::t_9476b54d8b8aa1 84-86,88-90
+  s_c2324aad607bbb::t_838c3f528aaee5 132-136
+  s_c2324aad607bbb::t_ef69aabcd3cfe3 187-188
+  s_c2324aad607bbb::t_f2ef4675c58803 213
+  s_c2324aad607bbb::t_cd7247c98b9496 128-130
+  s_c2324aad607bbb::t_fae962488880fb 217-220
+  s_c2324aad607bbb::t_71f0bd34bc3f3c 79-82
+  s_c2324aad607bbb::t_ee5e67692246cc 61-64
+  s_c2324aad607bbb::t_d69134dc37d773 112-114,127,212,214-216,222
+  s_c2324aad607bbb::t_aed555bdc0985c 74-77
+  s_c2324aad607bbb::t_7eb77ab1909743 182
+  s_c2324aad607bbb::t_fa5aa90406444f 209-211
+  s_c2324aad607bbb::t_f0cf7ada4696e3 221
+  s_c2324aad607bbb::t_78e421f8764850 223-225
+  s_c2324aad607bbb::t_10b6027ae55ba1 60,78
+  s_c2324aad607bbb::t_5b822ebac2573c 92-94,109-111
+  s_c2324aad607bbb::t_a3c39ea1422a78 52-54,57-59
+  s_c2324aad607bbb::t_44590af981b747 1
+  s_c2324aad607bbb::t_56bdbe383ee1bc 47-49,73,91,131
+  s_c2324aad607bbb::t_dcabf084c4bc5e 50
+  s_c2324aad607bbb::t_d81ba55bebceb9 39-41,44-46
+  s_c2324aad607bbb::t_587bc85b1ab5c1 66-68,70-72
+  s_c2324aad607bbb::t_689911a343210f 2-38,65,83,137-179,189-208
+  s_c2324aad607bbb::t_ffdf68c1cc05a9 42-43,55-56,69,87,95-108,118-123,226-250
+  s_c2324aad607bbb::t_2afb790f6bdac2 51,181,183-186
+  s_c2324aad607bbb::t_fd03795cd9d80b 115-117,124-126
+  s_c2324aad607bbb::t_351b4e9dc7169e 180
+nettools_mobile/android/app/src/main/res/values-night/styles.xml
+  s_c2324aad607bbb::t_f6ba3ecf5c3118 1-18
+nettools_mobile/lib/ui/pages/tools/path_mtu_page.dart
+  s_c2324aad607bbb::t_3ab5ff842d973b 1-2,38-44,47-56,61-64,122-130,138-177
+  s_c2324aad607bbb::t_10b6027ae55ba1 45-46
+  s_c2324aad607bbb::t_689911a343210f 3-37,65-121
+  s_c2324aad607bbb::t_d69134dc37d773 57-60,131-137
+nettools_mobile/android/app/src/main/cpp/iperf/src/cjson.h
+  s_c2324aad607bbb::t_138ebb7d9d14f6 1-302
+nettools_mobile/android/app/src/main/cpp/iperf/config/test-driver
+  s_c2324aad607bbb::t_9eed5510fcf2cf 1-160
+nettools_mobile/lib/ui/pages/tools/geo_ip_page.dart
+  s_c2324aad607bbb::t_07d3d369865e7c 56-58,65-67
+  s_c2324aad607bbb::t_3ac897fcaf7447 1-2
+  s_c2324aad607bbb::t_689911a343210f 3-55,78-105
+  s_c2324aad607bbb::t_df41dc0bbd953f 59-64,72-74,109-165
+  s_c2324aad607bbb::t_56bdbe383ee1bc 68
+  s_c2324aad607bbb::t_a1258e7358a4b7 106-108
+  s_c2324aad607bbb::t_21f1f43334a8fc 69-71,75-77
+nettools_mobile/test/geo_map_order_test.dart
+  s_c2324aad607bbb::t_609e279dcbbf74 1-21
+nettools_mobile/android/app/src/main/cpp/iperf/docs/_esnet/templates/relations.html
+  s_c2324aad607bbb::t_3aabb3206211f5 1-21
+nettools_mobile/lib/data/app_database.dart
+  s_c2324aad607bbb::t_67ecfc5a270239 1-153
+nettools_mobile/android/app/src/main/cpp/iperf/bootstrap.sh
+  s_c2324aad607bbb::t_bfb58f80460221 1-34
+nettools_mobile/android/app/src/main/cpp/iperf/examples/Makefile.am
+  s_c2324aad607bbb::t_511c744428a1f4 1-13
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_tcp.h
+  s_c2324aad607bbb::t_8c6003a2334df0 1-63
+nettools_mobile/android/app/src/main/cpp/iperf/config/iperf_config_static_bin.m4
+  s_c2324aad607bbb::t_6bfb3f2c2ed43f 1-12
+nettools_mobile/README.md
+  s_c2324aad607bbb::t_11b627e0ccb2d3 8,34,45,59,119-125
+  s_c2324aad607bbb::t_f8e327e216e036 96
+  s_c2324aad607bbb::t_bee29a59b6fe87 42-44
+  s_c2324aad607bbb::t_960ae08a4cc622 35-40
+  s_c2324aad607bbb::t_66795467894a24 56-58
+  s_c2324aad607bbb::t_42a25c5a02011f 130-132
+  s_c2324aad607bbb::t_6af7f8c8cd261a 1,85,89,100,118
+  s_c2324aad607bbb::t_25ddbfd28b7734 18,128
+  s_c2324aad607bbb::t_50886e613b6a34 33
+  s_c2324aad607bbb::t_ace1070ccbf407 48-50,52-54
+  s_c2324aad607bbb::t_7a015999096878 129
+  s_c2324aad607bbb::t_1c50ed708d3d18 3,32,41,47,55,62,99,101-117,126-127
+  s_c2324aad607bbb::t_bdfde74554da5e 81-84,86
+  s_c2324aad607bbb::t_7b5768e90a55e4 7,10-16,20,66-80,87-88,90-95,97-98
+  s_c2324aad607bbb::t_8c956f305c4d7c 46
+  s_c2324aad607bbb::t_39b587e6088318 17
+  s_c2324aad607bbb::t_f1128f564cd561 26-28,51,133-134
+  s_c2324aad607bbb::t_931743ce21104f 22
+  s_c2324aad607bbb::t_a333c17b6e74db 23-25,29-31
+  s_c2324aad607bbb::t_03242b4cf305d0 9
+  s_c2324aad607bbb::t_fd6215ccdd5e46 4-6
+  s_c2324aad607bbb::t_c06845d2d56557 19
+  s_c2324aad607bbb::t_528f6e911f0b46 2
+  s_c2324aad607bbb::t_43a9b68eae11df 21
+  s_c2324aad607bbb::t_ec06f8a98e226a 60-61
+  s_c2324aad607bbb::t_03c7f0e13c9e1f 63-65
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/LocalServerTaskService.kt
+  s_c2324aad607bbb::t_895c60d204b440 1-62
+nettools_mobile/.agents/skills/protodeck-android-native/agents/openai.yaml
+  s_c2324aad607bbb::t_a2fded7bf046bf 1-4
+nettools_mobile/linux/.gitignore
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1
+nettools_mobile/lib/l10n/strings/dashboard_strings.dart
+  s_c2324aad607bbb::t_6ba4fd2a84c445 1-5,8-11,14-15,18-28,36-50,55-83
+  s_c2324aad607bbb::t_0aa097425f8d98 6-7,12-13,29-30,32-35,51-54
+  s_c2324aad607bbb::t_e0b6982d6f4a9e 16-17
+  s_c2324aad607bbb::t_d9a5e7011e0e86 31
+nettools_mobile/lib/ui/pages/tools/network_event_monitor_page.dart
+  s_c2324aad607bbb::t_689911a343210f 4-5,48,60,68,81,110,124,148,152,157,199,210,247,266,275,283
+  s_c2324aad607bbb::t_d69134dc37d773 242-244,249-251,253-257
+  s_c2324aad607bbb::t_e3b99ea81c8f7e 1-3,6-47,49-59,61-67,69-80,82-109,111-123,125-147,149-151,153-156,158-198,200-209,211-241,245-246,248,252,258-265,267-274,276-282,284-336
+nettools_mobile/android/app/src/main/cpp/iperf/docs/2017-06-06.txt
+  s_c2324aad607bbb::t_198da615fe2f1a 1-43
+nettools_mobile/ios/.gitignore
+  s_c2324aad607bbb::t_930ac458918d53 1-34
+nettools_mobile/.agents/skills/protodeck-network-diagnostics/references/measurement-contracts.md
+  s_c2324aad607bbb::t_9fbd63ae1b992a 1-72
+nettools_mobile/lib/services/port_scan_service.dart
+  s_c2324aad607bbb::t_5137d22ffb5717 1-107
+nettools_mobile/lib/ui/widgets/settings/preference_cards.dart
+  s_c2324aad607bbb::t_9419f70e1b55ac 1-104,108-115
+  s_c2324aad607bbb::t_0aa097425f8d98 105-107
+nettools_mobile/lib/ui/pages/tools/wake_on_lan_page.dart
+  s_c2324aad607bbb::t_689911a343210f 3-41,91-99
+  s_c2324aad607bbb::t_30ea2e37a456b9 1-2,42-49,61,63-70,74-81,83-85,87-90,100-103,107-158
+  s_c2324aad607bbb::t_10b6027ae55ba1 50-60,82
+  s_c2324aad607bbb::t_d69134dc37d773 62,71-73,86,104-106
+nettools_mobile/test/dns_service_test.dart
+  s_7639e9eb5f1ce1::t_1ace92198076ff 1-73
+nettools_mobile/lib/services/socket_debug_service.dart
+  s_c2324aad607bbb::t_0de7a87c96a2cc 1-215
+nettools_mobile/windows/runner/utils.h
+  s_c2324aad607bbb::t_236bc449ced744 1-19
+nettools_mobile/linux/flutter/generated_plugin_registrant.cc
+  s_c2324aad607bbb::t_7ef6447cec8892 1-15
+nettools_mobile/windows/flutter/generated_plugin_registrant.h
+  s_c2324aad607bbb::t_7b39fc9d7d356e 1-15
+nettools_mobile/android/app/src/main/cpp/iperf/docs/obtaining.rst
+  s_c2324aad607bbb::t_d2c83e73cfe556 1-80
+nettools_mobile/lib/main.dart
+  s_c2324aad607bbb::t_b7bc7de2033e1e 27-37
+  s_c2324aad607bbb::t_606e9c9259da7a 1-23
+  s_c2324aad607bbb::t_9c6b257744f2e2 24-26
+nettools_mobile/lib/ui/pages/dashboard_page.dart
+  s_c2324aad607bbb::t_25f28cbe3c3e60 204,413-459,767
+  s_c2324aad607bbb::t_ad598ac56d0af0 643,919,929-946,959-1042,1178
+  s_c2324aad607bbb::t_9a7877ec15eeb2 219,476,539-546,617-618,702-748,770-773,813,815-819,832,902,1137,1146,1184
+  s_c2324aad607bbb::t_ea039b293ac086 220,477,830,833,900,903-904,922,1043,1150,1185
+  s_c2324aad607bbb::t_fb1f80d78a807d 463,465-472
+  s_c2324aad607bbb::t_cc2b1d4844e9ee 7-52,56-172,174-196,223,269,274,303-333,367,393-401
+  s_c2324aad607bbb::t_78bec93ac53e59 4,53-55
+  s_c2324aad607bbb::t_ff1a5e9ee73e7a 1-3,5-6,198-203,205-206,208-213,216-218,221-222,224-240,242-247,249,251-258,261-266,268,275-277,279-280,282-284,289-290,292-295,299-302,334-335,338-343,347,349-350,352,354,356-362,364,366,368,375,379-382,384-385,387-390,392,404-407,409-411,460-462,474-475,478-483,512-516,518-538,548,550-551,554,557-559,561,616,619-620,629-637,641-642,644-654,673-692,694-701,750,755,757,759-764,766,769,774-777,781,798-802,808-812,820-827,834,905-918,920-921,923-928,947-951,956-958,1044-1136,1138-1145,1147-1149,1151-1177,1179-1183,1186-1190
+  s_c2324aad607bbb::t_689911a343210f 250,273,296,464,485-511,562-615,655-672,768,782-797,814,864,868,884,892
+  s_c2324aad607bbb::t_0aa097425f8d98 336-337,621-628,952-955
+  s_c2324aad607bbb::t_e0b6982d6f4a9e 197,207,214-215,241,248,259-260,267,270-272,278,281,285-288,291,297-298,344-346,348,351,353,355,363,365,369,376-378,383,386,391,402-403,408,412,473,484,517,547,549,552-553,555-556,560,638-640,693,749,751-754,756,758,765,778-780,803-807,828-829,831,836-863,865-867,869-883,885-891,893-899,901
+  s_c2324aad607bbb::t_037a25a78ec4f1 173
+  s_c2324aad607bbb::t_d9a5e7011e0e86 370-374,835
+nettools_mobile/android/app/src/profile/AndroidManifest.xml
+  s_c2324aad607bbb::t_655cd12e323f1e 1-7
+nettools_mobile/pubspec.lock
+  s_c2324aad607bbb::t_5731aa2868fdf5 326-328,337-487,938-940
+  s_c2324aad607bbb::t_0222875cebd47a 157,181,189,197,229,245,261,285,301,317,325,521,633,641,689,769,817,857,966,1142,1150,1158
+  s_c2324aad607bbb::t_b9a81f64838537 1-156,158-180,182-188,190-196,198-228,230-244,246-260,262-284,286-300,302-316,318-324,329-336,488-520,522-632,634-640,642-688,690-768,770-816,818-856,858-937,941-965,967-1141,1143-1149,1151-1157,1159-1175
+nettools_mobile/android/app/src/main/cpp/iperf/docs/_esnet/LICENSE
+  s_c2324aad607bbb::t_a674c2ac9ae76a 1-27
+nettools_mobile/lib/core/oui/oui_repository.dart
+  s_c2324aad607bbb::t_3f0e73c79108c7 1-319
+nettools_mobile/lib/ui/pages/tools/realtime_traffic_page.dart
+  s_c2324aad607bbb::t_4574ea7f219fff 515-516
+  s_c2324aad607bbb::t_10b6027ae55ba1 593-594
+  s_c2324aad607bbb::t_778560f7018d25 511-514,517-523,641-649
+  s_c2324aad607bbb::t_10483ba9b95055 1-6,9-61,63-73,76-120,122-128,132-166,170-176,178-182,184-205,207,209-241,243-276,278-342,344-347,349-357,359-397,399-409,411-430,432-437,439-448,453-456,458-463,477-484,486-490,492-494,496-510,524-529,531-538,540-552,554-582,584-592,595-600,605-611,615-626,628-634,636-639,650-787,789-818,820-873,875-884,889-904
+  s_c2324aad607bbb::t_689911a343210f 7-8,62,74-75,121,167-169,177,183,206,208,242,277,343,348,358,398,410,431,449,464,485,491,495,530,539,553,583,603-604,627,635,640,788,819,874
+  s_c2324aad607bbb::t_f0cf7ada4696e3 438
+  s_c2324aad607bbb::t_d69134dc37d773 129-131,474-476,612-614,885-888
+  s_c2324aad607bbb::t_15315d594429cf 450-451,457
+  s_c2324aad607bbb::t_cb2489216cb98a 452,465-473,601-602
+nettools_mobile/lib/services/local_discovery_service.dart
+  s_c2324aad607bbb::t_cec4a12fe02b65 38-143
+  s_c2324aad607bbb::t_e555003a248d21 35-37
+  s_c2324aad607bbb::t_6c279d33b93e06 145-147
+  s_c2324aad607bbb::t_9fd17ff4812a21 144
+  s_c2324aad607bbb::t_82e712b2b4b9d3 1-34,148-259
+nettools_mobile/android/app/src/main/cpp/iperf/config/mkinstalldirs
+  s_c2324aad607bbb::t_a3c8545aa22297 1-164
+nettools_mobile/lib/ui/pages/tools/api_workbench_page.dart
+  s_c2324aad607bbb::t_4fe5bffabc0a2b 21,23-49,55-65
+  s_c2324aad607bbb::t_fb3b017a3a4587 1-2,50-54,66-67
+  s_c2324aad607bbb::t_689911a343210f 3-20,22
+nettools_mobile/android/app/src/main/cpp/iperf/docs/news.rst
+  s_c2324aad607bbb::t_b628184da1c7da 1-547
+nettools_mobile/android/app/src/main/res/drawable-v21/launch_background.xml
+  s_c2324aad607bbb::t_fcf8c8bdd7e2be 1-12
+.mcp.json
+  s_c2324aad607bbb::t_fa3d03690a0c38 1-14
+nettools_mobile/lib/services/smb_service.dart
+  s_c2324aad607bbb::t_c5df964edf4da2 51-53,57-59
+  s_c2324aad607bbb::t_a0ece0e0c455b4 60-64
+  s_c2324aad607bbb::t_13239dabc812a6 235
+  s_c2324aad607bbb::t_4a4cdb193ba628 54-56
+  s_c2324aad607bbb::t_db108c3c256c40 1-50,65-234
+.codebuddy/settings.json
+  s_c2324aad607bbb::t_9d669d6b849980 1-28
+nettools_mobile/tool/bootstrap_linux_build_deps.sh
+  s_c2324aad607bbb::t_070696b6ea5b23 1-28,30-39
+  s_c2324aad607bbb::t_611931d931a691 29
+nettools_mobile/android/app/src/main/cpp/iperf/docs/conf.py
+  s_c2324aad607bbb::t_018b389e323afc 1-275
+nettools_mobile/test/desktop_compatibility_test.dart
+  s_c2324aad607bbb::t_d4d40e693be3cf 1-72
+nettools_mobile/android/app/src/main/cpp/iperf/docs/_esnet/deploy.sh
+  s_c2324aad607bbb::t_4f4dd45efd6843 1-18
+nettools_mobile/android/app/src/main/cpp/iperf/make_release
+  s_c2324aad607bbb::t_2f0281a3fcaad4 1-69
+nettools_mobile/android/app/src/main/cpp/iperf/src/libiperf.3
+  s_c2324aad607bbb::t_b8cec97791609e 1-115
+nettools_mobile/android/app/src/main/cpp/iperf/Makefile.am
+  s_c2324aad607bbb::t_4ee7847f91242c 1
+.cursorrules
+  s_c2324aad607bbb::t_5a4421d8a98bfa 1-38
+nettools_mobile/android/app/src/main/cpp/iperf/RELNOTES.md
+  s_c2324aad607bbb::t_72de9ae8037505 1-1413
+nettools_mobile/android/app/src/main/cpp/iperf/README.md
+  s_c2324aad607bbb::t_520cdc87d45135 1-171
+nettools_mobile/android/app/src/main/cpp/iperf/auth_test.sh
+  s_c2324aad607bbb::t_462d9b865c47b6 1-42
+nettools_mobile/lib/services/network_event_service.dart
+  s_c2324aad607bbb::t_50eeb84bbbcced 7
+  s_c2324aad607bbb::t_43ad119ab20ed7 3,8-156,176-183
+  s_c2324aad607bbb::t_a7a911b4d167df 159,165-166
+  s_c2324aad607bbb::t_e637f4d5986415 5,160-164
+  s_c2324aad607bbb::t_6eb6a83e0204f1 1-2,4,6,157-158,167-175
+nettools_mobile/lib/ui/pages/tools/oui_lookup_page.dart
+  s_c2324aad607bbb::t_f0cf7ada4696e3 140,269
+  s_c2324aad607bbb::t_a8d9f1fcf401ed 1-3,82-98,100-109,111-124,127-139,141-144,262-268,270-271,273-279,281-295,297-300,302-313,318-322,324-386,388-389
+  s_c2324aad607bbb::t_10b6027ae55ba1 99,125-126
+  s_c2324aad607bbb::t_d69134dc37d773 272,280,301,314-317,323
+  s_c2324aad607bbb::t_689911a343210f 4-81,110,145-261,296,387
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_client_api.c
+  s_c2324aad607bbb::t_7bfb76b9074628 1-900
+nettools_mobile/lib/l10n/strings/tool_page_common_en.dart
+  s_c2324aad607bbb::t_93e12ca3d106da 86-105
+  s_c2324aad607bbb::t_206480654c16fc 138,140
+  s_c2324aad607bbb::t_e9c8fb0fec6fa3 106-117,119-124
+  s_c2324aad607bbb::t_a5e562dc46da38 153-154
+  s_c2324aad607bbb::t_35e8abc9177fcb 1-83,155
+  s_c2324aad607bbb::t_40ac29bfe4df09 118
+  s_c2324aad607bbb::t_d69134dc37d773 84-85
+  s_c2324aad607bbb::t_45f85c6bcc8f63 125-137,139,141-144
+  s_c2324aad607bbb::t_3891f46c39f2a7 145-152
+nettools_mobile/android/gradle/wrapper/gradle-wrapper.properties
+  s_c2324aad607bbb::t_ef9d4b9a06da03 1-5
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/BluetoothDebugManager.kt
+  s_c2324aad607bbb::t_aa523da0b3d835 1-51,401-540
+  s_c2324aad607bbb::t_be4f100a71ba11 55-397
+  s_c2324aad607bbb::t_75181a5c10edb2 398-400
+  s_c2324aad607bbb::t_48a02c0b5a9976 52-54
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/MainActivity.kt
+  s_c2324aad607bbb::t_69727a34d407e7 16-153,155-206,208-744
+  s_c2324aad607bbb::t_037a25a78ec4f1 154,207
+  s_c2324aad607bbb::t_a1e17a179d61a6 745-747
+  s_c2324aad607bbb::t_491272b0b122bd 13-15
+  s_c2324aad607bbb::t_0f922e0907da6a 1-12,748-755
+nettools_mobile/android/app/src/main/cpp/iperf/test_commands.sh
+  s_c2324aad607bbb::t_58c1cf11cfd3cd 1-73
+nettools_mobile/ios/Runner/Base.lproj/LaunchScreen.storyboard
+  s_c2324aad607bbb::t_8b3964f6e290c7 1-37
+nettools_mobile/windows/.gitignore
+  s_c2324aad607bbb::t_236bc449ced744 1-17
+nettools_mobile/.agents/skills/protodeck-remote-protocols/references/session-contracts.md
+  s_c2324aad607bbb::t_5798c27042cde7 1-55
+nettools_mobile/test/oui_asset_test.dart
+  s_c2324aad607bbb::t_0632faebfe6f61 1-97
+.claude/skills/debug-issue/SKILL.md
+  s_c2324aad607bbb::t_82f58eecf5dc9c 1-27
+nettools_mobile/windows/runner/CMakeLists.txt
+  s_c2324aad607bbb::t_236bc449ced744 1-40
+nettools_mobile/android/app/src/main/cpp/iperf/src/Makefile.in
+  s_c2324aad607bbb::t_ff83a339645ad4 1-1978
+nettools_mobile/linux/runner/my_application.cc
+  s_c2324aad607bbb::t_3041115843fcfb 55-56,66
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1-47,49-51,53-54,57-65,67-149
+  s_c2324aad607bbb::t_037a25a78ec4f1 48,52
+nettools_mobile/third_party/iperf3-windows-NOTICE.txt
+  s_c2324aad607bbb::t_f8e327e216e036 1-3,5-25
+  s_c2324aad607bbb::t_6af7f8c8cd261a 4,26
+nettools_mobile/lib/ui/pages/tools/bluetooth_debug_page.dart
+  s_c2324aad607bbb::t_037a25a78ec4f1 1110
+  s_c2324aad607bbb::t_10b6027ae55ba1 373,1281
+  s_c2324aad607bbb::t_689911a343210f 7-8,170,189,202,207,249,258,293,301,319-332,336,354-365,392-458,480-579,622-695,792,818-846,916-925,954,965,995,1159-1183,1291-1299,1304,1319-1457
+  s_c2324aad607bbb::t_258f22de717624 1-2,4-6,9-11,16-41,43-65,72-79,81-86,95-101,108-118,120-129,133-136,138-144,146-147,149-153,155-158,160-169,171-174,177,179-182,185-188,264,267-279,281-285,288-292,299,309,312-314,316,318,338,345-352,368-372,374-382,386-389,391,461-466,472-476,478-479,580-588,591-593,595,600,602-610,614-621,696-699,701-703,705-716,718-723,725-728,730,732-738,740-743,745-748,750-752,754-758,760-765,767-773,775,783-790,794-799,804-806,809-817,847-852,854-860,869-888,890,894-907,912-915,926-930,938-941,955,957-959,966-968,1026,1031-1042,1046,1048-1052,1058-1059,1062-1063,1066-1068,1070-1081,1083-1089,1091-1109,1111-1112,1114-1116,1118-1133,1135-1144,1146-1158,1188-1198,1201-1209,1211-1212,1214-1242,1244-1246,1248-1263,1266-1267,1274-1280,1285-1289,1305-1307,1312-1318,1458-1481,1483-1491,1494-1507
+  s_c2324aad607bbb::t_ce9611e8305987 12-15,176,178,265-266,280,341-344,353,366-367,384-385,390,460,467,594,774,780-782,791,793,807-808,853,893,911,933,935-937,942-953,956,960-964,970-994,996-1025,1185-1187,1264-1265,1268,1273,1290
+  s_c2324aad607bbb::t_66133cf982477e 66,87,183,190,295-296,302-303,333,1027-1028
+  s_c2324aad607bbb::t_4574ea7f219fff 1044
+  s_c2324aad607bbb::t_be4f100a71ba11 42,102-107,130-132,145,148,1043,1045,1047,1053-1057,1060-1061
+  s_c2324aad607bbb::t_56bdbe383ee1bc 317,459,700,704,731,779,868,891,908-910,932,1184
+  s_c2324aad607bbb::t_bab4ca4ee4e849 197-201,203-206,208-221,230-241,246-248,250-257,259-262
+  s_c2324aad607bbb::t_c7703259d1e94b 184,191-196,263,892,934
+  s_c2324aad607bbb::t_f0cf7ada4696e3 175,861-867
+  s_c2324aad607bbb::t_d69134dc37d773 222-229,242-245,286-287,310-311,315,339-340,383,468-471,477,589-590,596-599,601,611-613,717,724,729,739,744,749,753,759,766,776-778,800-803,889,931,969,1269-1272,1283-1284,1300-1303,1308-1311
+  s_c2324aad607bbb::t_bcd372c4bef629 3,67-71,80,88-94,119,137,154,159,294,297-298,300,304-308,334-335,337,1029-1030,1064-1065,1069,1082,1090,1113,1117,1134,1145,1199-1200,1210,1213,1243,1247,1282,1482,1492-1493
+nettools_mobile/lib/models/network_context.dart
+  s_c2324aad607bbb::t_f4038857eb6fae 272-273
+  s_c2324aad607bbb::t_107a7e0da85cb3 75-77,104-106
+  s_c2324aad607bbb::t_2c521470ade43a 326-328,330-332
+  s_c2324aad607bbb::t_d4d6d11a84b79a 6,17-18,32,57-58,74,107-108,110-271,274,287,310,317,320,325,333,335,348
+  s_c2324aad607bbb::t_27a8ac74c7a0f8 19-21,29-31
+  s_c2324aad607bbb::t_bf4248ff4059e4 109
+  s_c2324aad607bbb::t_4e8c758a5c117b 334
+  s_c2324aad607bbb::t_ef63086fe11552 321-324
+  s_c2324aad607bbb::t_e7ed6234d8daee 318-319
+  s_c2324aad607bbb::t_9c3a75cf1c10a4 288-290,307-309
+  s_c2324aad607bbb::t_b869657d472477 3-5
+  s_c2324aad607bbb::t_19cc253b891fd5 7-9,14-16
+  s_c2324aad607bbb::t_2189a3510b34b2 311-316
+  s_c2324aad607bbb::t_23187d847a201b 33-35,54-56
+  s_c2324aad607bbb::t_fbbc8dc1f073d6 59-61,71-73
+  s_c2324aad607bbb::t_3d18e76b133bae 275-277,284-286
+  s_c2324aad607bbb::t_b4be448f09c981 1-2,10-13,22-28,36-53,62-70,78-103,278-283,291-306,329,339-344
+  s_c2324aad607bbb::t_5cc71966eaf684 336-338,345-347
+nettools_mobile/lib/ui/pages/tools/http_diagnostic_page.dart
+  s_c2324aad607bbb::t_6ef4f9c6113643 5-30,117-151,182-201
+  s_c2324aad607bbb::t_2630bb85922e8a 1-2,31-42,44-53,58-76,78-82,84-91,102-108,110-116,152-161,173-181,202-215
+  s_c2324aad607bbb::t_689911a343210f 3-4,43,83,109,162-172
+  s_c2324aad607bbb::t_10b6027ae55ba1 77,92-101
+  s_c2324aad607bbb::t_d69134dc37d773 54-57
+nettools_mobile/lib/l10n/strings/tool_strings.dart
+  s_c2324aad607bbb::t_babbd0af28def2 3
+  s_c2324aad607bbb::t_6ba4fd2a84c445 1-2,4-15,18-43
+  s_c2324aad607bbb::t_0aa097425f8d98 16-17
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_pthread.h
+  s_c2324aad607bbb::t_e9fab04f15640d 1-33
+nettools_mobile/lib/ui/widgets/structured_data_viewer.dart
+  s_c2324aad607bbb::t_1d192badf69c0a 31,51
+  s_c2324aad607bbb::t_c498d3b5efee09 153,155
+  s_c2324aad607bbb::t_122e3236c1de72 46-48,104,398
+  s_c2324aad607bbb::t_3a3f5e91e0702e 7,68,82,84-85,92,99,111,236,262,318,428
+  s_c2324aad607bbb::t_7aa1bc17df58cd 397,401-406
+  s_c2324aad607bbb::t_c576f5a3d70ae9 32-33,50,137,307,313,364-369,378-396,399-400,407-410
+  s_c2324aad607bbb::t_5ae369026198a0 1-6,8-30,34-45,49,52-67,69-81,83,86-91,93-98,100-103,105-110,112-136,138-152,154,156-235,237-261,263-306,308-312,314-317,319-363,370-377,411-427,429-518
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_util.c
+  s_c2324aad607bbb::t_c5066224e22ab0 1-670
+nettools_mobile/lib/l10n/strings/remote_strings.dart
+  s_c2324aad607bbb::t_0aa097425f8d98 7-8,12-13
+  s_c2324aad607bbb::t_6609ee09ff37ad 1-6,9-11,14-30
+nettools_mobile/test/wildcard_mask_service_test.dart
+  s_c2324aad607bbb::t_a8bf971bf3a008 1-47
+nettools_mobile/ios/Runner/SceneDelegate.swift
+  s_c2324aad607bbb::t_df95cb2fa1c46e 1-6
+nettools_mobile/lib/services/developer_tools_service.dart
+  s_c2324aad607bbb::t_533843da51a2be 392-394,417-419
+  s_c2324aad607bbb::t_bf5c4d1cda0ee0 446-448,471-473
+  s_c2324aad607bbb::t_30e604f193c4b9 805-807,811-813
+  s_c2324aad607bbb::t_cd71f2143fc142 502-503,509
+  s_c2324aad607bbb::t_ac861ae4ba2bb3 575-577,659
+  s_c2324aad607bbb::t_ca6124a8393ebf 421-423,425-427
+  s_c2324aad607bbb::t_dc788a3426ec68 66-69
+  s_c2324aad607bbb::t_7644b0645f02b6 71
+  s_c2324aad607bbb::t_d930ef570be72b 504-508,518-519,523-574,578-579,613-631,645-658,660-687,689
+  s_c2324aad607bbb::t_c5dbf1ccc1aa07 516-517
+  s_c2324aad607bbb::t_cd8850f928e15c 262-264,268-270
+  s_c2324aad607bbb::t_4a84aa4e3986a6 815-817,835-837
+  s_c2324aad607bbb::t_4aafbb9f026959 522,580-581,611-612,688
+  s_c2324aad607bbb::t_0eee35042f8f39 40-41
+  s_c2324aad607bbb::t_3c9106e6c981bd 149-151,173-175
+  s_c2324aad607bbb::t_761c29eb0236ee 195-197,217-219
+  s_c2324aad607bbb::t_36661cc119b636 116-118,145-147
+  s_c2324aad607bbb::t_59971f5bc0d436 511-514
+  s_c2324aad607bbb::t_3039668d828504 773-775,793-795
+  s_c2324aad607bbb::t_ecfed5eefa631d 36-38
+  s_c2324aad607bbb::t_db6107417caff6 797-799,801-803
+  s_c2324aad607bbb::t_98729599e7072c 848-850,879-881
+  s_c2324aad607bbb::t_b37c9499029b41 39,42,65,70,72-84,115,148,176,194,220,245,261,271,310,352,391,420,428,445,474,481,490,501,510,515,520-521,690,702,728,733-734,772,796,804,814,838,847,882
+  s_c2324aad607bbb::t_423d0656c0dc9b 703-705,725-727
+  s_c2324aad607bbb::t_dd07850932857b 246-248,258-260
+  s_c2324aad607bbb::t_42e928904f5c7f 272-274,307-309
+  s_c2324aad607bbb::t_1b8428db065f1d 353-355,388-390
+  s_c2324aad607bbb::t_7ca9b35ae7bd6f 429-431,442-444
+  s_c2324aad607bbb::t_6830b86b7d4f93 883
+  s_c2324aad607bbb::t_138b8e31bc3763 177-179,191-193
+  s_c2324aad607bbb::t_dbf2c8c57f1e3f 839-841,844-846
+  s_c2324aad607bbb::t_a35a13a0120551 482-484,487-489
+  s_c2324aad607bbb::t_457467118f2589 632-644
+  s_c2324aad607bbb::t_9d15e3263a8d7b 43-45,62-64
+  s_c2324aad607bbb::t_780ca561866636 85-87,112-114
+  s_c2324aad607bbb::t_c6d2a8d9db0d06 311-313,349-351
+  s_c2324aad607bbb::t_3f2d6388071e0f 1-35,46-61,88-111,119-144,152-172,180-190,198-216,224-241,249-257,265-267,275-306,314-348,356-387,395-416,424,432-441,449-470,485-486,494-497,582-610,694-698,706-724,738-768,776-792,800,808-810,818-834,842-843,851-878
+  s_c2324aad607bbb::t_200fa5b251d5cc 475-480
+  s_c2324aad607bbb::t_bfb2202d951638 491-493,498-500
+  s_c2324aad607bbb::t_d30d15acdbe8a2 221-223,242-244
+  s_c2324aad607bbb::t_c548a8a014faa2 691-693,699-701
+  s_c2324aad607bbb::t_eb36815c99c2f9 729-732
+  s_c2324aad607bbb::t_04694113c496de 735-737,769-771
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_config.h.in
+  s_c2324aad607bbb::t_420c80a80cb2c5 1-190
+nettools_mobile/lib/l10n/strings/tool_page_strings.dart
+  s_c2324aad607bbb::t_a5e562dc46da38 70-76
+  s_c2324aad607bbb::t_41fc9d871ae6ea 178-181,184-187
+  s_c2324aad607bbb::t_2b04d2c56d041d 47-49
+  s_c2324aad607bbb::t_45f85c6bcc8f63 54-57,77-94,96-100,102-112
+  s_c2324aad607bbb::t_3891f46c39f2a7 67-69
+  s_c2324aad607bbb::t_c619a27493afc4 1,3-13,15-39,113-127,145-151,153-170,189-193,226-243
+  s_c2324aad607bbb::t_206480654c16fc 95,101
+  s_c2324aad607bbb::t_bbb680e52a7e1c 134-136
+  s_c2324aad607bbb::t_050bd6e522b3bd 58-66
+  s_c2324aad607bbb::t_e9c8fb0fec6fa3 128-129,133,137-144
+  s_c2324aad607bbb::t_4a72a711f7d433 152,171-177,182-183,188
+  s_c2324aad607bbb::t_c17d68bf3ee200 50
+  s_c2324aad607bbb::t_41f5d887b37956 40-46,51-53
+  s_c2324aad607bbb::t_aa7cb7fcd2a27f 130-132
+  s_c2324aad607bbb::t_261b9f434c38cf 194-225
+  s_c2324aad607bbb::t_5be3e7fc50e053 2,14
+nettools_mobile/linux/flutter/generated_plugins.cmake
+  s_c2324aad607bbb::t_7ef6447cec8892 1-25
+nettools_mobile/lib/l10n/app_localizations.dart
+  s_c2324aad607bbb::t_c619a27493afc4 10,26,51,79-137
+  s_c2324aad607bbb::t_5f5c4e560055f6 35,39-42
+  s_c2324aad607bbb::t_0aa097425f8d98 38,66-67
+  s_c2324aad607bbb::t_babbd0af28def2 1-6,8-9,11-24,27-34,36-37,43-49,52-65,68-78,138
+  s_c2324aad607bbb::t_6609ee09ff37ad 7,25,50
+nettools_mobile/test/localization_test.dart
+  s_c2324aad607bbb::t_a198f9709460ce 13
+  s_c2324aad607bbb::t_ec1fa36e8b4120 54,56
+  s_c2324aad607bbb::t_4bccf5100fc6a0 1-2,7,43-45,48-50,58-60,68
+  s_c2324aad607bbb::t_5eecc7ab5b7e5b 55,69,88-97,99,101-111
+  s_c2324aad607bbb::t_2351ef10ac9832 71-87,112
+  s_c2324aad607bbb::t_40fb5332bf922d 3,46-47,61
+  s_c2324aad607bbb::t_18d62bd8499ab9 4-6,8-12,14-42,113
+  s_c2324aad607bbb::t_af16c6d922963c 51-53,57,62-67
+  s_c2324aad607bbb::t_bbb680e52a7e1c 70
+  s_c2324aad607bbb::t_c581926ae9a5df 98,100
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_pthread.c
+  s_c2324aad607bbb::t_8713399fa15d3f 1-41
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_locale.h
+  s_c2324aad607bbb::t_f76311e660989a 1-134
+nettools_mobile/lib/ui/pages/history_page.dart
+  s_c2324aad607bbb::t_f0cf7ada4696e3 22
+  s_c2324aad607bbb::t_59007425d03146 1,4-21,23-37,117-126
+  s_c2324aad607bbb::t_689911a343210f 2-3,38-116
+nettools_mobile/android/app/src/main/cpp/iperf/src/iperf_tcp.c
+  s_c2324aad607bbb::t_ea0cd24f07307c 1-613
+nettools_mobile/android/app/src/main/cpp/iperf/docs/dev.rst
+  s_c2324aad607bbb::t_b28af9189758be 1-348
+CODEBUDDY.md
+  s_c2324aad607bbb::t_784bcd668cf609 1-38
+nettools_mobile/lib/l10n/strings/common_strings.dart
+  s_c2324aad607bbb::t_9bb0f3ba00cc3a 1-43
+.codebuddy/skills/refactor-safely/SKILL.md
+  s_c2324aad607bbb::t_17a0d96a2c6ae4 1-28
+nettools_mobile/android/app/src/main/cpp/iperf/docs/_esnet/templates/layout.html
+  s_c2324aad607bbb::t_97f081aada1d7c 1-134
+nettools_mobile/android/app/src/main/cpp/iperf/contrib/README.txt
+  s_c2324aad607bbb::t_69c6d8a7e46699 1-12
+nettools_mobile/lib/ui/pages/tools/local_test_server_page.dart
+  s_c2324aad607bbb::t_f0cf7ada4696e3 75,448
+  s_c2324aad607bbb::t_1502999f2c3c98 1-4,71-74,76-84,98,100-127,154-179,445-447,449-459,461-488,494,553-564,587-589,632-720,724-754,764-793,799,876-882,884-889
+  s_c2324aad607bbb::t_10b6027ae55ba1 128-153
+  s_c2324aad607bbb::t_d69134dc37d773 99,489-493,565-586,721-723,794-798,883
+  s_c2324aad607bbb::t_689911a343210f 5-70,85-97,180-444,460,495-552,590-631,755-763,800-875
+nettools_mobile/lib/ui/pages/tools/tcp_ping_page.dart
+  s_c2324aad607bbb::t_10b6027ae55ba1 68
+  s_c2324aad607bbb::t_7cf963722d6d02 1-4,47-56,60-67,69-79,116-117,121-131,157-200
+  s_c2324aad607bbb::t_d69134dc37d773 57-59,118-120
+  s_c2324aad607bbb::t_689911a343210f 5-46,80-115,132-156
+nettools_mobile/.metadata
+  s_c2324aad607bbb::t_607311e91527b3 1-12,33-39
+  s_c2324aad607bbb::t_3041115843fcfb 16-17,19-20,22-23,25-29
+  s_c2324aad607bbb::t_45e8b647ed05fd 18
+  s_c2324aad607bbb::t_a29aacc8f22a2b 24
+  s_c2324aad607bbb::t_f33eb506edb31e 21
+  s_c2324aad607bbb::t_ac934ddad37ed0 13-15
+  s_c2324aad607bbb::t_696e96bc75dbf1 30-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "2a20c00a6117dfad069519df9013cb309e7b90c2",
+  "prompts": {},
+  "sessions": {
+    "s_7639e9eb5f1ce1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f96d0-6cae-7250-9bf6-0b55f3538da7",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "thiscoalball <805755827@qq.com>"
+    },
+    "s_76582a1fbd9fed": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f9803-aff3-7781-96cc-8b294f281028",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "thiscoalball <805755827@qq.com>"
+    },
+    "s_c2324aad607bbb": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f930a-e04d-7e60-8b76-4433f257adb5",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null
+    }
+  }
+}
