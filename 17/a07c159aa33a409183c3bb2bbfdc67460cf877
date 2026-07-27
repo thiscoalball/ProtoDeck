@@ -1,0 +1,504 @@
+nettools_mobile/lib/ui/pages/tools/local_test_server_page.dart
+  s_c2324aad607bbb::t_689911a343210f 5-6,70,85,92,97,180,192,271,278,301,351,373,386,417,440,444,460,495,509,535,546,552,590,620-621,627,631,755,763,800,844,870,875
+  s_c2324aad607bbb::t_d69134dc37d773 490-493,565-569,582-586,721-723,795-798
+  s_c2324aad607bbb::t_f0cf7ada4696e3 75,448
+  s_c2324aad607bbb::t_10b6027ae55ba1 128,130,151,153
+.github/workflows/build-platforms.yml
+  s_c2324aad607bbb::t_2924af9c02b276 5-20,50-52,77-79,113-115
+.gemini/skills/debug-issue/SKILL.md
+  s_c2324aad607bbb::t_edff45730c01a4 1-27
+nettools_mobile/lib/ui/pages/tools/http_diagnostic_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 54-57
+  s_c2324aad607bbb::t_10b6027ae55ba1 77,92,101
+  s_c2324aad607bbb::t_689911a343210f 3-4,43,83,109,162,172
+nettools_mobile/lib/ui/pages/tools/local_discovery_page.dart
+  s_c2324aad607bbb::t_f0cf7ada4696e3 99
+  s_c2324aad607bbb::t_689911a343210f 2-3,24,33,38,55,65,92,112,127
+  s_c2324aad607bbb::t_d69134dc37d773 77-78,88-91,122-125
+nettools_mobile/lib/ui/widgets/tool_tile.dart
+  s_c2324aad607bbb::t_0f18186f6f15c6 63,74-75
+  s_c2324aad607bbb::t_6eee7dc9ba09e4 3,20-24,61,70
+nettools_mobile/lib/ui/pages/tools/wildcard_mask_page.dart
+  s_c2324aad607bbb::t_f0cf7ada4696e3 159
+  s_c2324aad607bbb::t_8939bf110d7592 50
+  s_c2324aad607bbb::t_d69134dc37d773 51-53
+  s_c2324aad607bbb::t_689911a343210f 2-3,36,45,49,84,88,102,123,152,190,195,199,244
+nettools_mobile/lib/ui/pages/settings_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 205-207
+  s_c2324aad607bbb::t_0aa097425f8d98 95-96,204
+  s_c2324aad607bbb::t_94c388db7be5d0 181,184
+  s_c2324aad607bbb::t_9419f70e1b55ac 6,9,38-39,45,47-54,64,66-67,69-70,77,80,84-85,88,92,94,97,132,134,140-141,144,175,195-198,208
+  s_c2324aad607bbb::t_689911a343210f 41,46,68,104,114,119,124,135-136,145-146,160,194,218-219,223,227
+.claude/skills/refactor-safely/SKILL.md
+  s_c2324aad607bbb::t_a455d01c84b03f 1-28
+nettools_mobile/lib/services/windows_network_service.dart
+  s_c2324aad607bbb::t_d4d6d11a84b79a 661,681-709,724-725
+nettools_mobile/lib/ui/pages/tools/common_ports_page.dart
+  s_c2324aad607bbb::t_689911a343210f 2-3,59,79,87,91
+  s_c2324aad607bbb::t_9128d32ee889c1 66
+nettools_mobile/lib/ui/pages/remote/embedded_ssh_file_panel.dart
+  s_c2324aad607bbb::t_10b6027ae55ba1 124
+  s_c2324aad607bbb::t_d69134dc37d773 137-144,194-196,417-419
+  s_c2324aad607bbb::t_689911a343210f 9-10,98,174,187,209,213,217,250,433,437,441,563,572,576
+  s_c2324aad607bbb::t_f0cf7ada4696e3 112,131,134
+  s_c2324aad607bbb::t_4817b3644db090 14,375-376,378
+nettools_mobile/lib/l10n/app_localizations.dart
+  s_c2324aad607bbb::t_babbd0af28def2 1-6,8-9,11-24,27-34,36-37,43-49,52-65,68-78,138
+  s_c2324aad607bbb::t_6609ee09ff37ad 7,25,50
+  s_c2324aad607bbb::t_5f5c4e560055f6 35,39-42
+  s_c2324aad607bbb::t_0aa097425f8d98 38,66-67
+  s_c2324aad607bbb::t_c619a27493afc4 10,26,51,79-137
+nettools_mobile/lib/app.dart
+  s_c2324aad607bbb::t_d1d773b9ebfe30 4,7,68-75
+  s_c2324aad607bbb::t_d9a5e7011e0e86 85-86
+  s_c2324aad607bbb::t_0f18186f6f15c6 1-2,87,123-132,134-135
+  s_c2324aad607bbb::t_f71c03ad1161bf 133,349-373
+  s_c2324aad607bbb::t_6234454e866ff3 374-375
+.github/code-review-graph.instruction.md
+  s_c2324aad607bbb::t_49c6dc61da6782 1-46
+nettools_mobile/lib/l10n/strings/tool_page_common_en.dart
+  s_c2324aad607bbb::t_35e8abc9177fcb 1-83,154
+  s_c2324aad607bbb::t_45f85c6bcc8f63 124-136,138,140-143
+  s_c2324aad607bbb::t_a5e562dc46da38 152-153
+  s_c2324aad607bbb::t_206480654c16fc 137,139
+  s_c2324aad607bbb::t_d69134dc37d773 84-85
+  s_c2324aad607bbb::t_93e12ca3d106da 86-105
+  s_c2324aad607bbb::t_e9c8fb0fec6fa3 106-123
+  s_c2324aad607bbb::t_3891f46c39f2a7 144-151
+CLAUDE.md
+  s_c2324aad607bbb::t_f0852c006d5392 1-38
+nettools_mobile/lib/ui/widgets/structured_data_viewer.dart
+  s_c2324aad607bbb::t_3a3f5e91e0702e 7,63,77,79-80,87,94,106,230,256,310,382
+nettools_mobile/lib/ui/pages/tools/realtime_traffic_page.dart
+  s_c2324aad607bbb::t_689911a343210f 7-8,62,74-75,121,167-169,177,183,206,208,242,277,343,348,358,398,410,431,449,464,485,491,495,511,523,532,546,576,596-597,620,628,633,773,804,859
+  s_c2324aad607bbb::t_d69134dc37d773 129-131,474-476,605-607,870-873
+  s_c2324aad607bbb::t_10b6027ae55ba1 586-587
+  s_c2324aad607bbb::t_f0cf7ada4696e3 438
+.cursorrules
+  s_c2324aad607bbb::t_5a4421d8a98bfa 1-38
+nettools_mobile/lib/ui/pages/tools/ping_page.dart
+  s_c2324aad607bbb::t_10b6027ae55ba1 224,237,379
+  s_c2324aad607bbb::t_d69134dc37d773 156-163,338-340,349-351,364-366,392-403,408-410
+  s_c2324aad607bbb::t_689911a343210f 6-7,107,138,154-155,199,204,268,291,296,325,329,433,479,487,495,519,549,556,579,593,674,677,710,714,751,757,939
+nettools_mobile/lib/l10n/strings/dashboard_strings.dart
+  s_c2324aad607bbb::t_d9a5e7011e0e86 31
+  s_c2324aad607bbb::t_e0b6982d6f4a9e 16-17
+  s_c2324aad607bbb::t_6ba4fd2a84c445 1-5,8-11,14-15,18-28,36-50,55-83
+  s_c2324aad607bbb::t_0aa097425f8d98 6-7,12-13,29-30,32-35,51-54
+.claude/settings.json
+  s_c2324aad607bbb::t_747d753698c4c0 1-28
+nettools_mobile/lib/ui/pages/tools/api_rest_workbench.dart
+  s_c2324aad607bbb::t_2afb790f6bdac2 661,686-688
+  s_c2324aad607bbb::t_10b6027ae55ba1 333,350,358,503,610,1050,1057,1115,1130,1195,1268
+  s_c2324aad607bbb::t_689911a343210f 7-8,99,135,161,207,249,251,260,262,324,329-330,386-387,405-406,415,476-477,486,492,509,515-516,529,534,542,592-596,699,703,726,729,755-756,780,785,791,809-810,1025,1040,1066,1070,1100,1120,1139,1143,1192,1200,1204,1265,1273,1277,1351,1367,1371,1395
+  s_c2324aad607bbb::t_f0cf7ada4696e3 109,113,458,734,764
+  s_c2324aad607bbb::t_d69134dc37d773 117-120,124-126,183-186,243-245,254-256,292-295,305-308,325-328,340-342,407-414,436-439,1033-1035,1108-1110
+nettools_mobile/lib/l10n/strings/tool_page_developer_en.dart
+  s_c2324aad607bbb::t_82497274adb0f3 1-36
+nettools_mobile/lib/l10n/strings/tool_page_additional_en.dart
+  s_c2324aad607bbb::t_505426bfcda0d9 186-201,203-235,259
+  s_c2324aad607bbb::t_11f2876f3c545a 137-185
+  s_c2324aad607bbb::t_7a357c4a3cb68d 243-258
+  s_c2324aad607bbb::t_88e58c5dfb5b50 1-77
+  s_c2324aad607bbb::t_fd32ddc3269469 78-116,118-136
+  s_c2324aad607bbb::t_317bb5a87fd6c7 117,202
+  s_c2324aad607bbb::t_261b9f434c38cf 236-242
+.codebuddy/skills/explore-codebase/SKILL.md
+  s_c2324aad607bbb::t_647aad408a9879 1-28
+nettools_mobile/lib/ui/pages/tools/subnet_page.dart
+  s_c2324aad607bbb::t_689911a343210f 2-3,31,47,52,81,95
+nettools_mobile/lib/ui/app_shell.dart
+  s_c2324aad607bbb::t_76260b8bb012d5 4,6,24-25,27-29,32-34,37-39,42-44
+  s_c2324aad607bbb::t_e8344bdebe8624 5,15,50,56-61
+  s_c2324aad607bbb::t_d9a5e7011e0e86 62-72,74-95
+nettools_mobile/lib/ui/pages/tools/syslog_receiver_page.dart
+  s_c2324aad607bbb::t_10b6027ae55ba1 128,155,228
+  s_c2324aad607bbb::t_689911a343210f 5-6,71,104,111,174,187,196,208,253,289,296,321,326,376,381
+  s_c2324aad607bbb::t_d69134dc37d773 134-136,267-269
+nettools_mobile/lib/ui/pages/tools/stun_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 40-42,89-94,96-97
+  s_c2324aad607bbb::t_689911a343210f 3-4,30,61,70,82,95,103
+  s_c2324aad607bbb::t_10b6027ae55ba1 52
+nettools_mobile/lib/ui/pages/tools/path_mtu_page.dart
+  s_c2324aad607bbb::t_10b6027ae55ba1 45-46
+  s_c2324aad607bbb::t_d69134dc37d773 57-59,132-137
+  s_c2324aad607bbb::t_689911a343210f 3-4,37,65-66,79,88,100,109,113,121
+.claude/skills/debug-issue/SKILL.md
+  s_c2324aad607bbb::t_82f58eecf5dc9c 1-27
+nettools_mobile/lib/l10n/strings/tool_page_network_en.dart
+  s_c2324aad607bbb::t_35e8abc9177fcb 1-68,113
+  s_c2324aad607bbb::t_050bd6e522b3bd 69-97,99-112
+  s_c2324aad607bbb::t_e541f34d40f7df 98
+nettools_mobile/lib/ui/pages/tools/api_workbench_page.dart
+  s_c2324aad607bbb::t_689911a343210f 3-4,20,29-32
+nettools_mobile/lib/ui/pages/dashboard_page.dart
+  s_c2324aad607bbb::t_ea039b293ac086 897,900-901
+  s_c2324aad607bbb::t_25f28cbe3c3e60 201,410-428,456
+  s_c2324aad607bbb::t_689911a343210f 247,270,293,461,482,489,502,508,559,612,652,662,669,765,779,794,811,861,865,881,889
+  s_c2324aad607bbb::t_fb1f80d78a807d 460,462-469
+  s_c2324aad607bbb::t_9a7877ec15eeb2 536-543,614-615,699,701-702,745,767,769-770,810,812-816,899
+  s_c2324aad607bbb::t_e0b6982d6f4a9e 282-285,341-342,366,833-860,862-864,866-880,882-888,890-896,898
+  s_c2324aad607bbb::t_0aa097425f8d98 333-334,618-625,949-952
+  s_c2324aad607bbb::t_ad598ac56d0af0 926,941,943,956-959,963,968,970-974,977-981,983-992,1009-1010,1013-1015,1021-1023,1027,1032-1033,1035-1037,1039
+  s_c2324aad607bbb::t_cc2b1d4844e9ee 6,144,171,180,191,193,220,266,271,300,315,326,330,364,390,398
+  s_c2324aad607bbb::t_d9a5e7011e0e86 367-371,832
+nettools_mobile/pubspec.lock
+  s_c2324aad607bbb::t_5731aa2868fdf5 337-341,484,487
+.qoder/settings.json
+  s_c2324aad607bbb::t_f31ac74ef0085b 1-28
+nettools_mobile/lib/ui/pages/tools/ip_ownership_page.dart
+  s_c2324aad607bbb::t_689911a343210f 3-4,30,42,58,67,79
+  s_c2324aad607bbb::t_10b6027ae55ba1 37,49
+  s_c2324aad607bbb::t_d69134dc37d773 123-126
+nettools_mobile/lib/models/network_context.dart
+  s_c2324aad607bbb::t_d4d6d11a84b79a 110-162,182,202-205,228,268-271
+nettools_mobile/test/localization_test.dart
+  s_c2324aad607bbb::t_a198f9709460ce 13
+  s_c2324aad607bbb::t_2351ef10ac9832 71-87,112
+  s_c2324aad607bbb::t_c581926ae9a5df 98,100
+  s_c2324aad607bbb::t_af16c6d922963c 51-53,57,62-67
+  s_c2324aad607bbb::t_40fb5332bf922d 3,46-47,61
+  s_c2324aad607bbb::t_4bccf5100fc6a0 1-2,7,43-45,48-50,58-60,68
+  s_c2324aad607bbb::t_ec1fa36e8b4120 54,56
+  s_c2324aad607bbb::t_18d62bd8499ab9 4-6,8-12,14-42,113
+  s_c2324aad607bbb::t_bbb680e52a7e1c 70
+  s_c2324aad607bbb::t_5eecc7ab5b7e5b 55,69,88-97,99,101-111
+.codebuddy/settings.json
+  s_c2324aad607bbb::t_9d669d6b849980 1-28
+nettools_mobile/lib/ui/pages/remote/smb_browser_page.dart
+  s_c2324aad607bbb::t_689911a343210f 7-8,94,181,186,195,229-230,247,251,263,265-266,281,285,471,475,479,551,560,565
+  s_c2324aad607bbb::t_10b6027ae55ba1 116,124,133,142-143,152,171
+  s_c2324aad607bbb::t_d69134dc37d773 159-161,220-222,286-289,310-312
+  s_c2324aad607bbb::t_56bdbe383ee1bc 172-174
+  s_c2324aad607bbb::t_2afb790f6bdac2 192
+  s_c2324aad607bbb::t_3003af10458bac 13,440-441,443-444
+  s_c2324aad607bbb::t_f0cf7ada4696e3 104,214
+.gemini/skills/explore-codebase/SKILL.md
+  s_c2324aad607bbb::t_09c9d447c8b010 1-28
+nettools_mobile/pubspec.yaml
+  s_c2324aad607bbb::t_9bb0f3ba00cc3a 33-34
+  s_c2324aad607bbb::t_189900c390888f 53
+nettools_mobile/lib/l10n/strings/tool_copy.dart
+  s_c2324aad607bbb::t_babbd0af28def2 1-5
+nettools_mobile/lib/ui/pages/tools/telnet_terminal_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 57-59
+  s_c2324aad607bbb::t_689911a343210f 4-5,75,94,100,106,137
+  s_c2324aad607bbb::t_10b6027ae55ba1 81,88
+  s_c2324aad607bbb::t_f0cf7ada4696e3 65
+nettools_mobile/lib/ui/pages/tools/tls_inspection_page.dart
+  s_c2324aad607bbb::t_689911a343210f 2-3,31,62,71,103,113,116-117,120,133
+  s_c2324aad607bbb::t_10b6027ae55ba1 53
+  s_c2324aad607bbb::t_f0cf7ada4696e3 140
+  s_c2324aad607bbb::t_d69134dc37d773 41-43
+nettools_mobile/lib/ui/pages/remote/transfer_center_page.dart
+  s_c2324aad607bbb::t_689911a343210f 3-4,16,36,75,82,88,93
+  s_c2324aad607bbb::t_f0cf7ada4696e3 19
+.mcp.json
+  s_c2324aad607bbb::t_fa3d03690a0c38 1-14
+nettools_mobile/lib/ui/pages/remote/ssh_terminal_page.dart
+  s_c2324aad607bbb::t_72881662659ac9 15,44,341,345
+  s_c2324aad607bbb::t_9467c2e17d4cff 16,45,109,327,352-355,357-369,428-453,646-649
+  s_c2324aad607bbb::t_689911a343210f 8-9,128,185,190,233,239,246,252,470,477,481,673,675,691,717,722
+  s_c2324aad607bbb::t_f0cf7ada4696e3 134
+  s_c2324aad607bbb::t_d69134dc37d773 116-118,162-164,172-174,213-215,260-262,410-412
+  s_c2324aad607bbb::t_d69afdbcedc344 301-306,370-408
+  s_c2324aad607bbb::t_f3ce09f83f35fa 334
+  s_c2324aad607bbb::t_10b6027ae55ba1 146-147,153,203,222
+  s_c2324aad607bbb::t_752a391b9e7dfa 409,413
+nettools_mobile/test/widget_test.dart
+  s_c2324aad607bbb::t_18d62bd8499ab9 6,16,42-48
+nettools_mobile/lib/l10n/strings/tool_strings.dart
+  s_c2324aad607bbb::t_babbd0af28def2 3
+  s_c2324aad607bbb::t_0aa097425f8d98 16-17
+  s_c2324aad607bbb::t_6ba4fd2a84c445 1-2,4-15,18-43
+nettools_mobile/lib/ui/pages/tools/qr_generator_page.dart
+  s_c2324aad607bbb::t_689911a343210f 3-4,52,74,88,92,122,170,183,191,205,261,421,426
+  s_c2324aad607bbb::t_a6aa881c643cfd 389,412
+  s_c2324aad607bbb::t_d69134dc37d773 163-165,249-252
+  s_c2324aad607bbb::t_10b6027ae55ba1 58,131,142,240,245,268,273,280,287,294,301
+.gemini/skills/review-changes/SKILL.md
+  s_c2324aad607bbb::t_514529635906a2 1-29
+.gemini/hooks/crg-update.sh
+  s_c2324aad607bbb::t_a97fda1f379b7c 1-10
+nettools_mobile/lib/l10n/strings/tool_strings_developer_en.dart
+  s_c2324aad607bbb::t_6ba4fd2a84c445 2-6,11-18,23-24,29-30,35,52
+  s_c2324aad607bbb::t_0aa097425f8d98 7-10,19-22,25-28,31-34,36-51
+  s_c2324aad607bbb::t_babbd0af28def2 1
+QODER.md
+  s_c2324aad607bbb::t_aa93730e443ad4 1-38
+nettools_mobile/lib/l10n/strings/remote_strings.dart
+  s_c2324aad607bbb::t_6609ee09ff37ad 1-6,9-11,14-30
+  s_c2324aad607bbb::t_0aa097425f8d98 7-8,12-13
+CODEBUDDY.md
+  s_c2324aad607bbb::t_784bcd668cf609 1-38
+nettools_mobile/lib/ui/pages/tools/wake_on_lan_page.dart
+  s_c2324aad607bbb::t_689911a343210f 3-4,41,91,99
+  s_c2324aad607bbb::t_10b6027ae55ba1 50,59-60,82
+  s_c2324aad607bbb::t_d69134dc37d773 71-73,104-106
+nettools_mobile/lib/l10n/strings/common_strings.dart
+  s_c2324aad607bbb::t_9bb0f3ba00cc3a 1-43
+.codebuddy/skills/review-changes/SKILL.md
+  s_c2324aad607bbb::t_bbd0377e6dd14b 1-29
+.gemini/skills/refactor-safely/SKILL.md
+  s_c2324aad607bbb::t_342920199cf42a 1-28
+nettools_mobile/lib/state/app_state.dart
+  s_c2324aad607bbb::t_d1d773b9ebfe30 5,11,20,24,71-74
+  s_c2324aad607bbb::t_0aa097425f8d98 34
+  s_c2324aad607bbb::t_4478f4b3954858 75-77
+nettools_mobile/lib/l10n/README.md
+  s_c2324aad607bbb::t_0825bcbf4b48ca 1-19
+nettools_mobile/lib/ui/pages/tools/network_event_monitor_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 242-244,249-251,253-257
+  s_c2324aad607bbb::t_689911a343210f 4-5,48,60,68,81,110,124,148,152,157,199,210,247,266,275,283
+nettools_mobile/lib/ui/widgets/ssh/ssh_terminal_surface.dart
+  s_c2324aad607bbb::t_d9a5e7011e0e86 70-72,124-126
+  s_c2324aad607bbb::t_3a3f5e91e0702e 6-7,133
+  s_c2324aad607bbb::t_609c68ced88f5d 1-5,8-69,73-123,127-132,134-197
+nettools_mobile/lib/ui/pages/remote/ssh_tunnel_page.dart
+  s_c2324aad607bbb::t_689911a343210f 5-6,66,87,91,105,110,115,132,200,214,227,239,255,374,381,385,410,415
+  s_c2324aad607bbb::t_10b6027ae55ba1 158,173,185
+nettools_mobile/lib/l10n/strings/tool_strings_network_en.dart
+  s_c2324aad607bbb::t_babbd0af28def2 1
+  s_c2324aad607bbb::t_6ba4fd2a84c445 2-3,24,29-34,39,48,65-66,71,108
+  s_c2324aad607bbb::t_0aa097425f8d98 4-23,25-28,35-38,40-47,49-64,67-70,72-107
+nettools_mobile/lib/services/developer_tools_service.dart
+  s_c2324aad607bbb::t_b37c9499029b41 72-84
+nettools_mobile/lib/ui/pages/remote/sftp_browser_page.dart
+  s_c2324aad607bbb::t_ce2c5732cc530d 9
+  s_c2324aad607bbb::t_689911a343210f 6-7,70,111,147-148,168,185-186,390,394,398,438,447,451
+  s_c2324aad607bbb::t_10b6027ae55ba1 79,88,96,105,137
+  s_c2324aad607bbb::t_3003af10458bac 10,350-351,353
+  s_c2324aad607bbb::t_f0cf7ada4696e3 131
+  s_c2324aad607bbb::t_d69134dc37d773 115-118,199-206,208-215,235-237
+nettools_mobile/test/desktop_compatibility_test.dart
+  s_c2324aad607bbb::t_d4d40e693be3cf 1-72
+.gemini/settings.json
+  s_c2324aad607bbb::t_4f3ee3e127ec9d 1-30
+nettools_mobile/lib/ui/pages/tools/network_doctor_page.dart
+  s_c2324aad607bbb::t_689911a343210f 5-6,38,56,81,88,109,113-114
+nettools_mobile/lib/ui/pages/tools/port_scan_page.dart
+  s_c2324aad607bbb::t_689911a343210f 5-6,51,74,80,86,101,107,147-148,159,170,174,187
+  s_c2324aad607bbb::t_10b6027ae55ba1 58,65-66
+  s_c2324aad607bbb::t_d69134dc37d773 144-146
+nettools_mobile/lib/ui/widgets/page_header.dart
+  s_c2324aad607bbb::t_3a3f5e91e0702e 3-4,28,37
+.claude/skills/review-changes/SKILL.md
+  s_c2324aad607bbb::t_d42812ac275f4d 1-29
+nettools_mobile/lib/ui/widgets/offline_geo_map.dart
+  s_c2324aad607bbb::t_3a3f5e91e0702e 7-8,227
+  s_c2324aad607bbb::t_2afb790f6bdac2 185-187
+nettools_mobile/lib/ui/pages/tools/api_realtime_workbench.dart
+  s_c2324aad607bbb::t_10b6027ae55ba1 241,270,415-416,565,948
+  s_c2324aad607bbb::t_689911a343210f 7-8,125,143,319,329,358,362,374-375,432-433,472,481,505,510,521,538,601,620,642-643,651,683,718,729,942,965,969,989,1000-1001,1012,1016
+  s_c2324aad607bbb::t_f0cf7ada4696e3 388,551,672
+  s_c2324aad607bbb::t_56bdbe383ee1bc 665-667
+  s_c2324aad607bbb::t_2afb790f6bdac2 456-458,935
+  s_c2324aad607bbb::t_d69134dc37d773 165-168,199-210,288-290,299-301,346-349,417-419,428-431,542-544,612-619,621-624,706-709,956-958,1053-1055
+nettools_mobile/lib/ui/pages/history_page.dart
+  s_c2324aad607bbb::t_f0cf7ada4696e3 22
+  s_c2324aad607bbb::t_689911a343210f 2-3,38,58,62,82,87,107-108,112,116
+nettools_mobile/lib/ui/pages/tools/mac_format_page.dart
+  s_c2324aad607bbb::t_10b6027ae55ba1 44,46
+  s_c2324aad607bbb::t_689911a343210f 2-3,35,54-55,65,91,102,142
+  s_c2324aad607bbb::t_f0cf7ada4696e3 113
+.vscode/mcp.json
+  s_c2324aad607bbb::t_13a525cb61775e 1-14
+nettools_mobile/lib/l10n/strings/navigation_strings.dart
+  s_c2324aad607bbb::t_9bb0f3ba00cc3a 1-27
+nettools_mobile/lib/services/terminal_ansi_colorizer.dart
+  s_c2324aad607bbb::t_915977bd07ad91 106-109
+  s_c2324aad607bbb::t_72881662659ac9 1-8,10-11,13,48-51,68-96,105,110-112,114-121
+  s_c2324aad607bbb::t_547a93269284fc 9,12,14-47,113
+  s_c2324aad607bbb::t_c581926ae9a5df 103-104
+  s_c2324aad607bbb::t_3891f46c39f2a7 52-67,97-102
+.codebuddy/skills/debug-issue/SKILL.md
+  s_c2324aad607bbb::t_b27a41b0f5d47b 1-27
+nettools_mobile/lib/ui/pages/tools/ntp_query_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 78-80,83-86,98-100,103-106,122-125
+  s_c2324aad607bbb::t_689911a343210f 4-5,34,58,68,140,146,158,191,196,233,287,294-295,298,345,350
+  s_c2324aad607bbb::t_10b6027ae55ba1 43,119
+nettools_mobile/lib/ui/pages/tools/ip_tools_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 46-49,73-75
+  s_c2324aad607bbb::t_10b6027ae55ba1 35,67
+  s_c2324aad607bbb::t_689911a343210f 2-3,29,82,95
+nettools_mobile/lib/ui/pages/tools/wifi_analyzer_page.dart
+  s_c2324aad607bbb::t_689911a343210f 6-7,134,155,169,176,228,246,283,292,334,350,363,415,423-424,440,457,461,468,474,516,523,534,562,576,586,617,648,705,740,759,770,841-842,864,888,895,907
+  s_c2324aad607bbb::t_050bd6e522b3bd 144-146
+  s_c2324aad607bbb::t_d69134dc37d773 163-165,179-182,377-379,425-428,643-646,899-900
+  s_c2324aad607bbb::t_9128d32ee889c1 394
+  s_c2324aad607bbb::t_f0cf7ada4696e3 139
+  s_c2324aad607bbb::t_c20344caa946c6 901
+.gemini/hooks/crg-session-start.sh
+  s_c2324aad607bbb::t_3f3fb1c8fde6e9 1-15
+nettools_mobile/lib/ui/pages/tools_page.dart
+  s_c2324aad607bbb::t_e8344bdebe8624 2,30-35,59-64,101,120
+  s_c2324aad607bbb::t_0aa097425f8d98 36-41,44-47
+  s_c2324aad607bbb::t_689911a343210f 73,114
+  s_c2324aad607bbb::t_6eee7dc9ba09e4 4,20,24,26-27,50,55
+  s_c2324aad607bbb::t_d9a5e7011e0e86 42-43,65-72,74-100
+  s_c2324aad607bbb::t_25f28cbe3c3e60 128
+  s_c2324aad607bbb::t_189900c390888f 108,112-113
+nettools_mobile/lib/l10n/strings/settings_strings.dart
+  s_c2324aad607bbb::t_0aa097425f8d98 82-83,85-86,91-92,106-107
+  s_c2324aad607bbb::t_babbd0af28def2 3,33,63,111
+  s_c2324aad607bbb::t_9bb0f3ba00cc3a 1-2,4-32,34-62,64-81,84,87-90,93-102,112-138
+  s_c2324aad607bbb::t_94c388db7be5d0 103-105,108-110
+.qoder/mcp.json
+  s_c2324aad607bbb::t_d2f06075db13e8 1-14
+GEMINI.md
+  s_c2324aad607bbb::t_b5f2b12af1c519 1-38
+nettools_mobile/lib/ui/pages/tools/geo_ip_page.dart
+  s_c2324aad607bbb::t_56bdbe383ee1bc 68
+  s_c2324aad607bbb::t_689911a343210f 3-4,48,54-55,78,84,92,104-105
+nettools_mobile/lib/ui/pages/tools/bluetooth_debug_page.dart
+  s_c2324aad607bbb::t_10b6027ae55ba1 364,1265
+  s_c2324aad607bbb::t_f0cf7ada4696e3 166,852,858
+  s_c2324aad607bbb::t_56bdbe383ee1bc 899-901
+  s_c2324aad607bbb::t_d69134dc37d773 213-220,233-236,459-462,587-589,767-769,791-794,1253-1256,1284-1287,1292-1294
+  s_c2324aad607bbb::t_689911a343210f 7-8,161,180,193,198,240,249,284,292,310,323,327,345,356,383,390,399-401,410,421,426,438,449,471,510,521,558,570,613,626,686,783,809,813,836-837,907,916,945,956,986,1143,1151,1156,1163,1167,1275,1283,1288,1303,1311,1441
+nettools_mobile/lib/ui/widgets/navigation/desktop_navigation_sidebar.dart
+  s_c2324aad607bbb::t_e8344bdebe8624 1-16,18-27,31-74,76-92,96-104,106-168,173-181,186-215
+  s_c2324aad607bbb::t_3a3f5e91e0702e 75
+  s_c2324aad607bbb::t_d9a5e7011e0e86 17,28-30,93-95,105,169-172,182-185
+nettools_mobile/test/api_workbench_widget_test.dart
+  s_c2324aad607bbb::t_6152b09c9fc9ed 51
+nettools_mobile/lib/ui/pages/tools/developer_tool_page.dart
+  s_c2324aad607bbb::t_689911a343210f 5-6,93,101-103,135-138,231,251,256,264,280,295,498,505,525,545
+  s_c2324aad607bbb::t_56bdbe383ee1bc 170-171,210
+  s_c2324aad607bbb::t_d69134dc37d773 112-127,146-148,155-157,163-165,189-191
+  s_c2324aad607bbb::t_628b664e7f4026 559
+  s_c2324aad607bbb::t_b37c9499029b41 1,3,29-31,243-250,252-255,257-263,265-269,271-276,285,383,411-419,421-457,479-497,499,503-504,506-524,526-540,542-544,546-558
+  s_c2324aad607bbb::t_d9a5e7011e0e86 500-502
+  s_c2324aad607bbb::t_f0cf7ada4696e3 541
+  s_c2324aad607bbb::t_26aeda95e6dc6c 277-279,281-284,332-335
+  s_c2324aad607bbb::t_2afb790f6bdac2 420
+  s_c2324aad607bbb::t_10b6027ae55ba1 106,130,150,177,184,196
+nettools_mobile/lib/ui/pages/tools/network_info_page.dart
+  s_c2324aad607bbb::t_f0cf7ada4696e3 37,439
+  s_c2324aad607bbb::t_d69134dc37d773 278-281
+  s_c2324aad607bbb::t_d9a5e7011e0e86 261-264
+  s_c2324aad607bbb::t_9f9859d3361804 283
+  s_c2324aad607bbb::t_689911a343210f 4-5,32,109,113,145,156,170,218,227,233,245,306,311,321,352,376,385,432
+  s_c2324aad607bbb::t_e0b6982d6f4a9e 76-80,191-217,219-226,228-232,234-244,246-260,265-277,282
+nettools_mobile/lib/ui/pages/tools/iperf_page.dart
+  s_c2324aad607bbb::t_833711ff75fea8 335
+  s_c2324aad607bbb::t_689911a343210f 7-8,72,81,86,113,128-129,142,149,166,174,200,207,228,233,269,305
+  s_c2324aad607bbb::t_10b6027ae55ba1 102
+  s_c2324aad607bbb::t_a5e562dc46da38 32-33,48-55,349-351,628-630
+nettools_mobile/lib/l10n/strings/tool_page_strings.dart
+  s_c2324aad607bbb::t_e9c8fb0fec6fa3 114-115,119,123-130
+  s_c2324aad607bbb::t_206480654c16fc 81,87
+  s_c2324aad607bbb::t_aa7cb7fcd2a27f 116-118
+  s_c2324aad607bbb::t_4a72a711f7d433 138,157-163,168-169,174
+  s_c2324aad607bbb::t_261b9f434c38cf 180-211
+  s_c2324aad607bbb::t_45f85c6bcc8f63 40-43,63-80,82-86,88-98
+  s_c2324aad607bbb::t_5be3e7fc50e053 2,14
+  s_c2324aad607bbb::t_41fc9d871ae6ea 164-167,170-173
+  s_c2324aad607bbb::t_a5e562dc46da38 56-62
+  s_c2324aad607bbb::t_bbb680e52a7e1c 120-122
+  s_c2324aad607bbb::t_3891f46c39f2a7 53-55
+  s_c2324aad607bbb::t_050bd6e522b3bd 44-52
+  s_c2324aad607bbb::t_c619a27493afc4 1,3-13,15-39,99-113,131-137,139-156,175-179,212-229
+nettools_mobile/lib/ui/pages/tools/wifi_roaming_page.dart
+  s_c2324aad607bbb::t_689911a343210f 5-6,38,71,79,122,128,140,151,175,180,183,191,252,281,369,374
+  s_c2324aad607bbb::t_d69134dc37d773 160-162
+.windsurfrules
+  s_c2324aad607bbb::t_5d9a78e1c14d80 1-38
+nettools_mobile/lib/ui/pages/remote/remote_home_page.dart
+  s_c2324aad607bbb::t_0aa097425f8d98 22-35,37-38,40-45,54-57,60-69,72-78,80-82,84-92
+  s_c2324aad607bbb::t_6609ee09ff37ad 5,19-21,93-94,143,150,207,243-244,246,248-249,251-253,255-257,259
+  s_c2324aad607bbb::t_d69134dc37d773 46-53
+  s_c2324aad607bbb::t_689911a343210f 79,142,149,163,171,200,204,245,250,254,258,271-272,276,280
+nettools_mobile/lib/ui/pages/tools/tcp_ping_page.dart
+  s_c2324aad607bbb::t_689911a343210f 5-6,46,80,86,115,132,143,147,156
+  s_c2324aad607bbb::t_d69134dc37d773 57-59,118-120
+  s_c2324aad607bbb::t_10b6027ae55ba1 68
+nettools_mobile/lib/ui/pages/tools/dns_lookup_page.dart
+  s_c2324aad607bbb::t_56bdbe383ee1bc 47-49
+  s_c2324aad607bbb::t_10b6027ae55ba1 60,78
+  s_c2324aad607bbb::t_d69134dc37d773 112-114,214-216
+  s_c2324aad607bbb::t_2afb790f6bdac2 183-186
+  s_c2324aad607bbb::t_f0cf7ada4696e3 221
+  s_c2324aad607bbb::t_689911a343210f 2-3,38,65,83,137,148,174,179,189,208
+nettools_mobile/lib/ui/pages/tools/traceroute_page.dart
+  s_c2324aad607bbb::t_689911a343210f 2-3,60,72,116,127,134,149,159-160,168
+  s_c2324aad607bbb::t_10b6027ae55ba1 67
+  s_c2324aad607bbb::t_d69134dc37d773 81-83,92-94,103-105,140-143
+opencode.jsonc
+  s_c2324aad607bbb::t_f3dee054007384 1-15
+AGENTS.md
+  s_c2324aad607bbb::t_b6f2583a90f078 60-98
+nettools_mobile/lib/l10n/strings/tool_page_remote_en.dart
+  s_c2324aad607bbb::t_d69134dc37d773 23,26,45
+  s_c2324aad607bbb::t_82497274adb0f3 1-22,24-25,27-44,46-72
+nettools_mobile/lib/ui/pages/tools/lan_scan_page.dart
+  s_c2324aad607bbb::t_d69134dc37d773 58-60,110-117
+  s_c2324aad607bbb::t_689911a343210f 5-6,51,69,75,86,93,100-101,108-109,185
+nettools_mobile/lib/ui/widgets/transfer_progress_card.dart
+  s_c2324aad607bbb::t_3a3f5e91e0702e 3-4,36-40,44,53,58
+nettools_mobile/lib/ui/pages/tools/snmp_browser_page.dart
+  s_c2324aad607bbb::t_689911a343210f 5-6,63,76,81,86,120,130,140,149,197-198,258,296,313,319,341
+  s_c2324aad607bbb::t_10b6027ae55ba1 103,176,188,221,228
+  s_c2324aad607bbb::t_d69134dc37d773 112-114,231-234,251-253,275-277,289-291
+nettools_mobile/lib/ui/pages/tools/api_editor_widgets.dart
+  s_c2324aad607bbb::t_f0cf7ada4696e3 133
+  s_c2324aad607bbb::t_689911a343210f 3-4,150,206,217,226,241,275,280
+  s_c2324aad607bbb::t_d69134dc37d773 228-230,291-294,303-306
+nettools_mobile/README.md
+  s_c2324aad607bbb::t_2924af9c02b276 100
+.claude/skills/explore-codebase/SKILL.md
+  s_c2324aad607bbb::t_bc611c9004be2c 1-28
+nettools_mobile/lib/l10n/app_language.dart
+  s_c2324aad607bbb::t_9bb0f3ba00cc3a 1-25
+.kiro/steering/code-review-graph.md
+  s_c2324aad607bbb::t_38f13a83213def 1-38
+nettools_mobile/lib/services/download_destination_service.dart
+  s_c2324aad607bbb::t_4817b3644db090 1-61
+nettools_mobile/lib/ui/pages/tools/socket_debug_page.dart
+  s_c2324aad607bbb::t_f0cf7ada4696e3 88,218
+  s_c2324aad607bbb::t_10b6027ae55ba1 142,181,240
+  s_c2324aad607bbb::t_56bdbe383ee1bc 217
+  s_c2324aad607bbb::t_689911a343210f 4-5,83,117,122,191,203,251,256,264,275,286,295,330,339,379,464
+  s_c2324aad607bbb::t_d69134dc37d773 97-104,154-156,230-232,281-284,334-337
+nettools_mobile/lib/ui/pages/tools/oui_lookup_page.dart
+  s_c2324aad607bbb::t_10b6027ae55ba1 99,125-126
+  s_c2324aad607bbb::t_f0cf7ada4696e3 140,269
+  s_c2324aad607bbb::t_d69134dc37d773 314-317
+  s_c2324aad607bbb::t_689911a343210f 4-5,41,50,55,74,81,110,145,160,172,191,205,217,225,248,261,296,387
+nettools_mobile/lib/ui/pages/remote/embedded_sftp_panel.dart
+  s_c2324aad607bbb::t_4817b3644db090 13,325-326,328
+  s_c2324aad607bbb::t_10b6027ae55ba1 86
+  s_c2324aad607bbb::t_f0cf7ada4696e3 74,93,96
+  s_c2324aad607bbb::t_d69134dc37d773 360-362
+  s_c2324aad607bbb::t_689911a343210f 8-9,103,110,124,140,154,161,177,181,185,218,374,378,382,490,499,503
+nettools_mobile/test/terminal_ansi_colorizer_test.dart
+  s_c2324aad607bbb::t_72881662659ac9 1-7,9-18,33-35,38-40,42-43,62-66
+  s_c2324aad607bbb::t_d6bd25c2f9d28d 51-55
+  s_c2324aad607bbb::t_547a93269284fc 8,20,31-32,36-37,41,44-50,56-61
+  s_c2324aad607bbb::t_3891f46c39f2a7 19,21-30
+nettools_mobile/lib/ui/pages/tools/packet_capture_page.dart
+  s_c2324aad607bbb::t_10b6027ae55ba1 115
+  s_c2324aad607bbb::t_689911a343210f 7-8,33,47,59,72-73,106,128,139,153,164,169,174,186,241,298,306,316,338,343,355,373,378,407,413,454,458
+  s_c2324aad607bbb::t_2afb790f6bdac2 199
+.codebuddy/skills/refactor-safely/SKILL.md
+  s_c2324aad607bbb::t_17a0d96a2c6ae4 1-28
+nettools_mobile/lib/ui/widgets/settings/preference_cards.dart
+  s_c2324aad607bbb::t_0aa097425f8d98 105-107
+  s_c2324aad607bbb::t_9419f70e1b55ac 1-104,108-115
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "17a07c159aa33a409183c3bb2bbfdc67460cf877",
+  "prompts": {},
+  "sessions": {
+    "s_c2324aad607bbb": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f930a-e04d-7e60-8b76-4433f257adb5",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null
+    }
+  }
+}
