@@ -1,0 +1,264 @@
+nettools_mobile/lib/ui/pages/tools/bluetooth_debug_page.dart
+  s_c2324aad607bbb::t_66133cf982477e 63,84,172,179,275-276,282-283,313,995-996
+  s_c2324aad607bbb::t_bcd372c4bef629 3,64-68,85-91,274,277-278,284-287,314-317,997-998
+  s_c2324aad607bbb::t_ce9611e8305987 10,13,910,912-915,921,929-933,938-941,946-993
+  s_c2324aad607bbb::t_c7703259d1e94b 173,178,180-181,183-185,243
+  s_c2324aad607bbb::t_bab4ca4ee4e849 186-242
+nettools_mobile/lib/services/native_network_service.dart
+  s_c2324aad607bbb::t_ac73232d1afa33 7,13-14,19-20,33-34,43-44,52,56,61,99-107,128-134,159-165,169,187-188,194-195,210-211,216-217,222-223,226,233,238,245
+  s_c2324aad607bbb::t_6534d023c9ff02 249
+  s_c2324aad607bbb::t_06a01a8faf5cf4 40,49-51,55,59-60,62-74,248,250-300,302-370
+  s_c2324aad607bbb::t_902740313bdadc 2,8,12,17-18,22,31-32,35-36,41-42,45-48,53-54,57-58,83,90-98,108-112,126-127,135-139,146,157-158,166-168,170-178,185-186,189,192-193,196-199,208-209,212,214-215,218,220-221,224,227-231,234-235,239-244,246-247
+  s_c2324aad607bbb::t_a7a911b4d167df 21,140-145
+nettools_mobile/lib/services/bluetooth_debug_service.dart
+  s_c2324aad607bbb::t_bab4ca4ee4e849 20
+  s_c2324aad607bbb::t_4d28393a5a8236 1-2,10-12,15-18,21,24-25,28-29
+  s_c2324aad607bbb::t_a7a911b4d167df 22-23
+  s_c2324aad607bbb::t_66133cf982477e 7,9,13-14,27
+nettools_mobile/windows/runner/utils.h
+  s_c2324aad607bbb::t_236bc449ced744 1-19
+nettools_mobile/lib/models/structured_payload.dart
+  s_c2324aad607bbb::t_fd1f4a75e31751 1-40
+nettools_mobile/pubspec.yaml
+  s_c2324aad607bbb::t_11b627e0ccb2d3 2
+  s_c2324aad607bbb::t_187ba59503323c 56
+  s_c2324aad607bbb::t_931743ce21104f 90-95,108
+nettools_mobile/tool/build_bundled_iperf_linux.sh
+  s_c2324aad607bbb::t_ae34f5b869e347 1-33
+nettools_mobile/lib/ui/app_shell.dart
+  s_c2324aad607bbb::t_606e9c9259da7a 87-98
+nettools_mobile/linux/flutter/generated_plugin_registrant.cc
+  s_c2324aad607bbb::t_7ef6447cec8892 1-15
+nettools_mobile/windows/runner/CMakeLists.txt
+  s_c2324aad607bbb::t_236bc449ced744 1-40
+nettools_mobile/windows/flutter/CMakeLists.txt
+  s_c2324aad607bbb::t_236bc449ced744 1-109
+nettools_mobile/windows/flutter/generated_plugin_registrant.cc
+  s_c2324aad607bbb::t_7b39fc9d7d356e 1-17
+nettools_mobile/lib/ui/pages/tools/network_info_page.dart
+  s_c2324aad607bbb::t_2722089c4a6039 1-2,23
+nettools_mobile/linux/runner/my_application.cc
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1-47,49-51,53-54,57-65,67-149
+  s_c2324aad607bbb::t_3041115843fcfb 48,52,55-56,66
+nettools_mobile/lib/services/ssh_tunnel_service.dart
+  s_c2324aad607bbb::t_66fa30fbe91769 1-302
+nettools_mobile/lib/ui/pages/tools/network_event_monitor_page.dart
+  s_c2324aad607bbb::t_e3b99ea81c8f7e 1-326
+nettools_mobile/linux/CMakeLists.txt
+  s_c2324aad607bbb::t_65bb2e448a05fb 77-81,83-87
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1-76,88-136,148-150
+  s_c2324aad607bbb::t_7e4278f3ad0cde 137-147
+  s_c2324aad607bbb::t_f9eeb39b4a6a97 82
+nettools_mobile/lib/ui/tool_launcher.dart
+  s_c2324aad607bbb::t_74424c12701caf 20,22,26,31,33,36,39,47,49,55,62-63,70-71
+nettools_mobile/tool/build_linux_release_local.sh
+  s_c2324aad607bbb::t_11b627e0ccb2d3 1-28,30-32
+  s_c2324aad607bbb::t_ae34f5b869e347 29
+nettools_mobile/lib/services/local_discovery_service.dart
+  s_c2324aad607bbb::t_9fd17ff4812a21 144
+  s_c2324aad607bbb::t_cec4a12fe02b65 38,43,89,98,108,132,137-143
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/NetworkEventMonitor.kt
+  s_c2324aad607bbb::t_5552b52cc6c2e8 1-112
+nettools_mobile/windows/runner/resource.h
+  s_c2324aad607bbb::t_236bc449ced744 1-16
+nettools_mobile/linux/.gitignore
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1
+nettools_mobile/windows/flutter/generated_plugin_registrant.h
+  s_c2324aad607bbb::t_7b39fc9d7d356e 1-15
+nettools_mobile/windows/CMakeLists.txt
+  s_c2324aad607bbb::t_236bc449ced744 1-34,40-113
+  s_c2324aad607bbb::t_931743ce21104f 35-39
+nettools_mobile/windows/runner/Runner.rc
+  s_c2324aad607bbb::t_187fd81c228354 92-93,96,98
+  s_c2324aad607bbb::t_236bc449ced744 1-91,94-95,97,99-121
+nettools_mobile/lib/services/network_doctor_service.dart
+  s_c2324aad607bbb::t_f19d87b9fe88e8 300,346
+nettools_mobile/linux/flutter/CMakeLists.txt
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1-88
+nettools_mobile/test/desktop_network_service_test.dart
+  s_c2324aad607bbb::t_bcb93cb1b86f0e 1-108
+nettools_mobile/pubspec.lock
+  s_c2324aad607bbb::t_0222875cebd47a 764
+nettools_mobile/lib/services/snmp_service.dart
+  s_c2324aad607bbb::t_e76700432fef2f 1-936
+nettools_mobile/tool/bootstrap_linux_build_deps.sh
+  s_c2324aad607bbb::t_070696b6ea5b23 1-28,30-39
+  s_c2324aad607bbb::t_611931d931a691 29
+nettools_mobile/lib/ui/pages/remote/ssh_tunnel_page.dart
+  s_c2324aad607bbb::t_3104957c8f46ff 1-423
+nettools_mobile/windows/runner/main.cpp
+  s_c2324aad607bbb::t_606e9c9259da7a 29-30
+  s_c2324aad607bbb::t_236bc449ced744 1-28,31-43
+nettools_mobile/.metadata
+  s_c2324aad607bbb::t_3041115843fcfb 25-29
+  s_c2324aad607bbb::t_a29aacc8f22a2b 24
+nettools_mobile/windows/runner/flutter_window.cpp
+  s_c2324aad607bbb::t_606e9c9259da7a 65-70
+  s_c2324aad607bbb::t_236bc449ced744 1-64,71-77
+nettools_mobile/test/observability_tools_test.dart
+  s_c2324aad607bbb::t_98032cad447f54 1-177
+nettools_mobile/lib/ui/pages/tools/api_rest_workbench.dart
+  s_c2324aad607bbb::t_289608839c7081 10-11,13,55-62,572,581,590-592,594-595,601-617,645,659-765,955,964-1127,1366-1383
+nettools_mobile/lib/services/smb_service.dart
+  s_c2324aad607bbb::t_a0ece0e0c455b4 60-64
+  s_c2324aad607bbb::t_db108c3c256c40 1-2,4,50,65-88,97,109-125,136-141,147-155,157-174,180-192,198-234
+nettools_mobile/lib/ui/pages/tools/iperf_page.dart
+  s_c2324aad607bbb::t_32a6a3d109ca81 117,119
+  s_c2324aad607bbb::t_ec3e1cde049617 110,118,120
+  s_c2324aad607bbb::t_8f0191cbbe4626 3,111-116,121-123
+nettools_mobile/lib/ui/pages/tools/realtime_traffic_page.dart
+  s_c2324aad607bbb::t_10483ba9b95055 1-445,449-452,454-459,470-587,592-878
+  s_c2324aad607bbb::t_15315d594429cf 446-447,453,460
+  s_c2324aad607bbb::t_cb2489216cb98a 448,461-469,588-591
+nettools_mobile/lib/ui/pages/tools/api_editor_widgets.dart
+  s_c2324aad607bbb::t_047904fe00d0f8 7-8,265,267-290,294-304,306-316,318-320
+nettools_mobile/windows/runner/win32_window.cpp
+  s_c2324aad607bbb::t_236bc449ced744 1-288
+nettools_mobile/linux/flutter/generated_plugin_registrant.h
+  s_c2324aad607bbb::t_7ef6447cec8892 1-15
+nettools_mobile/android/app/src/main/cpp/mobile_config/version.h
+  s_c2324aad607bbb::t_931743ce21104f 1-6
+nettools_mobile/lib/ui/pages/tools/snmp_browser_page.dart
+  s_c2324aad607bbb::t_bfe77d9c83f9ec 1-428
+nettools_mobile/lib/services/syslog_receiver_service.dart
+  s_c2324aad607bbb::t_6faa1be934e4d6 1-331
+nettools_mobile/lib/services/wifi_roaming_service.dart
+  s_c2324aad607bbb::t_61fab9623a924c 1-166
+nettools_mobile/linux/flutter/generated_plugins.cmake
+  s_c2324aad607bbb::t_7ef6447cec8892 1-25
+nettools_mobile/README.md
+  s_c2324aad607bbb::t_f8e327e216e036 96
+  s_c2324aad607bbb::t_7a015999096878 129
+  s_c2324aad607bbb::t_43a9b68eae11df 21
+  s_c2324aad607bbb::t_931743ce21104f 22
+  s_c2324aad607bbb::t_1c50ed708d3d18 3,99-118,126-127
+  s_c2324aad607bbb::t_11b627e0ccb2d3 8,119-125
+  s_c2324aad607bbb::t_bdfde74554da5e 81-86,89
+  s_c2324aad607bbb::t_25ddbfd28b7734 18,128
+  s_c2324aad607bbb::t_7b5768e90a55e4 1,7,10,14-16,20,66-80,87-88,90-95,97-98
+nettools_mobile/android/app/src/main/cpp/mobile_config/iperf_config.h
+  s_c2324aad607bbb::t_931743ce21104f 1-41
+nettools_mobile/lib/ui/pages/tools/wifi_analyzer_page.dart
+  s_c2324aad607bbb::t_0cba7cbdca3f91 155-159,489
+  s_c2324aad607bbb::t_b24eaa1b6642f8 2,66-80,154
+  s_c2324aad607bbb::t_49a276888aad67 488
+nettools_mobile/lib/main.dart
+  s_c2324aad607bbb::t_606e9c9259da7a 1-2,14-23
+nettools_mobile/assets/fonts/DroidSansFallbackFull-LICENSE.txt
+  s_c2324aad607bbb::t_abfeecd3cbf1a7 1-202
+nettools_mobile/android/app/src/main/AndroidManifest.xml
+  s_c2324aad607bbb::t_f3b9efede5032c 19
+nettools_mobile/test/widget_test.dart
+  s_c2324aad607bbb::t_d1449d1f92cf54 35-40
+nettools_mobile/android/app/src/main/cpp/CMakeLists.txt
+  s_c2324aad607bbb::t_931743ce21104f 6,30-33
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/TrafficSnapshotProvider.kt
+  s_c2324aad607bbb::t_4e9b65265480ea 1-189
+nettools_mobile/android/app/src/main/kotlin/com/nettools/nettools_mobile/MainActivity.kt
+  s_c2324aad607bbb::t_69727a34d407e7 16-17,34,46,50-53,62-74,744
+nettools_mobile/lib/services/pcap_analysis_service.dart
+  s_c2324aad607bbb::t_9bca7e2c2f593f 1-487
+nettools_mobile/lib/services/network_event_service.dart
+  s_c2324aad607bbb::t_43ad119ab20ed7 3,8-156,176-183
+  s_c2324aad607bbb::t_50eeb84bbbcced 7
+  s_c2324aad607bbb::t_e637f4d5986415 5,160-164
+  s_c2324aad607bbb::t_a7a911b4d167df 159,165-166
+  s_c2324aad607bbb::t_6eb6a83e0204f1 1-2,4,6,157-158,167-175
+nettools_mobile/windows/runner/utils.cpp
+  s_c2324aad607bbb::t_236bc449ced744 1-69
+nettools_mobile/lib/services/windows_network_service.dart
+  s_c2324aad607bbb::t_01834a59a720e7 240,242-244,274
+  s_c2324aad607bbb::t_395159612a5d04 679-680,694
+  s_c2324aad607bbb::t_a7a911b4d167df 33-38,192-197,344-350,367-371,412,415,418,421,458,558-559,630-634,642-646
+  s_c2324aad607bbb::t_20dfb1cf7e9aea 241
+  s_c2324aad607bbb::t_7d26948e67765e 718-732
+  s_c2324aad607bbb::t_0d1ac437a2b739 1-32,39-191,198-239,245-273,275-343,351-366,372-411,413-414,416-417,419-420,422-457,459-557,560-629,635-641,647-678,681-693,695-717,733-749
+nettools_mobile/lib/ui/pages/tools/developer_tool_page.dart
+  s_c2324aad607bbb::t_bcdd58ad431f39 6-8,252-266
+nettools_mobile/lib/ui/pages/tools/packet_capture_page.dart
+  s_c2324aad607bbb::t_fbab42066bc601 1-490
+nettools_mobile/lib/ui/pages/remote/ssh_terminal_page.dart
+  s_c2324aad607bbb::t_a7a911b4d167df 225
+nettools_mobile/lib/ui/pages/remote/smb_browser_page.dart
+  s_c2324aad607bbb::t_aeb43e08d32558 178,189-195
+  s_c2324aad607bbb::t_e80f33c428faa2 175
+nettools_mobile/lib/ui/pages/tools/wifi_roaming_page.dart
+  s_c2324aad607bbb::t_99372a3ce95f1e 1-373
+nettools_mobile/lib/ui/pages/tools/syslog_receiver_page.dart
+  s_c2324aad607bbb::t_190f0a56d17b80 1-421
+nettools_mobile/tool/build_bundled_iperf_windows.ps1
+  s_c2324aad607bbb::t_f8e327e216e036 1-88
+nettools_mobile/lib/ui/pages/remote/remote_home_page.dart
+  s_c2324aad607bbb::t_9de357a3ab0020 9,222-230,233,235-238
+nettools_mobile/windows/runner/runner.exe.manifest
+  s_c2324aad607bbb::t_236bc449ced744 1-14
+nettools_mobile/windows/runner/win32_window.h
+  s_c2324aad607bbb::t_236bc449ced744 1-102
+nettools_mobile/lib/ui/pages/tools/http_diagnostic_page.dart
+  s_c2324aad607bbb::t_6ef4f9c6113643 3,6,28,112-146,177,188,196
+nettools_mobile/lib/services/api_rule_engine.dart
+  s_c2324aad607bbb::t_2726db08d1774f 1-278
+nettools_mobile/windows/flutter/generated_plugins.cmake
+  s_c2324aad607bbb::t_7b39fc9d7d356e 1-26
+nettools_mobile/linux/runner/CMakeLists.txt
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1-26
+nettools_mobile/lib/ui/pages/tools/socket_debug_page.dart
+  s_c2324aad607bbb::t_9402d01e72e3d3 6,9,291-315,317-324,326-327,329-339,341,346-386
+nettools_mobile/lib/ui/pages/tools/api_realtime_workbench.dart
+  s_c2324aad607bbb::t_d44c5f422e4fb5 7,846
+nettools_mobile/lib/ui/pages/settings_page.dart
+  s_c2324aad607bbb::t_e80f33c428faa2 149
+  s_c2324aad607bbb::t_abcf9d155475c5 150
+nettools_mobile/lib/ui/pages/tools/ntp_query_page.dart
+  s_c2324aad607bbb::t_4093c1fad90f11 1-340
+nettools_mobile/third_party/iperf3-windows-NOTICE.txt
+  s_c2324aad607bbb::t_f8e327e216e036 1-26
+nettools_mobile/lib/services/linux_network_service.dart
+  s_c2324aad607bbb::t_afc72354075b1c 799-805
+  s_c2324aad607bbb::t_bab4ca4ee4e849 20-25,90-103,225-226,283-288,453-458,467-474,484-491,499-512,514-516,547,570,663-667,682-683,698-699,757-758,763-767
+  s_c2324aad607bbb::t_20dfb1cf7e9aea 330
+  s_c2324aad607bbb::t_a66c3cd89e603b 1-19,26-83,85-89,104-224,227-282,289-328,334-361,363-452,459-466,475-483,492-498,513,517-546,548-569,571-662,668-681,684-697,700-756,759-762,768-796,807-808,814-834
+  s_c2324aad607bbb::t_01834a59a720e7 329,331-333,362
+  s_c2324aad607bbb::t_1ef70f2f8f1c81 84
+  s_c2324aad607bbb::t_7d26948e67765e 797-798,806,809-813
+nettools_mobile/linux/runner/main.cc
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1-6
+nettools_mobile/lib/ui/widgets/structured_data_viewer.dart
+  s_c2324aad607bbb::t_5ae369026198a0 1-471
+nettools_mobile/linux/runner/my_application.h
+  s_c2324aad607bbb::t_a29aacc8f22a2b 1-21
+nettools_mobile/lib/app.dart
+  s_c2324aad607bbb::t_931743ce21104f 108
+.github/workflows/build-platforms.yml
+  s_c2324aad607bbb::t_792527ba15d7d7 98-99
+  s_c2324aad607bbb::t_931743ce21104f 94-96
+  s_c2324aad607bbb::t_f8e327e216e036 113-117
+  s_c2324aad607bbb::t_a26f974d057260 80-82,112
+  s_c2324aad607bbb::t_bdfde74554da5e 125
+  s_c2324aad607bbb::t_4513bb31f37466 1-79,83-93,97,100-111,118-124,126-130
+nettools_mobile/lib/ui/tool_catalog.dart
+  s_c2324aad607bbb::t_7c1a14bcdfd1b5 194
+  s_c2324aad607bbb::t_5e9e3da7d834cf 44-50,58-64,86-92,142-155,198-211
+nettools_mobile/windows/runner/flutter_window.h
+  s_c2324aad607bbb::t_236bc449ced744 1-33
+nettools_mobile/lib/services/ntp_service.dart
+  s_c2324aad607bbb::t_4690ea0acd22b3 1-204
+nettools_mobile/windows/.gitignore
+  s_c2324aad607bbb::t_236bc449ced744 1-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "d3d3221f29d531a23a2a251435583b9c468af640",
+  "prompts": {},
+  "sessions": {
+    "s_c2324aad607bbb": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f930a-e04d-7e60-8b76-4433f257adb5",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null
+    }
+  }
+}
