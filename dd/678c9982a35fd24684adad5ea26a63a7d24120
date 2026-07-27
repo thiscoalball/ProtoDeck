@@ -1,0 +1,21 @@
+.github/workflows/build-platforms.yml
+  s_c2324aad607bbb::t_2924af9c02b276 5-20,50-52,77-79,113-115
+nettools_mobile/README.md
+  s_c2324aad607bbb::t_2924af9c02b276 100
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "dd678c9982a35fd24684adad5ea26a63a7d24120",
+  "prompts": {},
+  "sessions": {
+    "s_c2324aad607bbb": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f930a-e04d-7e60-8b76-4433f257adb5",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "thiscoalball <805755827@qq.com>"
+    }
+  }
+}
