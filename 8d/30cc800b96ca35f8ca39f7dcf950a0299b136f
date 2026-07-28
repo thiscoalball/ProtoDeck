@@ -1,0 +1,1741 @@
+app/lib/ui/pages/tools/tls_inspection_page.dart
+  s_c2324aad607bbb::t_61216637e602f9 32,91-102,120,165-168,175-181,192-202,257,270,279-280
+  s_c2324aad607bbb::t_b7526e66ea76f0 203-207
+  s_c2324aad607bbb::t_2b64a2d38760ac 4-9,13-14,24-31,33-34,46-48,51-90,103-119,121,151-164,169-174,182-191,208-216,218-256,258-263,281,289-290
+  s_c2324aad607bbb::t_14d307da223a06 217
+  s_c2324aad607bbb::t_5b3e87d435543c 1,3,10-12,15-22,35-45,49-50,122-150,264-269,271-278,282-288
+  s_c2324aad607bbb::t_0228b4bcfe3e25 2
+  s_c2324aad607bbb::t_5c746f12c11565 23
+.codebuddy/skills/refactor-safely/SKILL.md
+  s_c2324aad607bbb::t_4c666f71171499 1-28
+THIRD_PARTY_NOTICES.md
+  s_c2324aad607bbb::t_94447b1c3c91ae 35-46
+  s_c2324aad607bbb::t_1ccd79aca44ce2 1-34,47-87
+app/lib/services/build_info_service.dart
+  s_c2324aad607bbb::t_87d0de6216bd54 1-55
+app/lib/services/mac_format_service.dart
+  s_c2324aad607bbb::t_69303dcdc1aee3 7-10,17-20,37-46,49-53,59-62
+  s_7639e9eb5f1ce1::t_cdf664244c6af4 1-6,11-16,21-36,54-58,63-65
+  s_c2324aad607bbb::t_9dc4af147e1127 47-48
+app/lib/ui/pages/remote/ssh_terminal_page.dart
+  s_c2324aad607bbb::t_4438320faf5b70 1-745
+app/android/app/src/debug/AndroidManifest.xml
+  s_c2324aad607bbb::t_b84890fbde114f 1-7
+app/android/app/src/profile/AndroidManifest.xml
+  s_c2324aad607bbb::t_93ef53665e48e3 1-7
+app/tool/build_bundled_iperf_windows.ps1
+  s_c2324aad607bbb::t_dcc63b69659a55 1-2,5-21,23-51,53-70,73,75-83,85-88
+  s_c2324aad607bbb::t_60bc49359e8ab6 3-4,22,52,71-72,74,84,89
+.github/workflows/build-platforms.yml
+  s_c2324aad607bbb::t_a2857a246d0ab1 1-20,25-39,62,64-80,83-101,112-113,116,120-121,123,126-129,132-142,144-153,164-165,167-168,171,175-176,178,181-184,187-207,219-221,225-227,236-238,241,245-246,248,251-252
+  s_c2324aad607bbb::t_aa23a44333e23d 21-24,50,55-56,59-60,115,117,122,124-125,170,172,177,179-180,229,231,240,242,247,249-250
+  s_c2324aad607bbb::t_a0d70a591946ad 40-47,51-54,57-58,61,63,82,102-104,107,109,114,119,131,154-156,159,161,169,174,186,208-211,228,230,232,234-235,239,243-244
+  s_c2324aad607bbb::t_73b69feb4f5f89 48-49,81,108,118,130,160,166,173,185,215,224,233
+  s_c2324aad607bbb::t_8b92a84264ae86 105-106,110-111,157-158,162-163,212-213,216-218
+  s_c2324aad607bbb::t_8b3d03973c4369 143
+  s_c2324aad607bbb::t_60bc49359e8ab6 214,222-223
+app/lib/services/iperf_command_service.dart
+  s_c2324aad607bbb::t_f842c22c9ec8a6 1-196
+app/android/app/src/main/cpp/iperf/config/ax_pthread.m4
+  s_c2324aad607bbb::t_028b5822691b2e 1-522
+app/android/app/src/main/cpp/iperf/contrib/iperf3.service
+  s_c2324aad607bbb::t_e9b389c13c71b9 1-26
+app/lib/services/structured_data_workbench_service.dart
+  s_c2324aad607bbb::t_a015eaf5c9ce80 203-206,265
+  s_c2324aad607bbb::t_626bd8c6ddfe23 31-35,38-40,67-71,114-116,149-150,184-189,225-227,258-259,266-267,275-280,287-292
+  s_c2324aad607bbb::t_f5b7ff3c857a3b 1-30,36-37,41-66,72-113,117-148,151-183,190-202,207-224,228-257,260-264,268-274,281-286,293-342
+app/lib/ui/widgets/transfer_progress_card.dart
+  s_c2324aad607bbb::t_5168098ee1fd30 1-74
+app/lib/services/qr_code_service.dart
+  s_c2324aad607bbb::t_8013893e440502 1-186
+app/lib/l10n/strings/tool_page_developer_en.dart
+  s_c2324aad607bbb::t_bdedaaeba60913 227-228
+  s_c2324aad607bbb::t_9c5cd518fea7a7 1-22,122-128,132-181,189-191,196-216,493
+  s_c2324aad607bbb::t_583ea69f14011d 23,40-42,44-46,59-84,86
+  s_c2324aad607bbb::t_5f9c4a0cbaa710 29-31
+  s_c2324aad607bbb::t_9a72b063ff93f9 245-264,266-270
+  s_c2324aad607bbb::t_d32add8c801873 43,85
+  s_c2324aad607bbb::t_767dc9587865ef 229-244
+  s_c2324aad607bbb::t_7572a20495aa01 87-121
+  s_c2324aad607bbb::t_b720e0f040b1b3 217-226
+  s_c2324aad607bbb::t_29499b39657ab4 24-27,32-37,39
+  s_c2324aad607bbb::t_74d2ff7cae25a3 192-195
+  s_c2324aad607bbb::t_e6413d7920f3be 341-345,348-359,361-388,390-425
+  s_c2324aad607bbb::t_4dbd383a29ea3d 265,281,286,305-306,346-347,360,389,426,430,453
+  s_c2324aad607bbb::t_7dc57221680cd5 28
+  s_c2324aad607bbb::t_1046670e78c3b1 47-58
+  s_c2324aad607bbb::t_9ac1b3339be992 129-131
+  s_c2324aad607bbb::t_d0987de3796c11 182-188
+  s_c2324aad607bbb::t_770eb2cefb7c71 38
+  s_c2324aad607bbb::t_71c0e9ed1001ce 271-280,282-285,287-304,307-340
+  s_c2324aad607bbb::t_4dee002966a3d4 427-429,431-452,454-492
+app/lib/services/network_defaults_service.dart
+  s_c2324aad607bbb::t_ac7fe3ec0c5b4c 1-50
+app/android/settings.gradle.kts
+  s_c2324aad607bbb::t_810a3d51783c13 1-26
+app/lib/ui/pages/tools/local_discovery_page.dart
+  s_c2324aad607bbb::t_e423c68c752a21 18
+  s_c2324aad607bbb::t_0c73c3afbc80b2 103,170-184,225-227,281-292,294,297-304,327-329,331-352,354-356,358,360-362,384
+  s_c2324aad607bbb::t_77707f289c56bd 295-296,305-318,320-326
+  s_c2324aad607bbb::t_5e09f43b987157 42,45,396-400
+  s_c2324aad607bbb::t_81a1c65649f423 3-8,13-14,19-24,33-36,60-83,128-138,150-168,185-186,188-189,191-192,194-219,230-231,233-234,236-237,239-261,266-267,272-277,395,401-402
+  s_c2324aad607bbb::t_9dd59856b8970a 1-2,9-10,15-17,25-32,37-41,43-44,46-59,84-102,104-127,139-149,169,187,190,193,220-224,228-229,232,235,238,262-265,268-271,278-280,293,330,353,357,359,363-383,385-394
+  s_c2324aad607bbb::t_1efbc2d9ac4633 11-12,319
+app/lib/l10n/strings/common_strings.dart
+  s_c2324aad607bbb::t_8f466369d3081f 1-47
+NOTICE
+  s_c2324aad607bbb::t_6e68a71730dc96 1-6
+app/test/tool_experience_test.dart
+  s_c2324aad607bbb::t_92cbb36c1b42b0 1-40
+app/android/app/src/main/cpp/iperf/src/iperf_sctp.h
+  s_c2324aad607bbb::t_6bafc9937faa13 1-74
+app/android/app/src/main/cpp/iperf/test_commands.sh
+  s_c2324aad607bbb::t_6b7bed2493d0d1 1-73
+app/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md
+  s_c2324aad607bbb::t_59da5889cfb1bf 1-5
+app/android/app/src/main/cpp/iperf/src/t_api.c
+  s_c2324aad607bbb::t_98ef5ff5fd0fa9 1-90
+app/lib/ui/pages/tools/ip_ownership_page.dart
+  s_c2324aad607bbb::t_4ba09a3340309a 1-2,4,9-11,14-18,20-22,33-43,47-50,97,163-170,196-213,215-219
+  s_c2324aad607bbb::t_726a22c78ac12f 3,5-8,12-13,19,23-32,44-46,51-96,98-137,144-162,171-195,214,220-221
+  s_c2324aad607bbb::t_e2540aa3a6be1d 138-143
+app/android/app/src/main/cpp/iperf/docs/_esnet/README.rst
+  s_c2324aad607bbb::t_008b9764c2e443 1-107
+app/lib/app.dart
+  s_c2324aad607bbb::t_cc1700363baf19 118-119,155,182,229-235,257-262,317-320,329-332,376
+  s_c2324aad607bbb::t_fb9417a909cf08 57-58
+  s_c2324aad607bbb::t_8a855a0c5f0a18 18-21,23,26,35
+  s_c2324aad607bbb::t_b0a394df515a87 5,90-108
+  s_c2324aad607bbb::t_3d96501e6a325e 1-4,6-17,24-25,28-34,36-56,59-89,109-117,120-154,156-181,183-228,236-256,263-316,321-328,333-375,377-425
+  s_c2324aad607bbb::t_4716c64fe65efd 22,27
+app/android/app/src/main/res/drawable/launch_background.xml
+  s_c2324aad607bbb::t_776f3b6190301f 1-12
+app/lib/services/snmp_service.dart
+  s_c2324aad607bbb::t_05c39c39e0d29c 219-221
+  s_c2324aad607bbb::t_efd909a0042be8 1-138,140-141,143-149,183-212,214-216,225-228,232,234,237-239,254-305,307-318,321-324,339-362,377-997
+  s_c2324aad607bbb::t_73d7ea545ceeb9 139,150-182,213,217,222-224,229-231,233,235-236,240-253,306,319-320,325-338
+  s_c2324aad607bbb::t_9ad8eda5639db2 142,218,363-376
+app/lib/ui/pages/tools/wifi_analyzer_page.dart
+  s_c2324aad607bbb::t_85746a0a0c072d 16-17,27-28,33-34,37-40,63-65,76-78,151,452-458,653-656,828-835,839-857,881-883
+  s_c2324aad607bbb::t_6782fd3095556d 726-730,732-742,888,910-915
+  s_c2324aad607bbb::t_0e465f8477116a 2,5,7-8,46-48,430,460-464,664-687,689-725,743-744,785-791,794-813,822-824,836-838,865-866,869-870,879-880,884-887,889-909,916-924,928-930,934-940
+  s_c2324aad607bbb::t_8281b0c50e89c5 1,3-4,6,9-15,18-26,29-32,35-36,41-45,49-62,66-75,79-150,159,168,182,191,204,213-429,431-449,451,459,465-652,657-663,745-784,814-821,825-827,941-1587
+  s_c2324aad607bbb::t_f062c7e74e2860 450,688,792-793,858-864,867-868,871-878,925-927,931-933
+  s_c2324aad607bbb::t_2c6e2adf58eaeb 152-158,160-167,169-181,183-190,192-203,205-212
+  s_c2324aad607bbb::t_d11f50cae5ae98 731
+app/lib/ui/pages/tools/tcp_ping_page.dart
+  s_c2324aad607bbb::t_cffe4123e0b6f9 1-200
+app/android/app/src/main/cpp/iperf/src/iperf_config.h.in
+  s_c2324aad607bbb::t_e33e02fed3ea75 1-190
+app/android/app/src/main/cpp/iperf/src/t_uuid.c
+  s_c2324aad607bbb::t_76578358facc45 1-46
+app/lib/services/wildcard_mask_service.dart
+  s_c2324aad607bbb::t_ff2ccbd1bbb252 19-30,57-71
+  s_c2324aad607bbb::t_3f1e55e5bb58fb 1-18,31-56,72-119
+app/.agents/skills/protodeck-ui-ux/SKILL.md
+  s_c2324aad607bbb::t_02b2d961480a3a 1-68
+app/android/app/src/main/cpp/iperf/Makefile.in
+  s_c2324aad607bbb::t_6a667c35966ba5 1-843
+app/android/app/src/main/cpp/iperf/contrib/README.txt
+  s_c2324aad607bbb::t_f498361694d671 1-12
+.gemini/skills/review-changes/SKILL.md
+  s_c2324aad607bbb::t_edcf3cc23621d0 1-29
+app/android/app/src/main/cpp/iperf/README.md
+  s_c2324aad607bbb::t_f939b13ea3501a 1-171
+app/android/app/src/main/res/values-night/styles.xml
+  s_c2324aad607bbb::t_f37e7d82207d8b 1-18
+app/lib/services/regex_workbench_service.dart
+  s_c2324aad607bbb::t_626bd8c6ddfe23 45-46,61-62,72-73,78-81,140-142,156-157,198-225
+  s_c2324aad607bbb::t_31d185cde3e0ef 85-86
+  s_c2324aad607bbb::t_a015eaf5c9ce80 56
+  s_c2324aad607bbb::t_b0229e73c319d8 1-44,47-55,57-60,63-71,74-77,82-84,87-139,143-155,158-197,226-249
+app/android/app/src/main/cpp/iperf/src/cjson.c
+  s_c2324aad607bbb::t_76d082d3bd8750 1-3130
+app/lib/ui/widgets/offline_geo_map.dart
+  s_c2324aad607bbb::t_bfa7af0fee295c 1-525
+app/lib/ui/pages/tools/packet_capture_page.dart
+  s_c2324aad607bbb::t_7467e8365d485a 62-69,72-75,313-321,323-339,348,358-370,372-416
+  s_c2324aad607bbb::t_c6ab999b7f6807 202-205
+  s_c2324aad607bbb::t_02f1f65f3b4282 703-704,1053-1054,1074,1118-1132,1134-1140,1142
+  s_c2324aad607bbb::t_c6abb514a48ed1 822-825,888-891,976-977
+  s_c2324aad607bbb::t_2d9dc0ac8f723a 70-71,322,357
+  s_c2324aad607bbb::t_8c554a29c73722 4,958
+  s_c2324aad607bbb::t_295a3d8b0b8887 1,3,15-16,20,22-23,36-53,55-56,81-97,279-291,297,299,371,417-419,421-429,431-440
+  s_c2324aad607bbb::t_44a57356e7110a 2,5-8,10-14,17-19,21,24-33,35,57-61,76-80,98-140,150-159,161-178,184-201,206-278,292-296,298,300-312,441-702,1103-1105,1143
+  s_c2324aad607bbb::t_3e9f49a5638799 711-821,826-887,892-957,959-975,978-991
+  s_c2324aad607bbb::t_281d56a21d8ab3 34,54,160,179-183,420,430
+  s_c2324aad607bbb::t_ce8102c3529f5d 142-147,340-347,349-356
+  s_c2324aad607bbb::t_d6d18c5367354a 1016
+  s_c2324aad607bbb::t_58196d8f4f24d6 9,141,148-149,705-710,992-1015,1017-1052,1055-1073,1075-1102,1106-1117,1133,1141
+app/android/app/src/main/cpp/iperf/src/tcp_info.c
+  s_c2324aad607bbb::t_3b3b5586349cf7 1-267
+app/android/app/src/main/cpp/iperf/src/cjson.h
+  s_c2324aad607bbb::t_a96f2d5c2f86fe 1-302
+app/android/app/src/main/cpp/iperf/docs/_esnet/templates/relations.html
+  s_c2324aad607bbb::t_6ba395219525ad 1-21
+app/lib/ui/pages/tools/jwt_workbench_page.dart
+  s_c2324aad607bbb::t_874272acf682ef 217
+  s_c2324aad607bbb::t_74c50ee0793ea0 1-22,30-117,128-142,147-155,170-176,180,183-189,193-194,200-214,219-224,226-229,238-248,254-255,259-267,280,282-284,296-312,315-320,326-342
+  s_c2324aad607bbb::t_e56ff0ed9014fb 23-29,118-127,143-146,156-169,177-179,181-182,190-192,195-199,215-216,218,225,230-237,249-253,256-258,268-279,281,285-295,313-314,321-325
+app/android/app/src/main/cpp/iperf/docs/obtaining.rst
+  s_c2324aad607bbb::t_c61ea959ba7c45 1-80
+app/android/app/src/main/kotlin/com/nettools/nettools_mobile/MainActivity.kt
+  s_c2324aad607bbb::t_4496eaa463f2e7 1-606,614-624,628,631-637,649-773
+  s_c2324aad607bbb::t_5ee9cc08cc9c74 607-613,625-627,629-630,638-648
+app/android/app/src/main/cpp/iperf/src/dscp.c
+  s_c2324aad607bbb::t_09078ceb7d0833 1-162
+.gemini/skills/refactor-safely/SKILL.md
+  s_c2324aad607bbb::t_ab96d66ee230dc 1-28
+README_EN.md
+  s_c2324aad607bbb::t_f00c0e0af988a9 1-199
+app/lib/l10n/strings/tool_page_network_en.dart
+  s_c2324aad607bbb::t_032bb4a41a6451 52,58-59
+  s_c2324aad607bbb::t_a8d4b19e494d22 310-338
+  s_c2324aad607bbb::t_9a72b063ff93f9 412-433,435-446,448-499,501-533
+  s_c2324aad607bbb::t_6dc8f318bb722d 251
+  s_c2324aad607bbb::t_2bdf4681051009 145-146
+  s_c2324aad607bbb::t_15d8746809da1c 108-110
+  s_c2324aad607bbb::t_45f13a26bd4808 34-35
+  s_c2324aad607bbb::t_c5110410a0deca 175-177
+  s_c2324aad607bbb::t_f6ca94d7c32867 44-46
+  s_c2324aad607bbb::t_bdc210ec77e2a1 61
+  s_c2324aad607bbb::t_a25e2460bfdc9f 235-242
+  s_c2324aad607bbb::t_c46f180e5aeb55 1,7-11,20-23,33,36,43,47,74,91,98,111,114-123,127-142,147-158,165-174,178-200,212-234,578
+  s_c2324aad607bbb::t_f4489610b90143 112-113
+  s_c2324aad607bbb::t_4fff8a69ddc9f5 243-247
+  s_c2324aad607bbb::t_3fabb4a865a1a6 256-257
+  s_c2324aad607bbb::t_348966f0220e4f 390
+  s_c2324aad607bbb::t_dffafc1bbd5668 159-164
+  s_c2324aad607bbb::t_7467e8365d485a 248-250
+  s_c2324aad607bbb::t_b98a41d30fd3c5 252-254
+  s_c2324aad607bbb::t_8e066f0b2604e1 201-211
+  s_c2324aad607bbb::t_73714719b3fab1 88-90
+  s_c2324aad607bbb::t_899292f61e66bf 24-32
+  s_c2324aad607bbb::t_138114843e10ab 255
+  s_c2324aad607bbb::t_8bb7ba05b8f8d1 37-42
+  s_c2324aad607bbb::t_99a3febde56830 370-389,391-411
+  s_c2324aad607bbb::t_20fb3606dbd5d5 354
+  s_c2324aad607bbb::t_e459160313d5fb 309
+  s_c2324aad607bbb::t_4dbd383a29ea3d 434,447,500,551
+  s_c2324aad607bbb::t_9ffd258b20071d 2-6
+  s_c2324aad607bbb::t_54668e88206d25 339-353,355-369
+  s_c2324aad607bbb::t_cc1700363baf19 124-126
+  s_c2324aad607bbb::t_1a291a545a57ce 143-144
+  s_c2324aad607bbb::t_518973b3a38c7d 48-51,53-57
+  s_c2324aad607bbb::t_e60c4319081e8b 92-97
+  s_c2324aad607bbb::t_5963a97b40e62a 258-268,270-291,293-308
+  s_c2324aad607bbb::t_4e56638f758dd2 12-19
+  s_c2324aad607bbb::t_d57d02357fc100 60,62-73
+  s_c2324aad607bbb::t_6a2472cc8122dd 75-87
+  s_c2324aad607bbb::t_e6413d7920f3be 534-550,552-577
+  s_c2324aad607bbb::t_98cda9a66c6c28 99-107
+  s_c2324aad607bbb::t_5da98186c03e0d 269,292
+app/test/port_scan_service_test.dart
+  s_c2324aad607bbb::t_1e2ba5a4c66b76 3-5,8-10
+  s_c2324aad607bbb::t_77ba500e088753 1-2
+  s_c2324aad607bbb::t_8e96c8829e58d5 6-7
+  s_c2324aad607bbb::t_872168f9bcb1b3 12-16
+  s_c2324aad607bbb::t_7889a6882542a0 11,17-42
+  s_c2324aad607bbb::t_f258a122b833c7 43
+app/android/app/src/main/cpp/iperf/src/iperf_pthread.h
+  s_c2324aad607bbb::t_cab75d8c7c0089 1-33
+app/lib/services/ntp_service.dart
+  s_c2324aad607bbb::t_4f87e32780daea 1-204
+app/android/app/src/main/cpp/iperf/src/portable_endian.h
+  s_c2324aad607bbb::t_7c294060ac0216 1-166
+.gemini/settings.json
+  s_c2324aad607bbb::t_8c024811b47973 1-30
+app/lib/models/build_info.dart
+  s_c2324aad607bbb::t_87d0de6216bd54 1-41
+.codebuddy/skills/debug-issue/SKILL.md
+  s_c2324aad607bbb::t_6b25c380d18639 1-27
+CHANGELOG.md
+  s_c2324aad607bbb::t_bd1097ff75d6b4 1-22
+app/linux/runner/my_application.h
+  s_c2324aad607bbb::t_a873e992f39a65 1-21
+app/windows/runner/flutter_window.h
+  s_c2324aad607bbb::t_8144a1dcc1bbf0 1-10,13-32,34-36
+  s_c2324aad607bbb::t_cf02da008a16f4 11-12,33
+app/test/network_context_test.dart
+  s_c2324aad607bbb::t_1c79967fb50a01 1-81
+app/lib/ui/pages/tools/geo_ip_page.dart
+  s_c2324aad607bbb::t_662ed0417f8355 1-5,7-8,10-27,39-43,46-74,79-127,132-185,234-235
+  s_c2324aad607bbb::t_fbdcd0f20182bb 6,9,28-38,44-45,75-78,128-131,186-187,189-218,222-233
+  s_c2324aad607bbb::t_8f448548743abe 188,219-221
+app/lib/ui/pages/remote/remote_home_page.dart
+  s_c2324aad607bbb::t_98bc69221d0cb5 1-488
+app/lib/ui/pages/tools/iperf_page.dart
+  s_c2324aad607bbb::t_a27ff7c9efcaac 292-294,305,375-380
+  s_c2324aad607bbb::t_e99340c56e3de8 13,48-50,53-62,74-75,77,336,480-493,759-787,789-817
+  s_c2324aad607bbb::t_24b34816614317 1-12,14-47,51-52,63-73,76,78-291,295-304,306-335,337-374,381-479,494-758,818-885
+  s_c2324aad607bbb::t_0d987098b1778a 788
+app/lib/ui/pages/remote/embedded_ssh_file_panel.dart
+  s_c2324aad607bbb::t_4ef29415416768 1-595
+app/android/app/src/main/AndroidManifest.xml
+  s_c2324aad607bbb::t_6ca80df7e64c72 1-85
+app/android/app/src/main/cpp/iperf/contrib/iperf3_to_gnuplot.py
+  s_c2324aad607bbb::t_33fa0b8115ecc6 1-124
+app/lib/l10n/app_language.dart
+  s_c2324aad607bbb::t_28173aac9c8e36 1-25
+app/android/app/src/main/cpp/iperf/src/iperf_time.h
+  s_c2324aad607bbb::t_87b070f90b85ea 1-70
+app/android/app/src/main/cpp/iperf/.gitlab-ci.yml
+  s_c2324aad607bbb::t_0a3135c2037c56 1-43
+app/lib/l10n/strings/remote_strings.dart
+  s_c2324aad607bbb::t_87ff3aa9ba161f 1-30
+app/.agents/skills/protodeck-verify-release/agents/openai.yaml
+  s_c2324aad607bbb::t_d182588e5d605b 1-4
+app/android/app/src/main/cpp/iperf/docs/dev.rst
+  s_c2324aad607bbb::t_025ce07c291434 1-348
+app/test/geo_map_order_test.dart
+  s_c2324aad607bbb::t_fbecb22b5cdb47 1-21
+.cursorrules
+  s_c2324aad607bbb::t_a3a7027408a17e 1-38
+README.md
+  s_c2324aad607bbb::t_061d02948fa68f 1-2,156-157,162,165,170,172-173,177,179-180,182-183
+  s_c2324aad607bbb::t_d51fe4feec2538 3-6,18-19,23-24,28-29,33,35-37,40-41,46
+  s_c2324aad607bbb::t_2d5bdc1211fab5 20-22,25-27,30-32,38-39,42-43
+  s_c2324aad607bbb::t_139ab81755c4b8 151
+  h_f3388896937b91 50-51
+  s_c2324aad607bbb::t_7259bea7852ed1 154
+  s_c2324aad607bbb::t_64f9838f03c632 7-17,34,44-45,47-49,52-150,152-153,155,158-161,163-164,166-169,171,174-176,178,181,184-185
+app/android/app/src/main/cpp/iperf/auth_test.sh
+  s_c2324aad607bbb::t_05bb7e3e225306 1-42
+.claude/skills/refactor-safely/SKILL.md
+  s_c2324aad607bbb::t_7b37634439f6d8 1-28
+app/android/app/src/main/cpp/iperf/examples/Makefile.in
+  s_c2324aad607bbb::t_c0d90a7fd03b9f 1-664
+app/android/app/src/main/cpp/iperf/src/iperf_pthread.c
+  s_c2324aad607bbb::t_8eb5b774c13a12 1-41
+app/android/app/src/main/cpp/CMakeLists.txt
+  s_c2324aad607bbb::t_cedeff4a08bc69 1-36
+app/test/http_diagnostic_service_test.dart
+  s_c2324aad607bbb::t_9e5dba539846dc 1-7,25,52-74
+  s_c2324aad607bbb::t_297c823ca920fd 8-24,26-41,46-51
+  s_c2324aad607bbb::t_810087317d4389 42-45
+app/android/app/src/main/cpp/iperf/src/t_timer.c
+  s_c2324aad607bbb::t_cdc675a3d059ea 1-81
+app/lib/ui/pages/tools/wildcard_mask_page.dart
+  s_c2324aad607bbb::t_ff2ccbd1bbb252 1-2,9-10,13-15,24,28-30,35-37,39,44-45,47,94-105,146-153,245,260,266-268,271,277,289-315
+  s_c2324aad607bbb::t_54d772f0c97fda 3-8,11-12,16-23,25-27,31-34,38,40-43,46,48-83,89-93,106-145,154-244,246-259,261-265,269-270,272-276,278-288,316-317
+  s_c2324aad607bbb::t_b9db7ce8d18f5a 84-88
+app/lib/ui/pages/tools/regex_workbench_page.dart
+  s_c2324aad607bbb::t_ac26036c8109bc 239
+  s_c2324aad607bbb::t_4dbd383a29ea3d 171-175
+  s_c2324aad607bbb::t_71602223ed0645 1-170,176-238,240-276,279-287,291-312,315-405,409-485,489-507
+  s_c2324aad607bbb::t_64ea411947a9f7 277-278,288-290,313-314,406-408,486-488
+app/lib/services/local_discovery_service.dart
+  s_c2324aad607bbb::t_8528abf81b44d5 38-43,58,107
+  s_c2324aad607bbb::t_0cfea8d7961f8d 1-37,44-57,59-102,104,113-138,140-274
+  s_c2324aad607bbb::t_9dd59856b8970a 103,105-106,111-112,139
+  s_c2324aad607bbb::t_0c73c3afbc80b2 108-110
+app/test/observability_tools_test.dart
+  s_c2324aad607bbb::t_6cc1e7dd7fdd5a 103,239-267
+  s_c2324aad607bbb::t_c6abb514a48ed1 113-116
+  s_c2324aad607bbb::t_48fa9b7a0a2027 117-121
+  s_c2324aad607bbb::t_3d1e9f02c78f73 1-102,104-105,122-237,270-274,276-283,286-300
+  s_c2324aad607bbb::t_7ab3fc313b51a2 106-112
+  s_c2324aad607bbb::t_62c37769bd3ce0 238,268-269,275,284-285
+app/lib/services/local_test_server_service.dart
+  s_c2324aad607bbb::t_8832394bbc2d7f 116-117,128-130,135-148,184-185,287-288,326,331-333,351-352
+  s_c2324aad607bbb::t_4c8f7772fa101c 1-115,118-127,131-134,149-183,186-286,289-325,327-330,334-350,353-564
+CODEBUDDY.md
+  s_c2324aad607bbb::t_d35bae3d83ba42 1-38
+app/windows/runner/main.cpp
+  s_c2324aad607bbb::t_89b7bed9513885 1-43
+app/lib/services/ssh_tunnel_service.dart
+  s_c2324aad607bbb::t_9bb5e5ad14a4ba 1-302
+app/ios/Flutter/AppFrameworkInfo.plist
+  s_c2324aad607bbb::t_60493cad184498 1-24
+app/lib/services/dns_service.dart
+  s_c2324aad607bbb::t_9e104ee96395fe 507,521-523,526,531,539-540
+  s_c2324aad607bbb::t_fe19a3e3929dd4 1-18,557-586,588,590-593,595,597-630
+  s_c2324aad607bbb::t_13d6b6bebedd26 19-506,508-520,524-525,527-530,532-538,541-556,587,589,594,596
+app/lib/l10n/strings/tool_page_strings.dart
+  s_c2324aad607bbb::t_1432511369427e 402
+  s_c2324aad607bbb::t_e60c4319081e8b 25-32
+  s_c2324aad607bbb::t_dc628cf561f19b 45-50,53-55,60-62
+  s_c2324aad607bbb::t_2373863d74f14b 316-324
+  s_c2324aad607bbb::t_08b4424f08bd67 51-52,56-59
+  s_c2324aad607bbb::t_ec046c5a16f1e2 224-230,234-248
+  s_c2324aad607bbb::t_4502a55e569fb4 12-13,16
+  s_c2324aad607bbb::t_47ab88d296b08c 145-147,249-254
+  s_c2324aad607bbb::t_edaca3c65a0b6f 262,288,315,327,342,392,401,462,490,511,520-522,528
+  s_c2324aad607bbb::t_4136f999aad373 455
+  s_c2324aad607bbb::t_138114843e10ab 99-107
+  s_c2324aad607bbb::t_323b620912e698 548-549
+  s_c2324aad607bbb::t_3bce5e9035bb68 347,357-359
+  s_c2324aad607bbb::t_cc0ed90fc9de33 491-496
+  s_c2324aad607bbb::t_c2d2ce84617790 263-265,267-269,547
+  s_c2324aad607bbb::t_34949545e084e8 17-24
+  s_c2324aad607bbb::t_d57d02357fc100 38-44
+  s_c2324aad607bbb::t_4e56638f758dd2 63-70
+  s_c2324aad607bbb::t_87ecff309b4177 115,117-125
+  s_c2324aad607bbb::t_a8d4b19e494d22 116,126-129,133-135,137-138,140-141,515-518
+  s_c2324aad607bbb::t_14532da61d2d0a 328-330,570
+  s_c2324aad607bbb::t_099a5428404540 14
+  s_c2324aad607bbb::t_f1cb73e3166cb8 71,463-472,523-527
+  s_c2324aad607bbb::t_4445ba47502ed1 1-11,72-98,108-114,142-144,255-261,270-287,310-314,325-326,331-341,372-391,425-454,456-461,473-489,497-510,529-532,537-546,550-564,567-569,571-592
+  s_c2324aad607bbb::t_98cda9a66c6c28 393-400,421-424
+  s_c2324aad607bbb::t_a3ab21ba486d71 513-514,519
+  s_c2324aad607bbb::t_cba65317825407 533-536
+  s_c2324aad607bbb::t_5aa64442186c04 130-132,136,139
+  s_c2324aad607bbb::t_cbb6c92e3cc426 149-150,152-153,155-160,162-166,168-169,171-172
+  s_c2324aad607bbb::t_758baeb8435af2 343-346,348-356,360-371
+  s_c2324aad607bbb::t_899292f61e66bf 565-566
+  s_c2324aad607bbb::t_bad870fdcd5581 174-175,177-196,198-202,204-208,210-217,219-223
+  s_c2324aad607bbb::t_d6d18c5367354a 15
+  s_c2324aad607bbb::t_348966f0220e4f 266,307
+  s_c2324aad607bbb::t_9f0cab4ec60ff1 403-420
+  s_c2324aad607bbb::t_02f1f65f3b4282 512
+  s_c2324aad607bbb::t_4dbd383a29ea3d 148,151,154,161,167,170,173,176,197,203,209,218,231-233
+  s_c2324aad607bbb::t_9756ec9fedf68c 289-306,308-309
+  s_c2324aad607bbb::t_b7526e66ea76f0 33-37
+app/android/build.gradle.kts
+  s_c2324aad607bbb::t_dd6cfc3f33e222 1-24
+app/ios/Flutter/Debug.xcconfig
+  s_c2324aad607bbb::t_9a39de29952ab7 1
+app/test/oui_asset_test.dart
+  s_c2324aad607bbb::t_e869751262a3d0 1-97
+app/lib/main.dart
+  s_c2324aad607bbb::t_26e8ced0da33f2 1-39
+app/lib/ui/pages/remote/transfer_center_page.dart
+  s_c2324aad607bbb::t_bf24f93c3e3aa1 1-102
+app/lib/l10n/app_localizations.dart
+  s_c2324aad607bbb::t_0a55ec539d8d31 7,27-29,55
+  s_c2324aad607bbb::t_8685c6cef82be6 1-6,8-26,30-54,56-143
+app/lib/ui/pages/tools/lan_scan_page.dart
+  s_c2324aad607bbb::t_4e56638f758dd2 94-102
+  s_c2324aad607bbb::t_7f76d56b896617 2,5,38-39,69-79,220-260,342-351,355-370,390-391,406-410,421-442,476-477
+  s_c2324aad607bbb::t_4d8e77916abb9b 269,371-376
+  s_c2324aad607bbb::t_9c26ed25fe450e 1,3-4,6-10,13,16-26,31-34,42-45,51-56,59,62-68,80-87,103,177-211,265-268,270-274,276-283,289-299,307-312,321-331,448,459-475
+  s_c2324aad607bbb::t_56ce183c38dd04 11-12,27-30,35-36,40-41,46-50,57-58,60-61,88-93,104-162,175-176,212-219,261-264,300-306,313-317,319-320,332-334,381-388,392-403,411-420,443
+  s_c2324aad607bbb::t_7de63188080583 275
+  s_c2324aad607bbb::t_c6abb514a48ed1 335-341,352-354
+  s_c2324aad607bbb::t_b98a41d30fd3c5 37,163-174,318,377-380,389,404-405
+  s_c2324aad607bbb::t_6ae76273ef88be 444-445
+  s_c2324aad607bbb::t_92cbb36c1b42b0 14-15,447,449-452,458
+  s_c2324aad607bbb::t_212f0acfcfbe39 284-288,446,453-457
+docs/architecture.md
+  s_c2324aad607bbb::t_cde47e4c8a395b 1-36
+app/lib/ui/pages/remote/sftp_browser_page.dart
+  s_c2324aad607bbb::t_bd5655309c1c75 1-462
+QODER.md
+  s_c2324aad607bbb::t_923a6bff8795e3 1-38
+app/test/desktop_compatibility_test.dart
+  s_c2324aad607bbb::t_513edaf7e78dd1 1-72
+app/lib/ui/pages/tools/local_test_server_page.dart
+  s_c2324aad607bbb::t_9b21186404bc55 1-11,14-15,17,20-29,32-37,40-43,54-68,70-74,79-81,84-126,140-160,191-192,194,198,201-673,695-724,727-823,878-1025
+  s_c2324aad607bbb::t_2d5bd5b763f430 133,861
+  s_c2324aad607bbb::t_3a243f32cb3ad6 832-834,836-850
+  s_c2324aad607bbb::t_8832394bbc2d7f 12-13,16,18-19,30-31,38-39,44-53,69,75-78,82-83,127-132,134-139,161-190,193,195-197,199-200,674-694,725-726,824-831,835,851-860,862-877
+app/lib/ui/pages/tools/timestamp_workbench_page.dart
+  s_c2324aad607bbb::t_2de6fd6f0cc92f 1-16,18-77,80-167,171-174,179-257,261-351,355-449,457-469,474-627,637-643,647-654,659-668
+  s_c2324aad607bbb::t_626bd8c6ddfe23 17,78-79,168-170,175-178,258-260,352-354,450-456,470-473,628-636,644-646,655-658
+app/lib/ui/pages/tools/dns_lookup_page.dart
+  s_c2324aad607bbb::t_e885a06b5154bd 167-186,346-348,351-356,371,416-419,446-447
+  s_c2324aad607bbb::t_f0f74b8746848b 1-2,9,33-62,64-65,68-77,79-83,87-88,157-160
+  s_c2324aad607bbb::t_6c663c292538d7 221-223
+  s_c2324aad607bbb::t_7de63188080583 14
+  s_c2324aad607bbb::t_34949545e084e8 386-391
+  s_c2324aad607bbb::t_5a9b741de041d9 3-8,10,12-13,15,17-29,32,84-86,89-112,141-156,161-163,189-190,192-220,224-232,239-240,253-264,271-343,456-464,466,494-509
+  s_c2324aad607bbb::t_737297382ce2e1 30-31,63,78,113-140,164-166,187-188,191,233-238,241-252,344-345,349-350,357-370,372-385,392-415,420-445,448-455,465,467-493
+  s_c2324aad607bbb::t_92cbb36c1b42b0 16,66-67
+  s_c2324aad607bbb::t_95d6a74d03a466 11,265-270
+app/android/app/src/main/cpp/iperf/src/iperf3.1
+  s_c2324aad607bbb::t_c3c51a91b74759 1-606
+app/android/app/src/main/cpp/iperf/docs/news.rst
+  s_c2324aad607bbb::t_bbe6a85abd944a 1-547
+app/linux/runner/smb_helper.cc
+  s_c2324aad607bbb::t_51630e69f396ab 205-206
+  s_c2324aad607bbb::t_37f3da91bdf2b3 115-117,141-142,188-189,198-199
+  s_c2324aad607bbb::t_8b3d03973c4369 1-5,7-114,118-140,143-187,190-197,200-204,207-247
+  s_c2324aad607bbb::t_aeb8a6ff4f4241 6
+app/lib/l10n/strings/tool_page_common_en.dart
+  s_c2324aad607bbb::t_117e0be0aba8a2 82
+  s_c2324aad607bbb::t_90368b0f82c037 84-136
+  s_c2324aad607bbb::t_d87f44715430b3 13
+  s_c2324aad607bbb::t_918396906e7a59 229-230
+  s_c2324aad607bbb::t_5e09f43b987157 78-81
+  s_c2324aad607bbb::t_a1d4d802f439c1 83
+  s_c2324aad607bbb::t_9a72b063ff93f9 212-228
+  s_c2324aad607bbb::t_225107a9379a8b 1-12,14-77,137-211,231-234
+app/android/app/src/main/cpp/iperf/src/timer.c
+  s_c2324aad607bbb::t_b18cf48cf22e77 1-245
+app/android/app/src/main/cpp/iperf/examples/mic.c
+  s_c2324aad607bbb::t_429772e0b98e83 1-62
+app/lib/ui/pages/tools_page.dart
+  s_c2324aad607bbb::t_d89b035778c933 80-81
+  s_c2324aad607bbb::t_770b5c84d15dd1 82-90
+  s_c2324aad607bbb::t_d357510607066d 1-79,91-149
+LICENSE
+  s_c2324aad607bbb::t_d772bd25303af2 1-201
+app/.agents/skills/protodeck-verify-release/scripts/verify.sh
+  s_c2324aad607bbb::t_c7324a40927593 1-45
+app/.agents/skills/protodeck-project/references/developer-toolbox.md
+  s_c2324aad607bbb::t_f2bed0f3b06015 1-46
+app/windows/flutter/CMakeLists.txt
+  s_c2324aad607bbb::t_f3bfc373d84a11 1-109
+app/android/app/src/main/res/values/styles.xml
+  s_c2324aad607bbb::t_243d109c7fead7 1-18
+app/android/app/src/main/cpp/iperf/src/iperf_util.c
+  s_c2324aad607bbb::t_5e0028c7a079a5 1-670
+CLAUDE.md
+  s_c2324aad607bbb::t_a8a80fb0e3f74e 1-38
+app/test/telnet_session_registry_test.dart
+  s_c2324aad607bbb::t_a21d7b2355ffe5 1-34
+app/lib/ui/widgets/navigation/desktop_navigation_sidebar.dart
+  s_c2324aad607bbb::t_0b7c0fafb0a486 17-27
+  s_c2324aad607bbb::t_151f5c657c6ce3 1-16,28-235
+app/lib/ui/tool_launcher.dart
+  s_c2324aad607bbb::t_fe024965c9850e 18
+  s_c2324aad607bbb::t_92cbb36c1b42b0 3,50-55
+  s_c2324aad607bbb::t_d85a364f6ee835 7
+  s_c2324aad607bbb::t_3b135edab2f018 10,33,36,42
+  s_c2324aad607bbb::t_14151cba4458a8 56-68
+  s_c2324aad607bbb::t_6ca21e87c30a98 69-165
+  s_c2324aad607bbb::t_bbe6f4ab8f552d 1-2,4-6,8-9,11-17,19-32,34-35,37-41,43-49
+app/lib/ui/pages/tools/ip_tools_page.dart
+  s_c2324aad607bbb::t_5963a97b40e62a 202,212
+  s_c2324aad607bbb::t_fd61fca87bd6d2 3-8,11-12,16-25,69-70,75-81,92-122,124-129,138-176,223-276,318-319
+  s_c2324aad607bbb::t_5181fc8396efab 290-293
+  s_c2324aad607bbb::t_132ae150e1e9cd 82-91,130-137,177-201,203-211,213-222,277-289,294-317
+  s_c2324aad607bbb::t_3addc20a87336e 1-2,9-10,13-15,26-68,71-74,123
+app/android/app/src/main/cpp/iperf/configure
+  s_c2324aad607bbb::t_96f79e9050160d 1-20356
+app/lib/services/lan_scan_service.dart
+  s_c2324aad607bbb::t_90661db5f330bd 1-3,5-11,13-18,20-49,51-70,74-113,189-197,199-203,205,212,214-219,221-235,240-242
+  s_c2324aad607bbb::t_2d9dc0ac8f723a 116-118
+  s_c2324aad607bbb::t_56ce183c38dd04 12,19,198,204,206-211,213,220,236-239
+  s_c2324aad607bbb::t_bf1149e5ca94a9 4,50,71-73,114-115,119-188
+app/lib/l10n/strings/tool_strings_network_en.dart
+  s_c2324aad607bbb::t_4c73998b5761ab 30-33
+  s_c2324aad607bbb::t_49274eca3a382b 35,49
+  s_c2324aad607bbb::t_ee4034ac8d30f5 1-29,34,36-48,50-111
+PRIVACY.md
+  s_c2324aad607bbb::t_b24b44fd5560f6 1-70
+app/pubspec.lock
+  s_c2324aad607bbb::t_8f3ba41b2fa130 1-1199
+.codebuddy/settings.json
+  s_c2324aad607bbb::t_9dd6f4b5bd7dd6 1-28
+app/lib/ui/pages/tools/path_mtu_page.dart
+  s_c2324aad607bbb::t_e4664d198d3223 1-2,4,9-11,15-17,30-31,36-39,44-45,87-90,131-141,169-174,186-222,224-231
+  s_c2324aad607bbb::t_17ac4405f7f373 3,5-8,12-13,18-29,32-35,40-43,46-86,91-130,142-168,175-181,184-185,223,232-258
+  s_c2324aad607bbb::t_3bbc11cff56b53 182-183
+  s_c2324aad607bbb::t_8f448548743abe 14
+app/lib/services/tool_draft_repository.dart
+  s_c2324aad607bbb::t_a20e718e84c8f0 1-15,18-46,48-59,61-126,143-164
+  s_c2324aad607bbb::t_7cf5ce05d8d41f 16-17,47,60
+  s_c2324aad607bbb::t_8e8a4b6d8e62ae 127-142
+app/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+  s_c2324aad607bbb::t_a1dce339141602 1-119
+app/lib/models/tool_experience.dart
+  s_c2324aad607bbb::t_42cd6eaacecfc7 111
+  s_c2324aad607bbb::t_92cbb36c1b42b0 1-110,112-119,121-212
+  s_c2324aad607bbb::t_ea3237606a1cf8 120
+app/android/app/src/main/cpp/iperf/src/iperf_api.h
+  s_c2324aad607bbb::t_02f5e0744f58a2 1-530
+app/android/app/src/main/cpp/iperf/src/net.h
+  s_c2324aad607bbb::t_e19f57f50c38e4 1-52
+app/android/app/src/main/cpp/iperf/src/iperf_tcp.h
+  s_c2324aad607bbb::t_913d02e0d3c613 1-63
+app/lib/services/udp_ping_service.dart
+  s_c2324aad607bbb::t_0bea5c5f892ecc 1-103
+app/lib/ui/pages/tools/subnet_page.dart
+  s_c2324aad607bbb::t_2c6e2adf58eaeb 251-252
+  s_c2324aad607bbb::t_dea7a477726214 1-2,9,22-24,26,28-35,39-40,48-57,61-70,73,75,93,109-136,143,184-199,215,223-250,253-267
+  s_c2324aad607bbb::t_41082dbd4ce43c 3-8,10-21,25,27,36-38,41-47,58-60,71-72,74,76-92,94-108,137-142,144-183,200-214,216-222,268-279
+.claude/skills/debug-issue/SKILL.md
+  s_c2324aad607bbb::t_140e5cc22f1f90 1-27
+app/lib/ui/pages/tools/cron_workbench_page.dart
+  s_c2324aad607bbb::t_874272acf682ef 136
+  s_c2324aad607bbb::t_e56ff0ed9014fb 39-40,77-81,86-87,98-106,134-135,137,156,158-161,163-170,172-179,197-206,210-212
+  s_c2324aad607bbb::t_37347ea06b46a8 1-38,41-76,82-85,88-97,107-133,138-155,162,171,180-196,207-209,213-229
+  s_c2324aad607bbb::t_6c663c292538d7 157
+app/test/subnet_service_test.dart
+  s_c2324aad607bbb::t_2c6e2adf58eaeb 31-46,49-56
+  s_c2324aad607bbb::t_fa228ce3b3f32d 1-14,16-19,58
+  s_c2324aad607bbb::t_49d9073cb91563 15,20-30,47-48,57
+app/android/app/src/main/cpp/iperf/config/iperf_config_static_bin.m4
+  s_c2324aad607bbb::t_8bc1126a2f76e1 1-12
+app/windows/flutter/generated_plugins.cmake
+  s_c2324aad607bbb::t_3e061d5b182b8d 1-26
+app/lib/ui/pages/tools/ping_page.dart
+  s_c2324aad607bbb::t_17936411dee5a3 1-10,12-13,15-43,45-61,64-67,110-114,136-138,141-201,214-248,253-347,352-365,370-383,395-417,422-503,508-728,733-755,760-1121
+  s_c2324aad607bbb::t_a6a82e15e2f461 366-369,418-421,504-507,729-732,756-759
+  s_c2324aad607bbb::t_51055fe7f912c7 384-394
+  s_c2324aad607bbb::t_cc1700363baf19 348-351
+  s_c2324aad607bbb::t_95d6a74d03a466 14,202-206,210-213
+  s_c2324aad607bbb::t_2895c873590607 11,44,62-63,68-86,90-109,115-135,139-140,249-252
+  s_c2324aad607bbb::t_51630e69f396ab 87-89
+  s_c2324aad607bbb::t_b352a14e87b191 207-209
+app/android/app/src/main/cpp/iperf/config/compile
+  s_c2324aad607bbb::t_44715179368a25 1-364
+app/lib/services/smb_service.dart
+  s_c2324aad607bbb::t_edb612462288a4 1-2,53,64-82,129-143,171-173,188-193,201-209,233-241,260-268,284-287,308-379,381-398
+  s_c2324aad607bbb::t_4091baf6b92f96 3-52,54-63,83-128,144-170,174-187,194-200,210-232,242-259,269-283,288-307,380,399
+app/android/app/src/main/cpp/iperf/src/iperf_client_api.c
+  s_c2324aad607bbb::t_258add1a791a8f 1-900
+app/lib/ui/pages/tools/api_realtime_workbench.dart
+  s_c2324aad607bbb::t_c7bdee7331e231 1256-1260,1263-1266,1268-1285,1303-1323,1325-1326,1422,1443,1446-1465,1467-1477,1485,1501-1506,1509-1510,1512
+  s_c2324aad607bbb::t_c6c6d371698cc2 10,36-38,86-87,113-116,158-164,945,950,957,976
+  s_c2324aad607bbb::t_f0de2eeac4ab8a 165,1262
+  s_c2324aad607bbb::t_c71ff94c295e92 17-23,27-29,64,85,121-123,1400,1404-1409,1513,1544
+  s_c2324aad607bbb::t_ea6c0e8b24cc72 1-9,11-16,24-26,30-35,39-62,65-84,100-112,117-120,124-157,166-944,946-949,951-956,958-975,977-986,988-1255,1261,1286-1302,1327-1399,1401-1403,1410-1421,1423-1442,1444-1445,1466,1478-1484,1486-1500,1507-1508,1514-1543,1545-1769
+  s_c2324aad607bbb::t_115fd9c8b98683 63
+  s_c2324aad607bbb::t_2c6e2adf58eaeb 88-99,987,1267,1324,1511
+app/tool/bootstrap_linux_build_deps.sh
+  s_c2324aad607bbb::t_fb7f0449eb1dce 1-10,19-46
+  s_c2324aad607bbb::t_0e938e9c461050 11-18
+app/ios/Runner.xcworkspace/contents.xcworkspacedata
+  s_c2324aad607bbb::t_e78708cf5dd12e 1-7
+app/test/api_workbench_widget_test.dart
+  s_c2324aad607bbb::t_19d1ffe858c881 1-14,16-54,56,58-61
+  s_c2324aad607bbb::t_2aa5b0293afdef 15
+  s_c2324aad607bbb::t_5fc8ae32a2e168 55,57
+app/lib/services/api_response_comparison.dart
+  s_c2324aad607bbb::t_d0987de3796c11 111
+  s_c2324aad607bbb::t_cd7f081a844acb 112-114,126-128,160-161
+  s_c2324aad607bbb::t_84d8e6531b9031 1-110,115-125,129-159,162-169
+app/lib/ui/widgets/page_header.dart
+  s_c2324aad607bbb::t_4b67b197d158d4 1-52
+CONTRIBUTING.md
+  s_c2324aad607bbb::t_ba43b3aeb8808f 1-44
+app/lib/ui/widgets/related_tool_actions.dart
+  s_c2324aad607bbb::t_b352a14e87b191 30-32,35
+  s_c2324aad607bbb::t_95d6a74d03a466 1-29,33-34,36-107
+app/android/app/src/main/cpp/iperf/src/flowlabel.h
+  s_c2324aad607bbb::t_22d61817cbbf3a 1-78
+app/lib/services/terminal_ansi_colorizer.dart
+  s_c2324aad607bbb::t_1aa5eb43816e8c 1-121
+app/android/app/src/main/cpp/iperf/bootstrap.sh
+  s_c2324aad607bbb::t_c2a870527a81c5 1-34
+app/linux/runner/my_application.cc
+  s_c2324aad607bbb::t_a2de40fb159055 1-149
+app/lib/services/telnet_service.dart
+  s_c2324aad607bbb::t_a1d4d802f439c1 14,224,228,233
+  s_c2324aad607bbb::t_ea3237606a1cf8 184-223,225-227,229-232,234-266
+  s_c2324aad607bbb::t_a20352c1fdad24 19-21
+  s_c2324aad607bbb::t_240db1fcd0a660 1-13,15-18,22-183
+app/lib/models/platform_capability.dart
+  s_c2324aad607bbb::t_632785425e84f6 1-67
+app/android/app/src/main/cpp/iperf/LICENSE
+  s_c2324aad607bbb::t_2e90a87dd62db2 1-244
+app/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  s_c2324aad607bbb::t_6f48fa1478cbfd 1-8
+app/test/tool_pages_english_localization_test.dart
+  s_c2324aad607bbb::t_48ad0176e409a1 42-45
+  s_c2324aad607bbb::t_6ca21e87c30a98 54-55
+  s_c2324aad607bbb::t_75aaf6d4df71de 1-41,46-53,56-101
+app/lib/ui/pages/tools/snmp_browser_page.dart
+  s_c2324aad607bbb::t_29fde36d211fa2 1,3,6,8-12,15-16,20-35,41-48,52-55,72-76,79-87,93-100,111-138,143-145,197-215,219-295,300-334,339-360,367-404,500,533-537,637,640-641,646-647,649,666-679,683-688,692-714,719-724,729-756,798
+  s_c2324aad607bbb::t_0a352fb8c96b53 36-40,49,57-68,88-92,101-110,146-196,216-218,405-460,488,532,551-556,579-588,638,642-645,648,650-665,680-682,689-691,715-718,725-728,757-797,799-807
+  s_c2324aad607bbb::t_6560ae5fcd8213 639
+  s_c2324aad607bbb::t_92da0ca2025fcd 2,4-5,13-14,17-19,50-51,56,69-71,77-78,139-142,296-299,335,337-338,361-366,489,522,538-550,557-577,589-600,603-636
+  s_c2324aad607bbb::t_e1e8353bffecc0 336,578,601-602
+  s_c2324aad607bbb::t_84828b46c9a5a6 7
+  s_c2324aad607bbb::t_05c39c39e0d29c 461-487,490-499,501-521,523-531
+app/android/app/src/main/cpp/iperf/.gitignore
+  s_c2324aad607bbb::t_8f33f807c424b0 1-33
+app/android/app/src/main/cpp/iperf/docs/Makefile
+  s_c2324aad607bbb::t_9d8bc5e6f8664f 1-177
+app/test/api_workspace_store_test.dart
+  s_c2324aad607bbb::t_abcfa91fadf645 1-7,23,31,52,66-74
+  s_c2324aad607bbb::t_91fd29523e4b46 8-22,24-30,32-51,53-65
+.codebuddy/skills/review-changes/SKILL.md
+  s_c2324aad607bbb::t_36d7c7c2bad06d 1-29
+app/lib/ui/pages/tools/api_workbench_page.dart
+  s_c2324aad607bbb::t_eb4b8a2b65995e 130-132,217,334-335,383-385,387-389,444-446,513-520,600-601,650-652,845-852
+  s_c2324aad607bbb::t_e6997a8ef10b2c 443,802,809
+  s_c2324aad607bbb::t_2aa5b0293afdef 27-33,35,37
+  s_c2324aad607bbb::t_543375761e6f14 159,168,214
+  s_c2324aad607bbb::t_8a636216f52321 711,718,725,727,762,788,790
+  s_c2324aad607bbb::t_8ebf04d2abb4e8 7-9,12-22,36,62,509-510,831-838,883,889
+  s_c2324aad607bbb::t_ff6dd5b070e82a 2-4,6,80-103,708-710,712-717,719-724,726,728-737,741-744,747-761,763-776,778-787,789,791-795
+  s_c2324aad607bbb::t_63594c86662f56 745-746,777,796-798
+  s_c2324aad607bbb::t_4502a55e569fb4 408-410
+  s_c2324aad607bbb::t_3df9f153183939 56-57,433-435
+  s_c2324aad607bbb::t_ebe47f14c6b927 512,524,611-627,629,633,640-649,653-679,696,707
+  s_c2324aad607bbb::t_e6d132fa4269b4 461
+  s_c2324aad607bbb::t_4df256a4c6d498 738-740
+  s_c2324aad607bbb::t_e9c9abf304557f 311-319,379-382,386,390-407,411-419,466
+  s_c2324aad607bbb::t_ea216a4445c69e 157-158,160-167,169,171-198,200-202,204-213,215-216,218-227
+  s_c2324aad607bbb::t_c117b8d8f45320 1,5,10-11,23-26,34,38-55,58-61,63-79,104-129,133-156,170,199,203,228-310,320-333,336-378,420-432,436-442,447-460,462-465,467-508,511,521-523,525-599,602-610,628,630-632,634-639,680-695,697-706,799-801,803-808,810-830,839-844,853-882,884-888
+app/lib/services/api_realtime_session_registry.dart
+  s_c2324aad607bbb::t_c6c6d371698cc2 1-125
+app/lib/services/stun_service.dart
+  s_c2324aad607bbb::t_85e73b39b5dd96 61-62
+  s_c2324aad607bbb::t_a77ba509e9522e 92-94
+  s_c2324aad607bbb::t_4267feb73e022f 63,73-91
+  s_c2324aad607bbb::t_0b608415ca6144 1-22,67-69
+  s_c2324aad607bbb::t_82d5a229f3067e 64-66,70-72
+  s_c2324aad607bbb::t_0f5083088d50c9 23-25
+  s_c2324aad607bbb::t_cc014ed8a7f65b 27-29
+  s_c2324aad607bbb::t_fcded5dcd2c8b9 26,30-60,95-171
+app/android/app/src/main/cpp/iperf/src/iperf_udp.c
+  s_c2324aad607bbb::t_64e6c82599e950 1-787
+app/tool/build_linux_release_local.sh
+  s_c2324aad607bbb::t_c4071877fa2f79 28
+  s_c2324aad607bbb::t_6dac05b5376c95 1-27,29-32
+app/test/tool_draft_repository_test.dart
+  s_c2324aad607bbb::t_46a7ec1933acf2 1-41,44-59,63-79
+  s_c2324aad607bbb::t_8e8a4b6d8e62ae 42-43,60-62
+app/lib/models/tool_route_args.dart
+  s_c2324aad607bbb::t_92cbb36c1b42b0 1-35
+SECURITY.md
+  s_c2324aad607bbb::t_f9d2b7d55e1e9f 1-30
+app/windows/runner/CMakeLists.txt
+  s_c2324aad607bbb::t_cf02da008a16f4 14
+  s_c2324aad607bbb::t_55f3c7cd961d50 1-13,15-41
+app/.agents/skills/protodeck-project/references/locked-decisions.md
+  s_c2324aad607bbb::t_f2bed0f3b06015 7-9,31-32
+  s_c2324aad607bbb::t_b5f2ad457a7acb 1-6,10-30
+app/android/app/src/main/cpp/iperf/docs/2017-04-27.txt
+  s_c2324aad607bbb::t_8e3d2279e6997f 1-95
+app/android/app/src/main/cpp/iperf/src/units.c
+  s_c2324aad607bbb::t_ee019f6c8cf3c4 1-378
+app/lib/ui/pages/tools/wake_on_lan_page.dart
+  s_c2324aad607bbb::t_baaa11da85abda 13
+  s_c2324aad607bbb::t_d542c97f33e746 3-7,9,11-12,15-25,27-28,31-34,40-43,46-49,51-100,113-151,153-170,172-180,203,211-216
+  s_c2324aad607bbb::t_3a243f32cb3ad6 152
+  s_c2324aad607bbb::t_7e6a74b89d2a9f 1-2,8,10,14,26,29-30,35-39,44-45,50,101-112,171,181-202,204-210
+app/android/app/src/main/cpp/iperf/src/Makefile.in
+  s_c2324aad607bbb::t_9c655af88e0804 1-1978
+app/windows/runner/win32_window.cpp
+  s_c2324aad607bbb::t_af5579c9127ba6 1-288
+app/android/gradle/wrapper/gradle-wrapper.properties
+  s_c2324aad607bbb::t_65cf016d8d65f1 1-5
+app/lib/ui/pages/platform_capabilities_page.dart
+  s_c2324aad607bbb::t_687ff04a383086 1-189
+app/android/app/src/main/cpp/iperf/docs/2017-06-06.txt
+  s_c2324aad607bbb::t_b2dd55d008896e 1-43
+app/test/lan_scan_service_test.dart
+  s_c2324aad607bbb::t_7df99a3b5bd11d 1-10,14,21-23,25,51
+  s_c2324aad607bbb::t_2d9dc0ac8f723a 29-32
+  s_c2324aad607bbb::t_782fe172468440 11-13,15-16,18-20,24,26-28,33-41,43-50
+  s_c2324aad607bbb::t_c784b6501afe55 17,42
+app/windows/flutter/generated_plugin_registrant.h
+  s_c2324aad607bbb::t_442e1743bccadc 1-15
+app/lib/l10n/strings/settings_strings.dart
+  s_c2324aad607bbb::t_0a55ec539d8d31 36-47,86-97,141-155,207-218
+  s_c2324aad607bbb::t_e01374ab10f046 1-35,48-85,98-140,156-206,219
+app/lib/services/network_doctor_service.dart
+  s_c2324aad607bbb::t_657d73d2950836 1-358
+app/android/app/src/main/cpp/mobile_config/iperf_config.h
+  s_c2324aad607bbb::t_bdf10264f1dca5 1-41
+app/pubspec.yaml
+  s_c2324aad607bbb::t_27da0bb5fd081a 44
+  s_c2324aad607bbb::t_5785b397dc2094 1-43,45-58,60-64,66-134
+  s_c2324aad607bbb::t_be1ee632e14d42 59
+  s_c2324aad607bbb::t_a928522ed0acf8 65
+app/windows/runner/Runner.rc
+  s_c2324aad607bbb::t_8a1cd5fa7db418 1-121
+app/lib/models/api_workspace.dart
+  s_c2324aad607bbb::t_0b5936e8d7ae08 1-77,79-86,88
+  s_c2324aad607bbb::t_e9c9abf304557f 78,87
+app/android/app/src/main/cpp/iperf/src/units.h
+  s_c2324aad607bbb::t_83d9ddd564326e 1-34
+app/lib/l10n/strings/navigation_strings.dart
+  s_c2324aad607bbb::t_57e2aee6f05476 1-27
+app/lib/ui/pages/tools/socket_debug_page.dart
+  s_c2324aad607bbb::t_32a5ac0082f549 121-126,324-327,334-337,343-346,612-626,628-646,648-654,657-665
+  s_c2324aad607bbb::t_ac658bb7502cd5 1-10,13-15,17,20-24,26-32,34-42,47,50-53,72-88,90-93,95,100-107,109-120,127-148,153-170,175-211,215-249,254-294,317-323,328-333,338-342,347-351,376-377,390-397,401-548,550-560,563-570,572-574,586,605,607-611,666-667
+  s_c2324aad607bbb::t_08b4424f08bd67 307-310,367-371,655-656
+  s_c2324aad607bbb::t_311a9f5103008b 647
+  s_c2324aad607bbb::t_3a243f32cb3ad6 11-12,16,18-19,25,48-49,54-67,69-71,89,96-99,149-152,171-174
+  s_c2324aad607bbb::t_30f70472fa83b7 33,43-46,68,94,108,250-253,295-306,311-316,352-366,372-375,378-389,398-400,549,561-562,571,575-585,587-604,627
+  s_c2324aad607bbb::t_6c663c292538d7 212,214
+  s_c2324aad607bbb::t_b753494b550ac3 606
+  s_c2324aad607bbb::t_b9db7ce8d18f5a 213
+app/lib/l10n/strings/tool_copy.dart
+  s_c2324aad607bbb::t_f31ae6a34cd924 1-5
+app/android/app/src/main/cpp/iperf/docs/invoking.rst
+  s_c2324aad607bbb::t_be397d0ea2ea46 1-562
+app/lib/l10n/strings/tool_strings.dart
+  s_c2324aad607bbb::t_c5d64dcaa31c1f 1-35,43-46
+  s_c2324aad607bbb::t_0bfa58fdfcee68 36-42
+.github/scripts/resolve-build-version.sh
+  s_c2324aad607bbb::t_aa23a44333e23d 4-9,11,19-32,35,39-41,47-48,61,69
+  s_c2324aad607bbb::t_73b69feb4f5f89 18,38,49-50,52,59-60,67-68
+  s_c2324aad607bbb::t_a0d70a591946ad 1-3,10,12-17,33-34,36-37,42-46,51,53-58,62-66,70
+app/lib/services/network_event_service.dart
+  s_c2324aad607bbb::t_7c7b2eda61f9d3 1,153-217
+  s_c2324aad607bbb::t_5be75e26938b90 2-152,218-249
+app/lib/services/download_destination_service.dart
+  s_c2324aad607bbb::t_1423e4b096608e 1-61
+app/lib/data/app_database.g.dart
+  s_c2324aad607bbb::t_11cadd24a9882b 2731-3058,3070,3082,4506-4687,4706-4707
+  s_c2324aad607bbb::t_64e9fecc40b4d7 1-2730,3059-3069,3071-3081,3083-4505,4688-4705,4708
+app/lib/services/pcap_analysis_service.dart
+  s_c2324aad607bbb::t_beb7a879b272f9 19,35,68-95,365,401-421,466-469,472,483-533
+  s_c2324aad607bbb::t_f10e97e1088b06 752
+  s_c2324aad607bbb::t_f4e3b1a6cde6c6 2,106,123,146,400,568,600-611,636,641-642,645-672,675-711,718-721,725-731,733-740,753,757-762,766-780,784-809
+  s_c2324aad607bbb::t_b02f61544a8072 673-674,712-717,722-724,754-756,763-765
+  s_c2324aad607bbb::t_4b76a3616681e5 732,741-751,781-783
+  s_c2324aad607bbb::t_ce8102c3529f5d 16,18,32,34,44-67,362,364,381-391,434-449,451-465,473-482
+  s_c2324aad607bbb::t_570f9e76ff6935 1,3-15,17,20-31,33,36-43,96-105,107-122,124-145,147-361,363,366-380,392-399,422-433,450,470-471,534-567,569-599,612-635,637-640,643-644,810-861
+app/README_EN.md
+  s_c2324aad607bbb::t_b1f8aa6e865ead 1-360
+app/.agents/skills/protodeck-network-diagnostics/references/measurement-contracts.md
+  s_c2324aad607bbb::t_3d5e4995ce3e6d 1-72
+app/lib/services/ip_tools_service.dart
+  s_c2324aad607bbb::t_5da98186c03e0d 158-165
+  s_c2324aad607bbb::t_e459160313d5fb 157,411-417,435,438-444,447-453,456-462,465-471,474-488
+  s_c2324aad607bbb::t_a67b4535e1a5c9 81-98,147-155,166-167,360-389,393,395,398,407,409-410,428,436-437,445-446,454-455,463-464,472-473
+  s_c2324aad607bbb::t_d7dc07d8e3f98b 1-80,99-146,156,168-359,390-392,394,396-397,399-406,408,418-427,429-434,489-546
+app/.agents/skills/protodeck-project/agents/openai.yaml
+  s_7639e9eb5f1ce1::t_8bbb94f04b3e76 1-4
+app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+  s_c2324aad607bbb::t_a1ccbe217b6ef0 1-122
+app/android/app/src/main/kotlin/com/nettools/nettools_mobile/BluetoothDebugManager.kt
+  s_c2324aad607bbb::t_81337136525df2 94-95,97,102
+  s_c2324aad607bbb::t_cd9361e9a64e7c 538-542,545-551
+  s_c2324aad607bbb::t_2ec03b7a67a386 525-528
+  s_c2324aad607bbb::t_9e656b3876def6 532-534
+  s_c2324aad607bbb::t_f856c1d1ebd0a6 1-93,96,98-101,103-524,529-531,535-537,543-544,552-558
+app/linux/runner/main.cc
+  s_c2324aad607bbb::t_d50c715f0907b8 1-6
+app/test/localization_test.dart
+  s_c2324aad607bbb::t_66cd5226948f38 109-110
+  s_c2324aad607bbb::t_4023a36f683513 94-98
+  s_c2324aad607bbb::t_1432511369427e 80
+  s_c2324aad607bbb::t_5f807aeb963266 200
+  s_c2324aad607bbb::t_090a2ba3d97695 74,78-79
+  s_c2324aad607bbb::t_8ffd00dac215d7 199,201-214
+  s_c2324aad607bbb::t_6fe81d3ec75ed3 243-247
+  s_c2324aad607bbb::t_fb3f413db4eb02 73,75-77,81-93,99-108,111-114
+  s_c2324aad607bbb::t_b5b439b1ed60f0 1-72,115-153,263
+  s_c2324aad607bbb::t_4dbd383a29ea3d 186-187,215-230
+  s_c2324aad607bbb::t_a9d07dfe6cbab8 154,198,231-242,248-262
+  s_c2324aad607bbb::t_3dc50ebb787f5d 155-185,188-197
+app/lib/ui/pages/tools/telnet_terminal_page.dart
+  s_c2324aad607bbb::t_785c6f4bf77a8e 1-9,12-13,19,21-30,32,35-41,56,58,60-65,67-71,76-87,96-170,172-187,189-199,201,227-228
+  s_c2324aad607bbb::t_1813688cc7cb7f 57,59
+  s_c2324aad607bbb::t_ea3237606a1cf8 10-11,14-18,20,31,33-34,42-55,66,72-75,88-95,171,188,200,202-226
+app/ios/Runner/Base.lproj/Main.storyboard
+  s_c2324aad607bbb::t_989381480df74f 1-26
+app/lib/ui/widgets/tool_tile.dart
+  s_c2324aad607bbb::t_5a61e8e8d7d636 33,104-106,119-124,127-138
+  s_c2324aad607bbb::t_7e9dc1b0e2962f 2-3,6-8,11,24,30-32,34-35,40-42,65-69,95-103,107-116,118,139-159,163-228,231-244,247-260
+  s_c2324aad607bbb::t_f79b5c085536ae 117,160-162,245-246
+  s_c2324aad607bbb::t_2c6e2adf58eaeb 125-126
+  s_c2324aad607bbb::t_63b69831f83128 1,4-5,9-10,12-23,25-29,36-39,43,45-64,70-94,229-230,261-265
+  s_c2324aad607bbb::t_d4e88bf9bc2d99 44
+docs/permissions.md
+  s_c2324aad607bbb::t_cb5f580c5c1709 1-42
+app/android/app/src/main/cpp/iperf/examples/Makefile.am
+  s_c2324aad607bbb::t_b0ad941ae40ba2 1-13
+app/android/app/src/main/cpp/iperf/examples/mis.c
+  s_c2324aad607bbb::t_9753213603c42e 1-57
+app/lib/models/structured_payload.dart
+  s_c2324aad607bbb::t_31fbd33678ee1e 1-239
+app/windows/flutter/generated_plugin_registrant.cc
+  s_c2324aad607bbb::t_0299636445cb5f 1-17
+app/linux/flutter/generated_plugin_registrant.h
+  s_c2324aad607bbb::t_840e82e25a87ef 1-15
+app/.agents/skills/protodeck-verify-release/SKILL.md
+  s_c2324aad607bbb::t_c4bf342ad7b3a8 1-42
+app/.metadata
+  s_c2324aad607bbb::t_031c50d63abe53 1-39
+app/lib/state/app_state.dart
+  s_c2324aad607bbb::t_ef666803c7d5b5 1-102
+app/linux/runner/CMakeLists.txt
+  s_c2324aad607bbb::t_a6fa9bb7946f2e 1-14,21-32
+  s_c2324aad607bbb::t_8b3d03973c4369 15-20
+app/lib/ui/pages/remote/ssh_tunnel_page.dart
+  s_c2324aad607bbb::t_b07156327d4982 1-425
+app/lib/services/jwt_workbench_service.dart
+  s_c2324aad607bbb::t_74c50ee0793ea0 1-51,54-58,61-85,90-94,98,102-111,115-116,123,126-132,137-151,154-156
+  s_c2324aad607bbb::t_e56ff0ed9014fb 52-53,59-60,86-89,95-97,99-101,112-114,117-122,124-125,133-136,152-153
+app/android/app/src/main/cpp/iperf/docs/building.rst
+  s_c2324aad607bbb::t_90b72d65f55f9b 1-26
+app/assets/fonts/DroidSansFallbackFull-LICENSE.txt
+  s_c2324aad607bbb::t_74aa9acf640861 1-202
+app/lib/ui/pages/tools/http_diagnostic_page.dart
+  s_c2324aad607bbb::t_84828b46c9a5a6 389
+  s_c2324aad607bbb::t_037ee6c4a67727 146-158,431-432,440,459-460
+  s_c2324aad607bbb::t_5e0fe072011d60 3-8,10-34,49-50,53-71,93-103,105-126,170-203,322-334,337-384,388,390-393,395,403-414,499
+  s_c2324aad607bbb::t_810087317d4389 295-297,485-498
+  s_c2324aad607bbb::t_039a343a89aa29 1-2,9,35-48,51-52,89-92,127-145,159-169,302-309,317-321,385-387,415-430,441-458,461-463
+  s_c2324aad607bbb::t_d57d02357fc100 310-316,394,397-402
+  s_c2324aad607bbb::t_900dd10b3ee58d 72-88,287-288,433-439
+  s_c2324aad607bbb::t_d146ef93d4e829 104,204-286,289-294,298-301,335-336,396,464-484
+app/.agents/skills/protodeck-verify-release/references/test-matrix.md
+  s_c2324aad607bbb::t_0e75d843f54497 1-27
+app/test/iperf_command_service_test.dart
+  s_c2324aad607bbb::t_f6d4f3ff414d9e 1-61
+app/test/dns_service_test.dart
+  s_7639e9eb5f1ce1::t_6801fb69924d5f 1-72,163
+  s_c2324aad607bbb::t_9e104ee96395fe 110-121,123-134
+  s_c2324aad607bbb::t_dc21dc6fa3d91b 73-109,122,135-162
+app/lib/ui/pages/dashboard_page.dart
+  s_c2324aad607bbb::t_56f3378d0de1cd 1-1190
+app/lib/ui/pages/tools/syslog_receiver_page.dart
+  s_c2324aad607bbb::t_7c8e5c572f32bc 1,4,6-12,15-17,19,22-26,28-39,42-45,57,60-65,67-71,76-93,109-178,186-295,300-400,470-524,560-574
+  s_c2324aad607bbb::t_2e8bbda6662fbd 13-14,18,20-21,40-41,46-48,66,72-75,179-185,296-299
+  s_c2324aad607bbb::t_509e7b265d2b1b 2-3,5,98-102,410-413,423-427,450-451,454-458,462-464,468-469
+  s_c2324aad607bbb::t_c8fc5afa4d24ff 27,49-56,58-59,94-97,103-108,401-409
+  s_c2324aad607bbb::t_1133be9805d159 414-422,428-449,452-453,459-461,465-467
+  s_c2324aad607bbb::t_5cd2df298feeac 525-559
+app/lib/ui/pages/tools/api_rest_workbench.dart
+  s_c2324aad607bbb::t_2f0fba6663f10a 129-162
+  s_c2324aad607bbb::t_be850b3eeec5ce 1181,1901,2082-2132,2134-2183,2186-2189,2196-2234
+  s_c2324aad607bbb::t_b415aab15eed2d 1-14,16-21,35-59,61-76,78-97,99,109-128,163-175,177-179,190-673,685-763,767-780,876-877,882-1175,1177-1180,1182-1424,1501,1503-1507,1514-1516,1521-1523,1535-1538,1545-1558,1563-1564,1594,1606-1612,1614-1615,1617-1631,1641-1646,1648-1706,1712,1771-1789,1814-1880,1882-1897,1899-1900,1902,1989-2049,2054-2061,2070-2081,2235-2318
+  s_c2324aad607bbb::t_2f571e7f64d324 22-33,100-101,104-108,176,1508-1513,1524-1534,1540-1544,1640,1898
+  s_c2324aad607bbb::t_dc628cf561f19b 808-811,815-822,826-830,868-873
+  s_c2324aad607bbb::t_5c99c1cfb72fe8 180-184,1425-1442,1445-1470,1474-1476,1484-1487,1490-1500,1502
+  s_c2324aad607bbb::t_cd7f081a844acb 798-800,823,857-860,1517,1917-1919,1924-1927,1935-1940,1948-1951,1953-1956,1960-1967,1978-1981
+  s_c2324aad607bbb::t_717ae6ac982ad4 98
+  s_c2324aad607bbb::t_fb751bfc3b7254 881
+  s_c2324aad607bbb::t_731857ce7d24e1 1770
+  s_c2324aad607bbb::t_6be459e200aa83 1471,1473,1477-1483
+  s_c2324aad607bbb::t_e9c9abf304557f 1559-1561,1574-1581,1616,1647
+  s_c2324aad607bbb::t_a7cca546b72eb9 1903
+  s_c2324aad607bbb::t_297f9e1207c3d5 60,185-189,1518-1520,1539,1722-1724,1727,1740-1762,1766-1768
+  s_c2324aad607bbb::t_84d8e6531b9031 15,77,674-684,764-766,781-797,801-807,812-814,824-825,831-856,861-867,874-875,878-880,1176,1904-1916,1920-1923,1928-1934,1941-1947,1952,1957-1959,1968-1977,1982-1988,2050-2053,2062-2069
+  s_c2324aad607bbb::t_83ded66299ebf2 102-103,1443-1444,1472,1488-1489,1589-1591,1718,1725,1763-1765,1811,2133,2184-2185,2190-2195
+  s_c2324aad607bbb::t_f25a6b27a8b49e 34
+  s_c2324aad607bbb::t_ac783943d6cec5 1562,1565-1573,1582-1588,1592-1593,1595-1605,1613,1632-1639,1707-1711,1713-1717,1719-1721,1726,1728-1739,1769,1790-1810,1812-1813,1881
+.claude/skills/explore-codebase/SKILL.md
+  s_c2324aad607bbb::t_d23c39b1a8a237 1-28
+app/test/ip_tools_service_test.dart
+  s_c2324aad607bbb::t_67f3c0e3a0151e 16
+  s_c2324aad607bbb::t_aa27e7437de6be 13-15,17-28
+  s_c2324aad607bbb::t_d21114b97293c5 1-12,29-62
+app/windows/runner/utils.h
+  s_c2324aad607bbb::t_9d5013936cb17a 1-19
+app/android/app/src/main/cpp/iperf/src/main.c
+  s_c2324aad607bbb::t_e972c9bf6deb12 1-214
+app/android/app/src/main/cpp/iperf/src/iperf_udp.h
+  s_c2324aad607bbb::t_0f27ad04871c60 1-64
+app/linux/flutter/generated_plugins.cmake
+  s_c2324aad607bbb::t_9e72906d23c132 1-25
+app/android/app/src/main/cpp/iperf/src/Makefile.am
+  s_c2324aad607bbb::t_3be2d689a3efa3 1-107
+CODE_OF_CONDUCT.md
+  s_c2324aad607bbb::t_2cc260e34cddb0 1-34
+app/test/socket_debug_service_test.dart
+  s_c2324aad607bbb::t_65173864b39b37 9-21,23-34,38-40,42-46
+  s_c2324aad607bbb::t_7a138eacc58d93 36-37
+  s_c2324aad607bbb::t_0400f499663d7f 1-8,22,35,41,47-57
+app/android/app/src/main/cpp/iperf/src/libiperf.3
+  s_c2324aad607bbb::t_15864bfffdd1b9 1-115
+app/ios/Runner/Runner-Bridging-Header.h
+  s_c2324aad607bbb::t_382c0fc148d15a 1
+app/android/app/src/main/kotlin/com/nettools/nettools_mobile/NetworkEventMonitor.kt
+  s_c2324aad607bbb::t_8cc9c7bf226864 1-112
+app/lib/services/timestamp_workbench_service.dart
+  s_c2324aad607bbb::t_555066dd3aa27f 1-66,68-130,132-165,168-324,330-332
+  s_c2324aad607bbb::t_626bd8c6ddfe23 67,131,166-167,325-329
+app/lib/ui/pages/tools/ntp_query_page.dart
+  s_c2324aad607bbb::t_d978e3e892ec74 5,81-91,263-270,307-319,324-327,453-494,496-508,512
+  s_c2324aad607bbb::t_ee9ccc69361126 3-4,6-9,12-13,18-30,41-44,47-48,77,79-80,92-117,122-150,155-173,178-195,200-248,262,271-286,295-306,320-323,328-452,513-528
+  s_c2324aad607bbb::t_a3b9e658e804dd 294
+  s_c2324aad607bbb::t_0ffcae315ce445 78
+  s_c2324aad607bbb::t_c6abb514a48ed1 495,509-511
+  s_c2324aad607bbb::t_3efb23bec96b50 1-2,10-11,14-17,31-40,45-46,49-76,118-121,151-154,174-177,196-199,249-261,287-293
+app/.agents/skills/protodeck-android-native/references/channel-contract.md
+  s_c2324aad607bbb::t_b30149f9a03038 1-56
+app/ios/RunnerTests/RunnerTests.swift
+  s_c2324aad607bbb::t_d01be23fd6d8d6 1-12
+app/.agents/skills/protodeck-network-diagnostics/SKILL.md
+  s_c2324aad607bbb::t_269adde60d9b90 1-55
+app/test/build_info_test.dart
+  s_c2324aad607bbb::t_46a7ec1933acf2 1-35
+.claude/settings.json
+  s_c2324aad607bbb::t_b1855e549c7aa0 1-28
+app/test/terminal_ansi_colorizer_test.dart
+  s_c2324aad607bbb::t_14f11e2050644f 1-66
+app/android/app/src/main/res/drawable-v21/launch_background.xml
+  s_c2324aad607bbb::t_5f41bac1ef92c4 1-12
+app/.agents/skills/protodeck-remote-protocols/agents/openai.yaml
+  s_c2324aad607bbb::t_6473da17a783f3 1-4
+.codebuddy/skills/explore-codebase/SKILL.md
+  s_c2324aad607bbb::t_9a7e4fa99c4e93 1-28
+app/.agents/skills/protodeck-remote-protocols/references/session-contracts.md
+  s_c2324aad607bbb::t_f443a87241dfd4 1-55
+app/android/app/src/main/cpp/iperf/config/mkinstalldirs
+  s_c2324aad607bbb::t_a6adc1b8062572 1-164
+app/.agents/skills/protodeck-project/references/architecture.md
+  s_c2324aad607bbb::t_f2bed0f3b06015 5-7,17-18,54
+  s_c2324aad607bbb::t_7c667f43c181df 1-4,8-16,19-53,55-57
+app/lib/ui/pages/history_page.dart
+  s_c2324aad607bbb::t_d321d59fe0e9d2 1-126
+app/lib/ui/tool_catalog.dart
+  s_c2324aad607bbb::t_92cbb36c1b42b0 4-5,20-21
+  s_c2324aad607bbb::t_0b7c0fafb0a486 41-47
+  s_c2324aad607bbb::t_596c0227c25516 309,316,323,329-330,336-337,344,351,358,365,372,379,386,393,400,407,414,421,428,435,442,449,456,463
+  s_c2324aad607bbb::t_c9b62503b1b795 1-2,6-19,37-40,48-111,113-125,127-147,149-154,156-168,170-174,177-189,191-196,198-203,205-210,212-217,219-224,226-231,233-238,240-245,247-252,254-259,261-266,268-273,275-280,282-287,289-294,296-301,303-308,310-315,317-322,324-328,331-335,338-343,345-350,352-357,359-364,366-371,373-378,380-385,387-392,394-399,401-406,408-413,415-420,422-427,429-434,436-441,443-448,450-455,457-462,464,508
+  s_c2324aad607bbb::t_4e45cf7ae8c173 112,126,175
+  s_c2324aad607bbb::t_bd5d6d5a0810b9 148,155,169,176,190,197,204,211,218,225,232,239,246,253
+  s_c2324aad607bbb::t_7be654ed8f58a3 465-507
+  s_c2324aad607bbb::t_7e9dc1b0e2962f 3,22-36
+  s_c2324aad607bbb::t_d62d156b119023 260,267,274,281,288,295,302
+app/lib/core/oui/oui_repository.dart
+  s_c2324aad607bbb::t_79f45215ea509b 1-319
+app/android/app/src/main/cpp/iperf/make_release
+  s_c2324aad607bbb::t_9ffacce6f4d272 1-69
+app/.agents/skills/protodeck-android-native/SKILL.md
+  s_c2324aad607bbb::t_46102f914c3ef6 1-55
+app/android/app/src/main/cpp/iperf/src/queue.h
+  s_c2324aad607bbb::t_88eabddd7ca4d2 1-527
+app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+  s_c2324aad607bbb::t_5c184490acfa26 1-8
+AGENTS.md
+  s_c2324aad607bbb::t_4cb95abe1fea85 1-98
+app/android/app/src/main/cpp/iperf/docs/_esnet/deploy.sh
+  s_c2324aad607bbb::t_fd670eea802335 1-18
+app/lib/state/providers.dart
+  s_c2324aad607bbb::t_5cdf5091e1189c 4-6,8-9,26-43
+  s_c2324aad607bbb::t_3de62bae7f45c6 1-3,7,10-25
+app/windows/.gitignore
+  s_c2324aad607bbb::t_724d50a3fc9dd4 1-17
+app/lib/services/wifi_roaming_service.dart
+  s_c2324aad607bbb::t_acb85e765494fc 1-2,96-133,135-167
+  s_c2324aad607bbb::t_187639405cbb78 3-95,134,168-239
+app/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+  s_c2324aad607bbb::t_9d0e63ef839be8 1-8
+app/.agents/skills/protodeck-ui-ux/agents/openai.yaml
+  s_76582a1fbd9fed::t_423fff3a9370ab 1-4
+app/android/app/src/main/cpp/iperf/contrib/iperf3.gp
+  s_c2324aad607bbb::t_e633c5a2c3afab 1-36
+app/android/app/src/main/kotlin/com/nettools/nettools_mobile/NetworkTaskService.kt
+  s_c2324aad607bbb::t_6049e55ba3094b 1-61
+.github/ISSUE_TEMPLATE/config.yml
+  s_c2324aad607bbb::t_7d2fe35a1dda3f 1-5
+app/lib/l10n/strings/tool_strings_developer_en.dart
+  s_c2324aad607bbb::t_515d52a0d124b1 1-10,19-56,81-82
+  s_c2324aad607bbb::t_0bfa58fdfcee68 11-18,57-80
+app/lib/l10n/strings/tool_page_additional_en.dart
+  s_c2324aad607bbb::t_ac783943d6cec5 309-311
+  s_c2324aad607bbb::t_f0aceb513c1743 1-170,173-237,244-266,329
+  s_c2324aad607bbb::t_9d55a301e43ea1 306-307
+  s_c2324aad607bbb::t_be850b3eeec5ce 315-316
+  s_c2324aad607bbb::t_98cda9a66c6c28 319-328
+  s_c2324aad607bbb::t_c6ab999b7f6807 241-243
+  s_c2324aad607bbb::t_4249d0576efb70 171-172
+  s_c2324aad607bbb::t_7a3d82f2d21cda 298-301,304-305
+  s_c2324aad607bbb::t_fd21bf18d815f7 302-303
+  s_c2324aad607bbb::t_20d41a749e95ca 267-279
+  s_c2324aad607bbb::t_b24cfea4a363a4 238-240
+  s_c2324aad607bbb::t_8ed0e9e5db35dd 296-297
+  s_c2324aad607bbb::t_c3b002c4e0f7e3 280-281
+  s_c2324aad607bbb::t_f2c104a089711f 282-289
+  s_c2324aad607bbb::t_ebe47f14c6b927 293-295
+  s_c2324aad607bbb::t_3f13ac505a22ac 308
+  s_c2324aad607bbb::t_e9c9abf304557f 318
+  s_c2324aad607bbb::t_c7bdee7331e231 312-313
+  s_c2324aad607bbb::t_5c99c1cfb72fe8 290-292
+  s_c2324aad607bbb::t_83ded66299ebf2 317
+  s_c2324aad607bbb::t_95d6a74d03a466 314
+app/linux/.gitignore
+  s_c2324aad607bbb::t_e89ca94b323ed5 1
+app/lib/data/app_database.dart
+  s_c2324aad607bbb::t_a20e718e84c8f0 83-92,101,116,118-125,171-184,186-187
+  s_c2324aad607bbb::t_b6262d5632d5c8 1-82,93-100,102-115,117,126-170,185,188
+app/android/app/src/main/cpp/iperf/src/iperf_locale.h
+  s_c2324aad607bbb::t_a22f66c147cb59 1-134
+app/lib/ui/pages/tools/realtime_traffic_page.dart
+  s_c2324aad607bbb::t_ce767c0a03ec2e 12,38-41,46-47,55-58,61-73
+  s_c2324aad607bbb::t_6628940b41154b 488-490,591-598
+  s_c2324aad607bbb::t_76a388a831e84f 1-11,13-37,42-45,48-54,59-60,74-474,476-487,491-492,495-564,567,569-581,585-590,599-939
+  s_c2324aad607bbb::t_d80856491cdaa8 565-566,568
+  s_c2324aad607bbb::t_6eb548627afa08 475,493-494,582-584
+app/test/screenshots/documentation_screenshots_test.dart
+  s_c2324aad607bbb::t_dff6401d571307 8,11-12,197-206,216,232-235,287-296
+  s_c2324aad607bbb::t_24a373362106fb 100-108
+  s_c2324aad607bbb::t_4773b1b5553528 247-251
+  s_c2324aad607bbb::t_3deaa95926f89a 276,278
+  s_c2324aad607bbb::t_31de70310a7933 207-209
+  s_c2324aad607bbb::t_4716c64fe65efd 5,24-25,217,238-240,260-261
+  s_c2324aad607bbb::t_8a855a0c5f0a18 172,176,178-179,182,184-190,192,194-196,218-221,286
+  s_c2324aad607bbb::t_b96b1366845cc6 241
+  s_c2324aad607bbb::t_617967dac8d6c5 255-257
+  s_c2324aad607bbb::t_026342bddfe1fb 17,285
+  s_c2324aad607bbb::t_bd9853da2b6db7 252-254
+  s_c2324aad607bbb::t_2613d2e54fb1b8 262-265,267-268
+  s_c2324aad607bbb::t_7259bea7852ed1 3-4,6-7,9-10,13-15,22-23,77,193,279-284,297-298
+  s_c2324aad607bbb::t_94447b1c3c91ae 242-246
+  s_c2324aad607bbb::t_eae8617f7f369d 18-21,78-94,96,111-112,118-119,125-126,132-133,139-140,146-168,170,173-175,181,191,266
+  s_c2324aad607bbb::t_5edb022633fc16 258-259
+  s_c2324aad607bbb::t_232a5a3e6e3ec1 270-272
+  s_c2324aad607bbb::t_b8c3756a7dbaec 1-2
+  s_c2324aad607bbb::t_10628f98266b55 26-76,99,109-110,113-117,120-124,127-131,134-138,141-144
+  s_c2324aad607bbb::t_6908c5c6b63ab6 210-215
+  s_c2324aad607bbb::t_42306e1778ddab 16,95,97-98,145,169,171,180,183,223-231,236-237
+  s_c2324aad607bbb::t_729eeef4e390f4 177,222,269,273-275,277
+app/android/app/src/main/cpp/iperf/src/iperf_auth.h
+  s_c2324aad607bbb::t_c939cc20e2a68a 1-41
+app/android/app/src/main/cpp/iperf/src/iperf_locale.c
+  s_c2324aad607bbb::t_53f94abfe37dea 1-577
+app/android/app/src/main/cpp/iperf/docs/_esnet/static/esnet.css
+  s_c2324aad607bbb::t_2e05c1d9bab666 1-84
+app/android/app/src/main/cpp/iperf/docs/_esnet/templates/layout.html
+  s_c2324aad607bbb::t_cd395799f67318 1-134
+app/third_party/iperf3-windows-NOTICE.txt
+  s_c2324aad607bbb::t_a5694113a40a1c 1-26
+app/linux/CMakeLists.txt
+  s_c2324aad607bbb::t_d465939a655579 1-55,57-93,95-107,113-156
+  s_c2324aad607bbb::t_8b3d03973c4369 56,108-112
+  s_c2324aad607bbb::t_7d950b85977d6b 94
+app/android/app/src/main/cpp/iperf/src/iperf_server_api.c
+  s_c2324aad607bbb::t_dfedda9e50b29a 1-1008
+app/lib/services/api_rule_engine.dart
+  s_c2324aad607bbb::t_a2805ad3716511 1-278
+app/android/app/src/main/cpp/iperf/config/ax_check_openssl.m4
+  s_c2324aad607bbb::t_1c00740c84603e 1-124
+app/lib/ui/app_shell.dart
+  s_c2324aad607bbb::t_e4839eb0d5f136 1-138
+app/test/api_response_comparison_test.dart
+  s_c2324aad607bbb::t_cd7f081a844acb 34-37
+  s_c2324aad607bbb::t_d0987de3796c11 1-33,38-74
+app/android/gradle.properties
+  s_c2324aad607bbb::t_3c7ac39ef3267f 1-6
+app/android/app/src/main/cpp/iperf/config/ltmain.sh
+  s_c2324aad607bbb::t_2ab6c798b982c0 1-11524
+app/android/app/src/main/cpp/iperf/docs/conf.py
+  s_c2324aad607bbb::t_fbb1348a12ec88 1-275
+app/lib/services/cron_workbench_service.dart
+  s_c2324aad607bbb::t_4fe3f83b398566 34-40
+  s_c2324aad607bbb::t_e56ff0ed9014fb 88-90
+  s_c2324aad607bbb::t_37347ea06b46a8 1-33,41-87,91-99
+app/lib/models/network_context.dart
+  s_c2324aad607bbb::t_0ab8841982fc12 1-348
+app/lib/services/platform_capability_service.dart
+  s_c2324aad607bbb::t_d7c39576a70962 87
+  s_c2324aad607bbb::t_632785425e84f6 1-34,37-43,47-48,51-56,66-76,80,84-86,88-91,93-110,112-117,122-208,214-228
+  s_c2324aad607bbb::t_6b513c2b3c7506 50
+  s_c2324aad607bbb::t_096437a53b177d 35-36,209-213
+  s_c2324aad607bbb::t_a3ac5bb7292f5c 44-46,57-65,81-83,111,118-121
+  s_c2324aad607bbb::t_aeb8a6ff4f4241 77-79,92
+  s_c2324aad607bbb::t_7a213f2fc6d443 49
+app/lib/services/developer_tools_service.dart
+  s_c2324aad607bbb::t_f9ddfeefdb93c3 1-36,38,40-63,65,67,71-85,87,89-92,94-99,107-116,119-120,122-127,135-136,140-141,183-189,193,206-225,238-244,248,253,260,267-273,275-276,295-296,308,322-332,378-423,432-433,437,446-487,489-493,528,549,602,617,619,624-637,639-641,650-651,653,655-658,660-666,717-718,726-727,731-737,741,747-750,758-797,799-800,803-805,816-821,901-1142,1147-1148,1165-1167,1181,1185,1189-1339
+  s_c2324aad607bbb::t_90b0f2e83d9a35 620-622,638,642,644-649,652,654,659,667-668,679-716,719-725,751-757
+  s_c2324aad607bbb::t_9178aebcd66464 1143-1146,1149-1154,1168-1180,1182-1184,1186-1188
+  s_c2324aad607bbb::t_c73c53507e98b2 129-131,151-153,511-513,520,542,544-545,547
+  s_c2324aad607bbb::t_5fc8ae32a2e168 37,39,64,66,68-70,86,88,190-192,194-205,226-232,236-237
+  s_c2324aad607bbb::t_2eb5eea7416972 728-730,738-740,742-746
+  s_c2324aad607bbb::t_d5882da2a85aba 488,494-510,514-519,521-527,529-541,543,546,548,550-601,603-616
+  s_c2324aad607bbb::t_dcf93250f1ec3c 93,100-106,117-118,121,128,132-134,137-139,142-150,154-182
+  s_c2324aad607bbb::t_b58ca394fc686f 623,643,669-678,823-824,843-844,861-862,891-894
+  s_c2324aad607bbb::t_6b7fe236362a29 855,881-890,895-900
+  s_c2324aad607bbb::t_eea8ce459c27a2 333-377,424-431,434-436,438-445
+  s_c2324aad607bbb::t_92fc6b3ef1faf9 798,801-802,806-815,822,825-842,845-854,856-860,863-880
+  s_c2324aad607bbb::t_224ed833e84109 245-247,249-252,254-259,261-262,266,274,279-294,309-321
+  s_c2324aad607bbb::t_b043083ce365b6 263-265,277-278,297-307,1155-1164
+  s_c2324aad607bbb::t_6085227f6d632b 618
+  s_c2324aad607bbb::t_65173864b39b37 233-235
+app/android/app/src/main/cpp/iperf/src/iperf_api.c
+  s_c2324aad607bbb::t_d202ff535fd65c 1-5650
+app/lib/ui/pages/tools/traceroute_page.dart
+  s_c2324aad607bbb::t_95d6a74d03a466 13,231-238
+  s_c2324aad607bbb::t_28ab4b9e91e34b 3,5-9,11-12,14-17,32-34,36,38-52,97-98,103-181,186-213,218-229,239-273,280-300,427-428
+  s_c2324aad607bbb::t_7de63188080583 35
+  s_c2324aad607bbb::t_27d5cfc6c7b1d9 1-2,10,53-77,80-96,99-102,182-185
+  s_c2324aad607bbb::t_92cbb36c1b42b0 37,78-79
+  s_c2324aad607bbb::t_90a514c3055fb0 20-21,328-331,348-350
+  s_c2324aad607bbb::t_b55c0d402a405b 4,18-19,22-31,214-217,230,274-279,301-327,332-347,351-426
+app/windows/runner/runner.exe.manifest
+  s_c2324aad607bbb::t_05074cccb28404 1-14
+app/windows/CMakeLists.txt
+  s_c2324aad607bbb::t_18d02113bde8d1 1-113
+app/android/app/src/main/cpp/iperf/config/missing
+  s_c2324aad607bbb::t_1370abc302aaa7 1-236
+app/README.md
+  s_c2324aad607bbb::t_3c812ef7320e78 158-159,165-191,194-196,198-199,213-214,246-247,250
+  s_c2324aad607bbb::t_60bc49359e8ab6 232,251-252
+  s_c2324aad607bbb::t_f4dd3c61d54ac8 280
+  s_c2324aad607bbb::t_0ec4b768d06c85 260-261,270
+  s_c2324aad607bbb::t_92b106251309e6 107,156-157,160-164,192-193,197,200-212,215-231,233-245,248-249,253-259,262-269,271-278,403-410
+  s_c2324aad607bbb::t_d51fe4feec2538 3-6
+  s_c2324aad607bbb::t_b0cda6ca7a67b5 122
+  s_c2324aad607bbb::t_dd415130926fd9 108-121,123-155
+  s_c2324aad607bbb::t_2d90260d415e54 279,281-402,411-415
+  s_c2324aad607bbb::t_8cd456876d6683 1-2,7-106
+app/android/app/src/main/cpp/iperf/docs/_esnet/LICENSE
+  s_c2324aad607bbb::t_479dc938401310 1-27
+app/android/app/src/main/cpp/iperf/docs/_esnet/templates/navbar.html
+  s_c2324aad607bbb::t_c62ded40746451 1-49
+app/test/network_intelligence_service_test.dart
+  s_c2324aad607bbb::t_758860e8441ae4 44
+  s_c2324aad607bbb::t_6a2472cc8122dd 1-37,42-43
+  s_c2324aad607bbb::t_88708689fbfe65 38-41
+app/android/app/src/main/cpp/iperf/src/iperf_sctp.c
+  s_c2324aad607bbb::t_bb342272781599 1-770
+app/android/app/src/main/cpp/iperf/src/iperf_tcp.c
+  s_c2324aad607bbb::t_b6bdbb24db9195 1-613
+.gemini/skills/debug-issue/SKILL.md
+  s_c2324aad607bbb::t_a9e19ba5802603 1-27
+app/test/desktop_network_service_test.dart
+  s_c2324aad607bbb::t_a93dff908deffa 1-108
+app/android/app/src/main/kotlin/com/nettools/nettools_mobile/TrafficSnapshotProvider.kt
+  s_c2324aad607bbb::t_aa160f8def958e 1-226
+app/android/app/src/main/cpp/iperf/Makefile.am
+  s_c2324aad607bbb::t_78ed2ca2a96c6a 1
+app/lib/ui/pages/tools/network_event_monitor_page.dart
+  s_c2324aad607bbb::t_b0f8bd9cdc426c 80
+  s_c2324aad607bbb::t_7c7b2eda61f9d3 19-20,23-35,299,303
+  s_c2324aad607bbb::t_daa8b94d7eb552 1-18,21-22,36-79,81-298,300-302,304-319
+app/android/app/src/main/cpp/iperf/config/install-sh
+  s_c2324aad607bbb::t_96a2147d5b6ed1 1-541
+app/lib/services/socket_debug_service.dart
+  s_c2324aad607bbb::t_31ba963b5c9b3b 1-32,37,39-44,48-49,51-52,66-83,88-98,102-112,117-124,126-135,144-200,207,211,214-233,237-256
+  s_c2324aad607bbb::t_3a243f32cb3ad6 33-36,38,45-47,50,63-65,84-87,99-101,113-116,201-206,208-210,212-213,234-236
+  s_c2324aad607bbb::t_30f70472fa83b7 53-62,125,136-143
+app/lib/ui/pages/tools/qr_generator_page.dart
+  s_c2324aad607bbb::t_493774f8e46092 1-2,10-11,14,16-17,36-37,42-51,53,58-59,155-158,169-172,201-204,285-288,293-296,347,384,475-512,514-518
+  s_c2324aad607bbb::t_b5aaf6a7799c46 3-9,12-13,15,18-35,38-41,52,54-57,60-154,159-168,173-200,205-284,289-292,297-346,348-383,385-474,513,519-557
+app/.gitignore
+  s_c2324aad607bbb::t_4e94297dc64b0f 1-45
+app/lib/services/api_workspace_store.dart
+  s_c2324aad607bbb::t_26b2ff6ea8e573 1-5,8-27,105-187,253-255,295
+  s_c2324aad607bbb::t_63594c86662f56 198,232-235
+  s_c2324aad607bbb::t_0b5936e8d7ae08 6-7,28-29,188-197,199-231,236-252
+  s_c2324aad607bbb::t_fabfa51cee9807 30-104,256-294
+app/test/mac_format_service_test.dart
+  s_c2324aad607bbb::t_3c7995e6eb687f 27
+  s_c2324aad607bbb::t_85e17886a6586a 20,26,28-39,43
+  s_c2324aad607bbb::t_c2d26b6dbae75f 40-42
+  s_c2324aad607bbb::t_09f8eb0c750c22 44
+  s_c2324aad607bbb::t_707d98c618a628 1-16
+  s_c2324aad607bbb::t_9cbf18842137b6 17-19
+  s_c2324aad607bbb::t_055bedf0b4e4e6 21-25
+app/.agents/skills/protodeck-network-diagnostics/agents/openai.yaml
+  s_c2324aad607bbb::t_b567eeceb2de5e 1-4
+app/lib/services/subnet_service.dart
+  s_c2324aad607bbb::t_652e39985419bb 8-12
+  s_c2324aad607bbb::t_8dbff26a686dbe 1-3
+  s_c2324aad607bbb::t_29368bcaf57824 39-41,55-57
+  s_c2324aad607bbb::t_b13bbbe06858b9 14
+  s_c2324aad607bbb::t_2b783d9b0e7fe6 34-37
+  s_c2324aad607bbb::t_5680448e8144d1 60-62,68-70
+  s_c2324aad607bbb::t_ec9c0c7ffb2955 6-7,13,15,17-18,26,30-31,33,38,58-59,71,73,77-154
+  s_c2324aad607bbb::t_9fdf914948699d 16
+  s_c2324aad607bbb::t_232756f6c48d0e 22,42-54,63-67
+  s_c2324aad607bbb::t_a4180008cb7dca 72
+  s_c2324aad607bbb::t_4823e483702803 74-76
+  s_c2324aad607bbb::t_853f46a99fe8aa 19-21,23-25
+  s_c2324aad607bbb::t_1abef1a26073b8 27-29
+  s_c2324aad607bbb::t_fdbed836ed409a 32
+  s_c2324aad607bbb::t_37f0fad0ffdb56 4-5
+app/lib/ui/widgets/structured_data_viewer.dart
+  s_c2324aad607bbb::t_6c5e3e1f1e1406 1-518
+app/test/wildcard_mask_service_test.dart
+  s_c2324aad607bbb::t_0ca25547d4e622 47-54
+  s_c2324aad607bbb::t_4a40b993f19fe8 1-46,55
+app/android/app/src/main/cpp/iperf/docs/faq.rst
+  s_c2324aad607bbb::t_ca40dcc079d590 1-274
+app/android/app/src/main/cpp/iperf/RELNOTES.md
+  s_c2324aad607bbb::t_0fc90ec143f646 1-1413
+app/windows/runner/windows_bluetooth_bridge.cpp
+  s_c2324aad607bbb::t_3250b8a9449ebc 190-198,214
+  s_c2324aad607bbb::t_cf02da008a16f4 1-5,8-12,15,18-32,65-84,126-140,160-174,199-210,218-238,240-252,495-532,679-680,829-833
+  s_c2324aad607bbb::t_ac9f6df2fb7313 239,253-285,288-494
+  s_c2324aad607bbb::t_18391162ffa2b0 6-7,17,33-50,85-125,175-189,211,215-217,533-678
+  s_c2324aad607bbb::t_33c53f4e37d426 13-14,16,51-64,141-159,212-213
+  s_c2324aad607bbb::t_a5ccfaabc7856d 286-287
+  s_c2324aad607bbb::t_d9d66ab202461a 681-742,744-828
+  s_c2324aad607bbb::t_46d61fe398fea6 743
+app/android/.gitignore
+  s_c2324aad607bbb::t_0cd18d626547a7 1-14
+app/ios/Flutter/Release.xcconfig
+  s_c2324aad607bbb::t_34bb24373e9d5b 1
+app/lib/ui/pages/tools/developer_tool_page.dart
+  s_c2324aad607bbb::t_a57db2ad251c2b 966-975
+  s_c2324aad607bbb::t_92e9a0ab680c15 116,325-335,788
+  s_c2324aad607bbb::t_379f973902f910 2,707,723
+  s_c2324aad607bbb::t_b043083ce365b6 312
+  s_c2324aad607bbb::t_9495834ee9f88b 1127-1133,1136-1137,1139-1189,1192-1209
+  s_c2324aad607bbb::t_74d2ff7cae25a3 348-349,351
+  s_c2324aad607bbb::t_48e45ccd0a4150 675-677,1190-1191
+  s_c2324aad607bbb::t_531d8cb10b74a8 3-14,17-18,20,22-40,45-75,89-108,153-156,162-169,180-258,260-261,270-311,313-324,336-341,347,352-476,511-608,610,616-629,631-637,741-787,789-933,935-937,940-951,954-965,976-1042,1044-1050,1052-1118,1120-1125,1210-1289
+  s_c2324aad607bbb::t_39acdd253d7bd9 740,1126
+  s_c2324aad607bbb::t_5fc8ae32a2e168 259,262,267-269
+  s_c2324aad607bbb::t_65173864b39b37 263-266,342-346,350
+  s_c2324aad607bbb::t_6e254acf933e68 1,15-16,19,21,41-44,109-115,117-152,157-161
+  s_c2324aad607bbb::t_7dc53315d7f54b 76-88,736
+  s_c2324aad607bbb::t_9da7d1edd8f67f 170-179,477-510,609,611-615,630,638-674,678-706,708-722,724-735,737-739
+  s_c2324aad607bbb::t_b5725e5598bd4b 934,938-939,1043,1051,1119,1134-1135,1138
+  s_c2324aad607bbb::t_2eb5eea7416972 952-953
+app/lib/services/native_network_service.dart
+  s_c2324aad607bbb::t_d80856491cdaa8 83,374
+  s_c2324aad607bbb::t_cb09722d188e68 1-51,53-59,89-205,214-295,297-311,313-328,330-341,345-352,356-371,375-551
+  s_c2324aad607bbb::t_92e0fdb7314554 213
+  s_c2324aad607bbb::t_90a514c3055fb0 206-212
+  s_c2324aad607bbb::t_0a86075edd44bb 296,312,329,344,355
+  s_c2324aad607bbb::t_c3183f68fa0995 52,60-82,84-88,342-343,353-354,372-373
+app/test/stun_service_test.dart
+  s_c2324aad607bbb::t_77e2c404759283 1-49
+app/lib/ui/pages/tools/common_ports_page.dart
+  s_c2324aad607bbb::t_39ed8296391426 182
+  s_c2324aad607bbb::t_2c6e2adf58eaeb 233-234
+  s_c2324aad607bbb::t_42cd6eaacecfc7 1-2,9,23,26-27,41-43,47-51,57-65,69,72,75-76,80-81,84-105,107,132,145-148,261,269-294
+  s_c2324aad607bbb::t_75be911e841da5 169
+  s_c2324aad607bbb::t_5c6785f6823911 112-116
+  s_c2324aad607bbb::t_e9816235de14ea 53
+  s_c2324aad607bbb::t_d7f55f6dff4cf0 106
+  s_c2324aad607bbb::t_10789f9c9b7c57 3-6,13,15,18-22,24,28-40,44-46,52,54-56,66-68,70-71,73-74,77-79,82-83,108-111,117-118,123-127,151-168,170-174,183-188,259-260,295
+  s_c2324aad607bbb::t_a95b33e29875a0 7
+  s_c2324aad607bbb::t_70eb87e59ac5ed 8,10-12,14,16-17,25,128-131,133-144,149-150,175-181,189-232,235-258,262-268
+  s_c2324aad607bbb::t_3f36142bbd7d0f 119-122
+app/.agents/skills/protodeck-remote-protocols/SKILL.md
+  s_c2324aad607bbb::t_fc46691e3a7b68 1-57
+.github/PULL_REQUEST_TEMPLATE.md
+  s_c2324aad607bbb::t_710ed2c6245488 1-23
+app/lib/services/bluetooth_debug_service.dart
+  s_c2324aad607bbb::t_1d748dc8b42cec 34,40,45-50
+  s_c2324aad607bbb::t_9d82fc057dc32b 5-6,9,11-12,16-17,23-24,27-32,52-57,60-61,65-67,81-83,93,95,106-108
+  s_c2324aad607bbb::t_6b513c2b3c7506 119,128
+  s_c2324aad607bbb::t_c46106e33ebba7 1-4,7-8,10,13-15,18-22,25-26,51,75-80,88-92,102-105,114-117,132
+  s_c2324aad607bbb::t_bdd8f755f0226c 33,39,68-69,72-74,118,120
+  s_c2324aad607bbb::t_096437a53b177d 35-38,41-44,58-59,62-64,70-71,84-87,94,96-101,109-113,121-124
+  s_c2324aad607bbb::t_c5e531bc7c3065 125-127,129-131
+app/android/app/src/main/cpp/iperf/src/version.h.in
+  s_c2324aad607bbb::t_1f358857877f05 1-27
+app/ios/Runner/Base.lproj/LaunchScreen.storyboard
+  s_c2324aad607bbb::t_79245058f2e72b 1-37
+app/lib/ui/pages/tools/wifi_roaming_page.dart
+  s_c2324aad607bbb::t_acb85e765494fc 19-20,22-34,37,332,336
+  s_c2324aad607bbb::t_6e086d12e56cd7 1-18,21,35-36,38-331,333-335,337-352
+app/android/app/src/main/cpp/iperf/config/test-driver
+  s_c2324aad607bbb::t_042642e39db471 1-160
+app/android/app/src/main/cpp/iperf/src/t_auth.c
+  s_c2324aad607bbb::t_9b50e3e1e047fe 1-155
+app/lib/legal_licenses.dart
+  s_c2324aad607bbb::t_a04ffb3663ab42 1-29
+app/tool/generate_docs_screenshots.sh
+  s_c2324aad607bbb::t_6c8b7fefa55782 6,9
+  s_c2324aad607bbb::t_42306e1778ddab 13-27
+  s_c2324aad607bbb::t_7259bea7852ed1 1-5,7-8,10-11,38
+  s_c2324aad607bbb::t_50973c25570372 36-37
+  s_c2324aad607bbb::t_2d5bdc1211fab5 12,28-35
+app/ios/Runner.xcodeproj/project.pbxproj
+  s_c2324aad607bbb::t_197e9adc0815c1 1-644
+.windsurfrules
+  s_c2324aad607bbb::t_5e1d058862e133 1-38
+.github/ISSUE_TEMPLATE/bug.yml
+  s_c2324aad607bbb::t_1696b5a408cbe1 1-65
+app/android/app/src/main/cpp/iperf/docs/index.rst
+  s_c2324aad607bbb::t_8562b40101ae53 1-70
+GEMINI.md
+  s_c2324aad607bbb::t_3da3df2cdacd61 1-38
+app/windows/runner/flutter_window.cpp
+  s_c2324aad607bbb::t_d083f41c09717c 1-5,7-28,31-46,48-81
+  s_c2324aad607bbb::t_cf02da008a16f4 6,29-30,47
+app/lib/services/wake_on_lan_service.dart
+  s_c2324aad607bbb::t_b16aef74372fce 1-9,11-28,41-56
+  s_c2324aad607bbb::t_7e6a74b89d2a9f 10,30-40
+  s_c2324aad607bbb::t_baaa11da85abda 29
+app/lib/ui/pages/remote/embedded_sftp_panel.dart
+  s_c2324aad607bbb::t_f8bf4823d8eb24 1-521
+app/android/app/src/main/cpp/iperf/src/iperf_auth.c
+  s_c2324aad607bbb::t_0450ff4c4f5182 1-472
+app/android/app/src/main/cpp/iperf/src/timer.h
+  s_c2324aad607bbb::t_69b88a1784d5f6 1-100
+app/android/app/src/main/cpp/iperf/iperf3.spec.in
+  s_c2324aad607bbb::t_bf7e15f2fb86be 1-59
+app/lib/ui/widgets/settings/preference_cards.dart
+  s_c2324aad607bbb::t_76250bb2b1a3ab 1-115
+app/lib/ui/pages/tools/bluetooth_debug_page.dart
+  s_c2324aad607bbb::t_f2c104a089711f 119,321,385
+  s_c2324aad607bbb::t_bdd8f755f0226c 111-118,120-126,319
+  s_c2324aad607bbb::t_7b892f1ae8f0df 386-392,814,1594
+  s_c2324aad607bbb::t_91c299bbf70ab4 1340-1347
+  s_c2324aad607bbb::t_bbbc3d130a7d7d 842-845
+  s_c2324aad607bbb::t_2ec03b7a67a386 800
+  s_c2324aad607bbb::t_b7c2b3ae69a944 48-50,85-88
+  s_c2324aad607bbb::t_81f8daa5bb16cf 238-251
+  s_c2324aad607bbb::t_7c3effe6fa74cc 1067-1068,1070,1072,1086,1095-1098,1100,1107-1109,1167,1349-1351
+  s_c2324aad607bbb::t_d3836194d34ee4 1115-1146
+  s_c2324aad607bbb::t_086baed63ea9d1 322
+  s_c2324aad607bbb::t_3f13ac505a22ac 110,218,221-222
+  s_c2324aad607bbb::t_526a7ea1888586 1591
+  s_c2324aad607bbb::t_66943078f2b3e7 320
+  s_c2324aad607bbb::t_babd04c2a4e183 38-42,47,51,58-59,89-90,338-348,1169-1187
+  s_c2324aad607bbb::t_a77d7d9c4c84ad 227-231,234,237
+  s_c2324aad607bbb::t_6dac5f40ce7e19 312-314
+  s_c2324aad607bbb::t_9e104ee96395fe 147-148
+  s_c2324aad607bbb::t_8c5011810fddd1 1114
+  s_c2324aad607bbb::t_570df38a027f73 15-16,20,22-23,60-61,66-76,91-94,1567-1590,1592-1593,1595-1617
+  s_c2324aad607bbb::t_cd9361e9a64e7c 144-146,149,158
+  s_c2324aad607bbb::t_8ed0e9e5db35dd 806
+  s_c2324aad607bbb::t_3fabb4a865a1a6 1151-1157
+  s_c2324aad607bbb::t_b6586edee8c079 1-14,17-19,21,24-37,43-46,52-57,62-65,77-84,95-109,127-143,150-157,159-217,219-220,223-226,232-233,235-236,252-311,315-318,323-337,349-384,394-799,801-805,807-813,815-841,846-1066,1069,1071,1073-1085,1087-1094,1099,1101-1106,1110-1113,1147-1150,1158-1166,1168,1188-1339,1348,1352-1566,1618-1667
+  s_c2324aad607bbb::t_ca42f1fe725ca0 393
+app/.agents/skills/protodeck-ui-ux/references/design-system.md
+  s_c2324aad607bbb::t_b1c8fdc75344a5 1-89
+app/.agents/skills/protodeck-project/SKILL.md
+  s_c2324aad607bbb::t_a8ecdb3824ae3e 1-2,4-7,10-16,21-37,44-56
+  s_c2324aad607bbb::t_f2bed0f3b06015 3,8-9,17-18,38-43,57-59
+  s_c2324aad607bbb::t_1a37daca396a91 19-20
+app/lib/services/port_scan_service.dart
+  s_c2324aad607bbb::t_2d6c5a1f50da7f 82,154-156,165-167
+  s_c2324aad607bbb::t_72866a97d5141b 4,11-13,19-21,64-66,68-77,79,81,83,92-98,102-105,110-127,129-130,132,136,138-139,143-153,157-164,168-178,180-185
+  s_c2324aad607bbb::t_3437f73e2fbb85 1-3,5-10,14-18,22-63,67,78,80,84-91,99-101,106-109,128,131,133-135,137,140-142,179,186-199
+app/test/local_discovery_service_test.dart
+  s_c2324aad607bbb::t_d5309c0891d12e 16
+  s_c2324aad607bbb::t_a21d7b2355ffe5 1-15,17-20
+app/windows/runner/win32_window.h
+  s_c2324aad607bbb::t_14003a91590ecf 1-102
+app/lib/services/linux_network_service.dart
+  s_c2324aad607bbb::t_c3183f68fa0995 142-154,157,618,622-623,625-627,629-636,638,642-645,651-661,667-676
+  s_c2324aad607bbb::t_314ca7f18a9b8d 1-141,158-617,619-621,677-906
+  s_c2324aad607bbb::t_0a86075edd44bb 155-156,624,628,637,646-650,662-666
+  s_c2324aad607bbb::t_6628940b41154b 639-641
+.github/ISSUE_TEMPLATE/feature.yml
+  s_c2324aad607bbb::t_c2971dc98524ad 1-45
+app/android/app/src/main/cpp/iperf/contrib/Dockerfile
+  s_c2324aad607bbb::t_7c1932ef591811 1-15
+app/lib/l10n/strings/tool_page_remote_en.dart
+  s_c2324aad607bbb::t_abd9a43cc6c95c 97-101
+  s_c2324aad607bbb::t_f1fae3abfe5895 102-119
+  s_c2324aad607bbb::t_f4fb884ffead61 73-85
+  s_c2324aad607bbb::t_9a72b063ff93f9 226-249,251-259,261-270
+  s_c2324aad607bbb::t_54c48b89615f42 120-123,125,134-138,143-151,158,160-170,172,186-187,205-206,222-223
+  s_c2324aad607bbb::t_4dbd383a29ea3d 152,154-155,224-225,250,260,271
+  s_c2324aad607bbb::t_20fb3606dbd5d5 124,159,171
+  s_c2324aad607bbb::t_f7c9aa23ab4dc6 173-185,188-204,207-221
+  s_c2324aad607bbb::t_10deb67527acb7 126-133,139-142,153,156-157
+  s_c2324aad607bbb::t_e6413d7920f3be 272-285
+  s_c2324aad607bbb::t_d310d88b4c69de 1-72,86-96,286
+app/test/wake_on_lan_service_test.dart
+  s_c2324aad607bbb::t_c10904115a832a 44-71
+  s_c2324aad607bbb::t_c3c0d8a837679b 1-43,72
+app/windows/runner/resource.h
+  s_c2324aad607bbb::t_882219f6a17803 1-16
+app/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json
+  s_c2324aad607bbb::t_662324e43da5aa 1-23
+app/lib/ui/pages/tools/stun_page.dart
+  s_c2324aad607bbb::t_cc4acc9b5d8306 135
+  s_c2324aad607bbb::t_9f9dfb68c69f6d 1-2,9-10,13-16,27,29-41,46-47,89-112,114-122,124-134,183-186,195-216,231,235,238-246,281-301,308-330,332-336
+  s_c2324aad607bbb::t_dc7741635c836d 22
+  s_c2324aad607bbb::t_099a5428404540 123
+  s_c2324aad607bbb::t_53563c6737815a 3,5-8,11-12,17-21,23-26,28,42-44,48-54,66-88,113,148-182,187-194,217-230,232-234,249-252,331,337-338
+  s_c2324aad607bbb::t_e60c4319081e8b 302-307
+  s_c2324aad607bbb::t_fcded5dcd2c8b9 4,45,55-65,136-147,236,247-248,253-277
+  s_c2324aad607bbb::t_c6abb514a48ed1 237,278-280
+app/linux/flutter/generated_plugin_registrant.cc
+  s_c2324aad607bbb::t_f0bd6344c031fc 1-15
+app/lib/ui/pages/tools/network_info_page.dart
+  s_c2324aad607bbb::t_9e10579967287c 1-448
+.gemini/skills/explore-codebase/SKILL.md
+  s_c2324aad607bbb::t_5180238591ba81 1-28
+app/lib/ui/pages/tools/backend_engineering_page.dart
+  s_c2324aad607bbb::t_d5d570592f58cc 1-11,13-17,19-57,60-68,71,74-123,128-151,157-167,171-172,176-229,235-245,261-262,265-274,281-297,301-312,319-346,350-372,378-416,420-430
+  s_c2324aad607bbb::t_afc97ff0013209 12,18,58-59,69-70,72-73,124-127,152-156,168-170,173-175,230-234,246-260,263-264,275-280,313-318,347-349,373-377,417-419
+  s_c2324aad607bbb::t_6c663c292538d7 298-300
+app/lib/ui/pages/tools/mac_format_page.dart
+  s_c2324aad607bbb::t_466fe236f6ef90 3-8,12-13,17-26,29-32,35,37-40,50-81,83-101,122-133,140-190,210-211
+  s_c2324aad607bbb::t_85e17886a6586a 1-2,9-11,14-16,27-28,33-34,36,41-49,82,102-121,134-139,191-209
+app/linux/flutter/CMakeLists.txt
+  s_c2324aad607bbb::t_bd440b4ebc45cd 1-88
+app/windows/runner/windows_bluetooth_bridge.h
+  s_c2324aad607bbb::t_cf02da008a16f4 1-8,11-12,16,18,24-35,37-38,57-61,96-100
+  s_c2324aad607bbb::t_8fa1df26353a5a 44-46,73-79
+  s_c2324aad607bbb::t_18391162ffa2b0 10,13,15,17,19,39-43,62-72
+  s_c2324aad607bbb::t_fdb55d5d03cc3b 23
+  s_c2324aad607bbb::t_9bce328f51704c 9,14,20-22,36,47-56,80-95
+docs/screenshots/README.md
+  s_c2324aad607bbb::t_a4b33c2bb076ab 1,3-4,6-8,10,15-23,25,27-30,35-36,38-40,42,44-45,50
+  s_c2324aad607bbb::t_2d5bdc1211fab5 12-14,31-33
+  s_c2324aad607bbb::t_7259bea7852ed1 2,5,9,11,24,26,34,37,41,43,46-49,51-54
+app/ios/Runner/AppDelegate.swift
+  s_c2324aad607bbb::t_649a28b8274deb 1-16
+app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  s_c2324aad607bbb::t_0cb7f7df97acd6 1-8
+app/android/app/src/main/cpp/iperf/aclocal.m4
+  s_c2324aad607bbb::t_9552ddbf8310ba 1-10534
+app/lib/ui/pages/tools/api_editor_widgets.dart
+  s_c2324aad607bbb::t_4f53b8384ecb83 1-90,92-105,107-120,122-334
+  s_c2324aad607bbb::t_6c663c292538d7 91,106,121
+android-env.sh
+  s_c2324aad607bbb::t_6c995dbc109c20 1-15
+app/lib/ui/pages/tools/network_doctor_page.dart
+  s_c2324aad607bbb::t_9105ba98146a95 138-147
+  s_c2324aad607bbb::t_e92bc24d515b69 4,9-11,14,16-17,44-54,122,125-132,137,149-152,154-156,184-198
+  s_c2324aad607bbb::t_77707f289c56bd 157-183,199-201
+  s_c2324aad607bbb::t_6f8db88c1bdd41 1-3,5-8,12-13,15,18-43,55-121,123-124,133-136,148,153,202-228
+.github/code-review-graph.instruction.md
+  s_c2324aad607bbb::t_728fdc4017c70e 1-46
+app/lib/services/linux_bluez_service.dart
+  s_c2324aad607bbb::t_73c7e662122630 3,739-813,815-822
+  s_c2324aad607bbb::t_05ec8c6bc7a4ba 49-52,62-64,76-78,85-90,98-100,112-114,228-230,342-348,361-363,506-518,531-533,535-537,541-545,562-564,568-573,579-582,587-589,591-595,613-615,637-638,655-656,679-687,712-714,727-730,814
+  s_c2324aad607bbb::t_6b513c2b3c7506 849-852,903-906,994-997
+  s_c2324aad607bbb::t_3886ecf53dc66d 18,34-38,97,118,122-227,231-238,240-336,338
+  s_c2324aad607bbb::t_48d7b3d6920c8f 239
+  s_c2324aad607bbb::t_ad1a9b060121d7 1-2,4-17,21-33,43-48,53-61,65-75,79-84,91-96,101-111,115-117,119-121,337,339-341,349-360,364,496-505,519-530,534,538-540,546-561,565-567,574-578,583-586,590,596-612,616-636,639-654,657-678,688-711,715-726,731-738,823
+  s_c2324aad607bbb::t_95260b54543361 19-20,39-42,365-495
+  s_c2324aad607bbb::t_a834a2f43fd830 824-848,853-902,907-993,998-1016
+app/android/app/src/main/cpp/iperf/src/t_units.c
+  s_c2324aad607bbb::t_4425ec82d419e5 1-108
+app/android/app/src/main/cpp/iperf/configure.ac
+  s_c2324aad607bbb::t_81db290f9b32a8 1-460
+app/test/new_debug_tools_test.dart
+  s_c2324aad607bbb::t_65173864b39b37 16-20
+  s_c2324aad607bbb::t_2825db86e39fd6 311
+  s_c2324aad607bbb::t_7c2e0a951d1f10 312-323
+  s_066d3baa7c131a::t_d85854cfae5d73 1-3,5-10,38-202,235-238,268-273,289-310,324-327,350-388
+  s_c2324aad607bbb::t_891822f159d5a6 25-34,36-37
+  s_c2324aad607bbb::t_7696684612cbe1 4,203-204,224
+  s_c2324aad607bbb::t_c73c53507e98b2 205-223,225-234
+  s_c2324aad607bbb::t_c0375bae2cd8a7 35
+  s_c2324aad607bbb::t_778e17fdb93c77 239-267
+  s_c2324aad607bbb::t_5fc8ae32a2e168 11-15,21-24
+  s_c2324aad607bbb::t_2eb5eea7416972 274-288,328-349
+app/test/local_test_server_service_test.dart
+  s_c2324aad607bbb::t_50f4eaad7bdd84 65-79
+  s_7639e9eb5f1ce1::t_04c520a8fcd45d 1-21,24-45,47,49-51,53-62,80-121
+  s_c2324aad607bbb::t_28f555c185ac3b 22-23,46,48,52,63-64
+app/lib/ui/pages/tools/structured_data_workbench_page.dart
+  s_c2324aad607bbb::t_7dc57221680cd5 446
+  s_c2324aad607bbb::t_2f7fb87e7148b6 570-582
+  s_c2324aad607bbb::t_d51fca665a75ff 53-85,126-154
+  s_c2324aad607bbb::t_90bb7e6df85202 517,529
+  s_c2324aad607bbb::t_afc97ff0013209 89-91,181-196,205-207,336-338,356-378,497-499,530-534,549-550
+  s_c2324aad607bbb::t_3dcdebed01d461 266-284,293,295,299,301-305,314-317,416-427,447,477-491,537-545
+  s_c2324aad607bbb::t_24b7afdd6acbb4 40,103-125,248-265,351,428-445,448-476
+  s_c2324aad607bbb::t_986b9ede55b941 1-39,41-52,86-88,92-102,155-180,197-204,208-247,285-292,294,296-298,300,306-313,318-335,339-350,352-355,379-415,492-496,500-516,518-528,535-536,546-548,551-569
+app/test/professional_developer_tools_test.dart
+  s_c2324aad607bbb::t_42913f26de2ecb 3,5,8-9,11,14-65,71-99,190-214,219-237,282-284
+  s_c2324aad607bbb::t_91d6128af8be95 66-70,215-218
+  s_c2324aad607bbb::t_fd8ec4fc9537c1 118-126,129-130,138
+  s_c2324aad607bbb::t_60b664d6196552 6,267-281
+  s_c2324aad607bbb::t_5f9c4a0cbaa710 1,4,10,12,128,147-188
+  s_c2324aad607bbb::t_b675a39b3dd8ef 2,13,100-117,132-137,139-146,189
+  s_c2324aad607bbb::t_b6f0e3102d5c3f 7,238-266
+  s_c2324aad607bbb::t_00fd56ea3ab605 127
+  s_c2324aad607bbb::t_d4b0b7ee8e906d 131
+app/.agents/skills/protodeck-android-native/agents/openai.yaml
+  s_c2324aad607bbb::t_0c1cfa2710b73b 1-4
+app/lib/services/backend_engineering_service.dart
+  s_c2324aad607bbb::t_26987ab52e7390 331-332,357-358
+  s_c2324aad607bbb::t_65f0f85bba045e 1-93,96-97,102-118,121-151,156-158,162-166,171-182,187-193,197-255,258-280,284-285,289-292,298-303,306-309,314-330,333-344,347,350,353-356,359-383,387-403,408-410,416-427
+  s_c2324aad607bbb::t_afc97ff0013209 94-95,98-101,119-120,152-155,159-161,167-170,183-186,194-196,256-257,281-283,286-288,293-297,304-305,310-313,345-346,348-349,351-352,384-386,404-407,411-415
+app/windows/runner/utils.cpp
+  s_c2324aad607bbb::t_ab44a347a3f9b4 1-69
+app/android/app/src/main/cpp/iperf/src/iperf.h
+  s_c2324aad607bbb::t_1c3fc2f99a3837 1-500
+app/android/app/src/main/cpp/iperf/INSTALL
+  s_c2324aad607bbb::t_80ffc3397ee279 1-236
+app/lib/ui/pages/remote/smb_browser_page.dart
+  s_c2324aad607bbb::t_c7ab7308ab2b37 1-25,27-31,33-71,74-601
+  s_c2324aad607bbb::t_212f0acfcfbe39 26,32,72-73
+app/test/widget_test.dart
+  s_c2324aad607bbb::t_3f19890105d4f1 1-50
+app/tool/build_bundled_iperf_linux.sh
+  s_c2324aad607bbb::t_73b69feb4f5f89 18-20
+  s_c2324aad607bbb::t_3f45f09efc7f25 23-28
+  s_c2324aad607bbb::t_672f5a0435eca5 1-17,21-22,29-42
+app/lib/services/http_diagnostic_service.dart
+  s_c2324aad607bbb::t_9ac956bad3c667 2-4
+  s_c2324aad607bbb::t_dbc2c682bab774 25-27
+  s_c2324aad607bbb::t_fb6faa18604308 63
+  s_c2324aad607bbb::t_476170c0540769 83-85
+  s_c2324aad607bbb::t_e38a7ee389ea59 1,17-18,72-78,150-151
+  s_c2324aad607bbb::t_a33b3da53d0e73 105-127,176
+  s_c2324aad607bbb::t_be23908138e3e3 139-140
+  s_c2324aad607bbb::t_175612941dc627 69-71,79-81
+  s_c2324aad607bbb::t_b20cb483dd3ec2 14-16,19-21
+  s_c2324aad607bbb::t_58b526cb570995 134-137
+  s_c2324aad607bbb::t_4fed5272969418 5-13,62,68,82,201,205,207,209,212,215,218,221,225
+  s_c2324aad607bbb::t_152908081f42b6 94-96
+  s_c2324aad607bbb::t_9521a10bc86c96 128-131
+  s_c2324aad607bbb::t_343c2c2c7103a0 147-149,152-154
+  s_c2324aad607bbb::t_d59b2f336c94ed 22-24,30-49,55-61,64-67,86,97-104,138,155-168,177-200,202-204,206,208,210-211,213-214,216-217,219-220,222-224
+  s_c2324aad607bbb::t_6f7a50ed733f93 50-52
+  s_c2324aad607bbb::t_57da58febc9733 169-173
+  s_c2324aad607bbb::t_bffc4c358fbece 87-90
+  s_c2324aad607bbb::t_d4a83d05055bf3 28-29,53-54,91-93,132-133,141-146,174-175
+.claude/skills/review-changes/SKILL.md
+  s_c2324aad607bbb::t_22d04924f93533 1-29
+docs/platform-support.md
+  s_c2324aad607bbb::t_23343867af97a3 1-12,14,16,18-20
+  s_c2324aad607bbb::t_d5cbae1eccd37f 13,15,17,21-47
+app/lib/services/public_ip_service.dart
+  s_c2324aad607bbb::t_804ce6bb6ac408 1-27
+app/lib/l10n/README.md
+  s_c2324aad607bbb::t_e1822971f27e3d 1-19
+app/ios/.gitignore
+  s_c2324aad607bbb::t_44ad0f8540b992 1-34
+app/test/assets/ProtoDeckDocsCJKSubset-LICENSE.txt
+  s_c2324aad607bbb::t_94447b1c3c91ae 1-87
+app/lib/services/network_intelligence_service.dart
+  s_c2324aad607bbb::t_14d307da223a06 129
+  s_c2324aad607bbb::t_5b3e87d435543c 30,51,145
+  s_c2324aad607bbb::t_61216637e602f9 14,16-17,19-20,22,27,29,35,37-38,40-41,43,48,50,54-57,66-67,71-106,113-120,122-123,131-135,137,142-144,147-150,159-162
+  s_c2324aad607bbb::t_7fa31b9f2f018f 2-13,15,18,21,23-26,28,31-34,36,39,42,44-47,49,52-53,58-65,68-70,108,124-128,130,136,138-141,146,151,157-158,163-313
+  s_c2324aad607bbb::t_e7d1ccdd7262bc 1
+  s_c2324aad607bbb::t_0228b4bcfe3e25 107,109-112,121,152-156
+app/android/app/src/main/kotlin/com/nettools/nettools_mobile/LocalServerTaskService.kt
+  s_c2324aad607bbb::t_b0e50b816c65c2 1-62
+app/lib/ui/pages/settings_page.dart
+  s_c2324aad607bbb::t_d53f9b8d1bb1b4 1,3-10,12-60,92-203,208-215,217-237,308-389
+  s_c2324aad607bbb::t_687ff04a383086 2,11,61-91,204-207,216,238-307
+app/lib/ui/pages/tools/port_scan_page.dart
+  s_c2324aad607bbb::t_2d6c5a1f50da7f 314-319,321-335,337-355,511-513
+  s_c2324aad607bbb::t_92cbb36c1b42b0 16-21,23-24,77-79
+  s_c2324aad607bbb::t_8c6067c1daeed2 5,42,69-72,90,120-130,284-309,311-313,460-466,468-494,571-572
+  s_c2324aad607bbb::t_7457fa6d64c386 2
+  s_c2324aad607bbb::t_17b9fca028d35c 1,3-4,6-10,12,14-15,22,25-32,35-39,45-48,75,97-104,109-110,113-119,131-172,247-283,310,358-390,401-408,410,418-421,428-453,495,535,570
+  s_c2324aad607bbb::t_8830afaa7022b8 552-568
+  s_c2324aad607bbb::t_9423128a1f1fa8 11,43-44,49-51,54-62,73-74,76,80-85,91-96,105-108
+  s_c2324aad607bbb::t_b35fdbd4008273 13,33-34,40-41,52-53,63-68,86-89,111-112,173-246,320,356-357,391-400,409,411-417,422-427,454-459,496-510,514-534
+  s_c2324aad607bbb::t_185a182c4c3cc8 336,536-551,569
+  s_c2324aad607bbb::t_c6abb514a48ed1 467
+app/android/app/src/main/cpp/iperf/src/net.c
+  s_c2324aad607bbb::t_c77ee3d6a90e56 1-888
+app/lib/l10n/strings/dashboard_strings.dart
+  s_c2324aad607bbb::t_8c47f2326c721e 1-83
+app/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+  s_c2324aad607bbb::t_ac8bbab650114b 1-7
+app/lib/services/api_workbench_service.dart
+  s_c2324aad607bbb::t_98f1f2dfaff8db 26-28,31-33
+  s_c2324aad607bbb::t_5e51207283717c 695-698
+  s_c2324aad607bbb::t_50691f0c60ddbe 390-392,399-401
+  s_c2324aad607bbb::t_953b9a07442404 671-673,683-685
+  s_c2324aad607bbb::t_8409ed4ab605ae 784-787
+  s_c2324aad607bbb::t_d3b1eac5a3cd42 544-547
+  s_c2324aad607bbb::t_0c1a1ebde82170 377-379,385-387
+  s_c2324aad607bbb::t_ddfc8bb05c7da6 415-417,419-421
+  s_c2324aad607bbb::t_44b09556c67557 529-532
+  s_c2324aad607bbb::t_833a8ab0269683 702-704,733-735
+  s_c2324aad607bbb::t_7305c3c505a102 424-426,448-450
+  s_c2324aad607bbb::t_d5841c70e81b96 597-602
+  s_c2324aad607bbb::t_399e96610dff22 116
+  s_c2324aad607bbb::t_a0e6e3b0322b5c 105-108
+  s_c2324aad607bbb::t_39331488e0eea4 327-329,338-340
+  s_c2324aad607bbb::t_9b128f49fe66b1 306-308,323-325
+  s_c2324aad607bbb::t_7a755e204f35e2 35-37,50-52
+  s_c2324aad607bbb::t_a7f3d0f057a3f7 489-491,504-506
+  s_c2324aad607bbb::t_89da10e9ebf30b 806-809
+  s_c2324aad607bbb::t_971a5d0e016b5d 829-834
+  s_c2324aad607bbb::t_93b9c4933c45b1 618-620,630-632
+  s_c2324aad607bbb::t_9e12daaedbaf23 404-407
+  s_c2324aad607bbb::t_163111be0232b7 818-820,825-827
+  s_c2324aad607bbb::t_c4d80e9eeb71d5 605-607,614-616
+  s_c2324aad607bbb::t_4c8e8294f67e91 789-791,795-797
+  s_c2324aad607bbb::t_e3e8ddc7a8ec23 483-487
+  s_c2324aad607bbb::t_18733b49437267 1-6,15-16,29-30,38-49,57-99,121-124,134,143-147,278-299,309-322,330-337,345-347,362-369,380-384,393-398,418,427-447,455-458,466-478,492-503,512-524,537-539,553-592,608-613,621-629,638-648,657-665,674-682,690,705-732,740-754,762-773,792-794,821-824
+  s_c2324aad607bbb::t_16ded1473be912 374
+  s_c2324aad607bbb::t_cead98a9211218 131-133,135-137
+  s_c2324aad607bbb::t_ab44b454361091 509-511,525-527
+  s_c2324aad607bbb::t_a3583e9ef11a66 275-277,300-302
+  s_c2324aad607bbb::t_08b322cccf9342 812-815
+  s_c2324aad607bbb::t_0406717484348c 700
+  s_c2324aad607bbb::t_af5804400182f1 110-114
+  s_c2324aad607bbb::t_caa670e6e304b9 342-344,348-350
+  s_c2324aad607bbb::t_17189655a08145 534-536,540-542
+  s_c2324aad607bbb::t_9b6852e90a4aa4 359-361,370-372
+  s_c2324aad607bbb::t_5c99c1cfb72fe8 10-11,20,25,34,53,103-104,109,115,117,128-130,138-139,151,154-274,303-305,326,341,351,358,373,375-376,388-389,402-403,408,413-414,422-423,451,462,482,488,507-508,528,533,543,548-549,596,603-604,617,633-634,652-653,669-670,686,694,699,701,736,758,777-778,783,788,798-799,805,810-811,816-817,828,835-836,841-842
+  s_c2324aad607bbb::t_c74b3adf8a5848 452-454,459-461
+  s_c2324aad607bbb::t_370ccdf0afda27 635-637,649-651
+  s_c2324aad607bbb::t_58e57db17b98aa 352-357
+  s_c2324aad607bbb::t_724e6a531d475e 21-24
+  s_c2324aad607bbb::t_111f4fb93613c7 550-552,593-595
+  s_c2324aad607bbb::t_808bf1315cc2fc 737-739,755-757
+  s_c2324aad607bbb::t_1ee93ffac2e300 779-782
+  s_c2324aad607bbb::t_2dd142eb0ac9fb 140-142,148-150
+  s_c2324aad607bbb::t_0a02e13357e0d8 118-120,125-127
+  s_c2324aad607bbb::t_5c0b73e2aaa418 12-14,17-19
+  s_c2324aad607bbb::t_2b34fece4f157f 54-56,100-102
+  s_c2324aad607bbb::t_8a39175d4617cc 409-412
+  s_c2324aad607bbb::t_b50cdb54200314 654-656,666-668
+  s_c2324aad607bbb::t_dee0a0259714af 759-761,774-776
+  s_c2324aad607bbb::t_69dfee61dc61cf 152-153
+  s_c2324aad607bbb::t_a62f4464a85794 837-840
+  s_c2324aad607bbb::t_66926ac4f7c55c 687-689,691-693
+  s_c2324aad607bbb::t_468e762b8dc79f 463-465,479-481
+  s_c2324aad607bbb::t_444371ec60ddff 7-9
+  s_c2324aad607bbb::t_a23bf37a052cbf 800-804
+app/android/app/src/main/cpp/mobile_config/version.h
+  s_c2324aad607bbb::t_a0d6ec857103ff 1-6
+app/lib/services/windows_network_service.dart
+  s_c2324aad607bbb::t_c2ebee976fd246 1-762,767-814
+  s_c2324aad607bbb::t_0a86075edd44bb 763-766
+app/android/app/src/main/cpp/iperf/config/config.sub
+  s_c2324aad607bbb::t_5f424f5a435f84 1-2364
+app/lib/services/syslog_receiver_service.dart
+  s_c2324aad607bbb::t_c8fc5afa4d24ff 81-86,89,93-96,101-105,115-116,212-216,218-230
+  s_c2324aad607bbb::t_062333f563c80a 1-80,87-88,90-92,97-100,106-114,117-211,217,231-365
+app/android/app/src/main/cpp/iperf/src/iperf_util.h
+  s_c2324aad607bbb::t_d6548d002a42f3 1-70
+app/android/app/src/main/cpp/iperf/config/depcomp
+  s_c2324aad607bbb::t_7aee107a7bbb67 1-792
+app/test/ping_page_widget_test.dart
+  s_c2324aad607bbb::t_30cd287aae400f 1-43
+.kiro/steering/code-review-graph.md
+  s_c2324aad607bbb::t_98bedc3aea827f 1-38
+app/lib/ui/pages/tools/oui_lookup_page.dart
+  s_c2324aad607bbb::t_fa5761be9f7576 17
+  s_c2324aad607bbb::t_85e17886a6586a 20-21,37-40,45
+  s_c2324aad607bbb::t_7cbd005ae395e8 1-9,12-16,18,22-34,46-49,52-82,84-253,285-439
+  s_c2324aad607bbb::t_d172a6ba985071 10-11,19,35-36,41-44,50-51,83,254-284
+app/lib/ui/widgets/ssh/ssh_terminal_surface.dart
+  s_c2324aad607bbb::t_85915bcaa39f77 1-197
+app/test/snmp_service_test.dart
+  s_c2324aad607bbb::t_03abb40bef25ac 1-18,32,52
+  s_c2324aad607bbb::t_b02f61544a8072 19-31,33-51
+.qoder/settings.json
+  s_c2324aad607bbb::t_d4fc979beb57dd 1-28
+.gitignore
+  s_c2324aad607bbb::t_1fc0e6dec85568 1-29
+app/ios/Runner/SceneDelegate.swift
+  s_c2324aad607bbb::t_6b2d6c7d17ad66 1-6
+app/lib/services/transfer_job_tracker.dart
+  s_c2324aad607bbb::t_ff943034777bcc 1-89
+app/lib/l10n/strings/platform_capability_strings.dart
+  s_c2324aad607bbb::t_0a55ec539d8d31 1-21,23-24,27-28,30-40,42-47,100-102
+  s_c2324aad607bbb::t_2c6e2adf58eaeb 22,25-26,29,41,48-99
+app/android/app/src/main/cpp/iperf/config/config.guess
+  s_c2324aad607bbb::t_0f166f0ba6cd91 1-1818
+app/android/app/src/main/cpp/iperf/src/iperf_time.c
+  s_c2324aad607bbb::t_20a27cb915ff4a 1-174
+app/.agents/skills/protodeck-project/references/tool-depth-audit.md
+  s_c2324aad607bbb::t_1a37daca396a91 1-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "8d30cc800b96ca35f8ca39f7dcf950a0299b136f",
+  "prompts": {},
+  "humans": {
+    "h_f3388896937b91": {
+      "author": "thiscoalball <805755827@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_066d3baa7c131a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f91c2-14c4-7033-b2ca-844604a1023d",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "thiscoalball <805755827@qq.com>"
+    },
+    "s_7639e9eb5f1ce1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f96d0-6cae-7250-9bf6-0b55f3538da7",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "thiscoalball <805755827@qq.com>"
+    },
+    "s_76582a1fbd9fed": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f9803-aff3-7781-96cc-8b294f281028",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "thiscoalball <805755827@qq.com>"
+    },
+    "s_c2324aad607bbb": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f930a-e04d-7e60-8b76-4433f257adb5",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null
+    }
+  }
+}
