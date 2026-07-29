@@ -75,8 +75,9 @@ class WindowsNetworkBridge {
       );
     }
     final now = DateTime.now();
+    final accessPoints = parseWifiScan(result.stdout, now: now);
     return {
-      'accessPoints': parseWifiScan(result.stdout, now: now),
+      'accessPoints': accessPoints,
       // netsh exposes the WLAN service cache and does not guarantee that this
       // invocation initiated a new radio scan.
       'fresh': false,
@@ -84,6 +85,40 @@ class WindowsNetworkBridge {
       'status': 'windows_system_cache',
       'collectedAtMs': now.millisecondsSinceEpoch,
       'newestResultAgeMs': null,
+      'supports24Ghz': accessPoints.any(
+        (row) => (_asInt(row['frequency'])) < 3000,
+      ),
+      'supports5Ghz': accessPoints.any(
+        (row) =>
+            (_asInt(row['frequency'])) >= 4900 &&
+            (_asInt(row['frequency'])) < 5925,
+      ),
+      'supports6Ghz': accessPoints.any(
+        (row) => (_asInt(row['frequency'])) >= 5925,
+      ),
+      'usableChannels': const <Object?>[],
+    };
+  }
+
+  Future<Map<Object?, Object?>> connectWifi({required String ssid}) async {
+    final normalized = ssid.trim();
+    if (normalized.isEmpty) throw const FormatException('SSID is required');
+    final result = await _runner.run('netsh.exe', [
+      'wlan',
+      'connect',
+      'name=$normalized',
+      'ssid=$normalized',
+    ], timeout: const Duration(seconds: 12));
+    if (result.exitCode != 0) {
+      throw StateError(
+        'Windows could not connect to the saved Wi-Fi profile: '
+        '${_firstUsefulLine(result.stderr, result.stdout)}',
+      );
+    }
+    return {
+      'status': 'connection_requested',
+      'systemUiOpened': false,
+      'message': result.stdout.trim(),
     };
   }
 
@@ -481,6 +516,7 @@ class WindowsNetworkBridge {
       final signal = row.remove('_signal') as int?;
       row['ssid'] = ssid;
       row['security'] = security;
+      row['securityTypes'] = security.isEmpty ? const <String>[] : [security];
       row['rssi'] = signal == null ? -127 : (signal / 2 - 100).round();
       row['signalLevel'] = signal == null
           ? 0
@@ -530,6 +566,9 @@ class WindowsNetworkBridge {
               key.contains('频道') ||
               key.contains('信道'))) {
         current['channel'] = int.tryParse(value) ?? 0;
+      } else if (current != null &&
+          (key.contains('radio type') || key.contains('无线电类型'))) {
+        current['standard'] = value;
       }
     }
     commit();

@@ -18,13 +18,21 @@
 - Wi-Fi RSSI uses dBm, normally within `-100..0`; a less-negative value is stronger.
 - Wi-Fi signal history samples foreground current-connection RSSI, records timestamps, avoids
   duplicate timers, survives a single-point series, and resets or marks a source change on BSSID.
-- Nearby AP scans are snapshots and can be throttled/cached. Show age. Group/filter by 2.4, 5 and
-  6 GHz and identify BSSID independently of SSID.
+- Nearby AP scans are snapshots and can be throttled/cached. Show age. Group/filter by 2.4 and 5 GHz;
+  show 6 GHz only when the platform reports support or an actual 6 GHz BSSID. Identify BSSID
+  independently of SSID.
 - Channel graphs use channel numbers on the visible axis. A width/strength envelope derives its
   center from frequency/channel and spans the reported 20/40/80/160/320 MHz width; it is not a count
   bar chart.
-- CN recommendations must consider legal candidate channels, observed co-channel/overlap load,
-  supported bandwidth and device capability. Present advice, not an automatic configuration change.
+- Channel recommendations must prefer the platform's current regulatory-domain channel list and
+  consider observed co-channel/overlap load, supported bandwidth and device capability. If the
+  platform exposes no legal channel list, rank observed channels only and label the lower confidence.
+  Present advice, not an automatic configuration change.
+- Wi-Fi connection is a platform-owned operation: Android requires a visible system approval flow,
+  Windows may activate an already-saved WLAN profile, and Linux uses NetworkManager. Never persist a
+  password in tool drafts or treat local-only connectivity as failure.
+- Static IPv4/DNS is desktop-only. Validate all fields, snapshot the previous configuration, verify
+  the observed address after applying, and attempt rollback on failure. Hide this control on Android.
 - Cellular type comes from telephony data. Show useful available values such as RSRP, RSRQ, SINR/RSSNR,
   RSSI, CQI, timing advance, band/channel and cell identity, but omit unsupported values instead of
   substituting zero. Wi-Fi 5 GHz is never labeled 5G NR.

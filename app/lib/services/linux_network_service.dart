@@ -106,13 +106,63 @@ class LinuxNetworkBridge {
         'NetworkManager Wi-Fi 扫描失败：${_firstLine(result.stderr, result.stdout)}',
       );
     }
+    final accessPoints = parseNmcliWifi(result.stdout, now: now);
     return {
-      'accessPoints': parseNmcliWifi(result.stdout, now: now),
+      'accessPoints': accessPoints,
       'fresh': true,
       'requested': true,
       'status': 'linux_networkmanager',
       'collectedAtMs': now.millisecondsSinceEpoch,
       'newestResultAgeMs': 0,
+      'supports24Ghz': accessPoints.any(
+        (row) => _asInt(row['frequency']) < 3000,
+      ),
+      'supports5Ghz': accessPoints.any(
+        (row) =>
+            _asInt(row['frequency']) >= 4900 && _asInt(row['frequency']) < 5925,
+      ),
+      'supports6Ghz': accessPoints.any(
+        (row) => _asInt(row['frequency']) >= 5925,
+      ),
+      'usableChannels': const <Object?>[],
+    };
+  }
+
+  Future<Map<Object?, Object?>> connectWifi({
+    required String ssid,
+    String password = '',
+    String? interfaceName,
+    bool hidden = false,
+  }) async {
+    final normalized = ssid.trim();
+    if (normalized.isEmpty) throw const FormatException('SSID is required');
+    final arguments = <String>[
+      'device',
+      'wifi',
+      'connect',
+      normalized,
+      if (password.isNotEmpty) ...['password', password],
+      if (interfaceName?.trim().isNotEmpty == true) ...[
+        'ifname',
+        interfaceName!.trim(),
+      ],
+      if (hidden) ...['hidden', 'yes'],
+    ];
+    final result = await _runner.run(
+      'nmcli',
+      arguments,
+      timeout: const Duration(seconds: 35),
+    );
+    if (result.exitCode != 0) {
+      throw StateError(
+        'NetworkManager could not connect to Wi-Fi: '
+        '${_firstLine(result.stderr, result.stdout)}',
+      );
+    }
+    return {
+      'status': 'connection_requested',
+      'systemUiOpened': false,
+      'message': result.stdout.trim(),
     };
   }
 
@@ -560,6 +610,7 @@ class LinuxNetworkBridge {
         'channel': channel ?? 0,
         'channelWidth': '系统未提供',
         'security': fields[7],
+        'securityTypes': fields[7].isEmpty ? const <String>[] : [fields[7]],
         'timestampMicros': (now ?? DateTime.now()).microsecondsSinceEpoch,
         'linkSpeedMbps': rate?.round(),
         'rxLinkSpeedMbps': null,

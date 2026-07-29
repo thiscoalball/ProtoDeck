@@ -36,6 +36,66 @@ class NativeNetworkService {
     return WifiScanSnapshot.fromMap(map);
   }
 
+  Future<WifiConnectionRequestResult> requestWifiConnection({
+    required String ssid,
+    required String security,
+    String password = '',
+    String? interfaceName,
+    bool hidden = false,
+  }) async {
+    final map = Platform.isWindows
+        ? await _windows.connectWifi(ssid: ssid)
+        : Platform.isLinux
+        ? await _linux.connectWifi(
+            ssid: ssid,
+            password: password,
+            interfaceName: interfaceName,
+            hidden: hidden,
+          )
+        : await _channel.invokeMapMethod<Object?, Object?>(
+            'requestWifiConnection',
+            {
+              'ssid': ssid,
+              'security': security,
+              'password': password,
+              'hidden': hidden,
+            },
+          );
+    if (map == null) throw StateError('The platform returned no Wi-Fi result');
+    return WifiConnectionRequestResult(
+      status: map['status']?.toString() ?? 'unknown',
+      systemUiOpened: map['systemUiOpened'] == true,
+      message: map['message']?.toString(),
+    );
+  }
+
+  Future<WifiRttMeasurement> runWifiRtt(String bssid) async {
+    if (!Platform.isAndroid) {
+      throw UnsupportedError(
+        'Wi-Fi RTT is available only on supported Android devices',
+      );
+    }
+    final map = await _channel.invokeMapMethod<Object?, Object?>('runWifiRtt', {
+      'bssid': bssid,
+    });
+    if (map == null)
+      throw StateError('The platform returned no Wi-Fi RTT result');
+    return WifiRttMeasurement(
+      bssid: map['bssid']?.toString() ?? bssid,
+      distanceMm: (map['distanceMm'] as num?)?.toInt() ?? 0,
+      distanceStdDevMm: (map['distanceStdDevMm'] as num?)?.toInt() ?? 0,
+      rssi: (map['rssi'] as num?)?.toInt(),
+      attemptedMeasurements:
+          (map['attemptedMeasurements'] as num?)?.toInt() ?? 0,
+      successfulMeasurements:
+          (map['successfulMeasurements'] as num?)?.toInt() ?? 0,
+      measuredAt: DateTime.fromMillisecondsSinceEpoch(
+        (map['timestampMillis'] as num?)?.toInt() ??
+            DateTime.now().millisecondsSinceEpoch,
+      ),
+    );
+  }
+
   Future<TrafficSnapshot> getTrafficSnapshot() async {
     final map = Platform.isWindows
         ? await _windows.getTrafficSnapshot()
@@ -276,6 +336,38 @@ class NativeNetworkService {
   Future<void> stopLocalServerForeground() => _desktop
       ? Future<void>.value()
       : _channel.invokeMethod<void>('stopLocalServerForeground');
+}
+
+class WifiConnectionRequestResult {
+  const WifiConnectionRequestResult({
+    required this.status,
+    required this.systemUiOpened,
+    this.message,
+  });
+
+  final String status;
+  final bool systemUiOpened;
+  final String? message;
+}
+
+class WifiRttMeasurement {
+  const WifiRttMeasurement({
+    required this.bssid,
+    required this.distanceMm,
+    required this.distanceStdDevMm,
+    required this.rssi,
+    required this.attemptedMeasurements,
+    required this.successfulMeasurements,
+    required this.measuredAt,
+  });
+
+  final String bssid;
+  final int distanceMm;
+  final int distanceStdDevMm;
+  final int? rssi;
+  final int attemptedMeasurements;
+  final int successfulMeasurements;
+  final DateTime measuredAt;
 }
 
 class TrafficConnection {

@@ -24,6 +24,8 @@ on:
         type: string
   push:
     tags: ['v*']
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
 
 permissions:
   contents: read
@@ -82,6 +84,7 @@ jobs:
     needs: [metadata, verify]
     if: >-
       github.event_name == 'push' ||
+      github.event_name == 'pull_request' ||
       (github.event_name == 'workflow_dispatch' && inputs.build_android)
     runs-on: ubuntu-24.04
     timeout-minutes: 60
@@ -131,6 +134,7 @@ jobs:
     needs: [metadata, verify]
     if: >-
       github.event_name == 'push' ||
+      github.event_name == 'pull_request' ||
       (github.event_name == 'workflow_dispatch' && inputs.build_linux)
     runs-on: ubuntu-24.04
     timeout-minutes: 60
@@ -186,6 +190,7 @@ jobs:
     needs: [metadata, verify]
     if: >-
       github.event_name == 'push' ||
+      github.event_name == 'pull_request' ||
       (github.event_name == 'workflow_dispatch' && inputs.build_windows)
     # Flutter's current Windows plugins target the stable VS 2022 toolchain.
     # Avoid the VS 18 preview image, which removes legacy /await support.

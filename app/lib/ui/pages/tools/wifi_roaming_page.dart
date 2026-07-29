@@ -174,7 +174,7 @@ class _WifiRoamingPageState extends State<WifiRoamingPage> {
                 margin: EdgeInsets.zero,
                 child: Column(
                   children: [
-                    for (final event in _events.reversed)
+                    for (final event in _events.reversed) ...[
                       ListTile(
                         leading: const CircleAvatar(
                           child: Icon(Icons.swap_horiz_rounded),
@@ -185,12 +185,36 @@ class _WifiRoamingPageState extends State<WifiRoamingPage> {
                           overflow: TextOverflow.ellipsis,
                         ),
                         subtitle: LocalizedText(
-                          'RSSI ${event.fromRssi ?? '—'} → ${event.toRssi ?? '—'} dBm · 可观测断流 ${event.observedOutage == null ? '样本不足' : '${event.observedOutage!.inMilliseconds} ms'} · 丢失探测 ${event.lostProbes}',
+                          'RSSI ${event.fromRssi ?? '—'} → ${event.toRssi ?? '—'} dBm · '
+                          'CH ${event.fromChannel ?? '—'} → ${event.toChannel ?? '—'} · '
+                          '可观测断流 ${event.observedOutage == null ? '样本不足' : '${event.observedOutage!.inMilliseconds} ms'} · '
+                          '恢复 ${event.recoveryTime?.inMilliseconds ?? 0} ms · 丢失探测 ${event.lostProbes}',
                         ),
                         trailing: LocalizedText(
                           DateFormat('HH:mm:ss').format(event.changedAt),
                         ),
                       ),
+                      if (event.addressChanged ||
+                          event.gatewayChanged ||
+                          event.dnsChanged)
+                        Padding(
+                          padding: const EdgeInsets.fromLTRB(72, 0, 16, 10),
+                          child: Align(
+                            alignment: Alignment.centerLeft,
+                            child: LocalizedText(
+                              [
+                                if (event.addressChanged) '本机地址变化',
+                                if (event.gatewayChanged) '网关变化',
+                                if (event.dnsChanged) 'DNS 变化',
+                              ].join(' · '),
+                              style: TextStyle(
+                                color: Theme.of(context).colorScheme.error,
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                          ),
+                        ),
+                    ],
                   ],
                 ),
               ),

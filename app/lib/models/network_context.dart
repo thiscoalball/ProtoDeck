@@ -29,6 +29,9 @@ class WifiConnectionInfo {
     this.rxLinkSpeedMbps,
     this.txLinkSpeedMbps,
     this.standard,
+    this.securityType,
+    this.apMldMacAddress,
+    this.associatedMloLinkCount,
   });
 
   final String? ssid;
@@ -41,6 +44,9 @@ class WifiConnectionInfo {
   final int? rxLinkSpeedMbps;
   final int? txLinkSpeedMbps;
   final String? standard;
+  final String? securityType;
+  final String? apMldMacAddress;
+  final int? associatedMloLinkCount;
 
   factory WifiConnectionInfo.fromMap(Map<Object?, Object?> map) =>
       WifiConnectionInfo(
@@ -54,6 +60,10 @@ class WifiConnectionInfo {
         rxLinkSpeedMbps: map['rxLinkSpeedMbps'] as int?,
         txLinkSpeedMbps: map['txLinkSpeedMbps'] as int?,
         standard: map['standard'] as String?,
+        securityType: map['securityType'] as String?,
+        apMldMacAddress: map['apMldMacAddress'] as String?,
+        associatedMloLinkCount: (map['associatedMloLinkCount'] as num?)
+            ?.toInt(),
       );
 }
 
@@ -284,6 +294,21 @@ class WifiAccessPoint {
     required this.channelWidth,
     required this.security,
     required this.timestampMicros,
+    this.standard,
+    this.centerFrequency0,
+    this.centerFrequency1,
+    this.securityTypes = const [],
+    this.passpoint = false,
+    this.rttResponder = false,
+    this.stationCount,
+    this.channelUtilizationPercent,
+    this.dtimPeriod,
+    this.supports80211k,
+    this.supports80211v,
+    this.supports80211r,
+    this.pmfCapable,
+    this.pmfRequired,
+    this.informationElementIds = const [],
   });
 
   final String ssid;
@@ -295,6 +320,21 @@ class WifiAccessPoint {
   final String channelWidth;
   final String security;
   final int timestampMicros;
+  final String? standard;
+  final int? centerFrequency0;
+  final int? centerFrequency1;
+  final List<String> securityTypes;
+  final bool passpoint;
+  final bool rttResponder;
+  final int? stationCount;
+  final int? channelUtilizationPercent;
+  final int? dtimPeriod;
+  final bool? supports80211k;
+  final bool? supports80211v;
+  final bool? supports80211r;
+  final bool? pmfCapable;
+  final bool? pmfRequired;
+  final List<int> informationElementIds;
 
   factory WifiAccessPoint.fromMap(Map<Object?, Object?> map) => WifiAccessPoint(
     ssid: map['ssid'] as String? ?? '',
@@ -306,6 +346,28 @@ class WifiAccessPoint {
     channelWidth: map['channelWidth'] as String? ?? '未知',
     security: map['security'] as String? ?? '',
     timestampMicros: map['timestampMicros'] as int? ?? 0,
+    standard: map['standard'] as String?,
+    centerFrequency0: (map['centerFrequency0'] as num?)?.toInt(),
+    centerFrequency1: (map['centerFrequency1'] as num?)?.toInt(),
+    securityTypes: (map['securityTypes'] as List<Object?>? ?? const [])
+        .map((value) => '$value')
+        .toList(growable: false),
+    passpoint: map['passpoint'] == true,
+    rttResponder: map['rttResponder'] == true,
+    stationCount: (map['stationCount'] as num?)?.toInt(),
+    channelUtilizationPercent: (map['channelUtilizationPercent'] as num?)
+        ?.toInt(),
+    dtimPeriod: (map['dtimPeriod'] as num?)?.toInt(),
+    supports80211k: map['supports80211k'] as bool?,
+    supports80211v: map['supports80211v'] as bool?,
+    supports80211r: map['supports80211r'] as bool?,
+    pmfCapable: map['pmfCapable'] as bool?,
+    pmfRequired: map['pmfRequired'] as bool?,
+    informationElementIds:
+        (map['informationElementIds'] as List<Object?>? ?? const [])
+            .whereType<num>()
+            .map((value) => value.toInt())
+            .toList(growable: false),
   );
 }
 
@@ -317,6 +379,13 @@ class WifiScanSnapshot {
     required this.status,
     required this.collectedAt,
     this.newestResultAge,
+    this.supports24Ghz = true,
+    this.supports5Ghz = false,
+    this.supports6Ghz = false,
+    this.supportsRtt = false,
+    this.supportsEasyConnect = false,
+    this.supportsLocalOnlyHotspot = false,
+    this.usableChannels = const [],
   });
 
   final List<WifiAccessPoint> accessPoints;
@@ -325,6 +394,13 @@ class WifiScanSnapshot {
   final String status;
   final DateTime collectedAt;
   final Duration? newestResultAge;
+  final bool supports24Ghz;
+  final bool supports5Ghz;
+  final bool supports6Ghz;
+  final bool supportsRtt;
+  final bool supportsEasyConnect;
+  final bool supportsLocalOnlyHotspot;
+  final List<WifiUsableChannel> usableChannels;
 
   factory WifiScanSnapshot.fromMap(Map<Object?, Object?> map) {
     final ageMillis = map['newestResultAgeMillis'] as int?;
@@ -343,6 +419,36 @@ class WifiScanSnapshot {
       newestResultAge: ageMillis == null
           ? null
           : Duration(milliseconds: ageMillis),
+      supports24Ghz: map['supports24Ghz'] as bool? ?? true,
+      supports5Ghz: map['supports5Ghz'] as bool? ?? false,
+      supports6Ghz: map['supports6Ghz'] as bool? ?? false,
+      supportsRtt: map['supportsRtt'] as bool? ?? false,
+      supportsEasyConnect: map['supportsEasyConnect'] as bool? ?? false,
+      supportsLocalOnlyHotspot:
+          map['supportsLocalOnlyHotspot'] as bool? ?? false,
+      usableChannels: (map['usableChannels'] as List<Object?>? ?? const [])
+          .whereType<Map<Object?, Object?>>()
+          .map(WifiUsableChannel.fromMap)
+          .toList(growable: false),
     );
   }
+}
+
+class WifiUsableChannel {
+  const WifiUsableChannel({
+    required this.frequency,
+    required this.channel,
+    required this.maximumWidthMhz,
+  });
+
+  final int frequency;
+  final int channel;
+  final int maximumWidthMhz;
+
+  factory WifiUsableChannel.fromMap(Map<Object?, Object?> map) =>
+      WifiUsableChannel(
+        frequency: (map['frequency'] as num?)?.toInt() ?? 0,
+        channel: (map['channel'] as num?)?.toInt() ?? 0,
+        maximumWidthMhz: (map['maximumWidthMhz'] as num?)?.toInt() ?? 20,
+      );
 }

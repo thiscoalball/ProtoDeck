@@ -14,6 +14,8 @@ class WifiRoamSample {
     required this.gateway,
     required this.gatewayRttMs,
     required this.gatewayReachable,
+    this.localIpv4,
+    this.dnsSignature = '',
   });
 
   final DateTime timestamp;
@@ -26,6 +28,8 @@ class WifiRoamSample {
   final String? gateway;
   final double? gatewayRttMs;
   final bool gatewayReachable;
+  final String? localIpv4;
+  final String dnsSignature;
 }
 
 class WifiRoamEvent {
@@ -38,6 +42,13 @@ class WifiRoamEvent {
     required this.observedOutage,
     required this.recoveryTime,
     required this.lostProbes,
+    this.fromChannel,
+    this.toChannel,
+    this.fromFrequency,
+    this.toFrequency,
+    this.addressChanged = false,
+    this.gatewayChanged = false,
+    this.dnsChanged = false,
   });
   final DateTime changedAt;
   final String fromBssid;
@@ -47,6 +58,13 @@ class WifiRoamEvent {
   final Duration? observedOutage;
   final Duration? recoveryTime;
   final int lostProbes;
+  final int? fromChannel;
+  final int? toChannel;
+  final int? fromFrequency;
+  final int? toFrequency;
+  final bool addressChanged;
+  final bool gatewayChanged;
+  final bool dnsChanged;
 }
 
 class WifiRoamingService {
@@ -93,6 +111,11 @@ class WifiRoamingService {
       gateway: gateway,
       gatewayRttMs: rtt,
       gatewayReachable: reachable,
+      localIpv4: context.lanAddresses
+          .where((value) => value.family == 'IPv4')
+          .map((value) => value.address)
+          .firstOrNull,
+      dnsSignature: (context.dnsServers.toList()..sort()).join(','),
     );
   }
 }
@@ -187,6 +210,13 @@ class WifiRoamTracker {
         toBssid: sample.bssid!,
         fromRssi: previous.rssi,
         toRssi: sample.rssi,
+        fromChannel: previous.channel,
+        toChannel: sample.channel,
+        fromFrequency: previous.frequency,
+        toFrequency: sample.frequency,
+        addressChanged: previous.localIpv4 != sample.localIpv4,
+        gatewayChanged: previous.gateway != sample.gateway,
+        dnsChanged: previous.dnsSignature != sample.dnsSignature,
         lastSuccessBefore: _lastSuccess,
       );
     }
@@ -206,6 +236,13 @@ class WifiRoamTracker {
               : sample.timestamp.difference(pending.lastSuccessBefore!),
           recoveryTime: sample.timestamp.difference(pending.changedAt),
           lostProbes: pending.lostProbes,
+          fromChannel: pending.fromChannel,
+          toChannel: pending.toChannel,
+          fromFrequency: pending.fromFrequency,
+          toFrequency: pending.toFrequency,
+          addressChanged: pending.addressChanged,
+          gatewayChanged: pending.gatewayChanged,
+          dnsChanged: pending.dnsChanged,
         );
         _pending = null;
       }
@@ -223,6 +260,13 @@ class _PendingRoam {
     required this.toBssid,
     required this.fromRssi,
     required this.toRssi,
+    required this.fromChannel,
+    required this.toChannel,
+    required this.fromFrequency,
+    required this.toFrequency,
+    required this.addressChanged,
+    required this.gatewayChanged,
+    required this.dnsChanged,
     required this.lastSuccessBefore,
   });
   final DateTime changedAt;
@@ -230,10 +274,17 @@ class _PendingRoam {
   final String toBssid;
   final int? fromRssi;
   final int? toRssi;
+  final int? fromChannel;
+  final int? toChannel;
+  final int? fromFrequency;
+  final int? toFrequency;
+  final bool addressChanged;
+  final bool gatewayChanged;
+  final bool dnsChanged;
   final DateTime? lastSuccessBefore;
   int lostProbes = 0;
 }
 
-extension _FirstOrNullRoam<T> on List<T> {
+extension _FirstOrNullRoam<T> on Iterable<T> {
   T? get firstOrNull => isEmpty ? null : first;
 }

@@ -99,6 +99,27 @@ class ToolPageStrings {
     if (source.contains('\n')) {
       return source.split('\n').map(translate).join('\n');
     }
+    if ((match = RegExp(r'^目标网卡：(.+)$').firstMatch(source)) != null) {
+      return 'Target adapter: ${match!.group(1)}';
+    }
+    if ((match = RegExp(r'^上次检测：(.+)$').firstMatch(source)) != null) {
+      return 'Last checked: ${match!.group(1)}';
+    }
+    if ((match = RegExp(r'^模板已导出：(.+)$').firstMatch(source)) != null) {
+      return 'Templates exported to: ${match!.group(1)}';
+    }
+    if ((match = RegExp(r'^已导入 (\d+) 个网络配置模板$').firstMatch(source)) != null) {
+      return 'Imported ${match!.group(1)} network configuration templates';
+    }
+    if ((match = RegExp(r'^暂时失败：(.+)$').firstMatch(source)) != null) {
+      return 'Temporarily failed: ${match!.group(1)}';
+    }
+    if ((match = RegExp(
+          r'^将 (.+) 恢复到 (.+) 保存的状态。该操作也会短暂中断连接。$',
+        ).firstMatch(source)) !=
+        null) {
+      return 'Restore ${match!.group(1)} to the state saved at ${match.group(2)}. Connectivity may be interrupted briefly.';
+    }
     if ((match = RegExp(r'^开放端口：(.+)$').firstMatch(source)) != null) {
       return 'Open ports: ${match!.group(1)}';
     }
@@ -306,8 +327,9 @@ class ToolPageStrings {
         null) {
       return '${match!.group(1)}: ${translate(match.group(2)!)}';
     }
-    if ((match = RegExp(r'^(TimeoutException(?: after [^:]+)?): (.+)$')
-            .firstMatch(source)) !=
+    if ((match = RegExp(
+          r'^(TimeoutException(?: after [^:]+)?): (.+)$',
+        ).firstMatch(source)) !=
         null) {
       return '${match!.group(1)}: ${translate(match.group(2)!)}';
     }
@@ -362,6 +384,52 @@ class ToolPageStrings {
     }
     if ((match = RegExp(r'^实时扫描 (.+)$').firstMatch(source)) != null) {
       return 'Live scan ${match!.group(1)}';
+    }
+    if ((match = RegExp(
+          r'^(\d+) 个网络 / (\d+) 个接入点 · (.+)$',
+        ).firstMatch(source)) !=
+        null) {
+      return '${match!.group(1)} networks / ${match.group(2)} access points · ${translate(match.group(3)!)}';
+    }
+    if ((match = RegExp(
+          r'^(\d+) 个 BSSID · (.+) · 最强 (.+) dBm$',
+        ).firstMatch(source)) !=
+        null) {
+      return '${match!.group(1)} BSSIDs · ${match.group(2)} · strongest ${match.group(3)} dBm';
+    }
+    if ((match = RegExp(r'^(.+) · 纵轴 0 ～ -100 dBm$').firstMatch(source)) !=
+        null) {
+      return '${translate(match!.group(1)!)} · vertical axis 0 to -100 dBm';
+    }
+    if ((match = RegExp(
+          r'^信道 (.+) · (.+) MHz · 可用频宽 ≤ (.+) MHz$',
+        ).firstMatch(source)) !=
+        null) {
+      return 'Channel ${match!.group(1)} · ${match.group(2)} MHz · usable width ≤ ${match.group(3)} MHz';
+    }
+    if ((match = RegExp(r'^评分 (.+)$').firstMatch(source)) != null) {
+      return 'Score ${match!.group(1)}';
+    }
+    if ((match = RegExp(r'^Wi‑Fi 连接请求失败：(.+)$').firstMatch(source)) != null) {
+      return 'Wi-Fi connection request failed: ${match!.group(1)}';
+    }
+    if ((match = RegExp(r'^Wi‑Fi RTT 测距失败：(.+)$').firstMatch(source)) != null) {
+      return 'Wi-Fi RTT ranging failed: ${match!.group(1)}';
+    }
+    if ((match = RegExp(r'^连接请求已提交：(.+)$').firstMatch(source)) != null) {
+      return 'Connection request submitted: ${match!.group(1)}';
+    }
+    if ((match = RegExp(
+          r'^RSSI (.+) dBm · (.+)/(.+) 次有效测量$',
+        ).firstMatch(source)) !=
+        null) {
+      return 'RSSI ${match!.group(1)} dBm · ${match.group(2)}/${match.group(3)} successful measurements';
+    }
+    if ((match = RegExp(
+          r'^信号 (.+)/60 · 拥塞 (.+)/25 · 链路 (.+)/15$',
+        ).firstMatch(source)) !=
+        null) {
+      return 'Signal ${match!.group(1)}/60 · congestion ${match.group(2)}/25 · link ${match.group(3)}/15';
     }
     if ((match = RegExp(r'^(.+) 秒前$').firstMatch(source)) != null) {
       return '${match!.group(1)} seconds ago';

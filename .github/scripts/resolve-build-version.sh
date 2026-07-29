@@ -16,7 +16,7 @@ if [[ "$event_name" == "push" && "$ref_type" == "tag" ]]; then
   version="${ref_name#v}"
   version_source="tag"
   build_label="release"
-elif [[ "$event_name" == "workflow_dispatch" ]]; then
+elif [[ "$event_name" == "workflow_dispatch" || "$event_name" == "pull_request" ]]; then
   if [[ -n "$manual_version" ]]; then
     version="$manual_version"
     version_source="manual-input"
@@ -36,6 +36,9 @@ elif [[ "$event_name" == "workflow_dispatch" ]]; then
     exit 1
   fi
   build_label="debug"
+  if [[ "$event_name" == "pull_request" ]]; then
+    version_source="pull-request"
+  fi
 else
   echo "Unsupported build trigger '$event_name' ($ref_type: $ref_name)." >&2
   exit 1

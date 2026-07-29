@@ -32,6 +32,10 @@ status, default target, chart or platform measurement.
   unavailable SSID, but never invent an SSID.
 - Mark Wi-Fi scans with collection time and cached/throttled status. Android cannot guarantee active
   scans every few seconds; current-connection RSSI may be sampled independently in the foreground.
+- Drive Wi-Fi band visibility and channel recommendations from runtime radio/regulatory capability;
+  never infer a country from UI language. Preserve every BSSID when grouping by SSID.
+- Treat desktop DHCP/static IPv4 changes as transactional: validate, snapshot, apply, verify and
+  rollback. Do not expose an Android static-IP action that an ordinary app cannot complete.
 - Bound LAN/port scan range, concurrency and rate; publish incremental progress and make stop prompt.
 - Keep UDP Probe timeout as unknown, not proof that a port is closed.
 

@@ -8,7 +8,13 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.net.wifi.ScanResult
 import android.net.wifi.WifiInfo
+import android.net.wifi.WifiAvailableChannel
 import android.net.wifi.WifiManager
+import android.net.wifi.WifiNetworkSuggestion
+import android.net.wifi.rtt.RangingRequest
+import android.net.wifi.rtt.RangingResult
+import android.net.wifi.rtt.RangingResultCallback
+import android.net.wifi.rtt.WifiRttManager
 import android.os.Build
 import android.os.Handler
 import android.os.Looper
@@ -42,6 +48,7 @@ class MainActivity : FlutterActivity() {
     @Volatile private var tracerouteCancelled = false
     @Volatile private var activeTracerouteProcess: Process? = null
     private var multicastLock: WifiManager.MulticastLock? = null
+    @Volatile private var lastWifiScanResults: List<ScanResult> = emptyList()
     private val bluetoothDebug by lazy { BluetoothDebugManager(applicationContext) }
     private val networkEventMonitor by lazy { NetworkEventMonitor(applicationContext) }
 
@@ -73,6 +80,10 @@ class MainActivity : FlutterActivity() {
                 }.onSuccess(result::success)
                     .onFailure { result.error("USAGE_SETTINGS", it.message, null) }
                 "scanWifi" -> scanWifi(result)
+                "requestWifiConnection" -> runCatching { requestWifiConnection(call) }
+                    .onSuccess(result::success)
+                    .onFailure { result.error("WIFI_CONNECTION", it.message, null) }
+                "runWifiRtt" -> runWifiRtt(call, result)
                 "runPing" -> runAsync(result) { runPing(call) }
                 "probePathMtu" -> runAsync(result) { probePathMtu(call) }
                 "runTraceroute" -> runAsync(result) { runTraceroute(call) }
@@ -327,6 +338,122 @@ class MainActivity : FlutterActivity() {
         )
     }
 
+    private fun requestWifiConnection(call: MethodCall): Map<String, Any?> {
+        val ssid = call.argument<String>("ssid")?.trim().orEmpty()
+        require(ssid.isNotEmpty()) { "SSID is required" }
+        val password = call.argument<String>("password").orEmpty()
+        val security = call.argument<String>("security").orEmpty().uppercase()
+        val hidden = call.argument<Boolean>("hidden") ?: false
+        require(!security.contains("EAP") && !security.contains("ENTERPRISE")) {
+            "Enterprise Wi-Fi requires identity and certificate settings; use Android system Wi-Fi settings"
+        }
+        require(!security.contains("WEP")) { "WEP profiles are not supported" }
+        val enhancedOpen = security.contains("OWE")
+        val open = security.isBlank() ||
+            security.contains("OPEN") ||
+            security.contains("NONE") ||
+            security == "--" ||
+            enhancedOpen
+        if (!open) require(password.length >= 8) { "Wi-Fi password must contain at least 8 characters" }
+
+        val builder = WifiNetworkSuggestion.Builder()
+            .setSsid(ssid)
+            .setIsHiddenSsid(hidden)
+        when {
+            enhancedOpen -> builder.setIsEnhancedOpen(true)
+            open -> Unit
+            security.contains("WPA3") && !security.contains("WPA2") ->
+                builder.setWpa3Passphrase(password)
+            else -> builder.setWpa2Passphrase(password)
+        }
+        val suggestion = builder.build()
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            val intent = Intent(Settings.ACTION_WIFI_ADD_NETWORKS).apply {
+                putParcelableArrayListExtra(
+                    Settings.EXTRA_WIFI_NETWORK_LIST,
+                    arrayListOf(suggestion),
+                )
+            }
+            startActivity(intent)
+            return mapOf(
+                "status" to "user_confirmation_required",
+                "systemUiOpened" to true,
+                "message" to "Review and approve the Wi-Fi network in Android system UI",
+            )
+        }
+        val manager = applicationContext.getSystemService(Context.WIFI_SERVICE) as WifiManager
+        val status = manager.addNetworkSuggestions(listOf(suggestion))
+        check(status == WifiManager.STATUS_NETWORK_SUGGESTIONS_SUCCESS ||
+            status == WifiManager.STATUS_NETWORK_SUGGESTIONS_ERROR_ADD_DUPLICATE) {
+            "Android rejected the Wi-Fi suggestion (status=$status)"
+        }
+        return mapOf(
+            "status" to "suggestion_registered",
+            "systemUiOpened" to false,
+            "message" to "Wi-Fi suggestion registered; Android controls the final connection",
+        )
+    }
+
+    private fun runWifiRtt(call: MethodCall, result: MethodChannel.Result) {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.P) {
+            result.error("WIFI_RTT_UNSUPPORTED", "Wi-Fi RTT requires Android 9 or later", null)
+            return
+        }
+        val bssid = call.argument<String>("bssid")?.trim().orEmpty()
+        val accessPoint = lastWifiScanResults.firstOrNull {
+            it.BSSID.equals(bssid, ignoreCase = true)
+        }
+        if (accessPoint == null) {
+            result.error("WIFI_RTT_STALE_SCAN", "Run a fresh Wi-Fi scan before ranging", null)
+            return
+        }
+        if (!accessPoint.is80211mcResponder) {
+            result.error("WIFI_RTT_NOT_RESPONDER", "The access point does not advertise FTM responder capability", null)
+            return
+        }
+        val manager = getSystemService(Context.WIFI_RTT_RANGING_SERVICE) as? WifiRttManager
+        if (manager == null || !manager.isAvailable) {
+            result.error("WIFI_RTT_UNAVAILABLE", "Wi-Fi RTT is currently unavailable", null)
+            return
+        }
+        val request = RangingRequest.Builder().addAccessPoint(accessPoint).build()
+        try {
+            manager.startRanging(request, mainExecutor, object : RangingResultCallback() {
+                override fun onRangingFailure(code: Int) {
+                    result.error("WIFI_RTT_FAILED", "Wi-Fi RTT ranging failed (code=$code)", null)
+                }
+
+                override fun onRangingResults(results: MutableList<RangingResult>) {
+                    val row = results.firstOrNull { it.macAddress.toString().equals(bssid, true) }
+                        ?: results.firstOrNull()
+                    if (row == null || row.status != RangingResult.STATUS_SUCCESS) {
+                        result.error(
+                            "WIFI_RTT_NO_RESULT",
+                            "The access point returned no successful ranging result",
+                            null,
+                        )
+                        return
+                    }
+                    result.success(
+                        mapOf(
+                            "bssid" to row.macAddress.toString(),
+                            "distanceMm" to row.distanceMm,
+                            "distanceStdDevMm" to row.distanceStdDevMm,
+                            "rssi" to row.rssi,
+                            "attemptedMeasurements" to row.numAttemptedMeasurements,
+                            "successfulMeasurements" to row.numSuccessfulMeasurements,
+                            "timestampMillis" to System.currentTimeMillis(),
+                        ),
+                    )
+                }
+            })
+        } catch (error: SecurityException) {
+            result.error("WIFI_RTT_PERMISSION", error.message, null)
+        } catch (error: IllegalArgumentException) {
+            result.error("WIFI_RTT_REQUEST", error.message, null)
+        }
+    }
+
     @Suppress("DEPRECATION")
     private fun cellularInfoMap(): Map<String, Any?> {
         val telephony = getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager
@@ -485,6 +612,9 @@ class MainActivity : FlutterActivity() {
         "rxLinkSpeedMbps" to if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) info.rxLinkSpeedMbps else null,
         "txLinkSpeedMbps" to if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) info.txLinkSpeedMbps else null,
         "standard" to if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) wifiStandardName(info.wifiStandard) else null,
+        "securityType" to if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) securityTypeName(info.currentSecurityType) else null,
+        "apMldMacAddress" to if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) info.apMldMacAddress?.toString() else null,
+        "associatedMloLinkCount" to if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) info.associatedMloLinks.size else null,
     )
 
     @Suppress("DEPRECATION")
@@ -544,9 +674,10 @@ class MainActivity : FlutterActivity() {
         status: String,
     ): Map<String, Any?> {
         val nowMicros = SystemClock.elapsedRealtimeNanos() / 1_000
-        val rows = manager.scanResults
-            .sortedByDescending(ScanResult::level)
-            .map { result ->
+        val scanResults = manager.scanResults.sortedByDescending(ScanResult::level)
+        lastWifiScanResults = scanResults
+        val rows = scanResults.map { result ->
+                val beacon = beaconCapabilities(result)
                 mapOf(
                     "ssid" to if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
                         result.wifiSsid?.toString().orEmpty()
@@ -562,9 +693,46 @@ class MainActivity : FlutterActivity() {
                     "security" to result.capabilities,
                     "timestampMicros" to result.timestamp,
                     "ageMillis" to ((nowMicros - result.timestamp).coerceAtLeast(0) / 1_000),
+                    "standard" to if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) wifiStandardName(result.wifiStandard) else null,
+                    "centerFrequency0" to result.centerFreq0.takeIf { it > 0 },
+                    "centerFrequency1" to result.centerFreq1.takeIf { it > 0 },
+                    "securityTypes" to if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) result.securityTypes.map(::securityTypeName) else emptyList<String>(),
+                    "passpoint" to result.isPasspointNetwork,
+                    "rttResponder" to result.is80211mcResponder,
+                    "stationCount" to beacon["stationCount"],
+                    "channelUtilizationPercent" to beacon["channelUtilizationPercent"],
+                    "dtimPeriod" to beacon["dtimPeriod"],
+                    "supports80211k" to beacon["supports80211k"],
+                    "supports80211v" to beacon["supports80211v"],
+                    "supports80211r" to beacon["supports80211r"],
+                    "pmfCapable" to beacon["pmfCapable"],
+                    "pmfRequired" to beacon["pmfRequired"],
+                    "informationElementIds" to beacon["informationElementIds"],
                 )
             }
         val newestAgeMillis = rows.mapNotNull { it["ageMillis"] as? Long }.minOrNull()
+        val usableChannels = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+            // WifiScanner itself is hidden from the public SDK, while
+            // WifiManager#getUsableChannels requires its documented bitmask
+            // values. Query every public Wi-Fi band independently so the
+            // system regulatory domain remains the source of truth.
+            listOf(1, 2, 4, 8).flatMap { band ->
+                runCatching {
+                    manager.getUsableChannels(
+                        band,
+                        WifiAvailableChannel.OP_MODE_STA,
+                    )
+                }.getOrDefault(emptyList())
+            }.distinctBy { it.frequencyMhz }.map { channel ->
+                mapOf(
+                    "frequency" to channel.frequencyMhz,
+                    "channel" to frequencyToChannel(channel.frequencyMhz),
+                    "maximumWidthMhz" to channelWidthMhz(channel.channelWidth),
+                )
+            }
+        } else {
+            emptyList()
+        }
         return mapOf(
             "accessPoints" to rows,
             "fresh" to fresh,
@@ -572,6 +740,13 @@ class MainActivity : FlutterActivity() {
             "status" to status,
             "collectedAtMillis" to System.currentTimeMillis(),
             "newestResultAgeMillis" to newestAgeMillis,
+            "supports24Ghz" to manager.is24GHzBandSupported,
+            "supports5Ghz" to manager.is5GHzBandSupported,
+            "supports6Ghz" to if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) manager.is6GHzBandSupported else false,
+            "supportsRtt" to packageManager.hasSystemFeature("android.hardware.wifi.rtt"),
+            "supportsEasyConnect" to if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) manager.isEasyConnectSupported else false,
+            "supportsLocalOnlyHotspot" to true,
+            "usableChannels" to usableChannels,
         )
     }
 
@@ -746,7 +921,18 @@ class MainActivity : FlutterActivity() {
         ScanResult.CHANNEL_WIDTH_80MHZ -> "80 MHz"
         ScanResult.CHANNEL_WIDTH_160MHZ -> "160 MHz"
         ScanResult.CHANNEL_WIDTH_80MHZ_PLUS_MHZ -> "80+80 MHz"
+        ScanResult.CHANNEL_WIDTH_320MHZ -> "320 MHz"
         else -> "未知"
+    }
+
+    private fun channelWidthMhz(width: Int): Int = when (width) {
+        ScanResult.CHANNEL_WIDTH_20MHZ -> 20
+        ScanResult.CHANNEL_WIDTH_40MHZ -> 40
+        ScanResult.CHANNEL_WIDTH_80MHZ -> 80
+        ScanResult.CHANNEL_WIDTH_160MHZ -> 160
+        ScanResult.CHANNEL_WIDTH_80MHZ_PLUS_MHZ -> 160
+        ScanResult.CHANNEL_WIDTH_320MHZ -> 320
+        else -> 20
     }
 
     private fun wifiStandardName(standard: Int): String = when (standard) {
@@ -755,7 +941,92 @@ class MainActivity : FlutterActivity() {
         ScanResult.WIFI_STANDARD_11AC -> "Wi-Fi 5 (802.11ac)"
         ScanResult.WIFI_STANDARD_11AX -> "Wi-Fi 6 (802.11ax)"
         ScanResult.WIFI_STANDARD_11AD -> "WiGig (802.11ad)"
+        ScanResult.WIFI_STANDARD_11BE -> "Wi-Fi 7 (802.11be)"
         else -> "未知"
+    }
+
+    private fun securityTypeName(type: Int): String = when (type) {
+        WifiInfo.SECURITY_TYPE_OPEN -> "Open"
+        WifiInfo.SECURITY_TYPE_WEP -> "WEP"
+        WifiInfo.SECURITY_TYPE_PSK -> "WPA2-Personal"
+        WifiInfo.SECURITY_TYPE_EAP -> "WPA2-Enterprise"
+        WifiInfo.SECURITY_TYPE_SAE -> "WPA3-Personal"
+        WifiInfo.SECURITY_TYPE_OWE -> "OWE"
+        WifiInfo.SECURITY_TYPE_EAP_WPA3_ENTERPRISE -> "WPA3-Enterprise"
+        WifiInfo.SECURITY_TYPE_EAP_WPA3_ENTERPRISE_192_BIT -> "WPA3-Enterprise-192"
+        WifiInfo.SECURITY_TYPE_PASSPOINT_R1_R2 -> "Passpoint R1/R2"
+        WifiInfo.SECURITY_TYPE_PASSPOINT_R3 -> "Passpoint R3"
+        WifiInfo.SECURITY_TYPE_DPP -> "DPP"
+        else -> "Unknown"
+    }
+
+    private fun beaconCapabilities(result: ScanResult): Map<String, Any?> {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.R) return emptyMap()
+        val elements = runCatching { result.informationElements }.getOrNull() ?: return emptyMap()
+        val ids = elements.map { it.id }.distinct().sorted()
+        var stationCount: Int? = null
+        var utilization: Int? = null
+        var dtim: Int? = null
+        var supportsK: Boolean? = null
+        var supportsV: Boolean? = null
+        var supportsR: Boolean? = null
+        var pmfCapable: Boolean? = null
+        var pmfRequired: Boolean? = null
+        for (element in elements) {
+            val bytes = runCatching {
+                val buffer = element.bytes.duplicate()
+                ByteArray(buffer.remaining()).also(buffer::get)
+            }.getOrNull() ?: continue
+            when (element.id) {
+                5 -> if (bytes.size >= 2) dtim = bytes[1].toInt() and 0xff
+                11 -> if (bytes.size >= 3) {
+                    stationCount = littleUnsignedShort(bytes, 0)
+                    utilization = (((bytes[2].toInt() and 0xff) / 255.0) * 100).toInt()
+                }
+                48 -> parseRsnProtection(bytes)?.let {
+                    pmfRequired = it.first
+                    pmfCapable = it.second
+                }
+                54 -> supportsR = true
+                70 -> supportsK = true
+                127 -> if (bytes.size >= 3) {
+                    supportsV = (bytes[2].toInt() and (1 shl 3)) != 0
+                }
+            }
+        }
+        if (supportsK == null) supportsK = false
+        if (supportsV == null) supportsV = false
+        if (supportsR == null) supportsR = false
+        return mapOf(
+            "stationCount" to stationCount,
+            "channelUtilizationPercent" to utilization,
+            "dtimPeriod" to dtim,
+            "supports80211k" to supportsK,
+            "supports80211v" to supportsV,
+            "supports80211r" to supportsR,
+            "pmfCapable" to pmfCapable,
+            "pmfRequired" to pmfRequired,
+            "informationElementIds" to ids,
+        )
+    }
+
+    private fun littleUnsignedShort(bytes: ByteArray, offset: Int): Int =
+        (bytes[offset].toInt() and 0xff) or ((bytes[offset + 1].toInt() and 0xff) shl 8)
+
+    private fun parseRsnProtection(bytes: ByteArray): Pair<Boolean, Boolean>? {
+        if (bytes.size < 8) return null
+        var offset = 2 + 4
+        if (offset + 2 > bytes.size) return null
+        val pairwiseCount = littleUnsignedShort(bytes, offset)
+        offset += 2 + pairwiseCount * 4
+        if (offset + 2 > bytes.size) return null
+        val akmCount = littleUnsignedShort(bytes, offset)
+        offset += 2 + akmCount * 4
+        if (offset + 2 > bytes.size) return null
+        val capabilities = littleUnsignedShort(bytes, offset)
+        val required = capabilities and (1 shl 6) != 0
+        val capable = capabilities and (1 shl 7) != 0
+        return required to capable
     }
 
     override fun onDestroy() {

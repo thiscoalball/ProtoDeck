@@ -13,6 +13,7 @@ import '../tool_catalog.dart';
 import '../tool_launcher.dart';
 import '../widgets/page_header.dart';
 import '../widgets/tool_tile.dart';
+import 'tools/network_configuration_page.dart';
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({
@@ -302,6 +303,20 @@ class _DashboardPageState extends State<DashboardPage> {
                   icon: const Icon(Icons.arrow_forward_rounded),
                   tooltip: strings.networkDetails,
                 ),
+                if (defaultTargetPlatform == TargetPlatform.windows ||
+                    defaultTargetPlatform == TargetPlatform.linux) ...[
+                  const SizedBox(width: 8),
+                  OutlinedButton.icon(
+                    onPressed: () => Navigator.of(context).push(
+                      MaterialPageRoute<void>(
+                        builder: (context) =>
+                            NetworkConfigurationPage(appState: widget.state),
+                      ),
+                    ),
+                    icon: const Icon(Icons.tune_rounded, size: 18),
+                    label: const LocalizedText('IP 配置'),
+                  ),
+                ],
               ],
             ),
           ],

@@ -25,7 +25,7 @@ export CPLUS_INCLUDE_PATH="${C_INCLUDE_PATH}"
 export LIBRARY_PATH="${build_sysroot}/usr/lib/x86_64-linux-gnu:${build_sysroot}/usr/lib"
 
 cd "${app_root}"
-"${flutter_bin}" --suppress-analytics build linux --release --no-pub
+"${flutter_bin}" --suppress-analytics build linux --release --no-pub "$@"
 "${app_root}/tool/build_bundled_iperf_linux.sh"
 tar -C build/linux/x64/release -czf build/ProtoDeck-linux-x64.tar.gz bundle
 
