@@ -11,6 +11,7 @@ import 'package:flutter/services.dart';
 import '../../../l10n/app_localizations.dart';
 
 import '../../../models/structured_payload.dart';
+import '../../../services/download_destination_service.dart';
 import '../../../services/pcap_analysis_service.dart';
 import '../../../services/tool_draft_repository.dart';
 import '../../../state/app_state.dart';
@@ -318,14 +319,6 @@ class _PacketCapturePageState extends State<PacketCapturePage> {
     if (analysis == null) return;
     try {
       final extension = format == 'csv' ? 'csv' : 'json';
-      final path = await FilePicker.platform.saveFile(
-        dialogTitle: context.tr(format == 'csv' ? '导出会话 CSV' : '导出分析 JSON'),
-        fileName: 'protodeck_capture_analysis.$extension',
-        type: FileType.custom,
-        allowedExtensions: [extension],
-        lockParentWindow: true,
-      );
-      if (path == null) return;
       final content = format == 'csv'
           ? _flowsCsv(analysis.flows)
           : const JsonEncoder.withIndent('  ').convert({
@@ -356,11 +349,18 @@ class _PacketCapturePageState extends State<PacketCapturePage> {
               ],
               'flows': [for (final flow in analysis.flows) _flowJson(flow)],
             });
-      await File(path).writeAsString(content, flush: true);
+      final saved = await DownloadDestinationService.saveBytes(
+        bytes: Uint8List.fromList(utf8.encode(content)),
+        dialogTitle: context.tr(format == 'csv' ? '导出会话 CSV' : '导出分析 JSON'),
+        fileName: 'protodeck_capture_analysis.$extension',
+        allowedExtensions: [extension],
+        mimeType: format == 'csv' ? 'text/csv' : 'application/json',
+      );
+      if (saved == null) return;
       if (mounted) {
-        ScaffoldMessenger.of(
-          context,
-        ).showSnackBar(SnackBar(content: LocalizedText('已保存：$path')));
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: LocalizedText('已保存：${saved.displayLocation}')),
+        );
       }
     } on Object catch (error) {
       if (mounted) {

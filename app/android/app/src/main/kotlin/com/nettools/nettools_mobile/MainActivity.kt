@@ -1,5 +1,6 @@
 package com.nettools.nettools_mobile
 
+import android.app.Activity
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
@@ -19,6 +20,7 @@ import android.os.Build
 import android.os.Handler
 import android.os.Looper
 import android.os.SystemClock
+import android.provider.OpenableColumns
 import android.provider.Settings
 import android.net.Uri
 import android.telephony.CellIdentityLte
@@ -39,11 +41,22 @@ import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.EventChannel
 import java.net.Inet4Address
+import java.io.File
+import java.io.FileInputStream
 import java.util.concurrent.Executors
 import java.util.concurrent.atomic.AtomicBoolean
 import kotlin.math.max
 
 class MainActivity : FlutterActivity() {
+    private data class PendingDocumentSave(
+        val sourcePath: String,
+        val result: MethodChannel.Result,
+    )
+
+    private companion object {
+        const val REQUEST_CREATE_DOCUMENT = 0x5044
+    }
+
     private val executor = Executors.newCachedThreadPool()
     @Volatile private var tracerouteCancelled = false
     @Volatile private var activeTracerouteProcess: Process? = null
@@ -51,6 +64,7 @@ class MainActivity : FlutterActivity() {
     @Volatile private var lastWifiScanResults: List<ScanResult> = emptyList()
     private val bluetoothDebug by lazy { BluetoothDebugManager(applicationContext) }
     private val networkEventMonitor by lazy { NetworkEventMonitor(applicationContext) }
+    private var pendingDocumentSave: PendingDocumentSave? = null
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
@@ -237,9 +251,93 @@ class MainActivity : FlutterActivity() {
                     LocalServerTaskService.stop(this)
                     result.success(true)
                 }
+                "saveStagedFile" -> startDocumentSave(call, result)
                 else -> result.notImplemented()
             }
         }
+    }
+
+    private fun startDocumentSave(call: MethodCall, result: MethodChannel.Result) {
+        if (pendingDocumentSave != null) {
+            result.error("SAVE_IN_PROGRESS", "Another Save As dialog is already open", null)
+            return
+        }
+        val sourcePath = call.argument<String>("sourcePath").orEmpty()
+        val source = runCatching { File(sourcePath).canonicalFile }.getOrNull()
+        if (source == null || !source.isFile || !isPrivateStagingFile(source)) {
+            result.error("INVALID_STAGING_FILE", "The download staging file is invalid", null)
+            return
+        }
+        val fileName = call.argument<String>("fileName")?.trim().orEmpty()
+        if (fileName.isEmpty()) {
+            result.error("INVALID_FILE_NAME", "A destination file name is required", null)
+            return
+        }
+        val intent = Intent(Intent.ACTION_CREATE_DOCUMENT).apply {
+            addCategory(Intent.CATEGORY_OPENABLE)
+            type = call.argument<String>("mimeType") ?: "application/octet-stream"
+            putExtra(Intent.EXTRA_TITLE, fileName)
+            addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
+        }
+        pendingDocumentSave = PendingDocumentSave(source.path, result)
+        runCatching { startActivityForResult(intent, REQUEST_CREATE_DOCUMENT) }
+            .onFailure { error ->
+                pendingDocumentSave = null
+                result.error("SAVE_DIALOG", error.message, null)
+            }
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode != REQUEST_CREATE_DOCUMENT) return
+        val pending = pendingDocumentSave ?: return
+        pendingDocumentSave = null
+        val uri = data?.data
+        if (resultCode != Activity.RESULT_OK || uri == null) {
+            pending.result.success(null)
+            return
+        }
+        executor.execute {
+            runCatching {
+                contentResolver.openOutputStream(uri, "w")?.use { output ->
+                    FileInputStream(pending.sourcePath).use { input ->
+                        input.copyTo(output, DEFAULT_BUFFER_SIZE)
+                        output.flush()
+                    }
+                } ?: error("The selected document cannot be opened for writing")
+                mapOf(
+                    "uri" to uri.toString(),
+                    "displayName" to documentDisplayName(uri),
+                )
+            }.onSuccess { value ->
+                runOnUiThread { pending.result.success(value) }
+            }.onFailure { error ->
+                runOnUiThread {
+                    pending.result.error("DOCUMENT_WRITE", error.message, null)
+                }
+            }
+        }
+    }
+
+    private fun isPrivateStagingFile(file: File): Boolean {
+        val candidate = file.canonicalPath
+        return listOf(cacheDir, filesDir).any { root ->
+            candidate.startsWith(root.canonicalPath + File.separator)
+        }
+    }
+
+    private fun documentDisplayName(uri: Uri): String {
+        return runCatching {
+            contentResolver.query(
+                uri,
+                arrayOf(OpenableColumns.DISPLAY_NAME),
+                null,
+                null,
+                null,
+            )?.use { cursor ->
+                if (cursor.moveToFirst()) cursor.getString(0) else null
+            }
+        }.getOrNull().orEmpty().ifBlank { uri.lastPathSegment ?: "download" }
     }
 
     private fun runAsync(result: MethodChannel.Result, block: () -> Any?) {

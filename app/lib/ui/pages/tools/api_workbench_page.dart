@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 import '../../../l10n/app_localizations.dart';
 import '../../../models/api_workspace.dart';
 import '../../../services/api_workspace_store.dart';
+import '../../../services/download_destination_service.dart';
 import 'api_realtime_workbench.dart';
 import 'api_rest_workbench.dart';
 
@@ -738,15 +739,15 @@ class _ApiWorkbenchPageState extends State<ApiWorkbenchPage> {
       final bytes = Uint8List.fromList(
         utf8.encode(const JsonEncoder.withIndent('  ').convert(bundle)),
       );
-      final path = await FilePicker.platform.saveFile(
+      final saved = await DownloadDestinationService.saveBytes(
+        bytes: bytes,
         dialogTitle: dialogTitle,
         fileName:
             'protodeck_api_workspace_${DateTime.now().toIso8601String().substring(0, 10)}.json',
-        type: FileType.custom,
         allowedExtensions: const ['json'],
-        bytes: bytes,
+        mimeType: 'application/json',
       );
-      if (path != null) _show('工作区已导出：$path');
+      if (saved != null) _show('工作区已导出：${saved.displayLocation}');
     } on Object catch (error) {
       _show('导出失败：$error');
     }

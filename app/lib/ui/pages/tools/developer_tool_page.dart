@@ -12,6 +12,7 @@ import '../../../models/structured_payload.dart';
 import '../../widgets/structured_data_viewer.dart';
 
 import '../../../services/developer_tools_service.dart';
+import '../../../services/download_destination_service.dart';
 import '../../../services/tool_draft_repository.dart';
 import '../../../state/app_state.dart';
 
@@ -698,24 +699,18 @@ class _DeveloperToolPageState extends State<DeveloperToolPage> {
   }
 
   Future<void> _exportOutput() async {
-    final path = await FilePicker.platform.saveFile(
+    final saved = await DownloadDestinationService.saveBytes(
+      bytes: Uint8List.fromList(utf8.encode(_output)),
       dialogTitle: context.tr('导出结果'),
       fileName: '${widget.mode}_result.txt',
-      type: FileType.custom,
       allowedExtensions: const ['txt'],
-      lockParentWindow: true,
-      bytes: Uint8List.fromList(utf8.encode(_output)),
+      mimeType: 'text/plain',
     );
-    if (path == null || !mounted) return;
-    // Desktop file_picker returns the chosen path and expects the caller to
-    // write it. Mobile/web implementations consume [bytes] themselves.
-    if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
-      await File(path).writeAsString(_output, flush: true);
-    }
+    if (saved == null || !mounted) return;
     if (mounted) {
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: LocalizedText('已保存：$path')));
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: LocalizedText('已保存：${saved.displayLocation}')),
+      );
     }
   }
 

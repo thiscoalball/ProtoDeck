@@ -372,50 +372,58 @@ done
   Future<void> _entryAction(String action, _ShellFileEntry entry) async {
     final remotePath = _join(_path.text, entry.name);
     if (action == 'download') {
-      final destination = await DownloadDestinationService.choose(
+      final saveDialogTitle = context.tr('保存下载文件');
+      final staging = await DownloadDestinationService.createStagingFile(
         fileName: entry.name,
       );
-      if (destination == null) return;
+      UserSavedFile? saved;
       await _run(() async {
-        await _beginTransfer(
-          '下载 ${entry.name}',
-          entry.size,
-          direction: 'download',
-          source: remotePath,
-          destination: destination.path,
-        );
-        final session = await widget.client.execute(
-          'cat ${_quote(remotePath)}',
-        );
-        final sink = destination.openWrite();
         try {
-          await for (final chunk in session.stdout) {
-            await _waitTransfer();
-            if (_transferCancelled) break;
-            sink.add(chunk);
-            _advanceTransfer(chunk.length);
+          await _beginTransfer(
+            '下载 ${entry.name}',
+            entry.size,
+            direction: 'download',
+            source: remotePath,
+            destination: entry.name,
+          );
+          final session = await widget.client.execute(
+            'cat ${_quote(remotePath)}',
+          );
+          final sink = staging.openWrite();
+          try {
+            await for (final chunk in session.stdout) {
+              await _waitTransfer();
+              if (_transferCancelled) break;
+              sink.add(chunk);
+              _advanceTransfer(chunk.length);
+            }
+            await sink.close();
+            if (_transferCancelled) {
+              session.close();
+              await _transferTracker?.cancel(_transferDone);
+              throw StateError('下载已取消，未完成文件已删除');
+            }
+            await session.done;
+            if (session.exitCode != 0) {
+              throw StateError('下载失败，退出码 ${session.exitCode}');
+            }
+            await _transferTracker?.complete(_transferDone);
+          } finally {
+            await sink.close();
+            _endTransfer();
           }
-          await sink.close();
-          if (_transferCancelled) {
-            session.close();
-            await destination.delete();
-            await _transferTracker?.cancel(_transferDone);
-            throw StateError('下载已取消，未完成文件已删除');
-          }
-          await session.done;
-          if (session.exitCode != 0) {
-            await destination.delete();
-            throw StateError('下载失败，退出码 ${session.exitCode}');
-          }
-          await _transferTracker?.complete(_transferDone);
+          saved = await DownloadDestinationService.saveStagedFile(
+            stagingFile: staging,
+            fileName: entry.name,
+            dialogTitle: saveDialogTitle,
+          );
         } finally {
-          await sink.close();
-          _endTransfer();
+          await DownloadDestinationService.discardStagingFile(staging);
         }
       });
-      if (mounted) {
+      if (saved != null && mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: LocalizedText('已下载到 ${destination.path}')),
+          SnackBar(content: LocalizedText('已保存：${saved!.displayLocation}')),
         );
       }
     } else if (action == 'rename') {
