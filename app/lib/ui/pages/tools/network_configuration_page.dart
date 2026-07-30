@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 
 import '../../../l10n/app_localizations.dart';
 import '../../../models/network_configuration.dart';
+import '../../../services/download_destination_service.dart';
 import '../../../services/network_configuration_service.dart';
 import '../../../state/app_state.dart';
 
@@ -541,20 +542,16 @@ class _NetworkConfigurationPageState extends State<NetworkConfigurationPage> {
       final dialogTitle = context.tr('导出网络配置模板');
       final source = await _templates.exportJson();
       final bytes = Uint8List.fromList(utf8.encode(source));
-      final path = await FilePicker.platform.saveFile(
+      final saved = await DownloadDestinationService.saveBytes(
+        bytes: bytes,
         dialogTitle: dialogTitle,
         fileName: 'protodeck_network_templates.json',
-        type: FileType.custom,
         allowedExtensions: const ['json'],
-        bytes: bytes,
-        lockParentWindow: true,
+        mimeType: 'application/json',
       );
-      if (path == null) return;
-      if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
-        await File(path).writeAsBytes(bytes, flush: true);
-      }
+      if (saved == null) return;
       if (!mounted) return;
-      _show('模板已导出：$path');
+      _show('模板已导出：${saved.displayLocation}');
     } on Object catch (error) {
       _showError(error);
     }

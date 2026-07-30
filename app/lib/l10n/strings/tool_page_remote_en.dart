@@ -24,6 +24,7 @@ const toolPageRemoteEnglish = <String, String>{
   '拒绝': 'Reject',
   '信任并连接': 'Trust and connect',
   '保存连接配置': 'Save connection profile',
+  '保存下载文件': 'Save downloaded file',
   '保存配置并用系统安全存储保护密码':
       'Save profile and protect the password with secure storage',
   '选择 OpenSSH / PEM 私钥': 'Choose OpenSSH / PEM private key',

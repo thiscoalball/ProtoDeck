@@ -2,12 +2,12 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
 import '../../../l10n/app_localizations.dart';
 
 import '../../../models/structured_payload.dart';
+import '../../../services/download_destination_service.dart';
 import '../../../services/native_network_service.dart';
 import '../../../services/syslog_receiver_service.dart';
 import '../../../services/tool_draft_repository.dart';
@@ -447,18 +447,18 @@ class _SyslogReceiverPageState extends State<SyslogReceiverPage> {
             }),
           )
           .join('\n');
-      final path = await FilePicker.platform.saveFile(
+      final saved = await DownloadDestinationService.saveBytes(
+        bytes: Uint8List.fromList(utf8.encode(output)),
         dialogTitle: context.tr('导出 Syslog 日志'),
         fileName:
             'protodeck_syslog_${DateTime.now().millisecondsSinceEpoch}.jsonl',
-        type: FileType.custom,
         allowedExtensions: const ['jsonl'],
-        bytes: Uint8List.fromList(utf8.encode(output)),
+        mimeType: 'application/x-ndjson',
       );
-      if (path != null && mounted) {
-        ScaffoldMessenger.of(
-          context,
-        ).showSnackBar(SnackBar(content: LocalizedText('已保存：$path')));
+      if (saved != null && mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: LocalizedText('已保存：${saved.displayLocation}')),
+        );
       }
     } on Object catch (error) {
       if (mounted) {

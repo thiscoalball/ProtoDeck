@@ -322,43 +322,52 @@ class _EmbeddedSftpPanelState extends State<EmbeddedSftpPanel> {
   Future<void> _entryAction(String action, SftpName entry) async {
     final remotePath = _join(_path.text, entry.filename);
     if (action == 'download') {
-      final destination = await DownloadDestinationService.choose(
+      final saveDialogTitle = context.tr('保存下载文件');
+      final staging = await DownloadDestinationService.createStagingFile(
         fileName: entry.filename,
       );
-      if (destination == null) return;
+      UserSavedFile? saved;
       await _run(() async {
-        await _beginTransfer(
-          '下载 ${entry.filename}',
-          entry.attr.size ?? 0,
-          direction: 'download',
-          source: remotePath,
-          destination: destination.path,
-        );
-        final remote = await widget.sftp.open(remotePath);
-        final sink = destination.openWrite();
         try {
-          await for (final chunk in remote.read()) {
-            await _waitTransfer();
-            if (_transferCancelled) break;
-            sink.add(chunk);
-            _advanceTransfer(chunk.length);
+          await _beginTransfer(
+            '下载 ${entry.filename}',
+            entry.attr.size ?? 0,
+            direction: 'download',
+            source: remotePath,
+            destination: entry.filename,
+          );
+          final remote = await widget.sftp.open(remotePath);
+          final sink = staging.openWrite();
+          try {
+            await for (final chunk in remote.read()) {
+              await _waitTransfer();
+              if (_transferCancelled) break;
+              sink.add(chunk);
+              _advanceTransfer(chunk.length);
+            }
+            await sink.close();
+            if (_transferCancelled) {
+              await _transferTracker?.cancel(_transferDone);
+              throw StateError('下载已取消，未完成文件已删除');
+            }
+            await _transferTracker?.complete(_transferDone);
+          } finally {
+            await sink.close();
+            await remote.close();
+            _endTransfer();
           }
-          await sink.close();
-          if (_transferCancelled) {
-            await destination.delete();
-            await _transferTracker?.cancel(_transferDone);
-            throw StateError('下载已取消，未完成文件已删除');
-          }
-          await _transferTracker?.complete(_transferDone);
+          saved = await DownloadDestinationService.saveStagedFile(
+            stagingFile: staging,
+            fileName: entry.filename,
+            dialogTitle: saveDialogTitle,
+          );
         } finally {
-          await sink.close();
-          await remote.close();
-          _endTransfer();
+          await DownloadDestinationService.discardStagingFile(staging);
         }
       });
-      if (mounted)
+      if (saved != null && mounted)
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: LocalizedText('已下载到 ${destination.path}')),
+          SnackBar(content: LocalizedText('已保存：${saved!.displayLocation}')),
         );
     } else if (action == 'rename') {
       final name = await _ask('重命名', '新名称', initial: entry.filename);

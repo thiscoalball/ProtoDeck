@@ -347,18 +347,33 @@ class _SftpBrowserPageState extends State<SftpBrowserPage> {
   Future<void> _entryAction(String action, SftpName entry) async {
     final remotePath = _remoteJoin(_path.text, entry.filename);
     if (action == 'download') {
-      final destination = await DownloadDestinationService.choose(
+      final saveDialogTitle = context.tr('保存下载文件');
+      final staging = await DownloadDestinationService.createStagingFile(
         fileName: entry.filename,
       );
-      if (destination == null) return;
-      await _task('正在下载到 ${destination.path}…', () async {
-        final remote = await _sftp!.open(remotePath);
+      UserSavedFile? saved;
+      await _task('正在下载…', () async {
         try {
-          await destination.openWrite().addStream(remote.read());
+          final remote = await _sftp!.open(remotePath);
+          final sink = staging.openWrite();
+          try {
+            await sink.addStream(remote.read());
+          } finally {
+            await sink.close();
+            await remote.close();
+          }
+          saved = await DownloadDestinationService.saveStagedFile(
+            stagingFile: staging,
+            fileName: entry.filename,
+            dialogTitle: saveDialogTitle,
+          );
         } finally {
-          await remote.close();
+          await DownloadDestinationService.discardStagingFile(staging);
         }
       });
+      if (saved != null && mounted) {
+        setState(() => _status = '已保存：${saved!.displayLocation}');
+      }
     } else if (action == 'rename') {
       final name = await _ask('重命名', '新名称', initial: entry.filename);
       if (name != null)

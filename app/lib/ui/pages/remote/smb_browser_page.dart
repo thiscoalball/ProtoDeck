@@ -454,21 +454,33 @@ class _SmbBrowserPageState extends State<SmbBrowserPage> {
   Future<void> _entryAction(String action, SmbEntry entry) async {
     final remote = _join(_path.text, entry.name);
     if (action == 'download') {
-      final destination = await DownloadDestinationService.choose(
+      final saveDialogTitle = context.tr('保存下载文件');
+      final staging = await DownloadDestinationService.createStagingFile(
         fileName: entry.name,
       );
-      if (destination == null) return;
-      final target = destination.path;
+      UserSavedFile? saved;
       await _task('正在下载…', () async {
-        await _trackedTransfer(
-          direction: 'download',
-          source: remote,
-          destination: target,
-          total: entry.size,
-          action: () =>
-              _service.download(_connection!.sessionId, remote, target),
-        );
-      }, success: '已下载到 $target');
+        try {
+          await _trackedTransfer(
+            direction: 'download',
+            source: remote,
+            destination: entry.name,
+            total: entry.size,
+            action: () =>
+                _service.download(_connection!.sessionId, remote, staging.path),
+          );
+          saved = await DownloadDestinationService.saveStagedFile(
+            stagingFile: staging,
+            fileName: entry.name,
+            dialogTitle: saveDialogTitle,
+          );
+        } finally {
+          await DownloadDestinationService.discardStagingFile(staging);
+        }
+      }, success: null);
+      if (saved != null && mounted) {
+        setState(() => _status = '已保存：${saved!.displayLocation}');
+      }
     } else if (action == 'rename') {
       final name = await _ask('重命名', '新名称', initial: entry.name);
       if (name != null)

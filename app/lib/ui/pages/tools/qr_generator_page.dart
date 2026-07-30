@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
 import '../../../l10n/app_localizations.dart';
 import 'package:flutter/services.dart';
 
 import '../../../services/qr_code_service.dart';
+import '../../../services/download_destination_service.dart';
 import '../../../services/tool_draft_repository.dart';
 import '../../../state/app_state.dart';
 
@@ -446,17 +446,17 @@ class _QrGeneratorPageState extends State<QrGeneratorPage> {
               backgroundArgb: background,
             );
       final extension = svg ? 'svg' : 'png';
-      final path = await FilePicker.platform.saveFile(
+      final saved = await DownloadDestinationService.saveBytes(
+        bytes: bytes,
         dialogTitle: dialogTitle,
         fileName: 'protodeck_qr.$extension',
-        type: FileType.custom,
         allowedExtensions: [extension],
-        bytes: bytes,
+        mimeType: svg ? 'image/svg+xml' : 'image/png',
       );
-      if (path != null && mounted)
-        ScaffoldMessenger.of(
-          context,
-        ).showSnackBar(SnackBar(content: LocalizedText('已保存：$path')));
+      if (saved != null && mounted)
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: LocalizedText('已保存：${saved.displayLocation}')),
+        );
     } on Object catch (error) {
       if (mounted)
         ScaffoldMessenger.of(

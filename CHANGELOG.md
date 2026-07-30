@@ -16,6 +16,10 @@ Changelog and releases use Semantic Versioning where practical.
   reliably apply system Wi-Fi IP settings.
 - Per-BSSID Wi-Fi signal monitoring, access-point capability/security inspection, explainable
   channel recommendations, connection verification and deeper roaming diagnostics.
+- User-selected Save As destinations for SSH/SFTP/SMB downloads and explicit exports. Android uses
+  the Storage Access Framework and streams large remote files through a temporary staging file;
+  Windows and Linux use the native file dialog. App drafts, caches and saved API cases remain
+  private application data.
 - Pull requests build and retain Android, Linux x64 and Windows x64 Release-mode artifacts with a
   Debug channel label; version tags retain the Release channel label.
 - Public repository documentation, privacy and security policies.

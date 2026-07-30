@@ -2,12 +2,12 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:csv/csv.dart';
-import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../../../l10n/app_localizations.dart';
 
+import '../../../services/download_destination_service.dart';
 import '../../../services/network_defaults_service.dart';
 import '../../../services/snmp_service.dart';
 import '../../../services/tool_draft_repository.dart';
@@ -616,17 +616,17 @@ class _SnmpBrowserPageState extends State<SnmpBrowserPage> {
         0xbf,
         ...utf8.encode(csvText),
       ]);
-      final path = await FilePicker.platform.saveFile(
+      final saved = await DownloadDestinationService.saveBytes(
+        bytes: bytes,
         dialogTitle: context.tr('导出 SNMP 结果'),
         fileName: 'protodeck_snmp_${DateTime.now().millisecondsSinceEpoch}.csv',
-        type: FileType.custom,
         allowedExtensions: const ['csv'],
-        bytes: bytes,
+        mimeType: 'text/csv',
       );
-      if (path != null && mounted) {
-        ScaffoldMessenger.of(
-          context,
-        ).showSnackBar(SnackBar(content: LocalizedText('已保存：$path')));
+      if (saved != null && mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: LocalizedText('已保存：${saved.displayLocation}')),
+        );
       }
     } on Object catch (error) {
       if (mounted) {
